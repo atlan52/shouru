@@ -1,0 +1,29 @@
+# Python venv
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Big intermediate data (rebuilt by pipeline)
+data/raw/
+data/extracted/
+data/state/
+data/logs/
+logs/
+
+# But keep data/curated/ for analysis output (income.db, figs, reports, csv)
+
+# Secrets
+.env
+.env.local
+
+# Editor
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Misc
+*.log
+*.tmp
+/tmp/

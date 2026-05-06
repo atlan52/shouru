@@ -1,0 +1,133 @@
+{% extends "base.html" %}
+{% block title %}{{ country_name }} ({{ code }}) — shouru{% endblock %}
+
+{% block content %}
+<h1><span class="badge country">{{ code }}</span> {{ country_name }}</h1>
+<p class="muted">{{ n_total }} 条收入记录 · {{ n_with_usd }} 条含 USD/年</p>
+
+<div class="stats-grid">
+  <div class="stat-card"><div class="v">{{ n_total }}</div><div class="l">记录数</div></div>
+  <div class="stat-card"><div class="v">{{ n_with_usd }}</div><div class="l">含 USD/年</div></div>
+  {% if median_usd %}
+  <div class="stat-card"><div class="v">${{ '{:,.0f}'.format(median_usd) }}</div><div class="l">USD/年 中位数</div></div>
+  {% endif %}
+  {% if avg_usd %}
+  <div class="stat-card"><div class="v">${{ '{:,.0f}'.format(avg_usd) }}</div><div class="l">USD/年 平均</div></div>
+  {% endif %}
+</div>
+
+<div class="grid-2">
+  <div>
+    <h2>收入档位分布</h2>
+    <ul class="bar-list">
+      {% set total_b = bracket_counts.values()|sum %}
+      {% for b in BRACKET_ORDER %}
+        {% if b in bracket_counts %}
+          <li>
+            <span class="lbl"><span class="badge bracket-{{ b }}">{{ b | bracket_label }}</span></span>
+            <span class="bg-bar"><div style="width: {{ (bracket_counts[b] / total_b * 100) if total_b else 0 }}%"></div></span>
+            <span class="n">{{ bracket_counts[b] }}</span>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div>
+    <h2>谋生机制</h2>
+    <ul class="bar-list">
+      {% set top_m = mech_rows[0].n if mech_rows else 1 %}
+      {% for m in mech_rows %}
+      <li>
+        <span class="lbl">{{ m.mechanism | mechanism_label }}</span>
+        <span class="bg-bar"><div style="width: {{ (m.n / top_m * 100) }}%"></div></span>
+        <span class="n">{{ m.n }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<div class="grid-2">
+  <div>
+    <h2>主要职业（前 15）</h2>
+    <ul class="bar-list">
+      {% set top_p = profession_counts[0][1] if profession_counts else 1 %}
+      {% for p, n in profession_counts %}
+      <li>
+        <span class="lbl">{{ p }}</span>
+        <span class="bg-bar"><div style="width: {{ (n / top_p * 100) }}%"></div></span>
+        <span class="n">{{ n }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div>
+    <h2>数据来源（前）</h2>
+    <ul class="bar-list">
+      {% set top_pl = platform_counts[0][1] if platform_counts else 1 %}
+      {% for p, n in platform_counts[:15] %}
+      <li>
+        <span class="lbl">{{ p }}</span>
+        <span class="bg-bar"><div style="width: {{ (n / top_pl * 100) }}%"></div></span>
+        <span class="n">{{ n }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<h2>各档位 sample 引用</h2>
+{% for b in BRACKET_ORDER %}
+  {% if b in samples_by_bracket and samples_by_bracket[b] %}
+    <h3><span class="badge bracket-{{ b }}">{{ b | bracket_label }}</span></h3>
+    {% for r in samples_by_bracket[b] %}
+    <div class="quote-box">
+      <div class="meta">
+        <span class="badge">{{ r.source_platform }}</span>
+        <span class="badge lang">{{ r.source_lang }}</span>
+        {% if r.profession %}<strong>{{ r.profession }}</strong>{% endif %}
+        {% if r.income_amount_local %}· {{ '{:,.0f}'.format(r.income_amount_local) }} {{ r.currency or '' }} / {{ r.period }}{% endif %}
+        {% if r.income_amount_usd_year %}· ≈ ${{ '{:,.0f}'.format(r.income_amount_usd_year) }} USD/年{% endif %}
+      </div>
+      <div class="quote">"{{ r.raw_excerpt }}"</div>
+      <div class="summary muted">{{ r.narrative_summary }}</div>
+      <div style="margin-top:6px;">
+        <a href="/record/{{ r.record_id }}">详情</a>
+        {% if r.source_url %}· <a href="{{ r.source_url }}" target="_blank" rel="noopener">原文 ↗</a>{% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+<h2>所有记录（前 200）</h2>
+<table class="table table-records">
+  <tr>
+    <th>职业</th>
+    <th>金额</th>
+    <th>USD/年</th>
+    <th>档</th>
+    <th>引文</th>
+    <th>平台</th>
+  </tr>
+  {% for r in rows %}
+  <tr>
+    <td><a class="row-link" href="/record/{{ r.record_id }}">{{ r.profession or '-' }}</a></td>
+    <td>{% if r.income_amount_local %}{{ '{:,.0f}'.format(r.income_amount_local) }} {{ r.currency or '' }} / {{ r.period }}{% endif %}</td>
+    <td class="num">{% if r.income_amount_usd_year %}${{ '{:,.0f}'.format(r.income_amount_usd_year) }}{% endif %}</td>
+    <td><span class="badge bracket-{{ r.income_bracket }}">{{ r.income_bracket }}</span></td>
+    <td class="snippet">{{ r.raw_excerpt }}</td>
+    <td><span class="badge">{{ r.source_platform }}</span></td>
+  </tr>
+  {% endfor %}
+</table>
+
+{% if md_report %}
+<h2>详细报告（自动生成）</h2>
+<div class="markdown-render">
+  <pre style="white-space: pre-wrap; font-family: inherit; font-size: 13px;">{{ md_report }}</pre>
+</div>
+{% endif %}
+
+{% endblock %}

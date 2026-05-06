@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>可视化 — shouru</title>
+<link rel="stylesheet" href="static/style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" defer></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <a href="index.html"><span class="logo">收入</span><span class="sub">shouru research</span></a>
+  </div>
+  <nav>
+    <a href="index.html">首页</a>
+    <a href="records.html">数据浏览</a>
+    <a href="visualizations.html">可视化</a>
+    <a href="platforms.html">平台</a>
+    <a href="mechanisms.html">谋生机制</a>
+    <a href="about.html">说明</a>
+  </nav>
+</header>
+
+<main>
+
+<h1>可视化</h1>
+<p class="muted">基于 income.db 的 6 类交互式图（Plotly）。点击图内可缩放、过滤。</p>
+
+
+<h2>heatmap_profession_country</h2>
+<iframe class="fig-iframe" src="figs/heatmap_profession_country.html" title="heatmap_profession_country"></iframe>
+
+<h2>sankey_country_bracket_mechanism</h2>
+<iframe class="fig-iframe" src="figs/sankey_country_bracket_mechanism.html" title="sankey_country_bracket_mechanism"></iframe>
+
+<h2>scatter_avg_usd_count</h2>
+<iframe class="fig-iframe" src="figs/scatter_avg_usd_count.html" title="scatter_avg_usd_count"></iframe>
+
+<h2>stacked_bar_bracket_country</h2>
+<iframe class="fig-iframe" src="figs/stacked_bar_bracket_country.html" title="stacked_bar_bracket_country"></iframe>
+
+<h2>treemap_top_bracket</h2>
+<iframe class="fig-iframe" src="figs/treemap_top_bracket.html" title="treemap_top_bracket"></iframe>
+
+
+</main>
+
+<footer class="footer">
+  <div>shouru — 跨国收入与谋生方式研究 · 79 国 · 27 语言 · 166 平台</div>
+  <div>数据基于公开互联网帖子，仅作研究展示。引文 ≤300 字符 + 原 URL。</div>
+</footer>
+</body>
+</html>

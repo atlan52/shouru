@@ -1,0 +1,125 @@
+# Poland (PL) — Income & Earning Mechanism Report
+
+## Overview
+
+- **Total samples:** 4
+- **Records with USD/yr amount:** 2
+- **Average reported income (USD/yr):** $159,840- **Low-confidence records (<0.5):** 0
+
+## Bracket distribution
+
+| Bracket | Records |
+| --- | ---: |
+| bottom | 0 |
+| lower_middle | 0 |
+| middle | 1 |
+| upper_middle | 1 |
+| top | 2 |
+
+## Bracket thresholds (USD/yr lower bound)
+
+| Bracket | Lower bound (USD/yr) |
+| --- | ---: |
+| bottom | $0 |
+| lower_middle | $5,000 |
+| middle | $15,000 |
+| upper_middle | $40,000 |
+| top | $150,000 |
+
+## Top professions per bracket
+
+### bottom
+
+_No data for this bracket._
+
+### lower_middle
+
+_No data for this bracket._
+
+### middle
+
+| # | Profession | Records |
+| ---: | --- | ---: |
+| 1 | mobile_app_entrepreneur | 1 |
+
+### upper_middle
+
+| # | Profession | Records |
+| ---: | --- | ---: |
+| 1 | overemployed_software_engineer | 1 |
+
+### top
+
+| # | Profession | Records |
+| ---: | --- | ---: |
+| 1 | plumber | 1 |
+| 2 | saas_app_co_founder | 1 |
+
+
+## Earning mechanism share
+
+| Mechanism | Share |
+| --- | ---: |
+| business_owner | 33.3% |
+| multiple_streams | 33.3% |
+| freelance_contractor | 16.7% |
+| salary_employment | 16.7% |
+| equity_compensation | 0.0% |
+| government_pension | 0.0% |
+| illicit_grey | 0.0% |
+| inheritance_trust | 0.0% |
+| passive_investment | 0.0% |
+| platform_gig | 0.0% |
+| real_estate_rental | 0.0% |
+| royalties_creator | 0.0% |
+| unknown | 0.0% |
+
+## Narrative excerpts
+
+### bottom bracket
+_No excerpts for this bracket._
+
+### lower_middle bracket
+_No excerpts for this bracket._
+
+### middle bracket
+> "My story: mobile app(s), quite a bit of traction (over 1M downloads), pretty solid plans for rapid and rather inexpensive growth. Enough revenue to support my family, but at least a few months away from that growth."
+
+— [hackernews](https://news.ycombinator.com/item?id=8379370)
+*Profession: mobile_app_entrepreneur | Summary: Mobile app developer entrepreneur with 1M+ downloads earns enough revenue to support his family while choosing between accelerator programs (Berlin/Helsinki).*
+
+
+### upper_middle bracket
+> "after my first double paycheck that I realize how awesome making over 12 times median earnings in my country feels."
+
+— [reddit_import](https://reddit.com/r/overemployed/comments/virw7w/my_oe_journey/)
+*Profession: overemployed_software_engineer | Summary: Software engineer running two jobs simultaneously now earns over 12x median earnings in his country, on track to pay off mortgage early.*
+
+
+### top bracket
+> "Now, after over five years, our average monthly revenue is around 20,000€ levels... The first month we made over 15,000€ in revenue because of ProductHunt"
+
+— [reddit_import](https://reddit.com/r/Entrepreneur/comments/mhvryf/turning_a_small_app_into_a_20000mo_business/)
+*Profession: saas_app_co_founder | Summary: A Polish full-stack developer co-founded FreeYourMusic which now averages around €20,000/month in revenue, allowing the founders to quit their day jobs.*
+
+> "Hydraulik zarabia 20k miesięcznie? Ależ to zabolało Polaków Ile powinien zarabiać pracownik fizyczny? Połowa Polaków uważa, że uczciwa płaca za pełny etat pracy fizycznej nie powinna przekraczać 6,5 tys. zł."
+
+— [wykop](https://wykop.pl/link/7834585/hydraulik-zarabia-20k-miesiecznie-alez-to-zabolalo-polakow)
+*Profession: plumber | Summary: News-link discussion about a Polish plumber reportedly earning 20k PLN/month, contrasted with the public's view that fair pay shouldn't exceed 6.5k PLN.*
+
+
+
+---
+
+## Methodology
+
+Records extracted from public posts on locally-dominant platforms by an
+LLM (Claude Sonnet 4.6) constrained to the
+[`IncomeRecord`](../../extract/schema.py) schema. Local-currency amounts
+are converted to USD/year via a dated FX snapshot
+(see `extract.fx`); period normalization (hour/day/week/month/year) is
+performed downstream of the LLM. Income brackets are country-specific
+USD/yr thresholds defined in `config.COUNTRY_BRACKETS`. Earning
+mechanisms are picked from a closed list documented in
+[docs/MECHANISMS.md](../../docs/MECHANISMS.md). Counts here reflect
+sampled posts, not population statistics — interpret accordingly.

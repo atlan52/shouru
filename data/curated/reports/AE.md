@@ -1,0 +1,150 @@
+# UAE (AE) — Income & Earning Mechanism Report
+
+## Overview
+
+- **Total samples:** 9
+- **Records with USD/yr amount:** 9
+- **Average reported income (USD/yr):** $117,023- **Low-confidence records (<0.5):** 1
+
+## Bracket distribution
+
+| Bracket | Records |
+| --- | ---: |
+| bottom | 0 |
+| lower_middle | 3 |
+| middle | 1 |
+| upper_middle | 1 |
+| top | 4 |
+
+## Bracket thresholds (USD/yr lower bound)
+
+| Bracket | Lower bound (USD/yr) |
+| --- | ---: |
+| bottom | $0 |
+| lower_middle | $5,000 |
+| middle | $15,000 |
+| upper_middle | $40,000 |
+| top | $150,000 |
+
+## Top professions per bracket
+
+### bottom
+
+_No data for this bracket._
+
+### lower_middle
+
+| # | Profession | Records |
+| ---: | --- | ---: |
+| 1 | asian_expat_worker | 1 |
+| 2 | junior_accountant | 1 |
+| 3 | social_media_marketing_specialist | 1 |
+
+### middle
+
+| # | Profession | Records |
+| ---: | --- | ---: |
+| 1 | ecommerce_executive | 1 |
+
+### upper_middle
+
+| # | Profession | Records |
+| ---: | --- | ---: |
+| 1 | office_worker | 1 |
+
+### top
+
+| # | Profession | Records |
+| ---: | --- | ---: |
+| 1 | corporate_low_management | 1 |
+| 2 | difc_finance_professional | 1 |
+| 3 | digital_product_entrepreneur | 1 |
+| 4 | unspecified_uae_professional | 1 |
+
+
+## Earning mechanism share
+
+| Mechanism | Share |
+| --- | ---: |
+| salary_employment | 81.8% |
+| business_owner | 9.1% |
+| multiple_streams | 9.1% |
+| equity_compensation | 0.0% |
+| freelance_contractor | 0.0% |
+| government_pension | 0.0% |
+| illicit_grey | 0.0% |
+| inheritance_trust | 0.0% |
+| passive_investment | 0.0% |
+| platform_gig | 0.0% |
+| real_estate_rental | 0.0% |
+| royalties_creator | 0.0% |
+| unknown | 0.0% |
+
+## Narrative excerpts
+
+### bottom bracket
+_No excerpts for this bracket._
+
+### lower_middle bracket
+> "Hi Expats, I'm F28, Living in Dubai as Marketing. I have 4yrs now Working as Social media marketing. I am in Retail Industry"
+
+— [r_uae](https://www.reddit.com/r/UAE/comments/1qn7pm4/feeling_stuck_at_5k_salary_in_dubai/)
+*Profession: social_media_marketing_specialist | Summary: 28-year-old expat in Dubai working in retail social media marketing for 5k AED/month, hoping to reach 10k AED/month.*
+
+> "i want to ask how can i get high income from accounting job here in dubai i am still junior i have 2 years experience in Egypt and now in uae a year so total 3 years ... my salary is 3k aed now"
+
+— [r_uae](https://www.reddit.com/r/UAE/comments/1n1u4jh/how_to_get_high_income/)
+*Profession: junior_accountant | Summary: Egyptian junior accountant in Dubai earning AED 3k/month with 3 YOE seeking higher pay.*
+
+> "I recently started working and need to open a bank account as an Asian expat earning 4000 aed"
+
+— [r_uae](https://www.reddit.com/r/UAE/comments/1ldzbbe/opening_a_bank_account/)
+*Profession: asian_expat_worker | Summary: Asian expat in Abu Dhabi earning AED 4,000/month from a salaried job, below banks' AED 5k minimum.*
+
+
+### middle bracket
+> "I'm currently working as an E-commerce Executive in Sharjah earning 5,000 AED. I manage operations including Amazon and Noon Seller Central, WooCommerce, SEO, Google Ads, Meta Ads, and overall marketplace management."
+
+— [r_uae](https://www.reddit.com/r/UAE/comments/1rpfjjg/how_can_i_increase_my_income_in_uae_with/)
+*Profession: ecommerce_executive | Summary: Sharjah-based e-commerce executive earning 5,000 AED/month managing Amazon/Noon Seller Central, WooCommerce, and digital marketplace operations.*
+
+
+### upper_middle bracket
+> "My salary is AED 15k, and I'm looking for the best UAE bank to open a salary account, mainly for the welcome bonus."
+
+— [r_dubai](https://www.reddit.com/r/dubai/comments/1rmdtik/best_uae_bank_for_15k_salary_welcome_bonus/)
+*Profession: office_worker | Summary: UAE resident with AED 15k/month salary looking for a UAE bank with welcome bonus and credit card perks.*
+
+
+### top bracket
+> "My total monthly salary is 45k+ aed, but my basic is around 21k aed. I'm getting completely conflicting answers about Golden Visa eligibility, even from Aamer centers."
+
+— [r_dubai](https://www.reddit.com/r/dubai/comments/1ps0j2y/golden_visa_eligibility_is_30k_based_on_basic_or/)
+*Profession: unspecified_uae_professional | Summary: UAE expat professional asking about Golden Visa eligibility with 45k+ AED total monthly salary (21k basic).*
+
+> "I'm looking to live in a 2 BHK that's commutable to DIFC. We're making around 50k combined so looking at about 10-14k per month (incl chiller) or 120 to 150k per year."
+
+— [r_dubai](https://www.reddit.com/r/dubai/comments/1n58qa7/where_to_live_in_dubai_thats_commutable_to_difc/)
+*Profession: difc_finance_professional | Summary: Couple working near DIFC Dubai with combined ~50k AED/month income looking for a 2BHK apartment.*
+
+> "only four weeks later, we had a total revenue of €45,000, without setting up a classical ad funnel or whatever I used to know. The profit margin was 87%, and due to the awesome tax situation in the UAE, this left us with around €39,000 net profit."
+
+— [reddit_import](https://reddit.com/r/Entrepreneur/comments/12n0b3w/the_power_of_network/)
+*Profession: digital_product_entrepreneur | Summary: A young entrepreneur, now based in Dubai, generated €45k revenue (€39k net) in four weeks selling high-ticket digital products and earns 30% commissions of €1k–5k per sale.*
+
+
+
+---
+
+## Methodology
+
+Records extracted from public posts on locally-dominant platforms by an
+LLM (Claude Sonnet 4.6) constrained to the
+[`IncomeRecord`](../../extract/schema.py) schema. Local-currency amounts
+are converted to USD/year via a dated FX snapshot
+(see `extract.fx`); period normalization (hour/day/week/month/year) is
+performed downstream of the LLM. Income brackets are country-specific
+USD/yr thresholds defined in `config.COUNTRY_BRACKETS`. Earning
+mechanisms are picked from a closed list documented in
+[docs/MECHANISMS.md](../../docs/MECHANISMS.md). Counts here reflect
+sampled posts, not population statistics — interpret accordingly.

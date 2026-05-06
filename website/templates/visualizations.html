@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}可视化 — shouru{% endblock %}
+
+{% block content %}
+<h1>可视化</h1>
+<p class="muted">基于 income.db 的 6 类交互式图（Plotly）。点击图内可缩放、过滤。</p>
+
+{% for fig in figs %}
+<h2>{{ fig.name }}</h2>
+<iframe class="fig-iframe" src="{{ fig.html_url }}" title="{{ fig.name }}"></iframe>
+{% endfor %}
+{% endblock %}

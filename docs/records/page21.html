@@ -1,0 +1,1078 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>数据浏览 — shouru</title>
+<link rel="stylesheet" href="../static/style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" defer></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <a href="../index.html"><span class="logo">收入</span><span class="sub">shouru research</span></a>
+  </div>
+  <nav>
+    <a href="../index.html">首页</a>
+    <a href="../records.html">数据浏览</a>
+    <a href="../visualizations.html">可视化</a>
+    <a href="../platforms.html">平台</a>
+    <a href="../mechanisms.html">谋生机制</a>
+    <a href="../about.html">说明</a>
+  </nav>
+</header>
+
+<main>
+
+<h1>数据浏览 <span class="muted">3,482 条匹配 / 第 21/70 页</span></h1>
+
+<form class="filters" method="get">
+  <div>
+    <label>国家</label>
+    <select name="country">
+      <option value="">全部</option>
+      
+      <option value="US" >US 美国</option>
+      
+      <option value="??" >?? ??</option>
+      
+      <option value="GB" >GB 英国</option>
+      
+      <option value="CA" >CA 加拿大</option>
+      
+      <option value="AU" >AU 澳大利亚</option>
+      
+      <option value="DE" >DE 德国</option>
+      
+      <option value="RU" >RU 俄罗斯</option>
+      
+      <option value="JP" >JP 日本</option>
+      
+      <option value="CN" >CN 中国</option>
+      
+      <option value="BR" >BR 巴西</option>
+      
+      <option value="TH" >TH 泰国</option>
+      
+      <option value="IN" >IN 印度</option>
+      
+      <option value="CO" >CO 哥伦比亚</option>
+      
+      <option value="NZ" >NZ 新西兰</option>
+      
+      <option value="MX" >MX 墨西哥</option>
+      
+      <option value="FR" >FR 法国</option>
+      
+      <option value="CL" >CL 智利</option>
+      
+      <option value="PE" >PE 秘鲁</option>
+      
+      <option value="PH" >PH 菲律宾</option>
+      
+      <option value="AE" >AE 阿联酋</option>
+      
+      <option value="NL" >NL 荷兰</option>
+      
+      <option value="SE" >SE 瑞典</option>
+      
+      <option value="AR" >AR 阿根廷</option>
+      
+      <option value="PT" >PT 葡萄牙</option>
+      
+      <option value="IT" >IT 意大利</option>
+      
+      <option value="SG" >SG 新加坡</option>
+      
+      <option value="ID" >ID 印尼</option>
+      
+      <option value="MY" >MY 马来西亚</option>
+      
+      <option value="VN" >VN 越南</option>
+      
+      <option value="BD" >BD 孟加拉</option>
+      
+      <option value="CH" >CH 瑞士</option>
+      
+      <option value="DK" >DK 丹麦</option>
+      
+      <option value="ES" >ES 西班牙</option>
+      
+      <option value="ZA" >ZA 南非</option>
+      
+      <option value="EC" >EC 厄瓜多尔</option>
+      
+      <option value="LK" >LK 斯里兰卡</option>
+      
+      <option value="PL" >PL 波兰</option>
+      
+      <option value="KE" >KE 肯尼亚</option>
+      
+      <option value="KZ" >KZ 哈萨克斯坦</option>
+      
+      <option value="LB" >LB 黎巴嫩</option>
+      
+      <option value="NO" >NO 挪威</option>
+      
+      <option value="RS" >RS 塞尔维亚</option>
+      
+      <option value="SK" >SK 斯洛伐克</option>
+      
+      <option value="TW" >TW 台湾</option>
+      
+      <option value="UA" >UA 乌克兰</option>
+      
+      <option value="AT" >AT 奥地利</option>
+      
+      <option value="BG" >BG 保加利亚</option>
+      
+      <option value="GH" >GH 加纳</option>
+      
+      <option value="HR" >HR 克罗地亚</option>
+      
+      <option value="IR" >IR 伊朗</option>
+      
+      <option value="KR" >KR 韩国</option>
+      
+      <option value="KW" >KW 科威特</option>
+      
+      <option value="MT" >MT MT</option>
+      
+      <option value="PK" >PK 巴基斯坦</option>
+      
+      <option value="TN" >TN 突尼斯</option>
+      
+      <option value="UY" >UY 乌拉圭</option>
+      
+      <option value="VE" >VE 委内瑞拉</option>
+      
+      <option value="ZM" >ZM ZM</option>
+      
+      <option value="AL" >AL AL</option>
+      
+      <option value="AM" >AM 亚美尼亚</option>
+      
+      <option value="BE" >BE 比利时</option>
+      
+      <option value="BO" >BO 玻利维亚</option>
+      
+      <option value="BY" >BY 白俄罗斯</option>
+      
+      <option value="CY" >CY CY</option>
+      
+      <option value="CZ" >CZ 捷克</option>
+      
+      <option value="EE" >EE 爱沙尼亚</option>
+      
+      <option value="EG" >EG 埃及</option>
+      
+      <option value="FI" >FI 芬兰</option>
+      
+      <option value="GR" >GR 希腊</option>
+      
+      <option value="GT" >GT 危地马拉</option>
+      
+      <option value="IL" >IL 以色列</option>
+      
+      <option value="MA" >MA 摩洛哥</option>
+      
+      <option value="NG" >NG 尼日利亚</option>
+      
+      <option value="NP" >NP 尼泊尔</option>
+      
+      <option value="PA" >PA 巴拿马</option>
+      
+      <option value="RO" >RO 罗马尼亚</option>
+      
+      <option value="SA" >SA 沙特</option>
+      
+      <option value="SI" >SI 斯洛文尼亚</option>
+      
+      <option value="TR" >TR 土耳其</option>
+      
+      <option value="UZ" >UZ 乌兹别克斯坦</option>
+      
+    </select>
+  </div>
+  <div>
+    <label>语言</label>
+    <select name="lang">
+      <option value="">全部</option>
+      
+      <option value="en" >en 英语</option>
+      
+      <option value="es" >es 西班牙语</option>
+      
+      <option value="ru" >ru 俄语</option>
+      
+      <option value="ja" >ja 日语</option>
+      
+      <option value="zh" >zh 中文</option>
+      
+      <option value="pt" >pt 葡萄牙语</option>
+      
+      <option value="de" >de 德语</option>
+      
+      <option value="vi" >vi 越南语</option>
+      
+      <option value="uk" >uk 乌克兰语</option>
+      
+      <option value="tl" >tl 他加禄语</option>
+      
+      <option value="sk" >sk sk</option>
+      
+      <option value="fr" >fr 法语</option>
+      
+      <option value="th" >th 泰语</option>
+      
+      <option value="sv" >sv 瑞典语</option>
+      
+      <option value="pl" >pl 波兰语</option>
+      
+      <option value="nl" >nl 荷兰语</option>
+      
+      <option value="ko" >ko 韩语</option>
+      
+      <option value="id" >id 印尼语</option>
+      
+    </select>
+  </div>
+  <div>
+    <label>收入档</label>
+    <select name="bracket">
+      <option value="">全部</option>
+      
+      <option value="bottom" >Bottom 底层</option>
+      
+      <option value="lower_middle" >Lower-middle 下中产</option>
+      
+      <option value="middle" >Middle 中产</option>
+      
+      <option value="upper_middle" >Upper-middle 上中产</option>
+      
+      <option value="top" >Top 顶层</option>
+      
+      <option value="unknown" >未知</option>
+      
+    </select>
+  </div>
+  <div>
+    <label>谋生机制</label>
+    <select name="mechanism">
+      <option value="">全部</option>
+      
+      <option value="salary_employment" >工资雇佣</option>
+      
+      <option value="equity_compensation" >股权期权</option>
+      
+      <option value="business_owner" >企业主</option>
+      
+      <option value="freelance_contractor" >自由职业</option>
+      
+      <option value="platform_gig" >平台零工</option>
+      
+      <option value="passive_investment" >被动投资</option>
+      
+      <option value="real_estate_rental" >房产租金</option>
+      
+      <option value="royalties_creator" >创作者收入</option>
+      
+      <option value="inheritance_trust" >遗产信托</option>
+      
+      <option value="government_pension" >退休金</option>
+      
+      <option value="illicit_grey" >灰色非法</option>
+      
+      <option value="multiple_streams" >多重收入</option>
+      
+      <option value="unknown" >未知</option>
+      
+    </select>
+  </div>
+  <div>
+    <label>币种</label>
+    <select name="currency">
+      <option value="">全部</option>
+      
+      <option value="USD" >USD</option>
+      
+      <option value="GBP" >GBP</option>
+      
+      <option value="CAD" >CAD</option>
+      
+      <option value="EUR" >EUR</option>
+      
+      <option value="AUD" >AUD</option>
+      
+      <option value="RUB" >RUB</option>
+      
+      <option value="JPY" >JPY</option>
+      
+      <option value="CNY" >CNY</option>
+      
+      <option value="NZD" >NZD</option>
+      
+      <option value="COP" >COP</option>
+      
+      <option value="BRL" >BRL</option>
+      
+      <option value="PEN" >PEN</option>
+      
+      <option value="CLP" >CLP</option>
+      
+      <option value="MXN" >MXN</option>
+      
+      <option value="INR" >INR</option>
+      
+      <option value="AED" >AED</option>
+      
+      <option value="SEK" >SEK</option>
+      
+      <option value="BDT" >BDT</option>
+      
+      <option value="ARS" >ARS</option>
+      
+      <option value="ZAR" >ZAR</option>
+      
+      <option value="LKR" >LKR</option>
+      
+      <option value="UAH" >UAH</option>
+      
+      <option value="PHP" >PHP</option>
+      
+      <option value="KZT" >KZT</option>
+      
+      <option value="CHF" >CHF</option>
+      
+      <option value="UYU" >UYU</option>
+      
+      <option value="TND" >TND</option>
+      
+      <option value="THB" >THB</option>
+      
+      <option value="SGD" >SGD</option>
+      
+      <option value="PKR" >PKR</option>
+      
+      <option value="MYR" >MYR</option>
+      
+      <option value="KRW" >KRW</option>
+      
+      <option value="KES" >KES</option>
+      
+      <option value="GHS" >GHS</option>
+      
+      <option value="ZMW" >ZMW</option>
+      
+      <option value="VND" >VND</option>
+      
+      <option value="UZS" >UZS</option>
+      
+      <option value="RON" >RON</option>
+      
+      <option value="PLN" >PLN</option>
+      
+      <option value="NPR" >NPR</option>
+      
+      <option value="MAD" >MAD</option>
+      
+      <option value="ILS" >ILS</option>
+      
+      <option value="IDR" >IDR</option>
+      
+      <option value="DKK" >DKK</option>
+      
+      <option value="BYN" >BYN</option>
+      
+      <option value="BOB" >BOB</option>
+      
+    </select>
+  </div>
+  <div>
+    <label>职业含</label>
+    <input type="text" name="profession" value="" placeholder="如 nurse">
+  </div>
+  <div>
+    <label>USD/年 ≥</label>
+    <input type="number" name="min_usd" value="" placeholder="如 50000">
+  </div>
+  <div>
+    <label>USD/年 ≤</label>
+    <input type="number" name="max_usd" value="" placeholder="如 500000">
+  </div>
+  <div>
+    <label>关键字（叙述/引文）</label>
+    <input type="text" name="q" value="" placeholder="如 Uber, 月薪">
+  </div>
+  <div style="grid-column: 1 / -1; display: flex; gap: 8px; justify-content: flex-end;">
+    <a class="clear" href="../records.html">清空</a>
+    <button class="submit" type="submit">筛选</button>
+  </div>
+</form>
+
+<table class="table table-records">
+  <tr>
+    <th>国</th>
+    <th>语</th>
+    <th>职业</th>
+    <th>金额</th>
+    <th class="num">USD/年</th>
+    <th>档</th>
+    <th>机制</th>
+    <th>引文</th>
+    <th>平台</th>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/CA.html"><span class="badge country">CA</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/1566a87716f86efc.html">call_center_agent</a></td>
+    <td>11 CAD / hour</td>
+    <td class="num">$16,702</td>
+    <td><span class="badge bracket-lower_middle">lower_middle</span></td>
+    <td><small>sales</small></td>
+    <td class="snippet">The call center job paid $11/hr, my rent was $305 w/ everything included. Needless to say I had a &#34;ton&#34; of funds left over (for a 17y old who never had money before).</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/3841cb5662fcde91.html">minimum_wage_worker</a></td>
+    <td>8 USD / hour</td>
+    <td class="num">$16,640</td>
+    <td><span class="badge bracket-bottom">bottom</span></td>
+    <td><small>other</small></td>
+    <td class="snippet">Making overtime most weeks but not all at around $8ish an hour. I pay all my bills first (including food). Never ever do I not pay them. Then I take out a huge chunk for savings.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/314a060500431363.html">grocery_store_clerk</a></td>
+    <td>8 USD / hour</td>
+    <td class="num">$16,640</td>
+    <td><span class="badge bracket-bottom">bottom</span></td>
+    <td><small>retail</small></td>
+    <td class="snippet">Fuck you, Dave. I was making $8/hr and couldn&#39;t pay my rent</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/MT.html"><span class="badge country">MT</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/31a17720304b7f65.html">factory_storekeeper</a></td>
+    <td>15,000 EUR / year</td>
+    <td class="num">$16,230</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>logistics_transport</small></td>
+    <td class="snippet">I work as a storekeeper in a factory, and used to be a cab driver part time for a fixed per hour wage. ... So I saved and invested 95% of my net income yearly. (We&#39;re talking 15k euros per year net wage).</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/641a413a7372318d.html">restaurant_worker</a></td>
+    <td>1,300 USD / month</td>
+    <td class="num">$15,600</td>
+    <td><span class="badge bracket-bottom">bottom</span></td>
+    <td><small>food_service</small></td>
+    <td class="snippet">I work under the table at a restaurant and make $1300/MO which only covers rent.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/AU.html"><span class="badge country">AU</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/f2137237deb51b77.html">phd_student_tutor</a></td>
+    <td>1,960 AUD / month</td>
+    <td class="num">$15,523</td>
+    <td><span class="badge bracket-bottom">bottom</span></td>
+    <td><small>education</small></td>
+    <td class="snippet">|Centrelink|$960|
+|Tutoring|$960|
+|Gifts (parents)|$40|
+|**Total**|**$1,960**|</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/f3a7d15ee786ad6b.html">metal_factory_production_worker</a></td>
+    <td>7 USD / hour</td>
+    <td class="num">$15,080</td>
+    <td><span class="badge bracket-bottom">bottom</span></td>
+    <td><small>manufacturing</small></td>
+    <td class="snippet">This happened at a metal factory, the type of work there is production. The minimum wage in my area is $7.25, I was being paid $7.25.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/700fe5ac05950583.html">nursing_aide</a></td>
+    <td>15,000 USD / year</td>
+    <td class="num">$15,000</td>
+    <td><span class="badge bracket-bottom">bottom</span></td>
+    <td><small>healthcare</small></td>
+    <td class="snippet">I make minimum wage ($13/HR) and work Mon-Fri. I am only 2 hours short of working full time a week at 38 hours and my employer seems intent on keeping it that way... My only qualifications are as a nursing aide in which I have 10 years experience.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/94b0baa19c19c8bf.html">vintage_hardware_reseller</a></td>
+    <td>1,250 USD / month</td>
+    <td class="num">$15,000</td>
+    <td><span class="badge bracket-lower_middle">lower_middle</span></td>
+    <td><small>retail</small></td>
+    <td class="snippet">I am currently a university student making $500 - $2000 a month at about 5 to 10 hours a week. Basically, there is a market for vintage computer hardware... resell those items after cleaning them up a bit for extremely high profit margins $35 - $120</td>
+    <td><small>hackernews</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/1a886d976e4345f5.html">starbucks_barista</a></td>
+    <td>14,674 USD / year</td>
+    <td class="num">$14,674</td>
+    <td><span class="badge bracket-bottom">bottom</span></td>
+    <td><small>food_service</small></td>
+    <td class="snippet">He earned a $95,800,000 salary while the average salary of the 361,000 employees was $14,674.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/MX.html"><span class="badge country">MX</span></a></td>
+    <td><span class="badge lang">es</span></td>
+    <td><a class="row-link" href="../record/33e527fc5e28c79d.html">telecommunications_engineer</a></td>
+    <td>22,000 MXN / month</td>
+    <td class="num">$14,467</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>engineering_nonsoftware</small></td>
+    <td class="snippet">me ofrecían 13k a lo mucho... me encontré un trabajo que ofrecían 22k al mes y enfocado a lo que estudie</td>
+    <td><small>r_mexico</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/da8e14615209d33a.html">real_estate_investor</a></td>
+    <td>1,200 USD / month</td>
+    <td class="num">$14,400</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>real_estate</small></td>
+    <td class="snippet">I now had 6 units and my net take home after all my mortgages/etc were paid was about $1,200 a month...I worked as a Technician for an HVAC company that same year.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/f230b7c4536f7dbe.html">disabled_retiree</a></td>
+    <td>1,200 USD / month</td>
+    <td class="num">$14,400</td>
+    <td><span class="badge bracket-bottom">bottom</span></td>
+    <td><small>government_military</small></td>
+    <td class="snippet">Income - approximately $1,200 per month from a small pension, SS disability, and SS spouse payments. She also receives SNAP benefits</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/IN.html"><span class="badge country">IN</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/257eeaa20372c6ed.html">young_breadwinner_office_worker</a></td>
+    <td>100,000 INR / month</td>
+    <td class="num">$14,376</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>other</small></td>
+    <td class="snippet">I am earning 1 Lakh INR (post tax every month now), but the sad part is I am not able to save money or even invest due to these on-going financial issues and support that I have to provide to my family. I am the sole breadwinner (kind-of) of a family of 6 members.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/RU.html"><span class="badge country">RU</span></a></td>
+    <td><span class="badge lang">ru</span></td>
+    <td><a class="row-link" href="../record/6561ece656ea88fa.html">junior_vba_programmer</a></td>
+    <td>1,320,000 RUB / year</td>
+    <td class="num">$14,322</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">от 110 000 ₽ за месяц на руки | Обязанности: Основная: Программирование VBA (MS Acess, Excel, Word), XML, MS SQL SERVER; Администрирование 1С баз</td>
+    <td><small>hh_ru</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/CA.html"><span class="badge country">CA</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/1cb1b75785bfadd7.html">retiree_with_db_pension</a></td>
+    <td>18,300 CAD / year</td>
+    <td class="num">$13,359</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>other</small></td>
+    <td class="snippet">|Source|Gross Annual|Start Age|
+|:-|:-|:-|
+|**DBPP**|$18.3k|60|
+|**OAS**|$8.5k|65|
+|**CPP**|$16k|70|</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/CL.html"><span class="badge country">CL</span></a></td>
+    <td><span class="badge lang">es</span></td>
+    <td><a class="row-link" href="../record/ced9cc28257d0a8f.html">medical_sales_representative</a></td>
+    <td>1,042,000 CLP / month</td>
+    <td class="num">$13,342</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>sales</small></td>
+    <td class="snippet">$ 1.042.000,00 (Mensual) contrato a plazo fijo Jornada de 44 horas semanales... Renta: $690.000 líquidos + comisiones al 100% un total de 1.042.000 líquidos.</td>
+    <td><small>computrabajo_cl</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/dc196f9f1ec06dab.html">rideshare_driver</a></td>
+    <td>6 USD / hour</td>
+    <td class="num">$13,312</td>
+    <td><span class="badge bracket-bottom">bottom</span></td>
+    <td><small>logistics_transport</small></td>
+    <td class="snippet">he says he made $257 over 13.75 hours of work, for almost $19 an hour... This means his profit is only $88, for an hourly rate of $6.40.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/RU.html"><span class="badge country">RU</span></a></td>
+    <td><span class="badge lang">ru</span></td>
+    <td><a class="row-link" href="../record/4ffce5686f47c99c.html">1c_programmer</a></td>
+    <td>100,000 RUB / month</td>
+    <td class="num">$13,020</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">от 100 000 ₽ за месяц на руки | Липецк , Советская улица, 4 | … Я ищу в команду программиста 1С</td>
+    <td><small>hh_ru</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/CO.html"><span class="badge country">CO</span></a></td>
+    <td><span class="badge lang">es</span></td>
+    <td><a class="row-link" href="../record/ff3e006e5aa85e87.html">industrial_engineer</a></td>
+    <td>4,123,000 COP / month</td>
+    <td class="num">$12,567</td>
+    <td><span class="badge bracket-unknown">unknown</span></td>
+    <td><small>engineering_nonsoftware</small></td>
+    <td class="snippet">$ 4.123.000,00 (Mensual) Contrato a término fijo Tiempo Completo Se busca ingeniero/a industrial para incorporarse a nuestro equipo de desarrollo.</td>
+    <td><small>computrabajo_co</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/NZ.html"><span class="badge country">NZ</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/ad44464c62cc30b4.html">student</a></td>
+    <td>1,680 NZD / month</td>
+    <td class="num">$12,298</td>
+    <td><span class="badge bracket-bottom">bottom</span></td>
+    <td><small>other</small></td>
+    <td class="snippet">Avg. monthly net income: $1680
+Avg. monthly expenses: $890
+
+I&#39;m in New Zealand, so to put those numbers into perspective, someone working full time at minimum wage would take home $2000 /month after tax.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/2e7121977a814c84.html">early_retiree_churner</a></td>
+    <td>12,000 USD / year</td>
+    <td class="num">$12,000</td>
+    <td><span class="badge bracket-bottom">bottom</span></td>
+    <td><small>finance_banking</small></td>
+    <td class="snippet">My wife and I retired earlier this year with annual expenses of $30K, and churning is on track to bring in ~$12K this year.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/fb0c9868342d3a50.html">saas_cofounder_cronitor</a></td>
+    <td>1,000 USD / month</td>
+    <td class="num">$12,000</td>
+    <td><span class="badge bracket-lower_middle">lower_middle</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">As of today we&#39;re at about 80 paying customers. As of last month, we have started taking monthly revenue distributions of $1000 each.</td>
+    <td><small>hackernews</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/7d30192c8a9c3b65.html">candle_business_side_hustle_owner</a></td>
+    <td>1,000 USD / month</td>
+    <td class="num">$12,000</td>
+    <td><span class="badge bracket-lower_middle">lower_middle</span></td>
+    <td><small>entrepreneur_ecom</small></td>
+    <td class="snippet">I started a candle business as a side hustle with $50 that now makes $1000/month. It&#39;s early, and slow, but it&#39;s building.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/63ba3790ea6071ae.html">tv_calibration_side_hustler</a></td>
+    <td>1,000 USD / month</td>
+    <td class="num">$12,000</td>
+    <td><span class="badge bracket-lower_middle">lower_middle</span></td>
+    <td><small>freelance_consulting</small></td>
+    <td class="snippet">Side Hustle: How I&#39;m making over 1,000/month calibrating TVs for middle aged wealthy people... I made it clear what my competitor charged and how I was a local small business offering a great deal: $150.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/83021119385f25f1.html">ebay_reseller</a></td>
+    <td>1,000 USD / month</td>
+    <td class="num">$12,000</td>
+    <td><span class="badge bracket-lower_middle">lower_middle</span></td>
+    <td><small>entrepreneur_ecom</small></td>
+    <td class="snippet">I can tell you i have made $18678.53 to date on ebay from starting 18 months ago... My website i would say i have made $5-6 hundred.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/RU.html"><span class="badge country">RU</span></a></td>
+    <td><span class="badge lang">ru</span></td>
+    <td><a class="row-link" href="../record/c40aff66639e13f3.html">primary_school_teacher</a></td>
+    <td>90,000 RUB / month</td>
+    <td class="num">$11,718</td>
+    <td><span class="badge bracket-lower_middle">lower_middle</span></td>
+    <td><small>education</small></td>
+    <td class="snippet">от 90 000 ₽ за месяц до вычета налогов | Реутов | Учитель начальных классов</td>
+    <td><small>hh_ru</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/??.html"><span class="badge country">??</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/ec762b3815ce1de5.html">upwork_freelancer</a></td>
+    <td>964 USD / month</td>
+    <td class="num">$11,568</td>
+    <td><span class="badge bracket-lower_middle">lower_middle</span></td>
+    <td><small>freelance_consulting</small></td>
+    <td class="snippet">I&#39;ve gone from $0/month in side money to $964/month... Fast-forward 1 month and I&#39;ve earned $964 after fees with more on the way!</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/BR.html"><span class="badge country">BR</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/3670f5680d35bc22.html">corporate_employee</a></td>
+    <td>61,135 BRL / year</td>
+    <td class="num">$11,371</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>other</small></td>
+    <td class="snippet">a total income of R$35,153.77 (after social security, income tax, health insurance, company pension fund and transport were deducted) in 2020 to a total income of R$61,135.43 (after the deductions mentioned above) in 2021.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/RU.html"><span class="badge country">RU</span></a></td>
+    <td><span class="badge lang">ru</span></td>
+    <td><a class="row-link" href="../record/e4a84e7467866c6a.html">neurologist</a></td>
+    <td>87,000 RUB / month</td>
+    <td class="num">$11,327</td>
+    <td><span class="badge bracket-unknown">unknown</span></td>
+    <td><small>healthcare</small></td>
+    <td class="snippet">Врач-невролог от 87 000 ₽ за месяц на руки | Сочи , Пластунская улица, 81 | Обязанности: Согласно должностой инструкции и стандартам работы центра.</td>
+    <td><small>hh_ru</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/7237763d698f04c5.html">indie_app_developer</a></td>
+    <td>11,000 USD / year</td>
+    <td class="num">$11,000</td>
+    <td><span class="badge bracket-bottom">bottom</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">I withdrew 107k, and I earned a passive 11k income from my software I developed my year and 1/2 of FIRE, giving me a 96k net withdraw.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/AR.html"><span class="badge country">AR</span></a></td>
+    <td><span class="badge lang">es</span></td>
+    <td><a class="row-link" href="../record/4be6f9d6bc2b8c1c.html">remote_interpreter</a></td>
+    <td>900 USD / month</td>
+    <td class="num">$10,800</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>freelance_consulting</small></td>
+    <td class="snippet">Mis ingresos son bastante pocos, fluctúan entre 800/1000 usd por mes, realizados en dos pagos quincenales.</td>
+    <td><small>r_argentina</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/CO.html"><span class="badge country">CO</span></a></td>
+    <td><span class="badge lang">es</span></td>
+    <td><a class="row-link" href="../record/49bde3dc86ae0dc8.html">accountant</a></td>
+    <td>3,500,000 COP / month</td>
+    <td class="num">$10,668</td>
+    <td><span class="badge bracket-unknown">unknown</span></td>
+    <td><small>finance_banking</small></td>
+    <td class="snippet">$ 3.500.000,00 (Mensual) Contrato de Obra o labor Tiempo Completo ¡Estamos contratando Contador(a)! Salario: $3.500.000 + $249.000 auxilio de transporte + prestaciones de ley</td>
+    <td><small>computrabajo_co</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/e984b9c931a8f4ed.html">low_wage_worker</a></td>
+    <td>200 USD / week</td>
+    <td class="num">$10,400</td>
+    <td><span class="badge bracket-bottom">bottom</span></td>
+    <td><small>other</small></td>
+    <td class="snippet">I got a job that pays around 200 a week and it&#39;s about a mile from where I&#39;m staying, my only real expense is rent which is a measly 375 a month, about 50 for my phone, 35 for gym membership and food is like maybe 120 a month.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/CO.html"><span class="badge country">CO</span></a></td>
+    <td><span class="badge lang">es</span></td>
+    <td><a class="row-link" href="../record/c2595e199151a882.html">construction_coordinator_electrical</a></td>
+    <td>3,333,000 COP / month</td>
+    <td class="num">$10,159</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>engineering_nonsoftware</small></td>
+    <td class="snippet">Cargo: COORDINADOR DE OBRA Nivel académico: Profesional en Ingeniería Eléctrica con Matrícula Profesional vigente... Salario: $3.333.000 + auxilio de transporte + prestaciones de Ley + Beneficio de alimentación Lugar de trabajo: Bogotá D.C., Fontibón</td>
+    <td><small>elempleo</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/7283234511dfd7eb.html">au_pair</a></td>
+    <td>195 USD / week</td>
+    <td class="num">$10,140</td>
+    <td><span class="badge bracket-bottom">bottom</span></td>
+    <td><small>other</small></td>
+    <td class="snippet">she was a struggling au pair working basically 24/7... and making $195 a week. She sent back $350 a month to support her family</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/IN.html"><span class="badge country">IN</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/436f42d32c4207da.html">fashion_brand_founder</a></td>
+    <td>70,000 INR / month</td>
+    <td class="num">$10,063</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>entrepreneur_ecom</small></td>
+    <td class="snippet">In 2 years of startup, I was getting a salary of around 70K a month, which was extremely good for a 3rd year student. I also got an acquisition offer for 10Cr (1.2M USD) plus 18LPA Job offer which I denied at that time</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/13a240a2ebd9d90a.html">semi_retired_side_hustler</a></td>
+    <td>10,000 USD / year</td>
+    <td class="num">$10,000</td>
+    <td><span class="badge bracket-bottom">bottom</span></td>
+    <td><small>freelance_consulting</small></td>
+    <td class="snippet">My side hustle business has been doing well, so I&#39;m on track to make about $3k this summer... I do some trivial, mindless online work, which should be another $3k/year... I also coached a youth sports team this season, which pays around $2-3k</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/MX.html"><span class="badge country">MX</span></a></td>
+    <td><span class="badge lang">es</span></td>
+    <td><a class="row-link" href="../record/4b6117655f59109a.html">accounting_analyst</a></td>
+    <td>15,000 MXN / month</td>
+    <td class="num">$9,864</td>
+    <td><span class="badge bracket-lower_middle">lower_middle</span></td>
+    <td><small>finance_banking</small></td>
+    <td class="snippet">Analista contable CERTEZA TRIBUTARIA - El Marqués, Querétaro ... $ 15,000.00 (Mensual) Contrato por tiempo indeterminado Tiempo Completo Se busca Analista Contable para unirse a nuestro equipo en Certeza Tributaria.</td>
+    <td><small>computrabajo_mx</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/AE.html"><span class="badge country">AE</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/7855d846c2f51a24.html">junior_accountant</a></td>
+    <td>3,000 AED / month</td>
+    <td class="num">$9,799</td>
+    <td><span class="badge bracket-lower_middle">lower_middle</span></td>
+    <td><small>finance_banking</small></td>
+    <td class="snippet">i want to ask how can i get high income from accounting job here in dubai i am still junior i have 2 years experience in Egypt and now in uae a year so total 3 years ... my salary is 3k aed now</td>
+    <td><small>r_uae</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/RU.html"><span class="badge country">RU</span></a></td>
+    <td><span class="badge lang">ru</span></td>
+    <td><a class="row-link" href="../record/dd17bd55d6777801.html">school_teacher</a></td>
+    <td>75,000 RUB / month</td>
+    <td class="num">$9,765</td>
+    <td><span class="badge bracket-lower_middle">lower_middle</span></td>
+    <td><small>education</small></td>
+    <td class="snippet">от 50 000 до 100 000 ₽ за месяц до вычета налогов | Долгопрудный , Лётная улица, 7 | В АНОО &#34;Физтех-лицей&#34; им. П.Л. Капицы требуется офицер запаса на должность учителя Основ безопасности и защиты Родины (ОБЗР)</td>
+    <td><small>hh_ru</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/UY.html"><span class="badge country">UY</span></a></td>
+    <td><span class="badge lang">es</span></td>
+    <td><a class="row-link" href="../record/5844330fa7f7d3bb.html">butcher</a></td>
+    <td>34,000 UYU / month</td>
+    <td class="num">$9,547</td>
+    <td><span class="badge bracket-lower_middle">lower_middle</span></td>
+    <td><small>food_service</small></td>
+    <td class="snippet">Trabajo como carnicero en Devoto... con mi sueldo actual de carnicero no puedo mantenerme por mi cuenta en un mes bueno cobraré unos 34000 en mano</td>
+    <td><small>r_uruguay</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/RU.html"><span class="badge country">RU</span></a></td>
+    <td><span class="badge lang">ru</span></td>
+    <td><a class="row-link" href="../record/6d5b9ea6fecddc21.html">accountant</a></td>
+    <td>70,000 RUB / month</td>
+    <td class="num">$9,114</td>
+    <td><span class="badge bracket-lower_middle">lower_middle</span></td>
+    <td><small>finance_banking</small></td>
+    <td class="snippet">от 70 000 ₽ за месяц на руки | Севастополь , улица Вакуленчука, 39 | В связи с расширением штата и увеличением объёмов деятельности, в дружную команду приглашается Бухгалтер по участку «Материальный стол».</td>
+    <td><small>hh_ru</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/RU.html"><span class="badge country">RU</span></a></td>
+    <td><span class="badge lang">ru</span></td>
+    <td><a class="row-link" href="../record/2c692b3158c1d873.html">graphic_designer</a></td>
+    <td>70,000 RUB / month</td>
+    <td class="num">$9,114</td>
+    <td><span class="badge bracket-lower_middle">lower_middle</span></td>
+    <td><small>design_creative</small></td>
+    <td class="snippet">Графический дизайнер от 60 000 до 80 000 ₽ за месяц на руки | Ярославль | Дизайн-студия Qbiri со специализацией digital-маркетинг ищет в свою команду графического дизайнера</td>
+    <td><small>hh_ru</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/RU.html"><span class="badge country">RU</span></a></td>
+    <td><span class="badge lang">ru</span></td>
+    <td><a class="row-link" href="../record/b05ff1ce97017c2f.html">retail_cashier</a></td>
+    <td>69,300 RUB / month</td>
+    <td class="num">$9,023</td>
+    <td><span class="badge bracket-lower_middle">lower_middle</span></td>
+    <td><small>retail</small></td>
+    <td class="snippet">от 65 000 до 73 600 ₽ за месяц до вычета налогов | Архангельск | продавца-кассира</td>
+    <td><small>hh_ru</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/RU.html"><span class="badge country">RU</span></a></td>
+    <td><span class="badge lang">ru</span></td>
+    <td><a class="row-link" href="../record/bc0d16b8d5314f8a.html">retail_cashier</a></td>
+    <td>69,300 RUB / month</td>
+    <td class="num">$9,023</td>
+    <td><span class="badge bracket-lower_middle">lower_middle</span></td>
+    <td><small>retail</small></td>
+    <td class="snippet">от 65 000 до 73 600 ₽ за месяц до вычета налогов | Архангельск , Троицкий проспект, 79 | «Бристоль» — крупная сеть магазинов у дома</td>
+    <td><small>hh_ru</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/91f54198a7e15f83.html">disability_recipient</a></td>
+    <td>9,000 USD / year</td>
+    <td class="num">$9,000</td>
+    <td><span class="badge bracket-bottom">bottom</span></td>
+    <td><small>government_military</small></td>
+    <td class="snippet">He gets about $9k a year from disability. We&#39;ve managed to save about $45k by adding some of our money and saving nearly all of his disability.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/d748ad75d1302fa9.html">early_retiree_airbnb_host</a></td>
+    <td>9,000 USD / year</td>
+    <td class="num">$9,000</td>
+    <td><span class="badge bracket-unknown">unknown</span></td>
+    <td><small>real_estate</small></td>
+    <td class="snippet">Income from renting out my condo on AirBNB and living with parents for ~5 weeks during peak ski and holiday season - $9k</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/CL.html"><span class="badge country">CL</span></a></td>
+    <td><span class="badge lang">es</span></td>
+    <td><a class="row-link" href="../record/79988d187822e3c3.html">restaurant_cashier_worker</a></td>
+    <td>700,000 CLP / month</td>
+    <td class="num">$8,963</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>food_service</small></td>
+    <td class="snippet">Trabajo 13 horas diarias y me está ofreciendo un contrato con el sueldo de 700.000, tengo dudas si firmarlo o no.</td>
+    <td><small>r_chile</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/CO.html"><span class="badge country">CO</span></a></td>
+    <td><span class="badge lang">es</span></td>
+    <td><a class="row-link" href="../record/f7b9908b479c192f.html">senior_industrial_designer</a></td>
+    <td>2,800,000 COP / month</td>
+    <td class="num">$8,534</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>design_creative</small></td>
+    <td class="snippet">$ 2.800.000,00 (Mensual) Contrato a término indefinido Tiempo Completo ... Salario: $2´800.000 + $250.000 aux de transporte. Horario de lunes a viernes de 8am a 5pm</td>
+    <td><small>computrabajo_co</small></td>
+  </tr>
+  
+</table>
+
+
+<div class="pagination">
+  
+  <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=1">«</a>
+  <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=20">‹ 上一页</a>
+  
+  
+  <span class="gap">…</span>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=17">17</a>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=18">18</a>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=19">19</a>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=20">20</a>
+  
+    <span class="current">21</span>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=22">22</a>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=23">23</a>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=24">24</a>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=25">25</a>
+  
+  <span class="gap">…</span>
+  <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=22">下一页 ›</a>
+  <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=70">»</a>
+</div>
+
+
+</main>
+
+<footer class="footer">
+  <div>shouru — 跨国收入与谋生方式研究 · 79 国 · 27 语言 · 166 平台</div>
+  <div>数据基于公开互联网帖子，仅作研究展示。引文 ≤300 字符 + 原 URL。</div>
+</footer>
+</body>
+</html>

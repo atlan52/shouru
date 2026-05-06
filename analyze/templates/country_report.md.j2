@@ -1,0 +1,100 @@
+{# country_report.md.j2 — per-country markdown report -#}
+# {{ country_name }} ({{ country }}) — Income & Earning Mechanism Report
+
+## Overview
+
+- **Total samples:** {{ n_total }}
+- **Records with USD/yr amount:** {{ n_with_amount }}
+- **Average reported income (USD/yr):** {% if avg_usd_year is none %}n/a{% else %}${{ '{:,.0f}'.format(avg_usd_year) }}{% endif %}
+- **Low-confidence records (<0.5):** {{ n_low_confidence }}
+
+## Bracket distribution
+
+{% if bracket_counts is none or bracket_counts is not iterable or bracket_counts|length == 0 %}
+_No bracket data available._
+{% else %}
+| Bracket | Records |
+| --- | ---: |
+{% for b in bracket_order %}
+| {{ b }} | {{ bracket_counts.get(b, 0) if bracket_counts.get is defined else (bracket_counts[b] if b in bracket_counts.index else 0) }} |
+{% endfor %}
+{% endif %}
+
+## Bracket thresholds (USD/yr lower bound)
+
+| Bracket | Lower bound (USD/yr) |
+| --- | ---: |
+{% for b in bracket_order %}
+| {{ b }} | {% if b in brackets %}${{ '{:,.0f}'.format(brackets[b]) }}{% else %}n/a{% endif %} |
+{% endfor %}
+
+## Top professions per bracket
+
+{% if top_professions is none or top_professions.empty %}
+_No profession data available._
+{% else %}
+{% for b in bracket_order %}
+### {{ b }}
+
+{% set rows = top_professions[top_professions['bracket'] == b].head(10) %}
+{% if rows.empty %}
+_No data for this bracket._
+{% else %}
+| # | Profession | Records |
+| ---: | --- | ---: |
+{% for _, r in rows.iterrows() %}
+| {{ loop.index }} | {{ r['profession'] }} | {{ r['n'] }} |
+{% endfor %}
+{% endif %}
+
+{% endfor %}
+{% endif %}
+
+## Earning mechanism share
+
+{% if mechanism_share is none or mechanism_share.empty %}
+_No mechanism data available._
+{% else %}
+| Mechanism | Share |
+| --- | ---: |
+{% for mech, share in mechanism_share.items() %}
+| {{ mech }} | {{ '{:.1%}'.format(share) }} |
+{% endfor %}
+{% endif %}
+
+## Narrative excerpts
+
+{% for b in bracket_order %}
+### {{ b }} bracket
+{% set nar = narratives.get(b) %}
+{% if nar is none or nar.empty %}
+_No excerpts for this bracket._
+{% else %}
+{% for _, r in nar.iterrows() %}
+> "{{ (r['raw_excerpt'] or '')|replace('\n', ' ') }}"
+
+{% set platform = r['source_platform'] or 'source' %}
+{% set url = r['source_url'] or '' %}
+{% if url %}— [{{ platform }}]({{ url }}){% else %}— {{ platform }}{% endif %}
+
+*Profession: {{ r['profession'] or 'unknown' }} | Summary: {{ r['narrative_summary'] or '' }}*
+
+{% endfor %}
+{% endif %}
+
+{% endfor %}
+
+---
+
+## Methodology
+
+Records extracted from public posts on locally-dominant platforms by an
+LLM (Claude Sonnet 4.6) constrained to the
+[`IncomeRecord`](../../extract/schema.py) schema. Local-currency amounts
+are converted to USD/year via a dated FX snapshot
+(see `extract.fx`); period normalization (hour/day/week/month/year) is
+performed downstream of the LLM. Income brackets are country-specific
+USD/yr thresholds defined in `config.COUNTRY_BRACKETS`. Earning
+mechanisms are picked from a closed list documented in
+[docs/MECHANISMS.md](../../docs/MECHANISMS.md). Counts here reflect
+sampled posts, not population statistics — interpret accordingly.

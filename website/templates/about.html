@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %}说明 — shouru{% endblock %}
+
+{% block content %}
+<h1>项目说明</h1>
+
+<h2>研究问题</h2>
+<p>世界各国、各收入阶层的人，分别通过什么方式获得当前收入？例如美国年入百万的、中国月入十万的、巴西月薪 8k 的。</p>
+
+<h2>方法论</h2>
+<ol>
+  <li><strong>抓取</strong>：跨 79 国、27 语言、166 平台抓取本地母语原文（Reddit 各国本地 sub、求职站 JobPosting、财经报 RSS、统计局工资数据、本地论坛）。</li>
+  <li><strong>抽取</strong>：用 Claude Sonnet 4.6 把每条原文抽取为结构化 IncomeRecord（含国家、职业、金额、币种、period、收入档、谋生机制等）。</li>
+  <li><strong>归一</strong>：保留原币种 + period 字段，用 2024 年均汇率做 USD/年归一（带 fx_rate_used 审计字段）。</li>
+  <li><strong>分析</strong>：5 收入档（bottom/lower_middle/middle/upper_middle/top）× 12 谋生机制（salary / equity / business / freelance / gig / passive / rental / royalties / inheritance / pension / illicit / multiple）。</li>
+</ol>
+
+<h2>关键约束</h2>
+<ul>
+  <li>本地母语原文优先（不再加英文 Reddit）</li>
+  <li>货币符号必须明确（不默认 USD —— 不同币种数额差几十倍）</li>
+  <li>引文 ≤300 字符 + 始终带原 URL，便于回查</li>
+</ul>
+
+<h2>限制</h2>
+<ul>
+  <li>抽取覆盖率仅 ~10%（73/703 chunks 完成），剩余 raw 需配额恢复后续抽。完整覆盖后预期会增 ~3000+ 记录。</li>
+  <li>5 个站完全反爬死（MoneySavingExpert / Mumsnet / Boards.ie / voz.vn / cari.com.my — Cloudflare 阻断）。</li>
+  <li>TW 本地论坛（PTT / Mobile01 / Dcard）海外 IP 拦截，HK Discuss CF 阻断。LIHKG API 通但收入帖密度低。</li>
+  <li>FX 归一只用了 2024 年均值，未做时间维度（日期）调整。</li>
+</ul>
+
+<h2>原始数据汇总</h2>
+<div class="markdown-render">
+  <pre style="white-space: pre-wrap; font-family: inherit; font-size: 13px;">{{ summary_md }}</pre>
+</div>
+{% endblock %}

@@ -1,0 +1,1079 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>数据浏览 — shouru</title>
+<link rel="stylesheet" href="../static/style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" defer></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <a href="../index.html"><span class="logo">收入</span><span class="sub">shouru research</span></a>
+  </div>
+  <nav>
+    <a href="../index.html">首页</a>
+    <a href="../records.html">数据浏览</a>
+    <a href="../visualizations.html">可视化</a>
+    <a href="../platforms.html">平台</a>
+    <a href="../mechanisms.html">谋生机制</a>
+    <a href="../about.html">说明</a>
+  </nav>
+</header>
+
+<main>
+
+<h1>数据浏览 <span class="muted">3,482 条匹配 / 第 17/70 页</span></h1>
+
+<form class="filters" method="get">
+  <div>
+    <label>国家</label>
+    <select name="country">
+      <option value="">全部</option>
+      
+      <option value="US" >US 美国</option>
+      
+      <option value="??" >?? ??</option>
+      
+      <option value="GB" >GB 英国</option>
+      
+      <option value="CA" >CA 加拿大</option>
+      
+      <option value="AU" >AU 澳大利亚</option>
+      
+      <option value="DE" >DE 德国</option>
+      
+      <option value="RU" >RU 俄罗斯</option>
+      
+      <option value="JP" >JP 日本</option>
+      
+      <option value="CN" >CN 中国</option>
+      
+      <option value="BR" >BR 巴西</option>
+      
+      <option value="TH" >TH 泰国</option>
+      
+      <option value="IN" >IN 印度</option>
+      
+      <option value="CO" >CO 哥伦比亚</option>
+      
+      <option value="NZ" >NZ 新西兰</option>
+      
+      <option value="MX" >MX 墨西哥</option>
+      
+      <option value="FR" >FR 法国</option>
+      
+      <option value="CL" >CL 智利</option>
+      
+      <option value="PE" >PE 秘鲁</option>
+      
+      <option value="PH" >PH 菲律宾</option>
+      
+      <option value="AE" >AE 阿联酋</option>
+      
+      <option value="NL" >NL 荷兰</option>
+      
+      <option value="SE" >SE 瑞典</option>
+      
+      <option value="AR" >AR 阿根廷</option>
+      
+      <option value="PT" >PT 葡萄牙</option>
+      
+      <option value="IT" >IT 意大利</option>
+      
+      <option value="SG" >SG 新加坡</option>
+      
+      <option value="ID" >ID 印尼</option>
+      
+      <option value="MY" >MY 马来西亚</option>
+      
+      <option value="VN" >VN 越南</option>
+      
+      <option value="BD" >BD 孟加拉</option>
+      
+      <option value="CH" >CH 瑞士</option>
+      
+      <option value="DK" >DK 丹麦</option>
+      
+      <option value="ES" >ES 西班牙</option>
+      
+      <option value="ZA" >ZA 南非</option>
+      
+      <option value="EC" >EC 厄瓜多尔</option>
+      
+      <option value="LK" >LK 斯里兰卡</option>
+      
+      <option value="PL" >PL 波兰</option>
+      
+      <option value="KE" >KE 肯尼亚</option>
+      
+      <option value="KZ" >KZ 哈萨克斯坦</option>
+      
+      <option value="LB" >LB 黎巴嫩</option>
+      
+      <option value="NO" >NO 挪威</option>
+      
+      <option value="RS" >RS 塞尔维亚</option>
+      
+      <option value="SK" >SK 斯洛伐克</option>
+      
+      <option value="TW" >TW 台湾</option>
+      
+      <option value="UA" >UA 乌克兰</option>
+      
+      <option value="AT" >AT 奥地利</option>
+      
+      <option value="BG" >BG 保加利亚</option>
+      
+      <option value="GH" >GH 加纳</option>
+      
+      <option value="HR" >HR 克罗地亚</option>
+      
+      <option value="IR" >IR 伊朗</option>
+      
+      <option value="KR" >KR 韩国</option>
+      
+      <option value="KW" >KW 科威特</option>
+      
+      <option value="MT" >MT MT</option>
+      
+      <option value="PK" >PK 巴基斯坦</option>
+      
+      <option value="TN" >TN 突尼斯</option>
+      
+      <option value="UY" >UY 乌拉圭</option>
+      
+      <option value="VE" >VE 委内瑞拉</option>
+      
+      <option value="ZM" >ZM ZM</option>
+      
+      <option value="AL" >AL AL</option>
+      
+      <option value="AM" >AM 亚美尼亚</option>
+      
+      <option value="BE" >BE 比利时</option>
+      
+      <option value="BO" >BO 玻利维亚</option>
+      
+      <option value="BY" >BY 白俄罗斯</option>
+      
+      <option value="CY" >CY CY</option>
+      
+      <option value="CZ" >CZ 捷克</option>
+      
+      <option value="EE" >EE 爱沙尼亚</option>
+      
+      <option value="EG" >EG 埃及</option>
+      
+      <option value="FI" >FI 芬兰</option>
+      
+      <option value="GR" >GR 希腊</option>
+      
+      <option value="GT" >GT 危地马拉</option>
+      
+      <option value="IL" >IL 以色列</option>
+      
+      <option value="MA" >MA 摩洛哥</option>
+      
+      <option value="NG" >NG 尼日利亚</option>
+      
+      <option value="NP" >NP 尼泊尔</option>
+      
+      <option value="PA" >PA 巴拿马</option>
+      
+      <option value="RO" >RO 罗马尼亚</option>
+      
+      <option value="SA" >SA 沙特</option>
+      
+      <option value="SI" >SI 斯洛文尼亚</option>
+      
+      <option value="TR" >TR 土耳其</option>
+      
+      <option value="UZ" >UZ 乌兹别克斯坦</option>
+      
+    </select>
+  </div>
+  <div>
+    <label>语言</label>
+    <select name="lang">
+      <option value="">全部</option>
+      
+      <option value="en" >en 英语</option>
+      
+      <option value="es" >es 西班牙语</option>
+      
+      <option value="ru" >ru 俄语</option>
+      
+      <option value="ja" >ja 日语</option>
+      
+      <option value="zh" >zh 中文</option>
+      
+      <option value="pt" >pt 葡萄牙语</option>
+      
+      <option value="de" >de 德语</option>
+      
+      <option value="vi" >vi 越南语</option>
+      
+      <option value="uk" >uk 乌克兰语</option>
+      
+      <option value="tl" >tl 他加禄语</option>
+      
+      <option value="sk" >sk sk</option>
+      
+      <option value="fr" >fr 法语</option>
+      
+      <option value="th" >th 泰语</option>
+      
+      <option value="sv" >sv 瑞典语</option>
+      
+      <option value="pl" >pl 波兰语</option>
+      
+      <option value="nl" >nl 荷兰语</option>
+      
+      <option value="ko" >ko 韩语</option>
+      
+      <option value="id" >id 印尼语</option>
+      
+    </select>
+  </div>
+  <div>
+    <label>收入档</label>
+    <select name="bracket">
+      <option value="">全部</option>
+      
+      <option value="bottom" >Bottom 底层</option>
+      
+      <option value="lower_middle" >Lower-middle 下中产</option>
+      
+      <option value="middle" >Middle 中产</option>
+      
+      <option value="upper_middle" >Upper-middle 上中产</option>
+      
+      <option value="top" >Top 顶层</option>
+      
+      <option value="unknown" >未知</option>
+      
+    </select>
+  </div>
+  <div>
+    <label>谋生机制</label>
+    <select name="mechanism">
+      <option value="">全部</option>
+      
+      <option value="salary_employment" >工资雇佣</option>
+      
+      <option value="equity_compensation" >股权期权</option>
+      
+      <option value="business_owner" >企业主</option>
+      
+      <option value="freelance_contractor" >自由职业</option>
+      
+      <option value="platform_gig" >平台零工</option>
+      
+      <option value="passive_investment" >被动投资</option>
+      
+      <option value="real_estate_rental" >房产租金</option>
+      
+      <option value="royalties_creator" >创作者收入</option>
+      
+      <option value="inheritance_trust" >遗产信托</option>
+      
+      <option value="government_pension" >退休金</option>
+      
+      <option value="illicit_grey" >灰色非法</option>
+      
+      <option value="multiple_streams" >多重收入</option>
+      
+      <option value="unknown" >未知</option>
+      
+    </select>
+  </div>
+  <div>
+    <label>币种</label>
+    <select name="currency">
+      <option value="">全部</option>
+      
+      <option value="USD" >USD</option>
+      
+      <option value="GBP" >GBP</option>
+      
+      <option value="CAD" >CAD</option>
+      
+      <option value="EUR" >EUR</option>
+      
+      <option value="AUD" >AUD</option>
+      
+      <option value="RUB" >RUB</option>
+      
+      <option value="JPY" >JPY</option>
+      
+      <option value="CNY" >CNY</option>
+      
+      <option value="NZD" >NZD</option>
+      
+      <option value="COP" >COP</option>
+      
+      <option value="BRL" >BRL</option>
+      
+      <option value="PEN" >PEN</option>
+      
+      <option value="CLP" >CLP</option>
+      
+      <option value="MXN" >MXN</option>
+      
+      <option value="INR" >INR</option>
+      
+      <option value="AED" >AED</option>
+      
+      <option value="SEK" >SEK</option>
+      
+      <option value="BDT" >BDT</option>
+      
+      <option value="ARS" >ARS</option>
+      
+      <option value="ZAR" >ZAR</option>
+      
+      <option value="LKR" >LKR</option>
+      
+      <option value="UAH" >UAH</option>
+      
+      <option value="PHP" >PHP</option>
+      
+      <option value="KZT" >KZT</option>
+      
+      <option value="CHF" >CHF</option>
+      
+      <option value="UYU" >UYU</option>
+      
+      <option value="TND" >TND</option>
+      
+      <option value="THB" >THB</option>
+      
+      <option value="SGD" >SGD</option>
+      
+      <option value="PKR" >PKR</option>
+      
+      <option value="MYR" >MYR</option>
+      
+      <option value="KRW" >KRW</option>
+      
+      <option value="KES" >KES</option>
+      
+      <option value="GHS" >GHS</option>
+      
+      <option value="ZMW" >ZMW</option>
+      
+      <option value="VND" >VND</option>
+      
+      <option value="UZS" >UZS</option>
+      
+      <option value="RON" >RON</option>
+      
+      <option value="PLN" >PLN</option>
+      
+      <option value="NPR" >NPR</option>
+      
+      <option value="MAD" >MAD</option>
+      
+      <option value="ILS" >ILS</option>
+      
+      <option value="IDR" >IDR</option>
+      
+      <option value="DKK" >DKK</option>
+      
+      <option value="BYN" >BYN</option>
+      
+      <option value="BOB" >BOB</option>
+      
+    </select>
+  </div>
+  <div>
+    <label>职业含</label>
+    <input type="text" name="profession" value="" placeholder="如 nurse">
+  </div>
+  <div>
+    <label>USD/年 ≥</label>
+    <input type="number" name="min_usd" value="" placeholder="如 50000">
+  </div>
+  <div>
+    <label>USD/年 ≤</label>
+    <input type="number" name="max_usd" value="" placeholder="如 500000">
+  </div>
+  <div>
+    <label>关键字（叙述/引文）</label>
+    <input type="text" name="q" value="" placeholder="如 Uber, 月薪">
+  </div>
+  <div style="grid-column: 1 / -1; display: flex; gap: 8px; justify-content: flex-end;">
+    <a class="clear" href="../records.html">清空</a>
+    <button class="submit" type="submit">筛选</button>
+  </div>
+</form>
+
+<table class="table table-records">
+  <tr>
+    <th>国</th>
+    <th>语</th>
+    <th>职业</th>
+    <th>金额</th>
+    <th class="num">USD/年</th>
+    <th>档</th>
+    <th>机制</th>
+    <th>引文</th>
+    <th>平台</th>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/AU.html"><span class="badge country">AU</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/24c322f79076f34d.html">weekend_worker_and_wedding_side_business</a></td>
+    <td>105,000 AUD / year</td>
+    <td class="num">$69,300</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>other</small></td>
+    <td class="snippet">HHI currently is 105k, which includes PPL &amp; FTB A. When I return to work later in the year, I am contracted to work weekends only, my employment only brings in about 26k. I also have a small business... Partners salary is 68k currently, annual bonus at end FY could be up to 10k.</td>
+    <td><small>r_ausfinance</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/BG.html"><span class="badge country">BG</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/b132f29989c249f0.html">early_retiree_blogger</a></td>
+    <td>68,500 USD / year</td>
+    <td class="num">$68,500</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>freelance_consulting</small></td>
+    <td class="snippet">Worked for 16 years, including 3 years, where my only income was as a small business owner (a financially devastating failure), averaging $20,000 a year. Average income over all 16 working years ~$68,500. Saved aggressively to recover from the failed business to FIRE at 41.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/3398259d9ff7c610.html">aerospace_engineer</a></td>
+    <td>67,000 USD / year</td>
+    <td class="num">$67,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>engineering_nonsoftware</small></td>
+    <td class="snippet">* 67k$ a year, will be in the low 70&#39;s this year with OT
+* Own a home I owe 87K$ on, could easily sell for 130K$</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/bf3d1478abdf9645.html">civil_engineer_local_government</a></td>
+    <td>67,000 USD / year</td>
+    <td class="num">$67,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>engineering_nonsoftware</small></td>
+    <td class="snippet">Get the first real raise of my career up to $67k after nearly a decade of static wages and put all of it towards retirement savings.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/AU.html"><span class="badge country">AU</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/db65742f1a34d50b.html">carpet_cleaning_business_owner</a></td>
+    <td>100,000 AUD / year</td>
+    <td class="num">$66,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>blue_collar_trades</small></td>
+    <td class="snippet">We run a carpet and upholstery cleaning company called Carpet Tech (www.carpet-tech.com.au) in Sydney, Australia. We are mostly in the domestic market but lately have been expanding into the commercial market more and more.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/CA.html"><span class="badge country">CA</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/cc260293208fb709.html">freelance_remote_worker</a></td>
+    <td>5,500 USD / month</td>
+    <td class="num">$66,000</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>freelance_consulting</small></td>
+    <td class="snippet">I currently make around $5,500 USD/month from freelance clients, but that income feels fragile, and I&#39;m actively applying for fully remote roles to stabilize things.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/JP.html"><span class="badge country">JP</span></a></td>
+    <td><span class="badge lang">ja</span></td>
+    <td><a class="row-link" href="../record/a1119671ade81007.html">software_engineer</a></td>
+    <td>10,000,000 JPY / year</td>
+    <td class="num">$65,900</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">「昇給によって年収1,000万円を超えるソフトウェアエンジニアを産み出す」という目標の達成報告をしたいと思います。</td>
+    <td><small>hatena</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/6aa4db6aae3bf1d3.html">registered_nurse</a></td>
+    <td>65,000 USD / year</td>
+    <td class="num">$65,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>healthcare</small></td>
+    <td class="snippet">My wife is a RN making $65k/year. I&#39;ve contacted her manager about her last paycheck and cashing out her PTO.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/1fe58b799fb3e877.html">legal_professional_wfh</a></td>
+    <td>65,000 USD / year</td>
+    <td class="num">$65,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>law</small></td>
+    <td class="snippet">I make $65k salary, which translates to $1700ish every two weeks. ... I WFH, full-time, very demanding legal job</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/8d4d4e240c5923b2.html">film_industry_worker</a></td>
+    <td>64,000 USD / year</td>
+    <td class="num">$64,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>design_creative</small></td>
+    <td class="snippet">I&#39;m 26 years old and am working a job in the film industry bringing home around 64k a year after taxes, health insurance, etc. I moved to the LA area last year with a roommate and my rent is $1500 a month.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/TW.html"><span class="badge country">TW</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/5cc4cc7aa54c856e.html">saas_solopreneur</a></td>
+    <td>5,300 USD / month</td>
+    <td class="num">$63,600</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">my name is Jen and I&#39;m the company of one (engineer, designer, support and all-around solopreneur) behind Lunch Money, a personal finance and budgeting web app... Today, it has ~830 paying users and ~USD$5.3k in monthly recurring revenue.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/CA.html"><span class="badge country">CA</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/21824822e1ee86eb.html">insurance_company_employee</a></td>
+    <td>87,000 CAD / year</td>
+    <td class="num">$63,510</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>finance_banking</small></td>
+    <td class="snippet">started working for an insurance company from Sep 2023.
+My before tax salary is 87K/year. Im 32 now. Have wife and Kid(6yr old). Wife currently teaching parttime. Her monthly income is around $800-1000 a month.</td>
+    <td><small>r_personalfinancecanada</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/c76f2c573d2c762f.html">accountant</a></td>
+    <td>63,000 USD / year</td>
+    <td class="num">$63,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>finance_banking</small></td>
+    <td class="snippet">I&#39;m not rich, but I pulled in about $63k last year. Not stellar, and slightly above average for the US as a whole, but not bad for a 27-year old with a mediocre accounting degree from a Tier 4 state school</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/12aa0c1a292c2ce9.html">luxury_watch_flipper</a></td>
+    <td>63,000 USD / year</td>
+    <td class="num">$63,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>retail</small></td>
+    <td class="snippet">2025 - One year:
+\- 1.2m in sales
+\- 87k gross profit
+\- 63k net profit
+\- ~8k payroll (salary to myself)
+
+Ive been wholesaling pretty much everything. Fast flips. I aim for 6-12% margins</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/d56e6ef3b025f60f.html">remote_office_worker</a></td>
+    <td>63,000 USD / year</td>
+    <td class="num">$63,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>other</small></td>
+    <td class="snippet">I currently make 63K working from home, plus an annual performance based bonus. I have an opportunity to take a job where I would make 70k  with a similar performance based bonus, but I would need to commute 30 minutes by car.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/7c96b700a1e5442f.html">music_teacher_landlord</a></td>
+    <td>63,000 USD / year</td>
+    <td class="num">$63,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>real_estate</small></td>
+    <td class="snippet">In 2012, despite having a decent job with $63k salary, and ~$90k saved up, I decided to sublet my apartment for 4 months and squatted in an abandoned building next to where I worked</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/1c4017dfdf147d54.html">program_manager</a></td>
+    <td>30 USD / hour</td>
+    <td class="num">$62,400</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">I&#39;d like my rate adjusted from $30 an hour to $45 an hour... Based on my market research for Program Manager, I&#39;ve found the average rate for someone with my experience and in the role that I&#39;m in to be $45/hour.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/DK.html"><span class="badge country">DK</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/f5af0c7cdf2c1c86.html">phd_student_physics</a></td>
+    <td>428,500 DKK / year</td>
+    <td class="num">$62,132</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>education</small></td>
+    <td class="snippet">the starting point for total compensation for a student in Aarhus is ~428500 dkk per year (~$60k/year, ~€57k/year, ~£47k/year, from which tax &amp; compulsory pension contributions are deducted</td>
+    <td><small>hackernews</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/CA.html"><span class="badge country">CA</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/1ede1e2e4a5a05db.html">qa_analyst_banking</a></td>
+    <td>85,000 CAD / year</td>
+    <td class="num">$62,050</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>finance_banking</small></td>
+    <td class="snippet">Mid-level QA in Banking ($85k) looking to pivot. ... Salary: Currently in the mid-$80s (hoping to at least lateral or slightly increase).</td>
+    <td><small>r_canadajobs</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/89dcb145e73a526a.html">administrative_employee</a></td>
+    <td>29 USD / hour</td>
+    <td class="num">$60,320</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>other</small></td>
+    <td class="snippet">I make $29 an hour now and I asked for $32 an hour, and an additional 5 days of PTO.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/fa70b8adbb9409df.html">design_engineer</a></td>
+    <td>60,000 USD / year</td>
+    <td class="num">$60,000</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>engineering_nonsoftware</small></td>
+    <td class="snippet">I had a decent $60k + OT salary and my partner was finishing up his last year of college... we settled on a house that we thought we could make bank on. It was a probate and we bid up against multiple bidders, settling at $385k</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/6bb7ef564dadfbf8.html">office_worker_at_small_company</a></td>
+    <td>60,000 USD / year</td>
+    <td class="num">$60,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>other</small></td>
+    <td class="snippet">I make 60k at a small company.  This company never gives raises so my salary has been flat for 5 years... I don&#39;t know if I have the guts to cut my income down to $37,000 from $60,000.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/aa5fd3738f0faeff.html">software_engineer</a></td>
+    <td>60,000 USD / year</td>
+    <td class="num">$60,000</td>
+    <td><span class="badge bracket-lower_middle">lower_middle</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">Obviously this is why I have been making $60k on average for my entire career.</td>
+    <td><small>hackernews</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/6d2bbd65ce84a521.html">veterinarian</a></td>
+    <td>60,000 USD / year</td>
+    <td class="num">$60,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>healthcare</small></td>
+    <td class="snippet">Most vets are pretty bad at personal finance (we apparently think an average student loan debt of $170K and a starting salary of 60K is a good idea..)</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/NZ.html"><span class="badge country">NZ</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/c58c33d99aa1b8f8.html">electrician</a></td>
+    <td>5,000 USD / month</td>
+    <td class="num">$60,000</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>blue_collar_trades</small></td>
+    <td class="snippet">Lost 5k/mo website earnings(which was my &#39;reinvest&#39; income)
+I&#39;m 26, single and Frugally FI with rental properties, Stock and Websites + Own my own home with flatmate paying for remaining mortgage
+I have 7 Rental incomes(4 properties) all CF+</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/CA.html"><span class="badge country">CA</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/e88d1606379bda76.html">travel_patch_etsy_seller</a></td>
+    <td>5,000 USD / month</td>
+    <td class="num">$60,000</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>entrepreneur_ecom</small></td>
+    <td class="snippet">Currently we sell just over $5,000 per month worth of patches and stickers... I run Vagabond Heart, a company that makes modern vintage-inspired travel patches and stickers</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/9d8e6f3d1025a9a8.html">gas_station_owner</a></td>
+    <td>60,000 USD / year</td>
+    <td class="num">$60,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>retail</small></td>
+    <td class="snippet">I&#39;m thinking of purchasing a branded gas station for $200k it makes $60k net after expenses each year. It&#39;s technically 9 years sublease I&#39;m taking over... located in south NJ</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/3012cb86d0077206.html">commercial_cleaning_company_owner</a></td>
+    <td>60,000 USD / year</td>
+    <td class="num">$60,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>entrepreneur_ecom</small></td>
+    <td class="snippet">My company is an S Corp and so I pay myself a $60k per year salary. I live a frugal lifestyle and that is all I currently take out of the company. Last months net profit % was 10%.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/e9a45d5242dca153.html">real_estate_investor</a></td>
+    <td>5,000 USD / month</td>
+    <td class="num">$60,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>real_estate</small></td>
+    <td class="snippet">Years ago, I set a goal of having passive income of $5,000/month... This summer, I surpassed my $5,000/month passive income goal and stopped working.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/1df1d83814855fc1.html">retired_police_officer_navy</a></td>
+    <td>5,000 USD / month</td>
+    <td class="num">$60,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>government_military</small></td>
+    <td class="snippet">He&#39;s retired from the police force and from the navy. He receives around $5000 usd in combined pension per month.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/AU.html"><span class="badge country">AU</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/15062117cc7faf7e.html">entry_level_office_worker</a></td>
+    <td>90,000 AUD / year</td>
+    <td class="num">$59,400</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>other</small></td>
+    <td class="snippet">~$2,520 per fortnight (~$65k/year) after tax. Close to 90k before tax, 15% super.</td>
+    <td><small>r_ausfinance</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/142f0d8572bb6fd7.html">project_manager</a></td>
+    <td>59,000 USD / year</td>
+    <td class="num">$59,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>other</small></td>
+    <td class="snippet">Previous (male) Project Manager was paid $75k eight years out of school. I am a woman who made $50k when I started &#34;helping&#34; 3 years out of school... Ended 2017 making close to $59k.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/b527da7d707c3fff.html">entry_level_engineer</a></td>
+    <td>58,000 USD / year</td>
+    <td class="num">$58,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>engineering_nonsoftware</small></td>
+    <td class="snippet">My cousin just graduated with an engineering degree, good school, good grades. Took her 8 months to find something and it pays 58k in a city where rent is like 2k minimum.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/GB.html"><span class="badge country">GB</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/06fa13e33a16dd53.html">overseas_company_employee</a></td>
+    <td>45,000 GBP / year</td>
+    <td class="num">$57,555</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>other</small></td>
+    <td class="snippet">My base rate is appx £45K and I get bonuses. Generally I take home £70K-100K net annually. Partner&#39;s income is negligible. ... Together they bring in £3,000 per month</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/GB.html"><span class="badge country">GB</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/0c8e97eade81fee6.html">corporate_grad_scheme_employee</a></td>
+    <td>44,200 GBP / year</td>
+    <td class="num">$56,532</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>other</small></td>
+    <td class="snippet">I&#39;m a 27 year old female, currently earning £44.2K annual, which equates to £2.8K monthly. My rent is £735 with bills included in a shared apartment.</td>
+    <td><small>r_fireuk</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/53ee75f18e747bdd.html">part_time_worker_and_active_trader</a></td>
+    <td>27 USD / hour</td>
+    <td class="num">$56,160</td>
+    <td><span class="badge bracket-lower_middle">lower_middle</span></td>
+    <td><small>finance_banking</small></td>
+    <td class="snippet">me: 47 y/o, single, dog dad; no debt, credit score of around 750... currently paying $800/month in rent (a total steal for where i live), make $27/hr working 15-25 hours a week at my job, income from trading is variable</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/394c4296a3e47fe8.html">white_collar_office_worker</a></td>
+    <td>56,000 USD / year</td>
+    <td class="num">$56,000</td>
+    <td><span class="badge bracket-lower_middle">lower_middle</span></td>
+    <td><small>other</small></td>
+    <td class="snippet">I take home about **$56,000 a year** at a nice, flexible, white-collar position. Full healthcare coverage, even though I don&#39;t use it (I&#39;m fit and healthy, thank goodness). I thought that was decent.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/75fa556fd92f5df5.html">full_time_worker_widowed_mother</a></td>
+    <td>1,070 USD / week</td>
+    <td class="num">$55,640</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>other</small></td>
+    <td class="snippet">I work full time and am also a mom so I don’t have much free time to get another stream of income... Income:
+$1,070 weekly</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/7707879d98c6d810.html">office_worker</a></td>
+    <td>55,000 USD / year</td>
+    <td class="num">$55,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>other</small></td>
+    <td class="snippet">**Income:** $55,000 ($1,480 Take Home every 2 weeks)... **Rent:** $775 (2 BR Apt, $1550 split with partner)... **Avg CC APR:** 22%</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/4a4662ebadedf35c.html">data_analyst</a></td>
+    <td>55,000 USD / year</td>
+    <td class="num">$55,000</td>
+    <td><span class="badge bracket-lower_middle">lower_middle</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">these guys came in at 55K for this role... After taxes in California, it doesn&#39;t make sense with mandated health insurance, student loans re-kicking in, I&#39;d be very close to poverty level</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/280f4cf1652f40e1.html">university_systems_administrator</a></td>
+    <td>55,000 USD / year</td>
+    <td class="num">$55,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">I switched to IT system administration, but salaries haven&#39;t been as high as I thought they&#39;d be even though i have ccna, azure, and comptia certs. I&#39;m at 55k now working for a university.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/2843676a082da838.html">sales_internal_startup</a></td>
+    <td>55,000 USD / year</td>
+    <td class="num">$55,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>sales</small></td>
+    <td class="snippet">I&#39;m currently at $55k/annually...24 years old...with a college degree... I have the opportunity to jump ship and work as an SDR for a fast growing tech company. I&#39;d be starting from the bottom with a lot of college grads willing to take a $40k/year salary</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/28c908240464588a.html">product_designer</a></td>
+    <td>54,000 USD / year</td>
+    <td class="num">$54,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>design_creative</small></td>
+    <td class="snippet">Past year she was working at $35/hr full time with health benefits ... Today during her evaluation, they low balled and offered a salary of $54,000 with $3800 PTO/year ... The total compensation now is $57,800.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/GB.html"><span class="badge country">GB</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/0b6a6532c9120bb0.html">unspecified_employee</a></td>
+    <td>3,470 GBP / month</td>
+    <td class="num">$53,258</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>other</small></td>
+    <td class="snippet">My total income each month is £3470 and I have the following outgoings: Rent: £1,300 - is paid monthly Council Tax: £130 -is paid monthly</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/da6534c8ac19060d.html">sales_analyst</a></td>
+    <td>52,000 USD / year</td>
+    <td class="num">$52,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>other</small></td>
+    <td class="snippet">I have a bachelors in business administration and have experience as an office manager, operations manager and sales analyst. I make $52,000/year in a southeasternish state</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/24980f8d9df91ed0.html">waitress_server</a></td>
+    <td>1,000 USD / week</td>
+    <td class="num">$52,000</td>
+    <td><span class="badge bracket-lower_middle">lower_middle</span></td>
+    <td><small>food_service</small></td>
+    <td class="snippet">I was averaging $1000/week working 7 days a week, in twelve &#34;shifts.&#34; I paid off the credit cards first and by January was making payments of $1500+ per month to my loans in addition to the autopay.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/cbb10a64b4f78f42.html">early_retiree_crypto_investor</a></td>
+    <td>52,000 USD / year</td>
+    <td class="num">$52,000</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>finance_banking</small></td>
+    <td class="snippet">I ended up having interest income of ~$52,000 last year, which is pretty nice given my expenses are in the $25,000 range. And that was just for the partial year, I&#39;m expecting closer to $80,000+ this year.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/54a78dcdb11a66fe.html">rideshare_driver</a></td>
+    <td>25 USD / hour</td>
+    <td class="num">$52,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>logistics_transport</small></td>
+    <td class="snippet">In the Tampa market, I drove for Lyft for about 3 months, mostly on weekend nights... 9-3AM on a Saturday night was often a 175-225$ event... if it wasn&#39;t a $25/hour discussion, it wasn&#39;t worth it.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/9b9cca7257b00a66.html">exterior_remodeling_salesperson</a></td>
+    <td>52,000 USD / year</td>
+    <td class="num">$52,000</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>blue_collar_trades</small></td>
+    <td class="snippet">My brother pays himself $150k salary, I make $52k + about $100-120k/year in commission. I also work about twice the hours of my brother</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/ba675c1c11e0996b.html">warranty_office_coordinator</a></td>
+    <td>25 USD / hour</td>
+    <td class="num">$52,000</td>
+    <td><span class="badge bracket-lower_middle">lower_middle</span></td>
+    <td><small>other</small></td>
+    <td class="snippet">It sounded a little low at the time ($20/hr)... I was able to get the full $25/hr I asked for, and afterward felt dumb for not asking for more</td>
+    <td><small>r_salary</small></td>
+  </tr>
+  
+</table>
+
+
+<div class="pagination">
+  
+  <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=1">«</a>
+  <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=16">‹ 上一页</a>
+  
+  
+  <span class="gap">…</span>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=13">13</a>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=14">14</a>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=15">15</a>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=16">16</a>
+  
+    <span class="current">17</span>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=18">18</a>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=19">19</a>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=20">20</a>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=21">21</a>
+  
+  <span class="gap">…</span>
+  <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=18">下一页 ›</a>
+  <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=70">»</a>
+</div>
+
+
+</main>
+
+<footer class="footer">
+  <div>shouru — 跨国收入与谋生方式研究 · 79 国 · 27 语言 · 166 平台</div>
+  <div>数据基于公开互联网帖子，仅作研究展示。引文 ≤300 字符 + 原 URL。</div>
+</footer>
+</body>
+</html>

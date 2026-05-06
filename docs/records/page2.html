@@ -1,0 +1,1086 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>数据浏览 — shouru</title>
+<link rel="stylesheet" href="../static/style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" defer></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <a href="../index.html"><span class="logo">收入</span><span class="sub">shouru research</span></a>
+  </div>
+  <nav>
+    <a href="../index.html">首页</a>
+    <a href="../records.html">数据浏览</a>
+    <a href="../visualizations.html">可视化</a>
+    <a href="../platforms.html">平台</a>
+    <a href="../mechanisms.html">谋生机制</a>
+    <a href="../about.html">说明</a>
+  </nav>
+</header>
+
+<main>
+
+<h1>数据浏览 <span class="muted">3,482 条匹配 / 第 2/70 页</span></h1>
+
+<form class="filters" method="get">
+  <div>
+    <label>国家</label>
+    <select name="country">
+      <option value="">全部</option>
+      
+      <option value="US" >US 美国</option>
+      
+      <option value="??" >?? ??</option>
+      
+      <option value="GB" >GB 英国</option>
+      
+      <option value="CA" >CA 加拿大</option>
+      
+      <option value="AU" >AU 澳大利亚</option>
+      
+      <option value="DE" >DE 德国</option>
+      
+      <option value="RU" >RU 俄罗斯</option>
+      
+      <option value="JP" >JP 日本</option>
+      
+      <option value="CN" >CN 中国</option>
+      
+      <option value="BR" >BR 巴西</option>
+      
+      <option value="TH" >TH 泰国</option>
+      
+      <option value="IN" >IN 印度</option>
+      
+      <option value="CO" >CO 哥伦比亚</option>
+      
+      <option value="NZ" >NZ 新西兰</option>
+      
+      <option value="MX" >MX 墨西哥</option>
+      
+      <option value="FR" >FR 法国</option>
+      
+      <option value="CL" >CL 智利</option>
+      
+      <option value="PE" >PE 秘鲁</option>
+      
+      <option value="PH" >PH 菲律宾</option>
+      
+      <option value="AE" >AE 阿联酋</option>
+      
+      <option value="NL" >NL 荷兰</option>
+      
+      <option value="SE" >SE 瑞典</option>
+      
+      <option value="AR" >AR 阿根廷</option>
+      
+      <option value="PT" >PT 葡萄牙</option>
+      
+      <option value="IT" >IT 意大利</option>
+      
+      <option value="SG" >SG 新加坡</option>
+      
+      <option value="ID" >ID 印尼</option>
+      
+      <option value="MY" >MY 马来西亚</option>
+      
+      <option value="VN" >VN 越南</option>
+      
+      <option value="BD" >BD 孟加拉</option>
+      
+      <option value="CH" >CH 瑞士</option>
+      
+      <option value="DK" >DK 丹麦</option>
+      
+      <option value="ES" >ES 西班牙</option>
+      
+      <option value="ZA" >ZA 南非</option>
+      
+      <option value="EC" >EC 厄瓜多尔</option>
+      
+      <option value="LK" >LK 斯里兰卡</option>
+      
+      <option value="PL" >PL 波兰</option>
+      
+      <option value="KE" >KE 肯尼亚</option>
+      
+      <option value="KZ" >KZ 哈萨克斯坦</option>
+      
+      <option value="LB" >LB 黎巴嫩</option>
+      
+      <option value="NO" >NO 挪威</option>
+      
+      <option value="RS" >RS 塞尔维亚</option>
+      
+      <option value="SK" >SK 斯洛伐克</option>
+      
+      <option value="TW" >TW 台湾</option>
+      
+      <option value="UA" >UA 乌克兰</option>
+      
+      <option value="AT" >AT 奥地利</option>
+      
+      <option value="BG" >BG 保加利亚</option>
+      
+      <option value="GH" >GH 加纳</option>
+      
+      <option value="HR" >HR 克罗地亚</option>
+      
+      <option value="IR" >IR 伊朗</option>
+      
+      <option value="KR" >KR 韩国</option>
+      
+      <option value="KW" >KW 科威特</option>
+      
+      <option value="MT" >MT MT</option>
+      
+      <option value="PK" >PK 巴基斯坦</option>
+      
+      <option value="TN" >TN 突尼斯</option>
+      
+      <option value="UY" >UY 乌拉圭</option>
+      
+      <option value="VE" >VE 委内瑞拉</option>
+      
+      <option value="ZM" >ZM ZM</option>
+      
+      <option value="AL" >AL AL</option>
+      
+      <option value="AM" >AM 亚美尼亚</option>
+      
+      <option value="BE" >BE 比利时</option>
+      
+      <option value="BO" >BO 玻利维亚</option>
+      
+      <option value="BY" >BY 白俄罗斯</option>
+      
+      <option value="CY" >CY CY</option>
+      
+      <option value="CZ" >CZ 捷克</option>
+      
+      <option value="EE" >EE 爱沙尼亚</option>
+      
+      <option value="EG" >EG 埃及</option>
+      
+      <option value="FI" >FI 芬兰</option>
+      
+      <option value="GR" >GR 希腊</option>
+      
+      <option value="GT" >GT 危地马拉</option>
+      
+      <option value="IL" >IL 以色列</option>
+      
+      <option value="MA" >MA 摩洛哥</option>
+      
+      <option value="NG" >NG 尼日利亚</option>
+      
+      <option value="NP" >NP 尼泊尔</option>
+      
+      <option value="PA" >PA 巴拿马</option>
+      
+      <option value="RO" >RO 罗马尼亚</option>
+      
+      <option value="SA" >SA 沙特</option>
+      
+      <option value="SI" >SI 斯洛文尼亚</option>
+      
+      <option value="TR" >TR 土耳其</option>
+      
+      <option value="UZ" >UZ 乌兹别克斯坦</option>
+      
+    </select>
+  </div>
+  <div>
+    <label>语言</label>
+    <select name="lang">
+      <option value="">全部</option>
+      
+      <option value="en" >en 英语</option>
+      
+      <option value="es" >es 西班牙语</option>
+      
+      <option value="ru" >ru 俄语</option>
+      
+      <option value="ja" >ja 日语</option>
+      
+      <option value="zh" >zh 中文</option>
+      
+      <option value="pt" >pt 葡萄牙语</option>
+      
+      <option value="de" >de 德语</option>
+      
+      <option value="vi" >vi 越南语</option>
+      
+      <option value="uk" >uk 乌克兰语</option>
+      
+      <option value="tl" >tl 他加禄语</option>
+      
+      <option value="sk" >sk sk</option>
+      
+      <option value="fr" >fr 法语</option>
+      
+      <option value="th" >th 泰语</option>
+      
+      <option value="sv" >sv 瑞典语</option>
+      
+      <option value="pl" >pl 波兰语</option>
+      
+      <option value="nl" >nl 荷兰语</option>
+      
+      <option value="ko" >ko 韩语</option>
+      
+      <option value="id" >id 印尼语</option>
+      
+    </select>
+  </div>
+  <div>
+    <label>收入档</label>
+    <select name="bracket">
+      <option value="">全部</option>
+      
+      <option value="bottom" >Bottom 底层</option>
+      
+      <option value="lower_middle" >Lower-middle 下中产</option>
+      
+      <option value="middle" >Middle 中产</option>
+      
+      <option value="upper_middle" >Upper-middle 上中产</option>
+      
+      <option value="top" >Top 顶层</option>
+      
+      <option value="unknown" >未知</option>
+      
+    </select>
+  </div>
+  <div>
+    <label>谋生机制</label>
+    <select name="mechanism">
+      <option value="">全部</option>
+      
+      <option value="salary_employment" >工资雇佣</option>
+      
+      <option value="equity_compensation" >股权期权</option>
+      
+      <option value="business_owner" >企业主</option>
+      
+      <option value="freelance_contractor" >自由职业</option>
+      
+      <option value="platform_gig" >平台零工</option>
+      
+      <option value="passive_investment" >被动投资</option>
+      
+      <option value="real_estate_rental" >房产租金</option>
+      
+      <option value="royalties_creator" >创作者收入</option>
+      
+      <option value="inheritance_trust" >遗产信托</option>
+      
+      <option value="government_pension" >退休金</option>
+      
+      <option value="illicit_grey" >灰色非法</option>
+      
+      <option value="multiple_streams" >多重收入</option>
+      
+      <option value="unknown" >未知</option>
+      
+    </select>
+  </div>
+  <div>
+    <label>币种</label>
+    <select name="currency">
+      <option value="">全部</option>
+      
+      <option value="USD" >USD</option>
+      
+      <option value="GBP" >GBP</option>
+      
+      <option value="CAD" >CAD</option>
+      
+      <option value="EUR" >EUR</option>
+      
+      <option value="AUD" >AUD</option>
+      
+      <option value="RUB" >RUB</option>
+      
+      <option value="JPY" >JPY</option>
+      
+      <option value="CNY" >CNY</option>
+      
+      <option value="NZD" >NZD</option>
+      
+      <option value="COP" >COP</option>
+      
+      <option value="BRL" >BRL</option>
+      
+      <option value="PEN" >PEN</option>
+      
+      <option value="CLP" >CLP</option>
+      
+      <option value="MXN" >MXN</option>
+      
+      <option value="INR" >INR</option>
+      
+      <option value="AED" >AED</option>
+      
+      <option value="SEK" >SEK</option>
+      
+      <option value="BDT" >BDT</option>
+      
+      <option value="ARS" >ARS</option>
+      
+      <option value="ZAR" >ZAR</option>
+      
+      <option value="LKR" >LKR</option>
+      
+      <option value="UAH" >UAH</option>
+      
+      <option value="PHP" >PHP</option>
+      
+      <option value="KZT" >KZT</option>
+      
+      <option value="CHF" >CHF</option>
+      
+      <option value="UYU" >UYU</option>
+      
+      <option value="TND" >TND</option>
+      
+      <option value="THB" >THB</option>
+      
+      <option value="SGD" >SGD</option>
+      
+      <option value="PKR" >PKR</option>
+      
+      <option value="MYR" >MYR</option>
+      
+      <option value="KRW" >KRW</option>
+      
+      <option value="KES" >KES</option>
+      
+      <option value="GHS" >GHS</option>
+      
+      <option value="ZMW" >ZMW</option>
+      
+      <option value="VND" >VND</option>
+      
+      <option value="UZS" >UZS</option>
+      
+      <option value="RON" >RON</option>
+      
+      <option value="PLN" >PLN</option>
+      
+      <option value="NPR" >NPR</option>
+      
+      <option value="MAD" >MAD</option>
+      
+      <option value="ILS" >ILS</option>
+      
+      <option value="IDR" >IDR</option>
+      
+      <option value="DKK" >DKK</option>
+      
+      <option value="BYN" >BYN</option>
+      
+      <option value="BOB" >BOB</option>
+      
+    </select>
+  </div>
+  <div>
+    <label>职业含</label>
+    <input type="text" name="profession" value="" placeholder="如 nurse">
+  </div>
+  <div>
+    <label>USD/年 ≥</label>
+    <input type="number" name="min_usd" value="" placeholder="如 50000">
+  </div>
+  <div>
+    <label>USD/年 ≤</label>
+    <input type="number" name="max_usd" value="" placeholder="如 500000">
+  </div>
+  <div>
+    <label>关键字（叙述/引文）</label>
+    <input type="text" name="q" value="" placeholder="如 Uber, 月薪">
+  </div>
+  <div style="grid-column: 1 / -1; display: flex; gap: 8px; justify-content: flex-end;">
+    <a class="clear" href="../records.html">清空</a>
+    <button class="submit" type="submit">筛选</button>
+  </div>
+</form>
+
+<table class="table table-records">
+  <tr>
+    <th>国</th>
+    <th>语</th>
+    <th>职业</th>
+    <th>金额</th>
+    <th class="num">USD/年</th>
+    <th>档</th>
+    <th>机制</th>
+    <th>引文</th>
+    <th>平台</th>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/b8b88b8ad69befa2.html">amazon_l4_software_engineer</a></td>
+    <td>150,000 USD / year</td>
+    <td class="num">$150,000</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">I&#39;m an L4 at Amazon and will make about $150k this year (inclusive of stock growth). My job is fine, but I constantly struggle and wrestle with the fact that my job is considered unimpressive by my peers</td>
+    <td><small>hackernews</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/3f12162991a34b5e.html">retail_pharmacist</a></td>
+    <td>150,000 USD / year</td>
+    <td class="num">$150,000</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>healthcare</small></td>
+    <td class="snippet">I am a former retail pharmacist who hated his profession... My salary plus compensation went from $115k in 2005 to $150k in 2017. My savings rate was about 70%.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/eb0335170d3517e9.html">software_engineer</a></td>
+    <td>145,000 USD / year</td>
+    <td class="num">$145,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">I went from minimum wage to making $75,000/yr to $90,000/yr to $115,000/yr to $145,000/yr over the corse of my career. I&#39;m 27 now</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/562896e093f786be.html">government_it_contractor</a></td>
+    <td>144,000 USD / year</td>
+    <td class="num">$144,000</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">Salary: 144k annually. This is a crazy amount for the MINDLESS job I did. I started out making 66k after the military... I was in the IT field. After separating from service in 2008, I became a government contractor</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/2ec72f5e8521cf37.html">software_engineer</a></td>
+    <td>140,000 USD / year</td>
+    <td class="num">$140,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">COMPENSATION: ~$140k/yr
+    Salary: $106k
+    Bonus: $10-12k
+    Company match: $8.5k
+    Side hustles: $10k-30k</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/f089e1d08c943c25.html">environmental_conservation_program_manager</a></td>
+    <td>138,000 USD / year</td>
+    <td class="num">$138,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>government_military</small></td>
+    <td class="snippet">Highest annual salary at retirement: About $138K
+
+Annual pension benefit: About $104K</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/149e65359ccdc63a.html">retail_pharmacist</a></td>
+    <td>137,500 USD / year</td>
+    <td class="num">$137,500</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>healthcare</small></td>
+    <td class="snippet">began career as a retail pharmacist on 8/15/2005, loathed my job but stuck with it, income 125k-150k, 75% savings rate, had opportunities that many did not but took good advantage of those opportunities</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/7e13acadc7269534.html">oil_and_gas_safety_professional</a></td>
+    <td>130,000 USD / year</td>
+    <td class="num">$130,000</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>energy_mining</small></td>
+    <td class="snippet">ME: 33yrs - Oil and Gas - Safety Professional - $130k.  
+
+ I think it&#39;s important to note that this us a relatively high salary for my position, and I would be very hard pressed to find anything close to this.
+
+HER: 27yrs - Family law attorney - $75k.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/0bf3816a20f8b388.html">mechanical_engineer_project_manager</a></td>
+    <td>129,000 USD / year</td>
+    <td class="num">$129,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>energy_mining</small></td>
+    <td class="snippet">Current Household Income: $194K ... 2021: $194K (Me: $129K; Wife $65K) ... I graduated with a mechanical engineering degree in 2013 and started work immediately in the energy sector</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/398da72949e4d174.html">accountant_cpa</a></td>
+    <td>125,000 USD / year</td>
+    <td class="num">$125,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>finance_banking</small></td>
+    <td class="snippet">$125k total comp plus health/dental/vision care insurance. Finance industry. 3 weeks vacation. 2.5-3 hr total daily round trip commute</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/906634579b215971.html">data_scientist</a></td>
+    <td>125,000 USD / year</td>
+    <td class="num">$125,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">Self – BS/MS Statistics with a math minor, Master&#39;s in Analytics (in progress). Data Science at tech company $105k Salary + 20K RSU = 125TC</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/aa3635110a6d4555.html">health_benefits_consultant</a></td>
+    <td>125,000 USD / year</td>
+    <td class="num">$125,000</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>finance_banking</small></td>
+    <td class="snippet">May-14 31 Company 4, specialist $125,000 19% Moved to another company ... I am a health benefits Consultant</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/TW.html"><span class="badge country">TW</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/0397778bbc248529.html">director_role_global_company</a></td>
+    <td>122,000 USD / year</td>
+    <td class="num">$122,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>finance_banking</small></td>
+    <td class="snippet">I get another promotion to a Director role after 3 years in TW (salary + bonuses varies a bit but last year was $122k net total)... \~$122,000/year (net/post tax/including all bonuses) plus \~$4,000 in live poker earnings</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/0a87bb8ced78d2b9.html">software_developer</a></td>
+    <td>120,000 USD / year</td>
+    <td class="num">$120,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">I told my manager that I was offered $133k USD at the new position. I&#39;m currently making $120k USD, so it&#39;s a nice bump, but nothing ridiculous. My manager then came back with a counteroffer of $153k as well as a 20% bonus, which would end up as $184k</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/e587b6c79bfacf46.html">electrical_engineer</a></td>
+    <td>116,000 USD / year</td>
+    <td class="num">$116,000</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>engineering_nonsoftware</small></td>
+    <td class="snippet">Got another 5% merit raise plus COLA increase to bring current salary to $116k... Wife&#39;s school district went through a major strike and contract renegotiation, as many in the PNW did, and now makes $80k.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/GB.html"><span class="badge country">GB</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/90a3cc34db39ee62.html">senior_finance_manager_healthcare</a></td>
+    <td>90,068 GBP / year</td>
+    <td class="num">$115,197</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>finance_banking</small></td>
+    <td class="snippet">Base salary during 2025 was £81k, with total compensation just over £90k. From Feb 2026 this rises to £85k + 15% bonus + car, so ~£100K</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/e28e277b9bf1e1ae.html">civil_engineer</a></td>
+    <td>110,000 USD / year</td>
+    <td class="num">$110,000</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>engineering_nonsoftware</small></td>
+    <td class="snippet">Started a job as an engineer! $52k per year ($25/hr)... 2020: Income: 110K me, 76K wife, 186K comb || Expenses: ~48K || NW: $700K</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/fc8ccdef7d3d06c6.html">electrical_engineer</a></td>
+    <td>102,790 USD / year</td>
+    <td class="num">$102,790</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>engineering_nonsoftware</small></td>
+    <td class="snippet">| Year  | Salary    | 
+|:-----------|------------:|
+| 2003 |   51,000  |          
+| 2004 |  54,000  |     
+| 2005 |   56,200 |  
+... |2021 |102,790|</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/2518d60e7d98cda8.html">pharmacist</a></td>
+    <td>100,000 USD / year</td>
+    <td class="num">$100,000</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>healthcare</small></td>
+    <td class="snippet">He initially decided on the former but switched to pharmacy after a few semesters, a job that offered a starting salary of nearly $100,000 at the time of his graduation.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/CA.html"><span class="badge country">CA</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/24de0cfdbb89beef.html">web_developer</a></td>
+    <td>135,000 CAD / year</td>
+    <td class="num">$98,550</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">First job in 2013 paid 13$/hour (small town middle of nowhere), moved out in 2015 @ 21 (and across the country to the West Coast), and now in 2023 I make about $135k.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/9dc57a9639a88256.html">mechanical_engineer_government</a></td>
+    <td>95,000 USD / year</td>
+    <td class="num">$95,000</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>government_military</small></td>
+    <td class="snippet">Salary: ~90-100k/yr  
+
+
+Savings (cash): 60k
+
+
+TSP (401k): 123k (~4% match from job)</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/c448e0c1b30d244c.html">high_school_math_teacher</a></td>
+    <td>93,073 USD / year</td>
+    <td class="num">$93,073</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>education</small></td>
+    <td class="snippet">I&#39;m a high school math teacher.  I&#39;ve never made $100k in a year.  I live in a HCOL area (L.A. area)... 2018|$93,073
+2017 |$94,960
+2016 |$87,096</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/7dc1e35c4e93af03.html">mechanical_design_engineer</a></td>
+    <td>87,500 USD / year</td>
+    <td class="num">$87,500</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>engineering_nonsoftware</small></td>
+    <td class="snippet">Field: Mechanical engineer working in design engineering, Location: Minnesota... 2017: $87,500... I officiate youth sports (hockey, lacrosse, football, baseball)... I&#39;ve averaged $5,000 per year</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/be9d72709d815438.html">online_university_instructor</a></td>
+    <td>85,613 USD / year</td>
+    <td class="num">$85,613</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>education</small></td>
+    <td class="snippet">Year Earnings 2013 3000 2014 9500 2015 21272 2016 40886 2017 61071 2018 85613 2019 68303</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/42a3cd8879946745.html">lobbyist</a></td>
+    <td>85,000 USD / year</td>
+    <td class="num">$85,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>government_military</small></td>
+    <td class="snippet">I&#39;m just ~~Ken~~ a **lobbyist** that stumbled into his job a few months ago after being a non-traditional congressional staffer for 3 years... Salary: **$85,000**</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/271dbc438465af4b.html">distribution_center_area_manager</a></td>
+    <td>84,500 USD / year</td>
+    <td class="num">$84,500</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>logistics_transport</small></td>
+    <td class="snippet">My current compensation is $84,500 salary plus a 10 percent bonus, totaling just over $90,000 for last year.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/584a9fb56ffb96bc.html">military_retiree</a></td>
+    <td>7,000 USD / month</td>
+    <td class="num">$84,000</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>government_military</small></td>
+    <td class="snippet">$7K/month from military retirement and disability...$1K/month from rental property...$5K/month from wife&#39;s continued employment (defense work/civilian)</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/4fe4f8d462599b68.html">creative_contractor_media_production</a></td>
+    <td>7,000 USD / month</td>
+    <td class="num">$84,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>design_creative</small></td>
+    <td class="snippet">I’m a full-time creative contractor working for a private sports academy. My official rate is $7,000/month... So while I get $7K/month on paper, I’m actually taking home closer to $6,200–$6,600/month</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/0539416f91726941.html">finance_manager_corporate</a></td>
+    <td>83,000 USD / year</td>
+    <td class="num">$83,000</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>finance_banking</small></td>
+    <td class="snippet">I am a Finance Manager for a mid size company in Maryland making $83k per year. I was hired at this company 3 years ago for $75k as a Sr Financial Analyst and was promoted about 1.5 years ago.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/392ef268cb3660e8.html">financial_analyst_project_manager</a></td>
+    <td>82,000 USD / year</td>
+    <td class="num">$82,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>finance_banking</small></td>
+    <td class="snippet">I graduated college at age 22. First full-time job was making $55k. Now I make $82k at age 26. I&#39;m a typical &#34;financial analyst/project manager&#34; for a Fortune 500.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/693df18e33babda9.html">certified_public_accountant</a></td>
+    <td>80,000 USD / year</td>
+    <td class="num">$80,000</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>finance_banking</small></td>
+    <td class="snippet">I am a CPA and she is a teacher. My salary has ranged from low 40s in ~2009 to now low 80s. My wife&#39;s has ranged from low 40s since ~2011 to now mid 50s.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/2692606810798c1c.html">web_designer</a></td>
+    <td>78,000 USD / year</td>
+    <td class="num">$78,000</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>design_creative</small></td>
+    <td class="snippet">Three months in I got a COL raise that brought me up to $41k/yr... I accepted a new job in my field (web design) making $78k/yr. Despite the massive increase in income, I continued to work my three additional jobs</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/3a6e01c7c02573c1.html">controls_engineer</a></td>
+    <td>75,000 USD / year</td>
+    <td class="num">$75,000</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>engineering_nonsoftware</small></td>
+    <td class="snippet">I got a degree in engineering and got a salary of 66k right out of school in 2011. I got a few raises and promotions up to $89k in 2015... Then I took a pay cut down to $75k a few months ago... I am currently a Controls Engineer who mainly programs PLCs... I live in eastern Pennsylvania.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/85fe089758ac4cb5.html">software_engineer</a></td>
+    <td>75,000 USD / year</td>
+    <td class="num">$75,000</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">I started out working in a callcenter answering tech support calls for $33k/year, and I&#39;m now a software engineer making $75k.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/8eac16c10c50b72e.html">mechanical_engineer</a></td>
+    <td>75,000 USD / year</td>
+    <td class="num">$75,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>engineering_nonsoftware</small></td>
+    <td class="snippet">I used to make $75,000.00 a year as a Mechanical Engineer for a mid size oil service company.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/45771063374eb495.html">management_consultant</a></td>
+    <td>74,500 USD / year</td>
+    <td class="num">$74,500</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>freelance_consulting</small></td>
+    <td class="snippet">I&#39;m a 23-year old consultant in a MCOL metropolitan city in the US... joined a small consulting firm in August 2019 making $74,500. I run a small side business that trains folk to use different aspects of Microsoft Office. My tutoring business makes &lt;$5000/yr.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/NZ.html"><span class="badge country">NZ</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/4807f00b08317e65.html">risk_management_consultant</a></td>
+    <td>120,000 NZD / year</td>
+    <td class="num">$73,200</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>finance_banking</small></td>
+    <td class="snippet">2021|D|$120,000|$84,322|C|$97,850|$68,747... We both started our careers as graduates at consulting firm working in the Risk Management area... I am a firm believer in frequent career moves to accelerate your earning potential</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/CA.html"><span class="badge country">CA</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/1581bec7177055f5.html">accountant_cpa</a></td>
+    <td>100,000 CAD / year</td>
+    <td class="num">$73,000</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>finance_banking</small></td>
+    <td class="snippet">I&#39;m a 28F CPA living in Toronto, Canada... Then I got bored and moved to my current job, where I made 95k the first year and now 100k with very generous 20-30% bonuses... I made $33,000 last year from this.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/a37f42a25381980a.html">account_executive</a></td>
+    <td>72,000 USD / year</td>
+    <td class="num">$72,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>sales</small></td>
+    <td class="snippet">I currently work in an account executive/outside sales position in a medium size, international company... I went from 58k salary to 72k salary effective this month! On top of the other benefits and bonus, I&#39;ll be making at least 90k per year</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/3db77b4130e9eaf7.html">software_engineer</a></td>
+    <td>72,000 USD / year</td>
+    <td class="num">$72,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">So now I have a stable salary of $72k instead of an incredibly volatile salary of anywhere from $40k-$65k depending on the year, and I feel like I have plenty of room to grow. I should mention I live in Nebraska</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/3a0ddd6820dd44a2.html">software_engineer</a></td>
+    <td>72,000 USD / year</td>
+    <td class="num">$72,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">I graduated in 2013 in Colorado Springs and I was already hired full time in 2012 as a software engineer making $52k / year (with health care paid for by the company)... Now, there are people at my company that are making six figures in Colorado Springs... (I&#39;ve made it up to $72k now).</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/4ab74f826a4b09b6.html">software_engineer</a></td>
+    <td>71,000 USD / year</td>
+    <td class="num">$71,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">I work in Software Engineering making 71k a year. It&#39;s not my dream job, and I don&#39;t think I&#39;ll be here forever, but I&#39;m happy enough right now, and I can&#39;t complain about the salary. I&#39;ve also had a side gig for almost 8 years now (just turned 23) playing piano at weddings</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/b5763f4cf65c8a73.html">software_developer</a></td>
+    <td>70,000 USD / year</td>
+    <td class="num">$70,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">I work in NYC where rent is high. I&#39;m making 70k a year as a Software Developer.</td>
+    <td><small>hackernews</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/CA.html"><span class="badge country">CA</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/1b21f96cfdbe3872.html">chartered_professional_accountant</a></td>
+    <td>95,000 CAD / year</td>
+    <td class="num">$69,350</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>finance_banking</small></td>
+    <td class="snippet">Then I moved to a more interesting job that I thought I would love for 80k and started paying rent again. Now I&#39;m still paying rent, but making 95k somewhere else... I made $20,600 last year from this.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/970ff8d0268dda46.html">medical_laboratory_technologist</a></td>
+    <td>32 USD / hour</td>
+    <td class="num">$66,560</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>healthcare</small></td>
+    <td class="snippet">J1-Group Lead MLT (Medical Lab)-32/hr Mon-Fri 5pm-1:30am full benefits (40 hrs weekly) 10 years
+J2-Medical Records Abstractor, Weekends only any hours-22/hr...J3-Medical Coder-28/hr...J4-Medical Coder-29/hr</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/c41a1eeef1334656.html">mechanical_engineer_consulting</a></td>
+    <td>62,000 USD / year</td>
+    <td class="num">$62,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>engineering_nonsoftware</small></td>
+    <td class="snippet">I started working at a consulting firm with a salary of $52k with overtime available. ... Same old same old, salary at $62k</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/37f71c62c709de53.html">systems_engineer</a></td>
+    <td>62,000 USD / year</td>
+    <td class="num">$62,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">I live in KCMO and can say your pay isn&#39;t *uncommon,*... I&#39;m a System Engineer and get paid $62k/year. To give you a general feel for where I&#39;m at, my salary is considered a bit low in KC</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/87fbab3c1778dfd0.html">self_taught_creative_professional</a></td>
+    <td>60,000 USD / year</td>
+    <td class="num">$60,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>design_creative</small></td>
+    <td class="snippet">Accepted a full-time job offer at another company for $45k... I left that job (doing what I went to school for) for a higher paying job doing a skill I&#39;m self taught at... I was now being paid $60k/year.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/GB.html"><span class="badge country">GB</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/87aff23137d68b2d.html">cloud_engineer</a></td>
+    <td>45,000 GBP / year</td>
+    <td class="num">$57,555</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">I&#39;m a cloud engineer in England who makes 45k (base) a year, i almost double the average salary here.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/2b722248ff80f713.html">medical_resident_physician</a></td>
+    <td>57,000 USD / year</td>
+    <td class="num">$57,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>healthcare</small></td>
+    <td class="snippet">And in exchange for all my efforts I make $57k per year before taxes. Nevermind the fact that going to medical school put me an additional $200,000 in debt on top of my undergrad loans.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+</table>
+
+
+<div class="pagination">
+  
+  <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=1">«</a>
+  <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=1">‹ 上一页</a>
+  
+  
+  
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=1">1</a>
+  
+    <span class="current">2</span>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=3">3</a>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=4">4</a>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=5">5</a>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=6">6</a>
+  
+  <span class="gap">…</span>
+  <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=3">下一页 ›</a>
+  <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=70">»</a>
+</div>
+
+
+</main>
+
+<footer class="footer">
+  <div>shouru — 跨国收入与谋生方式研究 · 79 国 · 27 语言 · 166 平台</div>
+  <div>数据基于公开互联网帖子，仅作研究展示。引文 ≤300 字符 + 原 URL。</div>
+</footer>
+</body>
+</html>

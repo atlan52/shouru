@@ -1,0 +1,106 @@
+{% extends "base.html" %}
+{% block title %}首页 — shouru 跨国收入研究{% endblock %}
+
+{% block content %}
+<h1>跨国收入与谋生方式研究</h1>
+<p class="muted">
+  79 国 / 27 语言 / 166 平台 — 数据来自各国本地母语社区、求职站、财经报、统计局，结构化抽取后跨国对比。
+</p>
+
+<div class="stats-grid">
+  <div class="stat-card"><div class="v">{{ '{:,}'.format(stats.total) }}</div><div class="l">收入记录总数</div></div>
+  <div class="stat-card"><div class="v">{{ stats.countries }}</div><div class="l">国家覆盖</div></div>
+  <div class="stat-card"><div class="v">{{ '{:,}'.format(stats.with_usd) }}</div><div class="l">含 USD/年（FX 归一）</div></div>
+  <div class="stat-card"><div class="v">{{ stats.platforms }}</div><div class="l">数据源平台</div></div>
+  <div class="stat-card"><div class="v">{{ stats.languages }}</div><div class="l">原文语言</div></div>
+</div>
+
+<h2>各国数据量（前 30）</h2>
+<div class="country-grid">
+  {% for c in countries %}
+  <a class="country-card" href="/country/{{ c.country }}">
+    <span class="code">{{ c.country }}</span>
+    <div class="name">{{ c.country | country_name }}</div>
+    <div class="stats">
+      {{ c.n }} 行 · {{ c.n_usd }} 含 USD<br>
+      {% if c.median_usd %}
+      中位数 ${{ '{:,.0f}'.format(c.median_usd) }} / 年
+      {% endif %}
+    </div>
+  </a>
+  {% endfor %}
+</div>
+
+<div class="grid-2">
+  <div>
+    <h2>收入档位分布（5 档）</h2>
+    <ul class="bar-list">
+      {% set total_b = bracket_dist.values()|sum %}
+      {% for b in BRACKET_ORDER %}
+        {% if b in bracket_dist %}
+          {% set n = bracket_dist[b] %}
+          {% set pct = (n / total_b * 100) if total_b else 0 %}
+          <li>
+            <span class="lbl"><span class="badge bracket-{{ b }}">{{ b | bracket_label }}</span></span>
+            <span class="bg-bar"><div style="width: {{ pct }}%"></div></span>
+            <span class="n">{{ n }}</span>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  <div>
+    <h2>谋生机制分布（前 12）</h2>
+    <ul class="bar-list">
+      {% set total_m = mechanisms[0].n if mechanisms else 1 %}
+      {% for m in mechanisms[:12] %}
+      <li>
+        <span class="lbl">{{ m.mechanism | mechanism_label }}</span>
+        <span class="bg-bar"><div style="width: {{ (m.n / total_m * 100) }}%"></div></span>
+        <span class="n">{{ m.n }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<div class="grid-2">
+  <div>
+    <h2>顶部职业（前 20）</h2>
+    <ul class="bar-list">
+      {% set top_p = professions[0].n if professions else 1 %}
+      {% for p in professions %}
+      <li>
+        <span class="lbl">{{ p.profession }}</span>
+        <span class="bg-bar"><div style="width: {{ (p.n / top_p * 100) }}%"></div></span>
+        <span class="n">{{ p.n }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div>
+    <h2>原文语言（前 20）</h2>
+    <ul class="bar-list">
+      {% set top_l = langs[0].n if langs else 1 %}
+      {% for l in langs %}
+      <li>
+        <span class="lbl"><span class="badge lang">{{ l.source_lang }}</span> {{ l.source_lang | lang_name }}</span>
+        <span class="bg-bar"><div style="width: {{ (l.n / top_l * 100) }}%"></div></span>
+        <span class="n">{{ l.n }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<h2>数据源平台（前 20）</h2>
+<table class="table">
+  <tr><th>平台</th><th class="num">行数</th></tr>
+  {% for p in platforms %}
+  <tr>
+    <td><a href="/records?country=&q=&page=1&platform={{ p.source_platform }}">{{ p.source_platform }}</a></td>
+    <td class="num">{{ p.n }}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% endblock %}

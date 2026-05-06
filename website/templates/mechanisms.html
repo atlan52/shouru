@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}谋生机制 — shouru{% endblock %}
+
+{% block content %}
+<h1>谋生机制全景</h1>
+<p class="muted">12 类 + unknown — 每条收入记录可关联多种机制（如 RSU 工程师 = salary + equity）。</p>
+
+<table class="table">
+  <tr>
+    <th>机制</th>
+    <th class="num">记录数</th>
+    <th class="num">覆盖国家数</th>
+    <th class="num">USD/年 平均</th>
+  </tr>
+  {% for r in rows %}
+  <tr>
+    <td><span class="badge mech">{{ r.mechanism | mechanism_label }}</span> <code style="font-size:11px;color:#888">{{ r.mechanism }}</code></td>
+    <td class="num">{{ r.n }}</td>
+    <td class="num">{{ r.n_countries }}</td>
+    <td class="num">{% if r.avg_usd %}${{ '{:,.0f}'.format(r.avg_usd) }}{% endif %}</td>
+  </tr>
+  {% endfor %}
+</table>
+
+<h2>各国机制偏好（每国 top 3）</h2>
+{% set country_mech = {} %}
+{% for r in per_country %}
+  {% set _ = country_mech.setdefault(r.country, []).append((r.mechanism, r.n)) %}
+{% endfor %}
+
+<table class="table">
+  <tr>
+    <th>国家</th>
+    <th>主要机制</th>
+  </tr>
+  {% for cc, ms in country_mech.items() | sort(attribute=0) %}
+  <tr>
+    <td><a href="/country/{{ cc }}"><span class="badge country">{{ cc }}</span></a> {{ cc | country_name }}</td>
+    <td>
+      {% set sorted_ms = ms | sort(attribute=1, reverse=True) %}
+      {% for m, n in sorted_ms[:5] %}
+        <span class="badge mech">{{ m | mechanism_label }}</span> {{ n }}
+      {% endfor %}
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+{% endblock %}

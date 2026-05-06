@@ -1,0 +1,1076 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>数据浏览 — shouru</title>
+<link rel="stylesheet" href="../static/style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" defer></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <a href="../index.html"><span class="logo">收入</span><span class="sub">shouru research</span></a>
+  </div>
+  <nav>
+    <a href="../index.html">首页</a>
+    <a href="../records.html">数据浏览</a>
+    <a href="../visualizations.html">可视化</a>
+    <a href="../platforms.html">平台</a>
+    <a href="../mechanisms.html">谋生机制</a>
+    <a href="../about.html">说明</a>
+  </nav>
+</header>
+
+<main>
+
+<h1>数据浏览 <span class="muted">3,482 条匹配 / 第 28/70 页</span></h1>
+
+<form class="filters" method="get">
+  <div>
+    <label>国家</label>
+    <select name="country">
+      <option value="">全部</option>
+      
+      <option value="US" >US 美国</option>
+      
+      <option value="??" >?? ??</option>
+      
+      <option value="GB" >GB 英国</option>
+      
+      <option value="CA" >CA 加拿大</option>
+      
+      <option value="AU" >AU 澳大利亚</option>
+      
+      <option value="DE" >DE 德国</option>
+      
+      <option value="RU" >RU 俄罗斯</option>
+      
+      <option value="JP" >JP 日本</option>
+      
+      <option value="CN" >CN 中国</option>
+      
+      <option value="BR" >BR 巴西</option>
+      
+      <option value="TH" >TH 泰国</option>
+      
+      <option value="IN" >IN 印度</option>
+      
+      <option value="CO" >CO 哥伦比亚</option>
+      
+      <option value="NZ" >NZ 新西兰</option>
+      
+      <option value="MX" >MX 墨西哥</option>
+      
+      <option value="FR" >FR 法国</option>
+      
+      <option value="CL" >CL 智利</option>
+      
+      <option value="PE" >PE 秘鲁</option>
+      
+      <option value="PH" >PH 菲律宾</option>
+      
+      <option value="AE" >AE 阿联酋</option>
+      
+      <option value="NL" >NL 荷兰</option>
+      
+      <option value="SE" >SE 瑞典</option>
+      
+      <option value="AR" >AR 阿根廷</option>
+      
+      <option value="PT" >PT 葡萄牙</option>
+      
+      <option value="IT" >IT 意大利</option>
+      
+      <option value="SG" >SG 新加坡</option>
+      
+      <option value="ID" >ID 印尼</option>
+      
+      <option value="MY" >MY 马来西亚</option>
+      
+      <option value="VN" >VN 越南</option>
+      
+      <option value="BD" >BD 孟加拉</option>
+      
+      <option value="CH" >CH 瑞士</option>
+      
+      <option value="DK" >DK 丹麦</option>
+      
+      <option value="ES" >ES 西班牙</option>
+      
+      <option value="ZA" >ZA 南非</option>
+      
+      <option value="EC" >EC 厄瓜多尔</option>
+      
+      <option value="LK" >LK 斯里兰卡</option>
+      
+      <option value="PL" >PL 波兰</option>
+      
+      <option value="KE" >KE 肯尼亚</option>
+      
+      <option value="KZ" >KZ 哈萨克斯坦</option>
+      
+      <option value="LB" >LB 黎巴嫩</option>
+      
+      <option value="NO" >NO 挪威</option>
+      
+      <option value="RS" >RS 塞尔维亚</option>
+      
+      <option value="SK" >SK 斯洛伐克</option>
+      
+      <option value="TW" >TW 台湾</option>
+      
+      <option value="UA" >UA 乌克兰</option>
+      
+      <option value="AT" >AT 奥地利</option>
+      
+      <option value="BG" >BG 保加利亚</option>
+      
+      <option value="GH" >GH 加纳</option>
+      
+      <option value="HR" >HR 克罗地亚</option>
+      
+      <option value="IR" >IR 伊朗</option>
+      
+      <option value="KR" >KR 韩国</option>
+      
+      <option value="KW" >KW 科威特</option>
+      
+      <option value="MT" >MT MT</option>
+      
+      <option value="PK" >PK 巴基斯坦</option>
+      
+      <option value="TN" >TN 突尼斯</option>
+      
+      <option value="UY" >UY 乌拉圭</option>
+      
+      <option value="VE" >VE 委内瑞拉</option>
+      
+      <option value="ZM" >ZM ZM</option>
+      
+      <option value="AL" >AL AL</option>
+      
+      <option value="AM" >AM 亚美尼亚</option>
+      
+      <option value="BE" >BE 比利时</option>
+      
+      <option value="BO" >BO 玻利维亚</option>
+      
+      <option value="BY" >BY 白俄罗斯</option>
+      
+      <option value="CY" >CY CY</option>
+      
+      <option value="CZ" >CZ 捷克</option>
+      
+      <option value="EE" >EE 爱沙尼亚</option>
+      
+      <option value="EG" >EG 埃及</option>
+      
+      <option value="FI" >FI 芬兰</option>
+      
+      <option value="GR" >GR 希腊</option>
+      
+      <option value="GT" >GT 危地马拉</option>
+      
+      <option value="IL" >IL 以色列</option>
+      
+      <option value="MA" >MA 摩洛哥</option>
+      
+      <option value="NG" >NG 尼日利亚</option>
+      
+      <option value="NP" >NP 尼泊尔</option>
+      
+      <option value="PA" >PA 巴拿马</option>
+      
+      <option value="RO" >RO 罗马尼亚</option>
+      
+      <option value="SA" >SA 沙特</option>
+      
+      <option value="SI" >SI 斯洛文尼亚</option>
+      
+      <option value="TR" >TR 土耳其</option>
+      
+      <option value="UZ" >UZ 乌兹别克斯坦</option>
+      
+    </select>
+  </div>
+  <div>
+    <label>语言</label>
+    <select name="lang">
+      <option value="">全部</option>
+      
+      <option value="en" >en 英语</option>
+      
+      <option value="es" >es 西班牙语</option>
+      
+      <option value="ru" >ru 俄语</option>
+      
+      <option value="ja" >ja 日语</option>
+      
+      <option value="zh" >zh 中文</option>
+      
+      <option value="pt" >pt 葡萄牙语</option>
+      
+      <option value="de" >de 德语</option>
+      
+      <option value="vi" >vi 越南语</option>
+      
+      <option value="uk" >uk 乌克兰语</option>
+      
+      <option value="tl" >tl 他加禄语</option>
+      
+      <option value="sk" >sk sk</option>
+      
+      <option value="fr" >fr 法语</option>
+      
+      <option value="th" >th 泰语</option>
+      
+      <option value="sv" >sv 瑞典语</option>
+      
+      <option value="pl" >pl 波兰语</option>
+      
+      <option value="nl" >nl 荷兰语</option>
+      
+      <option value="ko" >ko 韩语</option>
+      
+      <option value="id" >id 印尼语</option>
+      
+    </select>
+  </div>
+  <div>
+    <label>收入档</label>
+    <select name="bracket">
+      <option value="">全部</option>
+      
+      <option value="bottom" >Bottom 底层</option>
+      
+      <option value="lower_middle" >Lower-middle 下中产</option>
+      
+      <option value="middle" >Middle 中产</option>
+      
+      <option value="upper_middle" >Upper-middle 上中产</option>
+      
+      <option value="top" >Top 顶层</option>
+      
+      <option value="unknown" >未知</option>
+      
+    </select>
+  </div>
+  <div>
+    <label>谋生机制</label>
+    <select name="mechanism">
+      <option value="">全部</option>
+      
+      <option value="salary_employment" >工资雇佣</option>
+      
+      <option value="equity_compensation" >股权期权</option>
+      
+      <option value="business_owner" >企业主</option>
+      
+      <option value="freelance_contractor" >自由职业</option>
+      
+      <option value="platform_gig" >平台零工</option>
+      
+      <option value="passive_investment" >被动投资</option>
+      
+      <option value="real_estate_rental" >房产租金</option>
+      
+      <option value="royalties_creator" >创作者收入</option>
+      
+      <option value="inheritance_trust" >遗产信托</option>
+      
+      <option value="government_pension" >退休金</option>
+      
+      <option value="illicit_grey" >灰色非法</option>
+      
+      <option value="multiple_streams" >多重收入</option>
+      
+      <option value="unknown" >未知</option>
+      
+    </select>
+  </div>
+  <div>
+    <label>币种</label>
+    <select name="currency">
+      <option value="">全部</option>
+      
+      <option value="USD" >USD</option>
+      
+      <option value="GBP" >GBP</option>
+      
+      <option value="CAD" >CAD</option>
+      
+      <option value="EUR" >EUR</option>
+      
+      <option value="AUD" >AUD</option>
+      
+      <option value="RUB" >RUB</option>
+      
+      <option value="JPY" >JPY</option>
+      
+      <option value="CNY" >CNY</option>
+      
+      <option value="NZD" >NZD</option>
+      
+      <option value="COP" >COP</option>
+      
+      <option value="BRL" >BRL</option>
+      
+      <option value="PEN" >PEN</option>
+      
+      <option value="CLP" >CLP</option>
+      
+      <option value="MXN" >MXN</option>
+      
+      <option value="INR" >INR</option>
+      
+      <option value="AED" >AED</option>
+      
+      <option value="SEK" >SEK</option>
+      
+      <option value="BDT" >BDT</option>
+      
+      <option value="ARS" >ARS</option>
+      
+      <option value="ZAR" >ZAR</option>
+      
+      <option value="LKR" >LKR</option>
+      
+      <option value="UAH" >UAH</option>
+      
+      <option value="PHP" >PHP</option>
+      
+      <option value="KZT" >KZT</option>
+      
+      <option value="CHF" >CHF</option>
+      
+      <option value="UYU" >UYU</option>
+      
+      <option value="TND" >TND</option>
+      
+      <option value="THB" >THB</option>
+      
+      <option value="SGD" >SGD</option>
+      
+      <option value="PKR" >PKR</option>
+      
+      <option value="MYR" >MYR</option>
+      
+      <option value="KRW" >KRW</option>
+      
+      <option value="KES" >KES</option>
+      
+      <option value="GHS" >GHS</option>
+      
+      <option value="ZMW" >ZMW</option>
+      
+      <option value="VND" >VND</option>
+      
+      <option value="UZS" >UZS</option>
+      
+      <option value="RON" >RON</option>
+      
+      <option value="PLN" >PLN</option>
+      
+      <option value="NPR" >NPR</option>
+      
+      <option value="MAD" >MAD</option>
+      
+      <option value="ILS" >ILS</option>
+      
+      <option value="IDR" >IDR</option>
+      
+      <option value="DKK" >DKK</option>
+      
+      <option value="BYN" >BYN</option>
+      
+      <option value="BOB" >BOB</option>
+      
+    </select>
+  </div>
+  <div>
+    <label>职业含</label>
+    <input type="text" name="profession" value="" placeholder="如 nurse">
+  </div>
+  <div>
+    <label>USD/年 ≥</label>
+    <input type="number" name="min_usd" value="" placeholder="如 50000">
+  </div>
+  <div>
+    <label>USD/年 ≤</label>
+    <input type="number" name="max_usd" value="" placeholder="如 500000">
+  </div>
+  <div>
+    <label>关键字（叙述/引文）</label>
+    <input type="text" name="q" value="" placeholder="如 Uber, 月薪">
+  </div>
+  <div style="grid-column: 1 / -1; display: flex; gap: 8px; justify-content: flex-end;">
+    <a class="clear" href="../records.html">清空</a>
+    <button class="submit" type="submit">筛选</button>
+  </div>
+</form>
+
+<table class="table table-records">
+  <tr>
+    <th>国</th>
+    <th>语</th>
+    <th>职业</th>
+    <th>金额</th>
+    <th class="num">USD/年</th>
+    <th>档</th>
+    <th>机制</th>
+    <th>引文</th>
+    <th>平台</th>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/dd2fb50691c5f8d1.html">website_flipper</a></td>
+    <td>747 USD / month</td>
+    <td class="num">$8,960</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>content_creator</small></td>
+    <td class="snippet">I found a website making $500/month and I purchased it for $6,000... Total November Earnings: $746.66</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/be6b7637f9033db7.html">cafe_owner_operator</a></td>
+    <td>150 USD / week</td>
+    <td class="num">$7,800</td>
+    <td><span class="badge bracket-bottom">bottom</span></td>
+    <td><small>food_service</small></td>
+    <td class="snippet">I&#39;ve been running a small cafe with my parents in a small suburban town for 11 months. We are not profitable...I only pay myself $150 a week so I can cover bills, but even that is not enough.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/UA.html"><span class="badge country">UA</span></a></td>
+    <td><span class="badge lang">uk</span></td>
+    <td><a class="row-link" href="../record/6041661.html">warehouse_picker_loader</a></td>
+    <td>25,750 UAH / month</td>
+    <td class="num">$7,540</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>logistics_transport</small></td>
+    <td class="snippet">Вантажник-комплектувальник 25 000 – 26 500 грн Тексіка Оптова торгівля, дистрибуція, імпорт, експорт ; 50–250 співробітників Хмельницький</td>
+    <td><small>workua</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/PE.html"><span class="badge country">PE</span></a></td>
+    <td><span class="badge lang">es</span></td>
+    <td><a class="row-link" href="../record/b6f9eafc56312dc9.html">field_salesperson</a></td>
+    <td>2,205 PEN / month</td>
+    <td class="num">$7,012</td>
+    <td><span class="badge bracket-lower_middle">lower_middle</span></td>
+    <td><small>sales</small></td>
+    <td class="snippet">Remuneración: S/ 1,130 básico + S/ 240 variable + S/ 230 movilidad</td>
+    <td><small>computrabajo_pe</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/RU.html"><span class="badge country">RU</span></a></td>
+    <td><span class="badge lang">ru</span></td>
+    <td><a class="row-link" href="../record/6b9cac3db3e53106.html">problem_assets_specialist_bank</a></td>
+    <td>50,000 RUB / month</td>
+    <td class="num">$6,510</td>
+    <td><span class="badge bracket-lower_middle">lower_middle</span></td>
+    <td><small>finance_banking</small></td>
+    <td class="snippet">Зарплата: до 50 000 рублей (на руки). График работы: 5/2, полный рабочий день. Место работы: м. Римская, м. Марксистская.</td>
+    <td><small>banki_ru_forum</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/2c1c4e00957d6069.html">teen_part_time_worker</a></td>
+    <td>120 USD / week</td>
+    <td class="num">$6,240</td>
+    <td><span class="badge bracket-bottom">bottom</span></td>
+    <td><small>retail</small></td>
+    <td class="snippet">I am 16, I got my first job in September of last year, and since then have been making about $120 a week and get paid bi-weekly.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/339f5ee4893bd162.html">uscg_reservist_marine_science_technician</a></td>
+    <td>6,000 USD / year</td>
+    <td class="num">$6,000</td>
+    <td><span class="badge bracket-bottom">bottom</span></td>
+    <td><small>government_military</small></td>
+    <td class="snippet">As a part-time gig now that I&#39;m off the spill I make roughly 6k as an E-5 a year for one weekend a month and 2 weeks a year.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/55d30e698315e285.html">merch_by_amazon_seller</a></td>
+    <td>450 USD / month</td>
+    <td class="num">$5,400</td>
+    <td><span class="badge bracket-bottom">bottom</span></td>
+    <td><small>entrepreneur_ecom</small></td>
+    <td class="snippet">All of this is continually being funded by merch by amazon profits, which are around $300-$600/mo</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/PE.html"><span class="badge country">PE</span></a></td>
+    <td><span class="badge lang">es</span></td>
+    <td><a class="row-link" href="../record/4e86ff1a7d800b18.html">graphic_designer</a></td>
+    <td>1,300 PEN / month</td>
+    <td class="num">$4,134</td>
+    <td><span class="badge bracket-lower_middle">lower_middle</span></td>
+    <td><small>design_creative</small></td>
+    <td class="snippet">1300, saber y tener experiencia de lo que hacen 2 carreras. 6 días a la semana, por 1300 soles, en este punto la carrera de diseño es un mal chiste</td>
+    <td><small>r_peru</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/MA.html"><span class="badge country">MA</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/7766f21859046433.html">cafe_employee</a></td>
+    <td>3,450 MAD / month</td>
+    <td class="num">$4,119</td>
+    <td><span class="badge bracket-unknown">unknown</span></td>
+    <td><small>food_service</small></td>
+    <td class="snippet">The average salary here in my city is around 2800–2900 dirhams. I&#39;m paying between 3300 and 3600 with CNSS, for an 8-hour shift plus a 1-hour break.</td>
+    <td><small>r_morocco</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/GB.html"><span class="badge country">GB</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/0f3109aa8818fa44.html">freelance_social_media_manager</a></td>
+    <td>50 GBP / week</td>
+    <td class="num">$3,325</td>
+    <td><span class="badge bracket-bottom">bottom</span></td>
+    <td><small>marketing</small></td>
+    <td class="snippet">Do I cut out £50 a week from the nightmare job, despite being poor enough to want it, for the sake of my sanity? ... my main freelance client is a non-payer, so I&#39;m chasing him for £1,000.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/KE.html"><span class="badge country">KE</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/cb439ea9b665e554.html">entry_level_office_worker</a></td>
+    <td>19,500 KES / month</td>
+    <td class="num">$1,806</td>
+    <td><span class="badge bracket-lower_middle">lower_middle</span></td>
+    <td><small>other</small></td>
+    <td class="snippet">The job is located in Nairobi CBD. I expected at least 25000 kes but what I&#39;ve seen shocked me. it&#39;s 19500. that&#39;s not net, that&#39;s gross.</td>
+    <td><small>r_kenya</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/ba6c68ad9da11fce.html">etsy_store_owner_artist</a></td>
+    <td>1,000 USD / year</td>
+    <td class="num">$1,000</td>
+    <td><span class="badge bracket-bottom">bottom</span></td>
+    <td><small>entrepreneur_ecom</small></td>
+    <td class="snippet">I opened an Etsy store selling t-shirts, posters and stickers of my art and designs... I have a net profit of $1000 for over a year of operation</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/45a73c7a50d61209.html">short_term_rental_landlord</a></td>
+    <td>-18,000 USD / year</td>
+    <td class="num">$-18,000</td>
+    <td><span class="badge bracket-unknown">unknown</span></td>
+    <td><small>real_estate</small></td>
+    <td class="snippet">I realized a net $12,000 loss in year 1, net $25,000 loss in year 2, and I&#39;m on track for ~ net $18,000 loss for year 3.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/cd791cdfc24c1795.html">medical_practice_owner</a></td>
+    <td>1,000,000 USD / one-time</td>
+    <td class="num"></td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>healthcare</small></td>
+    <td class="snippet">I&#39;ll be out by the end of the year with a decent 7-figure sum of money in addition to approximately 700k in savings which I already have. I&#39;ll lose my primary income after the sale, but with some commercial real estate rent coming in</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/??.html"><span class="badge country">??</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/f35728b3e84484e7.html">software_engineer_former_mechatronics_technologist</a></td>
+    <td></td>
+    <td class="num"></td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">I changed careers at 30. Before that, I was a &#34;Mechatronics Technologist&#34;... Left my job in the last year to start an aprenticeship... getting 1/4th of my old salary... they recently gave me the pay rise of my life, over 25%, after I had alreay settled at the usual 4% with my manager</td>
+    <td><small>hackernews</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/GB.html"><span class="badge country">GB</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/ecb25749c6e197ca.html">data_engineer</a></td>
+    <td></td>
+    <td class="num"></td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">So I work for a private healthcare company in the UK. I&#39;m in their IT team as a data engineer, earning below-average for the role.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/652e5dd20ac8caa9.html">engineering_manager</a></td>
+    <td>2,500,000 USD / one-time</td>
+    <td class="num"></td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">In the last few days I’ve crossed $2.5M for the first time. The growth to this point has been unexpected, coinciding with moving from an engineering position to management about 9 years ago and a significant windfall from working at a pre-IPO company.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/??.html"><span class="badge country">??</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/9c6de21bc63d2991.html">shopify_freelance_developer</a></td>
+    <td>1,000 USD / one-time</td>
+    <td class="num"></td>
+    <td><span class="badge bracket-unknown">unknown</span></td>
+    <td><small>freelance_consulting</small></td>
+    <td class="snippet">We had agreed on $1000 to build the site starting with one of the themes in Shopify and have it done in 2 weeks... he is trying &#34;re-evaluate&#34; his budget since it is now quite limited.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/1a47885ccfbdef77.html">former_army_officer_landlord</a></td>
+    <td></td>
+    <td class="num"></td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>government_military</small></td>
+    <td class="snippet">9 years in the Army as an Officer after I graduated college, 3.5 years of that spent overseas (combat deployments earn bonus pay and salary is not taxed)... Left the Army due to health issues, received military disability</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/49da09ecc48f040f.html">asme_pressure_vessel_consulting_engineer</a></td>
+    <td>60,000 USD / one-time</td>
+    <td class="num"></td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>engineering_nonsoftware</small></td>
+    <td class="snippet">I did some work for a civil engineer who did ASME boiler and pressure vessel code consulting who made $60k (2000 dollars) for 1-2 hours worth of work. He did between 30 and 50 of them a year.</td>
+    <td><small>hackernews</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/713aec2874ca1370.html">prison_hustler</a></td>
+    <td></td>
+    <td class="num"></td>
+    <td><span class="badge bracket-bottom">bottom</span></td>
+    <td><small>other</small></td>
+    <td class="snippet">people found ways to earn an income...Bookie, football pool...Tattooist, stick and poke...Vinter...Pharmacist...Porn Merchant</td>
+    <td><small>hackernews</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/4499e2a6524a7b46.html">personnel_coordinator</a></td>
+    <td></td>
+    <td class="num"></td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>food_service</small></td>
+    <td class="snippet">Franchise owner says I am paid too much for my role already (the same as an assistant manager)...4% raise I was asking for would have been a lot cheaper than the $150 a week printing bill</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/SG.html"><span class="badge country">SG</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/74b783bbf7f9a668.html">early_retired_options_trader</a></td>
+    <td></td>
+    <td class="num"></td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>finance_banking</small></td>
+    <td class="snippet">I resigned in mid April 2024...Net worth increased by ~$250k despite having zero income from employment...I have been trading options for income for years</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/TR.html"><span class="badge country">TR</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/dd00e0a52a791bd9.html">gravel_middleman_iraq_war</a></td>
+    <td>1,800 USD / one-time</td>
+    <td class="num"></td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>entrepreneur_ecom</small></td>
+    <td class="snippet">the US Military would ask Mehmet for X amount of gravel, Mehmet would make phone calls, arrange for the delivery, the US Military would pay him $2,000 a truck, he would turn around and pay the whoever delivered it to him $200 a truck  pocketing the $1,800.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/??.html"><span class="badge country">??</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/20d26806931c0c6d.html">freelance_sales_copywriter</a></td>
+    <td>4,000 USD / one-time</td>
+    <td class="num"></td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>freelance_consulting</small></td>
+    <td class="snippet">My first ever sales copy project was for $40.&lt;p&gt;But I listened intently to advice from people who told me things that I didn&amp;#x27;t want to hear - and I acted on it.&lt;p&gt;Now my projects are typically $4,000+ and I&amp;#x27;ve worked with brands like Salesforce and Adobe.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/7fea3dbadcec2132.html">tech_investor</a></td>
+    <td></td>
+    <td class="num"></td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>finance_banking</small></td>
+    <td class="snippet">an absurd amount of 60/40 balanced (~$30m) portfolio... My family&#39;s expenses are fully covered by dividends from my index portfolio with quite a bit of margin of safety.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/13bf818a3b11bdbf.html">software_engineer</a></td>
+    <td></td>
+    <td class="num"></td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">Purely from OE.
+
+**EDIT:**
+
+You can say I posted to brag about it, but no. I just wanted to prove that it is possible. **I am not a genius. Hard work pays off. Always.** I was a top performer at all of my three jobs.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/AU.html"><span class="badge country">AU</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/3ac1065f848637a0.html">corporate_lawyer</a></td>
+    <td>333,000 AUD / one-time</td>
+    <td class="num"></td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>law</small></td>
+    <td class="snippet">28 male, single
+* Lawyer
+* Living in a HCOL area in Sydney, Australia
+* Net worth = $333k AUD (~250k USD)
+* Savings rate = 44% this year</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/??.html"><span class="badge country">??</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/5ef922078e06590f.html">tattoo_artist</a></td>
+    <td>500,000 USD / one-time</td>
+    <td class="num"></td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>design_creative</small></td>
+    <td class="snippet">I&#39;m currently a tattoo artist  with 2000$ in my bank account. A week ago I was informed that my dad who I never met til I was 22 passed away and left me a decent amount of cash for someone my age. (I think it might be &lt; 500,000$).</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/090c631dca03f592.html">registered_nurse</a></td>
+    <td></td>
+    <td class="num"></td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>healthcare</small></td>
+    <td class="snippet">I work full time as a nurse. Financially, my wife and I have no debt, no kids, a 6-month emergency fund, and I contribute around $30k–$32k a year toward retirement.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/0ef83a4901c500d3.html">natural_gas_futures_trader</a></td>
+    <td>4,000,000,000 USD / one-time</td>
+    <td class="num"></td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>finance_banking</small></td>
+    <td class="snippet">his friend energy trader, John Arnold, who ran up to $4 billion net worth trading natural gas futures before calling it quits at the young age of 38.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/34bf9c4bafb77305.html">bakery_worker</a></td>
+    <td></td>
+    <td class="num"></td>
+    <td><span class="badge bracket-bottom">bottom</span></td>
+    <td><small>food_service</small></td>
+    <td class="snippet">i (21M) work in a very small bakery in upstate NY. my boss (52F) is the owner of the bakery. i get paid under the table in cash.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/f7b16ddef7c41368.html">public_accountant</a></td>
+    <td></td>
+    <td class="num"></td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>finance_banking</small></td>
+    <td class="snippet">after working the usual 12+ hour days in public accounting ... started job searching and ended up getting a 25% pay increase (not including the awesome benefits) at a F500.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/0110c316ed02d5c3.html">mobile_app_developer</a></td>
+    <td></td>
+    <td class="num"></td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">I&#39;ve had multiple apps that made it to the top 100 charts, and half a dozen apps that made at least six figures by now in profits.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/FR.html"><span class="badge country">FR</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/11d473bc31871015.html">indie_hacker_web_developer</a></td>
+    <td>40 EUR / one-time</td>
+    <td class="num"></td>
+    <td><span class="badge bracket-bottom">bottom</span></td>
+    <td><small>entrepreneur_ecom</small></td>
+    <td class="snippet">Found just one client willing to pay 40€ for a landing page....Earned just €40 in three months.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/VE.html"><span class="badge country">VE</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/8a0218aa3e004c90.html">it_worker</a></td>
+    <td>3,000 USD / unknown</td>
+    <td class="num"></td>
+    <td><span class="badge bracket-bottom">bottom</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">ive lived all my life in Venezuela, im a 29 years old IT guy moving in 3 days to Spain because of the increased danger of staying here... I only have 3k USD to my name that i saved after working for 9+ years</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/CA.html"><span class="badge country">CA</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/b07a889cfec234ba.html">bartender_entrepreneur</a></td>
+    <td>100,000 USD / one-time</td>
+    <td class="num"></td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>entrepreneur_ecom</small></td>
+    <td class="snippet">They drafted an offer that not only paid me out 6 figures right away, but also royalties over time as well.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/19a8d65f27dbbc92.html">music_entrepreneur_cd_baby_founder</a></td>
+    <td>22,000,000 USD / one-time</td>
+    <td class="num"></td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>entrepreneur_ecom</small></td>
+    <td class="snippet">Sivers was a musician in the 90s when a need to sell his own CDs compelled him to learn to code and build a simple &#34;buy&#34; button on his own website...He sold the business for $22m, and then gave almost all of it away to a trust</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/01dd953b52261e1a.html">minimum_wage_worker</a></td>
+    <td></td>
+    <td class="num"></td>
+    <td><span class="badge bracket-bottom">bottom</span></td>
+    <td><small>other</small></td>
+    <td class="snippet">I am a 24 year old college grad with a 40+ hour minimum wage job in WA. I don&#39;t make a lot of money but my rent is only $450/month, so I&#39;m in a position where I can pay off several months in advance.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/??.html"><span class="badge country">??</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/38aef0229c7b3f02.html">indie_android_developer</a></td>
+    <td>4 USD / one-time</td>
+    <td class="num"></td>
+    <td><span class="badge bracket-bottom">bottom</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">Total Income: $4 (minus google&#39;s cut)... After realizing the game wasn&#39;t going so well, I went to free with ads... Total Income: $0.15 from ad&#39;s</td>
+    <td><small>hackernews</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/1f74a00c22a63833.html">laser_woodworker_etsy_seller</a></td>
+    <td>100 USD / one-time</td>
+    <td class="num"></td>
+    <td><span class="badge bracket-unknown">unknown</span></td>
+    <td><small>entrepreneur_ecom</small></td>
+    <td class="snippet">I can sell wooden maps, signs, wall art that people buy as gifts for $100-200 a pop every day online. I had 6 orders from Etsy in the past 24 hours, all with good margins.</td>
+    <td><small>hackernews</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/4b83242f6712d58d.html">big_data_scientist</a></td>
+    <td>1,500,000 USD / one-time</td>
+    <td class="num"></td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">I&#39;m a scientist in my mid 40&#39;s who got into the big data side of tech just as it took off... I bought in a few times and sold my holdings last December (not at the peak, but close) for about 1.5M. I had saved a shit-ton of money over the years (almost 1M)</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/24124d409ffc78e4.html">email_newsletter_entrepreneur</a></td>
+    <td>24,376 USD / one-time</td>
+    <td class="num"></td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>entrepreneur_ecom</small></td>
+    <td class="snippet">Today: 1,687 premium subscribers, 7,847 free subscribers, and $24,376 in revenue. (Expenses are around $150/month for Mailchimp, Formcrafts, Zapier, MRR.io, and testing out Facebook ads.)</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/e8f45eab9a0b3fd1.html">saas_founder</a></td>
+    <td>25,000 USD / one-time</td>
+    <td class="num"></td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">&#34;Best product design&#34;, leaving me with $25K cash prize, and potential access to $750K in funding if they want to partner with me</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/99bf8fe5a02662b2.html">biglaw_associate_attorney</a></td>
+    <td></td>
+    <td class="num"></td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>law</small></td>
+    <td class="snippet">I&#39;m 32 (no kids), been in biglaw for 7 years, 1.8M NW, looking to FIRE in August (when my apartment lease is up), and I&#39;ll have 1.95-2M NW by then.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/GB.html"><span class="badge country">GB</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/655f37a81a3f721d.html">software_engineer</a></td>
+    <td>1,200,000 GBP / one-time</td>
+    <td class="num"></td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">In total, between my house, my pension, and other savings and investments, I have a net worth of approx 1.2 million GBP.</td>
+    <td><small>r_fireuk</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/3161b6d5efe3f538.html">landscaping_business_owner</a></td>
+    <td>500,000 USD / year</td>
+    <td class="num">$500,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>freelance_consulting</small></td>
+    <td class="snippet">NET margin&#39;s roughly 20%. If you apply good business practices, $500k+ annual revenue is very realistic.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/55a552164b691980.html">expat_professional</a></td>
+    <td>300,000 USD / year</td>
+    <td class="num">$300,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>other</small></td>
+    <td class="snippet">I&#39;m a complete noob with investing but have a decent yearly salary of about $300k usd with around monthly living costs of around $5k. I&#39;m an expat in the US and not sure how I&#39;ll be living here so don&#39;t have a 401k and my employer doesn&#39;t match.</td>
+    <td><small>r_fire</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/f6db789f83a61a60.html">software_engineer_overemployed</a></td>
+    <td>200,000 USD / year</td>
+    <td class="num">$200,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">in the past 10 years, all my jobs have been in the 200k+ range, and i have virtually no debt and just about 100k left on my house</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+</table>
+
+
+<div class="pagination">
+  
+  <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=1">«</a>
+  <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=27">‹ 上一页</a>
+  
+  
+  <span class="gap">…</span>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=24">24</a>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=25">25</a>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=26">26</a>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=27">27</a>
+  
+    <span class="current">28</span>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=29">29</a>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=30">30</a>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=31">31</a>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=32">32</a>
+  
+  <span class="gap">…</span>
+  <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=29">下一页 ›</a>
+  <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=70">»</a>
+</div>
+
+
+</main>
+
+<footer class="footer">
+  <div>shouru — 跨国收入与谋生方式研究 · 79 国 · 27 语言 · 166 平台</div>
+  <div>数据基于公开互联网帖子，仅作研究展示。引文 ≤300 字符 + 原 URL。</div>
+</footer>
+</body>
+</html>

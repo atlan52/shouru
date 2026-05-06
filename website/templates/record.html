@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% block title %}{{ row.profession }} — {{ row.country }} — shouru{% endblock %}
+
+{% block content %}
+<h1>
+  {{ row.profession or '记录' }}
+  <span class="badge country">{{ row.country }}</span>
+  <span class="badge bracket-{{ row.income_bracket }}">{{ row.income_bracket | bracket_label }}</span>
+</h1>
+<p class="muted"><a href="/country/{{ row.country }}">{{ row.country | country_name }}</a> · 来自 <span class="badge">{{ row.source_platform }}</span></p>
+
+<div class="record-detail">
+  <div class="quote">{{ row.raw_excerpt }}</div>
+
+  <h3>叙述</h3>
+  <p>{{ row.narrative_summary }}</p>
+
+  <h3>金额与货币</h3>
+  <dl>
+    <dt>原始金额</dt>
+    <dd>
+      {% if row.income_amount_local %}
+        <strong>{{ '{:,.2f}'.format(row.income_amount_local) }}</strong>
+        {{ row.currency or '' }} / {{ row.period }}
+      {% else %}
+        <em>未披露</em>
+      {% endif %}
+    </dd>
+    <dt>USD/年（FX 归一）</dt>
+    <dd>
+      {% if row.income_amount_usd_year %}
+        <strong>${{ '{:,.0f}'.format(row.income_amount_usd_year) }}</strong> /年
+        {% if row.fx_rate_used %}<span class="muted">（FX rate: {{ row.fx_rate_used }}, period × {{ row.period_factor or 1 }}）</span>{% endif %}
+      {% else %}
+        <em>未归一 — fx_status: {{ row.fx_status or 'unknown' }}</em>
+      {% endif %}
+    </dd>
+    <dt>fx 状态</dt>
+    <dd><code>{{ row.fx_status or '-' }}</code></dd>
+  </dl>
+
+  <h3>分类</h3>
+  <dl>
+    <dt>职业 (canonical)</dt><dd><code>{{ row.profession or '-' }}</code></dd>
+    <dt>职业 (原文)</dt><dd>{{ row.profession_raw or '-' }}</dd>
+    <dt>行业</dt><dd>{{ row.industry or '-' }}</dd>
+    <dt>谋生机制</dt>
+    <dd>
+      {% for m in mechs %}
+      <span class="badge mech">{{ m | mechanism_label }}</span>
+      {% endfor %}
+    </dd>
+    <dt>收入档位</dt>
+    <dd><span class="badge bracket-{{ row.income_bracket }}">{{ row.income_bracket | bracket_label }}</span></dd>
+  </dl>
+
+  <h3>来源</h3>
+  <dl>
+    <dt>语言</dt><dd><span class="badge lang">{{ row.source_lang }}</span> {{ row.source_lang | lang_name }}</dd>
+    <dt>国家</dt><dd>{{ row.country }} {{ row.country | country_name }} <span class="muted">(置信度 {{ row.country_confidence or '-' }})</span></dd>
+    <dt>平台</dt><dd>{{ row.source_platform }}</dd>
+    <dt>原文 URL</dt><dd>{% if row.source_url %}<a href="{{ row.source_url }}" target="_blank" rel="noopener">{{ row.source_url }}</a>{% else %}-{% endif %}</dd>
+    <dt>抽取置信度</dt><dd>{{ row.confidence }}</dd>
+    <dt>抽取模型</dt><dd>{{ row.extraction_model }}</dd>
+    <dt>抽取时间</dt><dd>{{ row.extracted_at }}</dd>
+  </dl>
+
+  <h3>原始 ID</h3>
+  <dl>
+    <dt>record_id</dt><dd><code>{{ row.record_id }}</code></dd>
+  </dl>
+</div>
+
+<p style="margin-top:16px;">
+  <a href="/country/{{ row.country }}">← 返回 {{ row.country | country_name }} 国家页</a>
+  · <a href="/records">数据浏览</a>
+</p>
+{% endblock %}

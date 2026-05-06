@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+{% block title %}数据浏览 — shouru{% endblock %}
+
+{% block content %}
+<h1>数据浏览 <span class="muted">{{ '{:,}'.format(total) }} 条匹配 / 第 {{ page }}/{{ pages }} 页</span></h1>
+
+<form class="filters" method="get">
+  <div>
+    <label>国家</label>
+    <select name="country">
+      <option value="">全部</option>
+      {% for c in all_countries %}
+      <option value="{{ c }}" {% if filters.country == c %}selected{% endif %}>{{ c }} {{ c | country_name }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <div>
+    <label>语言</label>
+    <select name="lang">
+      <option value="">全部</option>
+      {% for l in all_langs %}
+      <option value="{{ l }}" {% if filters.lang == l %}selected{% endif %}>{{ l }} {{ l | lang_name }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <div>
+    <label>收入档</label>
+    <select name="bracket">
+      <option value="">全部</option>
+      {% for b in BRACKET_ORDER %}
+      <option value="{{ b }}" {% if filters.bracket == b %}selected{% endif %}>{{ b | bracket_label }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <div>
+    <label>谋生机制</label>
+    <select name="mechanism">
+      <option value="">全部</option>
+      {% for m in MECHANISM_LABEL.keys() %}
+      <option value="{{ m }}" {% if filters.mechanism == m %}selected{% endif %}>{{ m | mechanism_label }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <div>
+    <label>币种</label>
+    <select name="currency">
+      <option value="">全部</option>
+      {% for c in all_currencies %}
+      <option value="{{ c }}" {% if filters.currency == c %}selected{% endif %}>{{ c }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <div>
+    <label>职业含</label>
+    <input type="text" name="profession" value="{{ filters.profession }}" placeholder="如 nurse">
+  </div>
+  <div>
+    <label>USD/年 ≥</label>
+    <input type="number" name="min_usd" value="{{ filters.min_usd }}" placeholder="如 50000">
+  </div>
+  <div>
+    <label>USD/年 ≤</label>
+    <input type="number" name="max_usd" value="{{ filters.max_usd }}" placeholder="如 500000">
+  </div>
+  <div>
+    <label>关键字（叙述/引文）</label>
+    <input type="text" name="q" value="{{ filters.q }}" placeholder="如 Uber, 月薪">
+  </div>
+  <div style="grid-column: 1 / -1; display: flex; gap: 8px; justify-content: flex-end;">
+    <a class="clear" href="/records">清空</a>
+    <button class="submit" type="submit">筛选</button>
+  </div>
+</form>
+
+<table class="table table-records">
+  <tr>
+    <th>国</th>
+    <th>语</th>
+    <th>职业</th>
+    <th>金额</th>
+    <th class="num">USD/年</th>
+    <th>档</th>
+    <th>机制</th>
+    <th>引文</th>
+    <th>平台</th>
+  </tr>
+  {% for r in rows %}
+  <tr>
+    <td><a href="/country/{{ r.country }}"><span class="badge country">{{ r.country }}</span></a></td>
+    <td><span class="badge lang">{{ r.source_lang }}</span></td>
+    <td><a class="row-link" href="/record/{{ r.record_id }}">{{ r.profession or '-' }}</a></td>
+    <td>{% if r.income_amount_local %}{{ '{:,.0f}'.format(r.income_amount_local) }} {{ r.currency or '' }} / {{ r.period }}{% endif %}</td>
+    <td class="num">{% if r.income_amount_usd_year %}${{ '{:,.0f}'.format(r.income_amount_usd_year) }}{% endif %}</td>
+    <td><span class="badge bracket-{{ r.income_bracket }}">{{ r.income_bracket }}</span></td>
+    <td>{% if r.industry %}<small>{{ r.industry }}</small>{% endif %}</td>
+    <td class="snippet">{{ r.raw_excerpt }}</td>
+    <td><small>{{ r.source_platform }}</small></td>
+  </tr>
+  {% endfor %}
+</table>
+
+{% if pages > 1 %}
+<div class="pagination">
+  {% set base_qs = "country=" + filters.country + "&lang=" + filters.lang + "&bracket=" + filters.bracket + "&profession=" + filters.profession + "&mechanism=" + filters.mechanism + "&currency=" + filters.currency + "&q=" + filters.q + "&min_usd=" + filters.min_usd + "&max_usd=" + filters.max_usd %}
+  {% if page > 1 %}<a href="?{{ base_qs }}&page=1">«</a>{% endif %}
+  {% if page > 1 %}<a href="?{{ base_qs }}&page={{ page - 1 }}">‹ 上一页</a>{% endif %}
+  {% set start = page - 4 if page > 4 else 1 %}
+  {% set end = page + 4 if page + 4 < pages else pages %}
+  {% if start > 1 %}<span class="gap">…</span>{% endif %}
+  {% for p in range(start, end + 1) %}
+    {% if p == page %}<span class="current">{{ p }}</span>{% else %}<a href="?{{ base_qs }}&page={{ p }}">{{ p }}</a>{% endif %}
+  {% endfor %}
+  {% if end < pages %}<span class="gap">…</span>{% endif %}
+  {% if page < pages %}<a href="?{{ base_qs }}&page={{ page + 1 }}">下一页 ›</a>{% endif %}
+  {% if page < pages %}<a href="?{{ base_qs }}&page={{ pages }}">»</a>{% endif %}
+</div>
+{% endif %}
+{% endblock %}

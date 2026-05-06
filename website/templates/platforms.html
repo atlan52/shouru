@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}平台 — shouru{% endblock %}
+
+{% block content %}
+<h1>数据源平台分布</h1>
+<p class="muted">所有 {{ rows|length }} 个平台。点击进入数据浏览查看各平台原始记录。</p>
+
+<table class="table">
+  <tr>
+    <th>平台</th>
+    <th class="num">记录数</th>
+    <th class="num">含 USD/年</th>
+    <th class="num">覆盖国家数</th>
+  </tr>
+  {% for r in rows %}
+  <tr>
+    <td>{{ r.source_platform }}</td>
+    <td class="num">{{ r.n }}</td>
+    <td class="num">{{ r.n_usd }}</td>
+    <td class="num">{{ r.n_countries }}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% endblock %}

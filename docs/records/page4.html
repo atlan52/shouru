@@ -1,0 +1,1077 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>数据浏览 — shouru</title>
+<link rel="stylesheet" href="../static/style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" defer></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <a href="../index.html"><span class="logo">收入</span><span class="sub">shouru research</span></a>
+  </div>
+  <nav>
+    <a href="../index.html">首页</a>
+    <a href="../records.html">数据浏览</a>
+    <a href="../visualizations.html">可视化</a>
+    <a href="../platforms.html">平台</a>
+    <a href="../mechanisms.html">谋生机制</a>
+    <a href="../about.html">说明</a>
+  </nav>
+</header>
+
+<main>
+
+<h1>数据浏览 <span class="muted">3,482 条匹配 / 第 4/70 页</span></h1>
+
+<form class="filters" method="get">
+  <div>
+    <label>国家</label>
+    <select name="country">
+      <option value="">全部</option>
+      
+      <option value="US" >US 美国</option>
+      
+      <option value="??" >?? ??</option>
+      
+      <option value="GB" >GB 英国</option>
+      
+      <option value="CA" >CA 加拿大</option>
+      
+      <option value="AU" >AU 澳大利亚</option>
+      
+      <option value="DE" >DE 德国</option>
+      
+      <option value="RU" >RU 俄罗斯</option>
+      
+      <option value="JP" >JP 日本</option>
+      
+      <option value="CN" >CN 中国</option>
+      
+      <option value="BR" >BR 巴西</option>
+      
+      <option value="TH" >TH 泰国</option>
+      
+      <option value="IN" >IN 印度</option>
+      
+      <option value="CO" >CO 哥伦比亚</option>
+      
+      <option value="NZ" >NZ 新西兰</option>
+      
+      <option value="MX" >MX 墨西哥</option>
+      
+      <option value="FR" >FR 法国</option>
+      
+      <option value="CL" >CL 智利</option>
+      
+      <option value="PE" >PE 秘鲁</option>
+      
+      <option value="PH" >PH 菲律宾</option>
+      
+      <option value="AE" >AE 阿联酋</option>
+      
+      <option value="NL" >NL 荷兰</option>
+      
+      <option value="SE" >SE 瑞典</option>
+      
+      <option value="AR" >AR 阿根廷</option>
+      
+      <option value="PT" >PT 葡萄牙</option>
+      
+      <option value="IT" >IT 意大利</option>
+      
+      <option value="SG" >SG 新加坡</option>
+      
+      <option value="ID" >ID 印尼</option>
+      
+      <option value="MY" >MY 马来西亚</option>
+      
+      <option value="VN" >VN 越南</option>
+      
+      <option value="BD" >BD 孟加拉</option>
+      
+      <option value="CH" >CH 瑞士</option>
+      
+      <option value="DK" >DK 丹麦</option>
+      
+      <option value="ES" >ES 西班牙</option>
+      
+      <option value="ZA" >ZA 南非</option>
+      
+      <option value="EC" >EC 厄瓜多尔</option>
+      
+      <option value="LK" >LK 斯里兰卡</option>
+      
+      <option value="PL" >PL 波兰</option>
+      
+      <option value="KE" >KE 肯尼亚</option>
+      
+      <option value="KZ" >KZ 哈萨克斯坦</option>
+      
+      <option value="LB" >LB 黎巴嫩</option>
+      
+      <option value="NO" >NO 挪威</option>
+      
+      <option value="RS" >RS 塞尔维亚</option>
+      
+      <option value="SK" >SK 斯洛伐克</option>
+      
+      <option value="TW" >TW 台湾</option>
+      
+      <option value="UA" >UA 乌克兰</option>
+      
+      <option value="AT" >AT 奥地利</option>
+      
+      <option value="BG" >BG 保加利亚</option>
+      
+      <option value="GH" >GH 加纳</option>
+      
+      <option value="HR" >HR 克罗地亚</option>
+      
+      <option value="IR" >IR 伊朗</option>
+      
+      <option value="KR" >KR 韩国</option>
+      
+      <option value="KW" >KW 科威特</option>
+      
+      <option value="MT" >MT MT</option>
+      
+      <option value="PK" >PK 巴基斯坦</option>
+      
+      <option value="TN" >TN 突尼斯</option>
+      
+      <option value="UY" >UY 乌拉圭</option>
+      
+      <option value="VE" >VE 委内瑞拉</option>
+      
+      <option value="ZM" >ZM ZM</option>
+      
+      <option value="AL" >AL AL</option>
+      
+      <option value="AM" >AM 亚美尼亚</option>
+      
+      <option value="BE" >BE 比利时</option>
+      
+      <option value="BO" >BO 玻利维亚</option>
+      
+      <option value="BY" >BY 白俄罗斯</option>
+      
+      <option value="CY" >CY CY</option>
+      
+      <option value="CZ" >CZ 捷克</option>
+      
+      <option value="EE" >EE 爱沙尼亚</option>
+      
+      <option value="EG" >EG 埃及</option>
+      
+      <option value="FI" >FI 芬兰</option>
+      
+      <option value="GR" >GR 希腊</option>
+      
+      <option value="GT" >GT 危地马拉</option>
+      
+      <option value="IL" >IL 以色列</option>
+      
+      <option value="MA" >MA 摩洛哥</option>
+      
+      <option value="NG" >NG 尼日利亚</option>
+      
+      <option value="NP" >NP 尼泊尔</option>
+      
+      <option value="PA" >PA 巴拿马</option>
+      
+      <option value="RO" >RO 罗马尼亚</option>
+      
+      <option value="SA" >SA 沙特</option>
+      
+      <option value="SI" >SI 斯洛文尼亚</option>
+      
+      <option value="TR" >TR 土耳其</option>
+      
+      <option value="UZ" >UZ 乌兹别克斯坦</option>
+      
+    </select>
+  </div>
+  <div>
+    <label>语言</label>
+    <select name="lang">
+      <option value="">全部</option>
+      
+      <option value="en" >en 英语</option>
+      
+      <option value="es" >es 西班牙语</option>
+      
+      <option value="ru" >ru 俄语</option>
+      
+      <option value="ja" >ja 日语</option>
+      
+      <option value="zh" >zh 中文</option>
+      
+      <option value="pt" >pt 葡萄牙语</option>
+      
+      <option value="de" >de 德语</option>
+      
+      <option value="vi" >vi 越南语</option>
+      
+      <option value="uk" >uk 乌克兰语</option>
+      
+      <option value="tl" >tl 他加禄语</option>
+      
+      <option value="sk" >sk sk</option>
+      
+      <option value="fr" >fr 法语</option>
+      
+      <option value="th" >th 泰语</option>
+      
+      <option value="sv" >sv 瑞典语</option>
+      
+      <option value="pl" >pl 波兰语</option>
+      
+      <option value="nl" >nl 荷兰语</option>
+      
+      <option value="ko" >ko 韩语</option>
+      
+      <option value="id" >id 印尼语</option>
+      
+    </select>
+  </div>
+  <div>
+    <label>收入档</label>
+    <select name="bracket">
+      <option value="">全部</option>
+      
+      <option value="bottom" >Bottom 底层</option>
+      
+      <option value="lower_middle" >Lower-middle 下中产</option>
+      
+      <option value="middle" >Middle 中产</option>
+      
+      <option value="upper_middle" >Upper-middle 上中产</option>
+      
+      <option value="top" >Top 顶层</option>
+      
+      <option value="unknown" >未知</option>
+      
+    </select>
+  </div>
+  <div>
+    <label>谋生机制</label>
+    <select name="mechanism">
+      <option value="">全部</option>
+      
+      <option value="salary_employment" >工资雇佣</option>
+      
+      <option value="equity_compensation" >股权期权</option>
+      
+      <option value="business_owner" >企业主</option>
+      
+      <option value="freelance_contractor" >自由职业</option>
+      
+      <option value="platform_gig" >平台零工</option>
+      
+      <option value="passive_investment" >被动投资</option>
+      
+      <option value="real_estate_rental" >房产租金</option>
+      
+      <option value="royalties_creator" >创作者收入</option>
+      
+      <option value="inheritance_trust" >遗产信托</option>
+      
+      <option value="government_pension" >退休金</option>
+      
+      <option value="illicit_grey" >灰色非法</option>
+      
+      <option value="multiple_streams" >多重收入</option>
+      
+      <option value="unknown" >未知</option>
+      
+    </select>
+  </div>
+  <div>
+    <label>币种</label>
+    <select name="currency">
+      <option value="">全部</option>
+      
+      <option value="USD" >USD</option>
+      
+      <option value="GBP" >GBP</option>
+      
+      <option value="CAD" >CAD</option>
+      
+      <option value="EUR" >EUR</option>
+      
+      <option value="AUD" >AUD</option>
+      
+      <option value="RUB" >RUB</option>
+      
+      <option value="JPY" >JPY</option>
+      
+      <option value="CNY" >CNY</option>
+      
+      <option value="NZD" >NZD</option>
+      
+      <option value="COP" >COP</option>
+      
+      <option value="BRL" >BRL</option>
+      
+      <option value="PEN" >PEN</option>
+      
+      <option value="CLP" >CLP</option>
+      
+      <option value="MXN" >MXN</option>
+      
+      <option value="INR" >INR</option>
+      
+      <option value="AED" >AED</option>
+      
+      <option value="SEK" >SEK</option>
+      
+      <option value="BDT" >BDT</option>
+      
+      <option value="ARS" >ARS</option>
+      
+      <option value="ZAR" >ZAR</option>
+      
+      <option value="LKR" >LKR</option>
+      
+      <option value="UAH" >UAH</option>
+      
+      <option value="PHP" >PHP</option>
+      
+      <option value="KZT" >KZT</option>
+      
+      <option value="CHF" >CHF</option>
+      
+      <option value="UYU" >UYU</option>
+      
+      <option value="TND" >TND</option>
+      
+      <option value="THB" >THB</option>
+      
+      <option value="SGD" >SGD</option>
+      
+      <option value="PKR" >PKR</option>
+      
+      <option value="MYR" >MYR</option>
+      
+      <option value="KRW" >KRW</option>
+      
+      <option value="KES" >KES</option>
+      
+      <option value="GHS" >GHS</option>
+      
+      <option value="ZMW" >ZMW</option>
+      
+      <option value="VND" >VND</option>
+      
+      <option value="UZS" >UZS</option>
+      
+      <option value="RON" >RON</option>
+      
+      <option value="PLN" >PLN</option>
+      
+      <option value="NPR" >NPR</option>
+      
+      <option value="MAD" >MAD</option>
+      
+      <option value="ILS" >ILS</option>
+      
+      <option value="IDR" >IDR</option>
+      
+      <option value="DKK" >DKK</option>
+      
+      <option value="BYN" >BYN</option>
+      
+      <option value="BOB" >BOB</option>
+      
+    </select>
+  </div>
+  <div>
+    <label>职业含</label>
+    <input type="text" name="profession" value="" placeholder="如 nurse">
+  </div>
+  <div>
+    <label>USD/年 ≥</label>
+    <input type="number" name="min_usd" value="" placeholder="如 50000">
+  </div>
+  <div>
+    <label>USD/年 ≤</label>
+    <input type="number" name="max_usd" value="" placeholder="如 500000">
+  </div>
+  <div>
+    <label>关键字（叙述/引文）</label>
+    <input type="text" name="q" value="" placeholder="如 Uber, 月薪">
+  </div>
+  <div style="grid-column: 1 / -1; display: flex; gap: 8px; justify-content: flex-end;">
+    <a class="clear" href="../records.html">清空</a>
+    <button class="submit" type="submit">筛选</button>
+  </div>
+</form>
+
+<table class="table table-records">
+  <tr>
+    <th>国</th>
+    <th>语</th>
+    <th>职业</th>
+    <th>金额</th>
+    <th class="num">USD/年</th>
+    <th>档</th>
+    <th>机制</th>
+    <th>引文</th>
+    <th>平台</th>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/2440c08ba2b08cfd.html">front_end_developer</a></td>
+    <td>66,000 USD / year</td>
+    <td class="num">$66,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">I&#39;m working as a front end developer making only 66k gross a year and I only end up seeing 47k net of that money.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/9a8e6bd8ad344c25.html">wordpress_theme_developer</a></td>
+    <td>5,000 USD / month</td>
+    <td class="num">$60,000</td>
+    <td><span class="badge bracket-middle">middle</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">$5k per month for 18 months in a row. Made a portfolio website for my girlfriend. Got positive feedback, refactored into Wordpress theme and published on ThemeForest.</td>
+    <td><small>hackernews</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/CA.html"><span class="badge country">CA</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/4b1a1a2822cd6e93.html">product_manager</a></td>
+    <td>75,000 CAD / year</td>
+    <td class="num">$54,750</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">2021: I received a promotion at the beginning of the year to a product manager role.  
+Base salary: $75,000  
+Bonus: Up to 12% of salary based on company profits and performance ($9,000)</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/b786967c3382aa47.html">indiana_commuter_worker</a></td>
+    <td>16 USD / hour</td>
+    <td class="num">$34,320</td>
+    <td><span class="badge bracket-lower_middle">lower_middle</span></td>
+    <td><small>other</small></td>
+    <td class="snippet">I live in Indiana where minimum wage is $7.25/hr.  My current wage is $16.50/hr, but I have to commute 80 miles a day for work. ... Monthly Net Income: $2370</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/0aec91c912311fef.html">freelance_copywriter</a></td>
+    <td>5,000 USD / one-time</td>
+    <td class="num"></td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>marketing</small></td>
+    <td class="snippet">I just want to share my most recent experience with UpWork, in which I was I was hired by a client to do a $5,000, two-month project... My profile shows a stated rate of $100/hour.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/e9a58e3cd277d62b.html">tech_company_ceo</a></td>
+    <td>193,000,000 USD / year</td>
+    <td class="num">$193,000,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">Andy Jassy, Amazon: $1.3 million (a big fall from $212 million the year before)&lt;p&gt;Jensen Huang, Nvidia: about $21 million&lt;p&gt;Mark Zuckerberg, Meta: about $26 million&lt;p&gt;Satya Nadella, Microsoft: about $55 million&lt;p&gt;Tim Cook, Apple: about $100 million</td>
+    <td><small>hackernews</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/693535d290ad0216.html">ceo</a></td>
+    <td>31,600,000 USD / year</td>
+    <td class="num">$31,600,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">In 2023, Sweet&#39;s total compensation at Accenture was $31.6 million, or 1,526 times what the median employee at Accenture earned that same year without a cost-of-living adjustment.</td>
+    <td><small>hackernews</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/0e7010487382d8e8.html">early_startup_employee_ipo</a></td>
+    <td>30,000,000 USD / one-time</td>
+    <td class="num">$30,000,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">I was really at the right place at the right time to make the ~$30M windfall at the company IPO.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/f01eb8ff726eb270.html">chief_executive_officer</a></td>
+    <td>22,500,000 USD / year</td>
+    <td class="num">$22,500,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>food_service</small></td>
+    <td class="snippet">In 2023, Niccol&#39;s total compensation at Chipotle was $22.5 million, or 1,354 times the median employee pay at Chipotle for that year... his ~$100M pay package at Starbucks as their CEO.</td>
+    <td><small>hackernews</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/9438b31a5c3285c0.html">saas_founder</a></td>
+    <td>15,000,000 USD / year</td>
+    <td class="num">$15,000,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">Last week we crossed $15 million in annual recurring revenue (ARR) for ConvertKit, my email marketing company. My original dream was to get to $600,000 in ARR, so I&#39;m pretty thrilled!</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/77685ff1f7a444f4.html">government_aggregate_supply_contractor</a></td>
+    <td>12,500,000 USD / year</td>
+    <td class="num">$12,500,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>logistics_transport</small></td>
+    <td class="snippet">Over the last few years, he&#39;s grown to six employees, and $10-$15 million per year revenue...He also runs two other companies – one in trucking, one in real estate – which add another $5 million per year</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/5cb1ff0eb2a6a620.html">gopro_employee_neil_dana</a></td>
+    <td>6,300,000 USD / year</td>
+    <td class="num">$6,300,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">During 2011, 2012 and 2013, Mr. Dana had total cash compensation, including base salary, bonus and other compensation, of $6.3 million (inclusive of the $6.1 million payment described above), $245,499 and $240,982, respectively.</td>
+    <td><small>hackernews</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/3365dc7779b7e692.html">principal_software_engineer</a></td>
+    <td>4,500,000 USD / year</td>
+    <td class="num">$4,500,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">I&#39;m in my early 40s and work in a big tech company at the Principal Engineer level. I make around $4-5M/yr depending on stock vests and my household spend is around $265k/yr.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/c37ea3c6440160fe.html">photo_booth_company_founder</a></td>
+    <td>300,000 USD / month</td>
+    <td class="num">$3,600,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>entrepreneur_ecom</small></td>
+    <td class="snippet">Product: Photobooth, Revenue/mo: $300,000, Started: March 2013, Location: Orange County, California, Founders: 2, Employees: 10</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/NZ.html"><span class="badge country">NZ</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/76f1513e8ea35129.html">mens_streetwear_brand_founder</a></td>
+    <td>300,000 USD / month</td>
+    <td class="num">$3,600,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>entrepreneur_ecom</small></td>
+    <td class="snippet">Product: every day premium menswear * Revenue/mo: $300,000 * Started: October 2008 * Location: Auckland City * Founders: 1 * Employees: 20</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/ES.html"><span class="badge country">ES</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/abbea72839c94507.html">ecommerce_founder_bicycle_brand</a></td>
+    <td>200,000 EUR / month</td>
+    <td class="num">$2,596,800</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>entrepreneur_ecom</small></td>
+    <td class="snippet">Our monthly turnover is 200.000€. Our main markets are France, Spain, Netherlands, Italy and UK. And our brand represents around 20% of the turnover.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/f9f9e66d740e268b.html">amazon_online_retailer</a></td>
+    <td>2,292,798 USD / year</td>
+    <td class="num">$2,292,798</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>entrepreneur_ecom</small></td>
+    <td class="snippet">My name is Ryan Grant and I run an online retail business selling on Amazon, eBay, Jet.com, and our own websites. ... Almost exactly 4 years ago I quit my job as an accountant to pursue selling online full time.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/14ae4c34ab53bff1.html">commercial_cleaning_business_owner</a></td>
+    <td>138,000 USD / month</td>
+    <td class="num">$1,656,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>entrepreneur_ecom</small></td>
+    <td class="snippet">This month we will invoice $138k and are growing at a rate of $6-8k per month...The 3 contracts grossed around $7k/mo total at the time I acquired them.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/110c582ddcbcaf36.html">onlyfans_creator</a></td>
+    <td>130,000 USD / month</td>
+    <td class="num">$1,560,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>content_creator</small></td>
+    <td class="snippet">I&#39;ve netted around $4,000,000 post-OnlyFans&#39; 20% cut... I am bringing in around $5k per day or $130k a month.(Lowest month was my first at 25k and highest was around 300k last summer.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/ab7bb57e1f840c14.html">content_marketing_agency_founder</a></td>
+    <td>1,500,000 USD / year</td>
+    <td class="num">$1,500,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>marketing</small></td>
+    <td class="snippet">I&#39;ve been posting here for the last few years as I&#39;ve built a content marketing agency called Optimist. Over the last few years, we&#39;ve grown it from $0 to over $1.5MM ARR.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/d686cf173fdd0b89.html">public_company_ceo_dropbox</a></td>
+    <td>1,500,000 USD / year</td>
+    <td class="num">$1,500,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">Drew Houston&#39;s total compensation for the year in 2023 was $1.5M... That is insanely low for the CEO of a public company of Dropbox&#39;s size. But I suspect he owned a lot of shares in the company so when it went public</td>
+    <td><small>hackernews</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/29e839d823d6cc2d.html">content_marketing_agency_owner</a></td>
+    <td>1,434,665 USD / year</td>
+    <td class="num">$1,434,665</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>marketing</small></td>
+    <td class="snippet">In 2022, we posted $1,434,665 in revenue. It was our highest revenue year to date and brings our lifetime total to $5,974,324.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/00fe584aa42f81a5.html">door_to_door_handyman</a></td>
+    <td>22,000 USD / week</td>
+    <td class="num">$1,144,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>blue_collar_trades</small></td>
+    <td class="snippet">Hit $22,000 gross in two weeks as a handyman. I target upper middle class neighborhoods and go door to door... Average around $200-$400 an hour per job that way.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/11e67f5d1e434ac3.html">tech_executive_startup_ceo</a></td>
+    <td>1,065,001 USD / year</td>
+    <td class="num">$1,065,001</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">|2022|$10,318,719|$9,457,050|$1,065,001|Strong Investment Returns|</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/82683f8dc88d2d9d.html">content_marketing_agency_owner</a></td>
+    <td>1,032,035 USD / year</td>
+    <td class="num">$1,032,035</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>marketing</small></td>
+    <td class="snippet">In 2024, we posted $1,032,035.34 in revenue. This brings our lifetime revenue to $7,863,052... Revenue is up 23% YoY. EBITDA in Q4 trending up 1-2 points.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/d07206622bf1bd18.html">engineering_manager_acquired_startup_founder</a></td>
+    <td>900,000 USD / year</td>
+    <td class="num">$900,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">My total gross compensation in the intervening years was as follows: 2015: $1.1m 2016: $700k 2017: $850k 2018: $900k (estimated)</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/121493aa71239e7c.html">google_l7_software_engineer</a></td>
+    <td>800,000 USD / year</td>
+    <td class="num">$800,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">the highest reported base salary was for a level 7 software engineer, earning $718,000 in base salary and a total compensation package of nearly $800,000.</td>
+    <td><small>hackernews</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/716e4a22047e23ab.html">faang_software_engineer_l6</a></td>
+    <td>750,000 USD / year</td>
+    <td class="num">$750,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">FAANG dev (nobody special, just an L6 who went long on RSUs over the years. $5M is liquid)... My annual comp has ranged from $500k-$1M depending on stock swings over the last ~6 years for example).</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/aaae258c4a43f10e.html">overemployed_principal_software_engineer</a></td>
+    <td>730,000 USD / year</td>
+    <td class="num">$730,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">Rough gross earnings:
+2022: 360k
+2023: 730k
+2024 (estimated year end): 450k
+Net worth at the start: ~90k
+Net worth current: ~1 million</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/8e65d015aef48366.html">overemployed_project_manager</a></td>
+    <td>560,000 USD / year</td>
+    <td class="num">$560,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">J1 - $175k
+J2 - $185k ... J3. Contract gig. 100/hr. ... TC - $560k. ... Total OE gross income - $1.15M in 3 years. Highest pay $560k. Lowest $330k</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/GB.html"><span class="badge country">GB</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/aa1d459f7d9f0724.html">software_engineer</a></td>
+    <td>400,000 GBP / year</td>
+    <td class="num">$511,600</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">Age: 29. My job: Software Engineer in a US tech company. Salary (roughly projecting over the next 12 months): £400k. ISA: £215k. Pension: £285k. Outside tax wrappers: £400k</td>
+    <td><small>r_fireuk</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/a390715ecca6dbad.html">product_manager</a></td>
+    <td>500,000 USD / year</td>
+    <td class="num">$500,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">in 2023 I went from two jobs to three and scored some crazy money (almost cleared $500k in comp + benefits)...an interesting and rewarding startup Lead PM J1 for ~$200k and a very boring but also pretty hands-off blue chip corp Senior PM J2 for ~$225k</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/04bd77b3bf4e1f34.html">litrpg_author</a></td>
+    <td>500,000 USD / year</td>
+    <td class="num">$500,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>content_creator</small></td>
+    <td class="snippet">This year I&#39;m looking at roughly $500k total income on the extremely conservative side, closer to $600k if I&#39;m a little more aggressive with my estimates. Patreon&#39;s about half of that, with Amazon being the other half.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/93158b9ad2e39e75.html">ai_research_engineer</a></td>
+    <td>500,000 USD / year</td>
+    <td class="num">$500,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">Blitz.gg | AI Research Engineer - Custom Model Development for Game Modding Platform | Full-Time | Hybrid/Remote/Onsite | Los Angeles, CA USA... A highly competitive salary package in excess of $500k/year base, plus a very generous total compensation package in terms of stocks and benefits.</td>
+    <td><small>hackernews</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/f03f9a418fe53530.html">big_tech_software_engineer</a></td>
+    <td>460,000 USD / year</td>
+    <td class="num">$460,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">Job 1 (J1) Big tech FTE Around $210K (base + bonus)... Job 2 (J2) Smaller company, contractor role $40/hr, around 5–7 hours a week... Job 3 (J3) Another big tech (wannabe) FTE Around $210K (base + bonus)</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/f40206b1036f2237.html">tech_design_lead</a></td>
+    <td>420,000 USD / year</td>
+    <td class="num">$420,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">2020 — EXPECTED EARNINGS: $420,000. CURRENT NET WORTH: $1,203,000. We had a baby!...I accepted an offer from a huge tech company for a stupidly high salary of $250k.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/3594f5a13222cc2a.html">faang_marketing_professional</a></td>
+    <td>400,000 USD / year</td>
+    <td class="num">$400,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>marketing</small></td>
+    <td class="snippet">I work for a FAANG, but on the marketing side. SO stays at home. Total annual compensation is around $400K (salary + bonus + equity). We current live in a VHCOL area.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/a640122b83a67734.html">google_software_engineer</a></td>
+    <td>400,000 USD / year</td>
+    <td class="num">$400,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">My base salary is $220k; this year my bonus plus equity will be around $200k, so my total compensation will be over $400k. I&#39;ve been out for a number of years, and the bonus plus stock is performance based</td>
+    <td><small>hackernews</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/AU.html"><span class="badge country">AU</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/c7dd14f74d56bb83.html">overemployed_software_tech_lead</a></td>
+    <td>400,000 USD / year</td>
+    <td class="num">$400,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">In 2025, I grossed $400K (yes, past tense), of which 2/3rds was earned via my company structure because I have lucked into a lot of contract work. ... J1 $140K J2 $150K J3 $280K</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/ID.html"><span class="badge country">ID</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/6313ab435dfaf5c4.html">productized_design_service_founder</a></td>
+    <td>400,000 USD / year</td>
+    <td class="num">$400,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>design_creative</small></td>
+    <td class="snippet">We went from 0 to $400,000 in revenue in 12 months, with a 25% profit margin (after paying ourselves salaries). More than 80+ designers got full-time, stable income this year!</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/GB.html"><span class="badge country">GB</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/4bcd98b6312ba745.html">ecommerce_brand_owner</a></td>
+    <td>25,000 GBP / month</td>
+    <td class="num">$383,700</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>entrepreneur_ecom</small></td>
+    <td class="snippet">At the end of that month I&#39;d made £30K. ... my company is now turning over about 25k per month consistently</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/bcd855b9ef9862ba.html">tech_startup_employee</a></td>
+    <td>350,000 USD / year</td>
+    <td class="num">$350,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">I left my FAANG-adjacent tech job for a pre-IPO start-up. Income grew from $300K to $350K but has made it much harder to value my equity awards... Have begun to diversify my investments to include some pre-IPO startups via Republic.com</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/5a7c799a67e5a621.html">retired_software_company_founder</a></td>
+    <td>350,000 USD / year</td>
+    <td class="num">$350,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">I am retired (M 72) with a sizable portfolio after selling my small-ish computer games software company and after saving for retirement for over 40 years. I make ~$350K a year from my investments.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/f60e51fa3615be35.html">startup_founder</a></td>
+    <td>350,000 USD / year</td>
+    <td class="num">$350,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>entrepreneur_ecom</small></td>
+    <td class="snippet">As of August 1st, I am now officially fatFIRE&#39;ed at age 36 after selling my startup. ... Right now this brings in about ~$350k/yr before taxes from dividends and interest</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/57fefa84b07ee845.html">marketing_director_software</a></td>
+    <td>350,000 USD / year</td>
+    <td class="num">$350,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">I&#39;m a marketing director with about 8 years of experience and a total of about 10 years working. I live and work in the Bay Area at a (you guessed it) software company. My base is about $200k and my equity is about $150k</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/78f1e0983735aef6.html">saas_startup_founder_real_estate_tech</a></td>
+    <td>323,010 USD / one-time</td>
+    <td class="num">$323,010</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">Me and my college buddy took our startup to $323,000.43 in 14 months and we will soon pass $1,000,000 in annual recurring revenue.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/5742aa8247d723f1.html">protein_pancake_business_owner</a></td>
+    <td>25,000 USD / month</td>
+    <td class="num">$300,000</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>entrepreneur_ecom</small></td>
+    <td class="snippet">Ashley is grossing **$25k/month**.
+- She started the company out of her apartment kitchen.
+- She made it on **Shark Tank**</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/5e49b9c6ca0d5442.html">google_l5_software_engineer</a></td>
+    <td>300,000 USD / year</td>
+    <td class="num">$300,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>tech_software</small></td>
+    <td class="snippet">A level 5 engineer can pull $170-190k base. $30k bonus. Depending on RSU grants and refreshes, you&#39;ll can be vesting at least $100k per year. That puts you over $300k total compensation.</td>
+    <td><small>hackernews</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/10bb0ffd64bafd4c.html">info_product_creator</a></td>
+    <td>24,802 USD / month</td>
+    <td class="num">$297,624</td>
+    <td><span class="badge bracket-upper_middle">upper_middle</span></td>
+    <td><small>content_creator</small></td>
+    <td class="snippet">These two products made $237,207 in sales so far, and $210,822 in profit, for an average profit of $24,802/month.</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+  <tr>
+    <td><a href="../country/US.html"><span class="badge country">US</span></a></td>
+    <td><span class="badge lang">en</span></td>
+    <td><a class="row-link" href="../record/f5603896ba67c6b3.html">medical_devices_manager</a></td>
+    <td>275,000 USD / year</td>
+    <td class="num">$275,000</td>
+    <td><span class="badge bracket-top">top</span></td>
+    <td><small>healthcare</small></td>
+    <td class="snippet">**Income:** $375k. $275k (me), $100k (DW)  
+**Net worth:** $610k</td>
+    <td><small>reddit_import</small></td>
+  </tr>
+  
+</table>
+
+
+<div class="pagination">
+  
+  <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=1">«</a>
+  <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=3">‹ 上一页</a>
+  
+  
+  
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=1">1</a>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=2">2</a>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=3">3</a>
+  
+    <span class="current">4</span>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=5">5</a>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=6">6</a>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=7">7</a>
+  
+    <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=8">8</a>
+  
+  <span class="gap">…</span>
+  <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=5">下一页 ›</a>
+  <a href="?country=&amp;lang=&amp;bracket=&amp;profession=&amp;mechanism=&amp;currency=&amp;q=&amp;min_usd=&amp;max_usd=&page=70">»</a>
+</div>
+
+
+</main>
+
+<footer class="footer">
+  <div>shouru — 跨国收入与谋生方式研究 · 79 国 · 27 语言 · 166 平台</div>
+  <div>数据基于公开互联网帖子，仅作研究展示。引文 ≤300 字符 + 原 URL。</div>
+</footer>
+</body>
+</html>
