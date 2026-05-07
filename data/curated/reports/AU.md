@@ -2,19 +2,19 @@
 
 ## Overview
 
-- **Total samples:** 72
-- **Records with USD/yr amount:** 62
-- **Average reported income (USD/yr):** $138,416- **Low-confidence records (<0.5):** 6
+- **Total samples:** 84
+- **Records with USD/yr amount:** 74
+- **Average reported income (USD/yr):** $126,215- **Low-confidence records (<0.5):** 7
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 4 |
-| lower_middle | 9 |
-| middle | 17 |
-| upper_middle | 22 |
-| top | 20 |
+| lower_middle | 10 |
+| middle | 21 |
+| upper_middle | 26 |
+| top | 23 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -45,11 +45,12 @@
 | 2 | civil_engineer | 1 |
 | 3 | family_business_employee | 1 |
 | 4 | full_time_worker_uni_student | 1 |
-| 5 | manual_laborer | 1 |
-| 6 | office_worker_caring_for_parents | 1 |
-| 7 | part_time_worker_student | 1 |
-| 8 | pizza_shop_employee | 1 |
-| 9 | pressure_cleaning_business_owner | 1 |
+| 5 | low_income_worker | 1 |
+| 6 | manual_laborer | 1 |
+| 7 | office_worker_caring_for_parents | 1 |
+| 8 | part_time_worker_student | 1 |
+| 9 | pizza_shop_employee | 1 |
+| 10 | pressure_cleaning_business_owner | 1 |
 
 ### middle
 
@@ -60,11 +61,11 @@
 | 3 | carpet_cleaning_business_owner | 1 |
 | 4 | crypto_trader | 1 |
 | 5 | data_science_consultant | 1 |
-| 6 | entry_level_professional | 1 |
-| 7 | food_delivery_driver | 1 |
-| 8 | freelance_transcriptionist | 1 |
-| 9 | hypothetical_australian_employee | 1 |
-| 10 | junior_doctor_intern | 1 |
+| 6 | early_career_professional | 1 |
+| 7 | entry_level_professional | 1 |
+| 8 | food_delivery_driver | 1 |
+| 9 | freelance_transcriptionist | 1 |
+| 10 | hypothetical_australian_employee | 1 |
 
 ### upper_middle
 
@@ -72,14 +73,14 @@
 | ---: | --- | ---: |
 | 1 | dual_income_household | 2 |
 | 2 | salaried_professional | 2 |
-| 3 | child_safeguarding_consultant | 1 |
-| 4 | corporate_lawyer | 1 |
-| 5 | digital_marketing_agency_owner | 1 |
-| 6 | entry_level_office_worker | 1 |
-| 7 | female_employee_median | 1 |
-| 8 | freelance_web_developer | 1 |
-| 9 | government_employee_couple | 1 |
-| 10 | government_psychologist_senior_manager | 1 |
+| 3 | cafe_manager | 1 |
+| 4 | child_safeguarding_consultant | 1 |
+| 5 | corporate_lawyer | 1 |
+| 6 | digital_marketing_agency_owner | 1 |
+| 7 | entry_level_office_worker | 1 |
+| 8 | female_employee_median | 1 |
+| 9 | freelance_web_developer | 1 |
+| 10 | government_employee_couple | 1 |
 
 ### top
 
@@ -90,26 +91,26 @@
 | 3 | dual_income_couple | 1 |
 | 4 | dual_income_household | 1 |
 | 5 | ecommerce_brand_founder | 1 |
-| 6 | facebook_ads_consultant | 1 |
-| 7 | high_income_professional | 1 |
-| 8 | hospitality_business_owner | 1 |
-| 9 | instagram_influencer_marketer | 1 |
-| 10 | locum_psychiatry_registrar | 1 |
+| 6 | employment_lawyer | 1 |
+| 7 | facebook_ads_consultant | 1 |
+| 8 | high_income_professional | 1 |
+| 9 | hospitality_business_owner | 1 |
+| 10 | instagram_influencer_marketer | 1 |
 
 
 ## Earning mechanism share
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 43.7% |
-| business_owner | 22.7% |
-| freelance_contractor | 8.4% |
-| multiple_streams | 7.6% |
-| passive_investment | 5.9% |
-| royalties_creator | 4.2% |
-| platform_gig | 3.4% |
-| government_pension | 2.5% |
-| real_estate_rental | 1.7% |
+| salary_employment | 46.6% |
+| business_owner | 21.8% |
+| freelance_contractor | 8.3% |
+| multiple_streams | 6.8% |
+| passive_investment | 5.3% |
+| royalties_creator | 3.8% |
+| government_pension | 3.0% |
+| platform_gig | 3.0% |
+| real_estate_rental | 1.5% |
 | equity_compensation | 0.0% |
 | illicit_grey | 0.0% |
 | inheritance_trust | 0.0% |
@@ -162,13 +163,18 @@
 — [r_ausfinance](https://www.reddit.com/r/AusFinance/comments/1l30s87/worried_about_future_28m_sydney_feeling_very/)
 *Profession: paralegal | Summary: 28-year-old paralegal in Sydney earning ~A$75k/year, partner earning A$30k/year part-time while finishing university.*
 
-> "Currently 31M, as a pre-delivery technician - after starting in the warehouse... my salary is below the median for Melbourne."
+> "Will be starting a new job next year paying 82k + super (public sector) expected pay rise after 1-2 years"
 
-— [r_ausfinance](https://www.reddit.com/r/AusFinance/comments/1t19gvq/am_i_doing_ok_for_65k_a_year/)
-*Profession: pre_delivery_technician | Summary: 31-year-old Melbourne pre-delivery technician (formerly warehouse) earning AUD 65k/year, below the local median.*
+— [r_ausfinance](https://www.reddit.com/r/AusFinance/comments/1pumxpa/advice_for_recent_graduate/)
+*Profession: public_sector_graduate | Summary: 20-year-old Brisbane university graduate starting public sector job at AUD 82k+super with AUD 40k savings.*
 
 
 ### upper_middle bracket
+> "I'm 30M, working as a café manager in Sydney on a $90k salary."
+
+— [r_ausfinance](https://www.reddit.com/r/AusFinance/comments/1muflzt/30m_feels_stuck_financially_need_advice/)
+*Profession: cafe_manager | Summary: 30-year-old café manager in Sydney earning AUD 90k/year salary.*
+
 > "In August 2025, the industries with the highest median weekly earnings were: Mining ($2,761 per week, up from $2,594 in August 2024)."
 
 — [govstats_AU_ABS](https://www.abs.gov.au/statistics/labour/earnings-and-working-conditions/employee-earnings/latest-release)
@@ -178,11 +184,6 @@
 
 — [reddit_import](https://reddit.com/r/financialindependence/comments/b0e2jm/pursuit_of_fire_let_me_stand_my_ground_and_quit/)
 *Profession: tech_startup_non_engineer | Summary: A 24-year-old non-engineer working in tech in Australia jumped from A$120k to A$145k base plus bonus by changing jobs after quitting an underwhelming startup.*
-
-> "Fast forward to now and I'm running a 4-man consulting and marketing agency focused on SEO, copywriting and video marketing that can be totally location independent if it wanted to be. We're turning over close to $300k AUD in just under 10 months."
-
-— [reddit_import](https://reddit.com/r/digitalnomad/comments/jyrgn9/how_i_set_up_a_digital_marketing_agency_to_300k/)
-*Profession: digital_marketing_agency_owner | Summary: Former hotel manager built a marketing/SEO agency in Australia turning over close to $300k AUD in under 10 months.*
 
 
 ### top bracket

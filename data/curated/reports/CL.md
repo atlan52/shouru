@@ -2,18 +2,18 @@
 
 ## Overview
 
-- **Total samples:** 11
-- **Records with USD/yr amount:** 11
-- **Average reported income (USD/yr):** $129,741- **Low-confidence records (<0.5):** 0
+- **Total samples:** 14
+- **Records with USD/yr amount:** 15
+- **Average reported income (USD/yr):** $97,949- **Low-confidence records (<0.5):** 0
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 0 |
-| lower_middle | 1 |
-| middle | 5 |
-| upper_middle | 2 |
+| lower_middle | 2 |
+| middle | 6 |
+| upper_middle | 3 |
 | top | 3 |
 
 ## Bracket thresholds (USD/yr lower bound)
@@ -36,24 +36,27 @@ _No data for this bracket._
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | unspecified_employee | 1 |
+| 1 | underemployed_worker | 1 |
+| 2 | unspecified_employee | 1 |
 
 ### middle
 
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | luxury_beauty_promoter | 1 |
-| 2 | medical_sales_representative | 1 |
-| 3 | restaurant_cashier_worker | 1 |
-| 4 | retail_sales_associate | 1 |
-| 5 | retired_traveler | 1 |
+| 2 | market_research_analyst | 1 |
+| 3 | medical_sales_representative | 1 |
+| 4 | restaurant_cashier_worker | 1 |
+| 5 | retail_sales_associate | 1 |
+| 6 | retired_traveler | 1 |
 
 ### upper_middle
 
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | contracts_and_projects_engineer | 1 |
-| 2 | professional_employee | 1 |
+| 2 | orthopedic_trauma_surgeon | 1 |
+| 3 | professional_employee | 1 |
 
 ### top
 
@@ -68,11 +71,11 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 64.3% |
-| business_owner | 14.3% |
-| government_pension | 7.1% |
-| passive_investment | 7.1% |
-| royalties_creator | 7.1% |
+| salary_employment | 72.2% |
+| business_owner | 11.1% |
+| government_pension | 5.6% |
+| passive_investment | 5.6% |
+| royalties_creator | 5.6% |
 | equity_compensation | 0.0% |
 | freelance_contractor | 0.0% |
 | illicit_grey | 0.0% |
@@ -93,6 +96,11 @@ _No excerpts for this bracket._
 — [r_chile](https://www.reddit.com/r/chile/comments/1qtlv2z/como_compran_en_el_super/)
 *Profession: unspecified_employee | Summary: Chilean household where the partner earns ~1M CLP/month (~12M CLP/year) struggling to afford groceries amid inflation.*
 
+> "La realidad del subempleo en Chile: afecta a 2 millones de personas y sueldos promedian los $352 mil"
+
+— [r_chile](https://www.reddit.com/r/chile/comments/1p5qamx/la_realidad_del_subempleo_en_chile_afecta_a_2/)
+*Profession: underemployed_worker | Summary: News headline about underemployment in Chile affecting 2 million people with average wages of CLP 352,000/month.*
+
 
 ### middle bracket
 > "$ 649.000,00 (Mensual) + Comisiones contrato a plazo fijo Jornada de 44 horas semanales ... Renta líquida: $649.000 proporcional a los días trabajados"
@@ -112,6 +120,11 @@ _No excerpts for this bracket._
 
 
 ### upper_middle bracket
+> "Renta bruta mensual: $1.104.000. Requisitos: Formación: Médico Cirujano con especialidad en Traumatología (excluyente)."
+
+— [computrabajo_cl](https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-medico-traumatologo-rm-en-santiago-estacion-central-0F850649206A6C9F61373E686DCF3405#lc=ListOffers-Score4-4)
+*Profession: orthopedic_trauma_surgeon | Summary: Chilean orthopedic trauma physician (part-time replacement contract) with gross monthly salary of 1,104,000 CLP for 12 hours/week.*
+
 > "$ 2.200.000,00 (Mensual) contrato a plazo fijo Jornada extraordinaria En J.E.J Ingeniería nos encontramos en proceso de búsqueda de profesional "Ingeniero/a Experto de Contratos y Proyectos Infraestructura""
 
 — [computrabajo_cl](https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingenieroa-experto-de-contratos-y-proyectos-infraestructura-division-salvador-en-diego-de-almagro-3C2408A67B0D93AB61373E686DCF3405#lc=ListOffers-Score4-4)

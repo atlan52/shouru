@@ -2,19 +2,19 @@
 
 ## Overview
 
-- **Total samples:** 17
-- **Records with USD/yr amount:** 14
-- **Average reported income (USD/yr):** $127,257- **Low-confidence records (<0.5):** 2
+- **Total samples:** 20
+- **Records with USD/yr amount:** 17
+- **Average reported income (USD/yr):** $111,229- **Low-confidence records (<0.5):** 2
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 2 |
-| lower_middle | 2 |
+| lower_middle | 3 |
 | middle | 2 |
-| upper_middle | 4 |
-| top | 7 |
+| upper_middle | 5 |
+| top | 8 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -39,8 +39,9 @@
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | minimum_wage_worker | 1 |
-| 2 | retail_temp_worker | 1 |
+| 1 | fixed_income_investor | 1 |
+| 2 | minimum_wage_worker | 1 |
+| 3 | retail_temp_worker | 1 |
 
 ### middle
 
@@ -56,33 +57,35 @@
 | 1 | clt_employee | 1 |
 | 2 | corporate_employee | 1 |
 | 3 | freelance_software_developer | 1 |
-| 4 | office_employee | 1 |
+| 4 | investor_portfolio_aporter | 1 |
+| 5 | office_employee | 1 |
 
 ### top
 
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | capital_city_mayor | 1 |
-| 2 | international_freelance_service_provider | 1 |
-| 3 | investor_with_day_job | 1 |
-| 4 | lawsuit_winner_brazil | 1 |
-| 5 | overemployed_software_worker | 1 |
-| 6 | software_company_founder | 1 |
-| 7 | software_engineer | 1 |
+| 2 | federal_judge | 1 |
+| 3 | international_freelance_service_provider | 1 |
+| 4 | investor_with_day_job | 1 |
+| 5 | lawsuit_winner_brazil | 1 |
+| 6 | overemployed_software_worker | 1 |
+| 7 | software_company_founder | 1 |
+| 8 | software_engineer | 1 |
 
 
 ## Earning mechanism share
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 48.4% |
-| freelance_contractor | 12.9% |
-| passive_investment | 12.9% |
-| business_owner | 9.7% |
-| multiple_streams | 6.5% |
-| equity_compensation | 3.2% |
-| inheritance_trust | 3.2% |
-| royalties_creator | 3.2% |
+| salary_employment | 47.1% |
+| passive_investment | 17.6% |
+| freelance_contractor | 11.8% |
+| business_owner | 8.8% |
+| multiple_streams | 5.9% |
+| equity_compensation | 2.9% |
+| inheritance_trust | 2.9% |
+| royalties_creator | 2.9% |
 | government_pension | 0.0% |
 | illicit_grey | 0.0% |
 | platform_gig | 0.0% |
@@ -113,6 +116,11 @@
 
 — [r_brasil](https://www.reddit.com/r/brasil/comments/1piebci/salário_de_r_2000_não_atrai_trabalhador/)
 *Profession: retail_temp_worker | Summary: News headline: Brazilian retail sector struggles to attract temporary workers at R$2,000/month wages.*
+
+> "Desde de os aumentos da SELIC eu comecei a investir parte considerável do meu patrimônio em renda fixa e o mês de julho foi a primeira vez que consegui mais que um salário mínimo em rendimentos."
+
+— [r_investimentos](https://www.reddit.com/r/investimentos/comments/1mi7lri/primeiro_mês_que_consegui_mais_que_um_salário/)
+*Profession: fixed_income_investor | Summary: Brazilian retail investor in fixed-income who first earned more than one minimum wage (~R$1.5k) in monthly investment yields after SELIC hikes.*
 
 
 ### middle bracket
@@ -155,10 +163,10 @@
 — [r_investimentos](https://www.reddit.com/r/investimentos/comments/1pe2k9d/cheguei_em_200k/)
 *Profession: international_freelance_service_provider | Summary: 27-year-old Brazilian providing services abroad in foreign currency (USD/EUR/GBP), currently earning ~25k BRL/month from a major client, hit 200k BRL in investments.*
 
-> "Prefeitos em oito capitais ganham mais do que governadores, com salários que chegam a R$ 52,9 mil"
+> "Um juiz federal, por exemplo, recebe salário bruto de cerca de R$35.462,23, somado a auxílio-moradia, conforme dados de julho de 2025. O valor pode chegar a R$40 mil com gratificações. Já os juízes estaduais recebem valor inferior, mas ainda expressivo: algo em torno de R$30 mil."
 
-— [r_brasil](https://www.reddit.com/r/brasil/comments/1pmrxyu/prefeitos_em_oito_capitais_ganham_mais_do_que/)
-*Profession: capital_city_mayor | Summary: News headline reporting that mayors of eight Brazilian state capitals earn salaries up to R$52,900/month, exceeding their state governors.*
+— [r_brasil](https://www.reddit.com/r/brasil/comments/1rewjet/juiz_não_tem_carro_desembargador_não_tem_nada_mal/)
+*Profession: federal_judge | Summary: Brazilian federal judges earn ~R$35,462/month gross plus housing allowance, up to ~R$40k with bonuses; state judges ~R$30-33k/month.*
 
 
 

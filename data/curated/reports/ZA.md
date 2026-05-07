@@ -2,18 +2,18 @@
 
 ## Overview
 
-- **Total samples:** 5
-- **Records with USD/yr amount:** 5
-- **Average reported income (USD/yr):** $78,754- **Low-confidence records (<0.5):** 0
+- **Total samples:** 7
+- **Records with USD/yr amount:** 7
+- **Average reported income (USD/yr):** $66,211- **Low-confidence records (<0.5):** 0
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 0 |
-| lower_middle | 0 |
+| lower_middle | 1 |
 | middle | 0 |
-| upper_middle | 3 |
+| upper_middle | 4 |
 | top | 2 |
 
 ## Bracket thresholds (USD/yr lower bound)
@@ -34,7 +34,9 @@ _No data for this bracket._
 
 ### lower_middle
 
-_No data for this bracket._
+| # | Profession | Records |
+| ---: | --- | ---: |
+| 1 | early_career_employee | 1 |
 
 ### middle
 
@@ -44,9 +46,10 @@ _No data for this bracket._
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | mobile_app_developer | 1 |
-| 2 | recently_laid_off_employee | 1 |
-| 3 | salaried_employee | 1 |
+| 1 | fire_household_dual_income | 1 |
+| 2 | mobile_app_developer | 1 |
+| 3 | recently_laid_off_employee | 1 |
+| 4 | salaried_employee | 1 |
 
 ### top
 
@@ -60,16 +63,16 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 66.7% |
-| freelance_contractor | 16.7% |
-| real_estate_rental | 16.7% |
+| salary_employment | 60.0% |
+| passive_investment | 20.0% |
+| freelance_contractor | 10.0% |
+| real_estate_rental | 10.0% |
 | business_owner | 0.0% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
 | illicit_grey | 0.0% |
 | inheritance_trust | 0.0% |
 | multiple_streams | 0.0% |
-| passive_investment | 0.0% |
 | platform_gig | 0.0% |
 | royalties_creator | 0.0% |
 | unknown | 0.0% |
@@ -80,12 +83,21 @@ _No data for this bracket._
 _No excerpts for this bracket._
 
 ### lower_middle bracket
-_No excerpts for this bracket._
+> "I currently earn R16 000 a month and I am investing roughly R12 000 of that each and every month. ... R7 000 into my Alan Gray balanced fund R3 833ish into my TFSA (10x total world ETF) R1 000 into QQQM in my USD account"
+
+— [r_personalfinanceza](https://www.reddit.com/r/PersonalFinanceZA/comments/1suen0p/all_of_my_investments_at_21_years_old/)
+*Profession: early_career_employee | Summary: 21-year-old South African earning R16,000/month, investing R12,000 across Allan Gray balanced fund, TFSA, and a USD QQQM account.*
+
 
 ### middle bracket
 _No excerpts for this bracket._
 
 ### upper_middle bracket
+> "R90k post-tax income (about an 80/20 split between me/my wife) - R36k spent ... - R54k saved - 60% savings rate"
+
+— [r_personalfinanceza](https://www.reddit.com/r/PersonalFinanceZA/comments/1q2soxu/fire_south_africa_2026_update/)
+*Profession: fire_household_dual_income | Summary: South African dual-income FIRE household with R90k/month post-tax (80/20 split), R3.8M net worth, 60% savings rate.*
+
 > "I got a decent salary bump today, about 30%. My gross is close to R60k. I don't need to pay for medical and I'm considering opening a retirement fund/investment."
 
 — [r_personalfinanceza](https://www.reddit.com/r/PersonalFinanceZA/comments/1ry9zcl/i_need_your_guidance/)
@@ -95,11 +107,6 @@ _No excerpts for this bracket._
 
 — [r_personalfinanceza](https://www.reddit.com/r/PersonalFinanceZA/comments/1r0q409/managing_severance_pay/)
 *Profession: recently_laid_off_employee | Summary: South African employee receiving ~R300k severance after no-fault termination, planning to draw ~R35k/month while job-hunting.*
-
-> "in my country, being able to earn $100 an hour is way attractive... favourable exchange rate would make me a local millionaire in half a year"
-
-— [reddit_import](https://reddit.com/r/freelance/comments/4k28sq/my_impression_of_toptal/)
-*Profession: mobile_app_developer | Summary: A senior mobile developer in a country with favorable exchange rate sought to earn $100/hour through Toptal but was rejected.*
 
 
 ### top bracket

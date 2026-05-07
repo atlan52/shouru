@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 3
-- **Records with USD/yr amount:** 3
-- **Average reported income (USD/yr):** $14,713- **Low-confidence records (<0.5):** 0
+- **Total samples:** 5
+- **Records with USD/yr amount:** 5
+- **Average reported income (USD/yr):** $12,927- **Low-confidence records (<0.5):** 0
 
 ## Bracket distribution
 
@@ -12,7 +12,7 @@
 | --- | ---: |
 | bottom | 0 |
 | lower_middle | 0 |
-| middle | 1 |
+| middle | 3 |
 | upper_middle | 2 |
 | top | 0 |
 
@@ -40,7 +40,9 @@ _No data for this bracket._
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | warehouse_picker_loader | 1 |
+| 1 | cnc_plasma_cutting_operator | 1 |
+| 2 | warehouse_loader | 1 |
+| 3 | warehouse_picker_loader | 1 |
 
 ### upper_middle
 
@@ -81,10 +83,20 @@ _No excerpts for this bracket._
 _No excerpts for this bracket._
 
 ### middle bracket
+> "Вантажник 30 000 грн Вища за середню Агропродукт Харчова промисловість ; 10–50 співробітників Суми, Лебединська вулиця, 19."
+
+— [workua](https://www.work.ua/jobs/6587995/)
+*Profession: warehouse_loader | Summary: Warehouse loader job posting in Sumy, Ukraine at Agroprodukt offering 30,000 UAH/month at a flour mill.*
+
 > "Вантажник-комплектувальник 25 000 – 26 500 грн Тексіка Оптова торгівля, дистрибуція, імпорт, експорт ; 50–250 співробітників Хмельницький"
 
 — [workua](https://www.work.ua/jobs/6041661/)
 *Profession: warehouse_picker_loader | Summary: Warehouse loader/picker job listing in Khmelnytskyi, Ukraine offering 25,000-26,500 UAH/month at a fabric wholesaler.*
+
+> "Оператор плазмової різки з ЧПУ 30 000 – 40 000 грн BlueBird Tech ... Заробітна плата на ВТ: 30 000 грн Постійна заробітна плата: 40 000 грн + премії за виконання плану"
+
+— [workua](https://www.work.ua/jobs/7911225/)
+*Profession: cnc_plasma_cutting_operator | Summary: Job ad in Zhytomyr for a CNC plasma-cutting operator at defense-industry firm BlueBird Tech offering 30,000-40,000 UAH/month.*
 
 
 ### upper_middle bracket

@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 14
-- **Records with USD/yr amount:** 11
-- **Average reported income (USD/yr):** $15,435- **Low-confidence records (<0.5):** 2
+- **Total samples:** 15
+- **Records with USD/yr amount:** 12
+- **Average reported income (USD/yr):** $16,670- **Low-confidence records (<0.5):** 2
 
 ## Bracket distribution
 
@@ -13,7 +13,7 @@
 | bottom | 0 |
 | lower_middle | 5 |
 | middle | 5 |
-| upper_middle | 3 |
+| upper_middle | 4 |
 | top | 1 |
 
 ## Bracket thresholds (USD/yr lower bound)
@@ -58,7 +58,8 @@ _No data for this bracket._
 | ---: | --- | ---: |
 | 1 | boutique_hotel_owner | 1 |
 | 2 | remote_tech_worker | 1 |
-| 3 | uk_remote_contractor | 1 |
+| 3 | software_developer | 1 |
+| 4 | uk_remote_contractor | 1 |
 
 ### top
 
@@ -71,10 +72,10 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 72.2% |
-| freelance_contractor | 16.7% |
-| business_owner | 5.6% |
-| royalties_creator | 5.6% |
+| salary_employment | 70.0% |
+| freelance_contractor | 20.0% |
+| business_owner | 5.0% |
+| royalties_creator | 5.0% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
 | illicit_grey | 0.0% |
@@ -125,6 +126,11 @@ _No excerpts for this bracket._
 
 
 ### upper_middle bracket
+> "Tengo 26 años. Soy programador, y mi sueldo ahora mismo es de 46k brutos mensuales. ... Este año he estado haciendo eso con otro trabajo remoto de medio tiempo, y pagan en dolares"
+
+— [r_mexico](https://www.reddit.com/r/mexico/comments/1s1w17t/comprar_casa_ahora_o_jugarmela/)
+*Profession: software_developer | Summary: 26-year-old Mexican programmer earning 46k MXN/month gross plus a USD-paid remote part-time job, weighing buying a house via Infonavit.*
+
 > "we're way too expensive (particularly since we charge in dollars and the dollar is very strong right now) for the average middle to upper-middle class traveler but actually too cheap and not "elite" enough for the upper class."
 
 — [reddit_import](https://reddit.com/r/Entrepreneur/comments/4t6tig/only_4_of_smallbiz_make_1_millionyr_my_marketings/d5f2pk7/)
@@ -134,11 +140,6 @@ _No excerpts for this bracket._
 
 — [reddit_import](https://reddit.com/r/digitalnomad/comments/184gewx/how_the_hell_do_you_guys_make_money_as_digital/kavpr8s/)
 *Profession: uk_remote_contractor | Summary: A UK remote contractor lives in Mexico City while working on UK contracts and conceals their location from clients.*
-
-> "I also have a well paid US remote job which is enough for a great lifestyle anywhere on earth."
-
-— [reddit_import](https://reddit.com/r/digitalnomad/comments/1nqm5nw/latina_in_europe_unsure_whether_to_stay_or_return/nga9ums/)
-*Profession: remote_tech_worker | Summary: A European digital nomad living in Mexico has a well-paid US remote job providing comfortable lifestyle anywhere.*
 
 
 ### top bracket

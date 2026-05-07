@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 11
-- **Records with USD/yr amount:** 10
-- **Average reported income (USD/yr):** $257,761- **Low-confidence records (<0.5):** 1
+- **Total samples:** 12
+- **Records with USD/yr amount:** 11
+- **Average reported income (USD/yr):** $241,214- **Low-confidence records (<0.5):** 1
 
 ## Bracket distribution
 
@@ -13,7 +13,7 @@
 | bottom | 1 |
 | lower_middle | 2 |
 | middle | 1 |
-| upper_middle | 3 |
+| upper_middle | 4 |
 | top | 4 |
 
 ## Bracket thresholds (USD/yr lower bound)
@@ -54,6 +54,7 @@
 | 1 | it_company_owner | 1 |
 | 2 | site_reliability_engineer | 1 |
 | 3 | software_engineer | 1 |
+| 4 | unspecified_professional | 1 |
 
 ### top
 
@@ -69,14 +70,14 @@
 
 | Mechanism | Share |
 | --- | ---: |
-| business_owner | 30.0% |
-| salary_employment | 25.0% |
-| freelance_contractor | 20.0% |
-| equity_compensation | 5.0% |
-| government_pension | 5.0% |
-| passive_investment | 5.0% |
-| platform_gig | 5.0% |
-| royalties_creator | 5.0% |
+| business_owner | 28.6% |
+| salary_employment | 28.6% |
+| freelance_contractor | 19.0% |
+| equity_compensation | 4.8% |
+| government_pension | 4.8% |
+| passive_investment | 4.8% |
+| platform_gig | 4.8% |
+| royalties_creator | 4.8% |
 | illicit_grey | 0.0% |
 | inheritance_trust | 0.0% |
 | multiple_streams | 0.0% |
@@ -122,10 +123,10 @@
 — [reddit_import](https://reddit.com/r/Entrepreneur/comments/1g5lbdq/almost_failed_my_company_but_reddit_is_saving_it/)
 *Profession: it_company_owner | Summary: Owner of a Paris-based IT company that hires Brazilian and Senegalese developers, billing standard market rate of €600/day per developer.*
 
-> "I'm a software engineer, late thirties, 12 years of experience. Interesting job in a good company, salary a bit below market average but still in the top paying jobs in my country (France)."
+> "Le salaire de base annuel proposé est de 70 000 euros, soit le même salaire que celui que je gagne dans mon pays"
 
-— [hackernews](https://news.ycombinator.com/item?id=41532585)
-*Profession: software_engineer | Summary: A late-thirties French software engineer with 12 years of experience reports a salary slightly below market average but among the top in France.*
+— [r_france](https://www.reddit.com/r/france/comments/1m4tbix/budget_mensuel/)
+*Profession: unspecified_professional | Summary: Person considering relocating to southern France with a 70,000 EUR/year base salary offer.*
 
 
 ### top bracket

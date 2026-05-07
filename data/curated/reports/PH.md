@@ -2,16 +2,16 @@
 
 ## Overview
 
-- **Total samples:** 9
-- **Records with USD/yr amount:** 5
-- **Average reported income (USD/yr):** $3,486- **Low-confidence records (<0.5):** 1
+- **Total samples:** 10
+- **Records with USD/yr amount:** 6
+- **Average reported income (USD/yr):** $3,536- **Low-confidence records (<0.5):** 1
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 2 |
-| lower_middle | 3 |
+| lower_middle | 4 |
 | middle | 2 |
 | upper_middle | 2 |
 | top | 0 |
@@ -40,8 +40,9 @@
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | aerospace_it_specialist | 1 |
-| 2 | government_employee_salary_grade_1 | 1 |
-| 3 | teacher_or_engineer | 1 |
+| 2 | entry_level_office_worker | 1 |
+| 3 | government_employee_salary_grade_1 | 1 |
+| 4 | teacher_or_engineer | 1 |
 
 ### middle
 
@@ -66,11 +67,11 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 60.0% |
-| freelance_contractor | 20.0% |
-| business_owner | 6.7% |
-| government_pension | 6.7% |
-| passive_investment | 6.7% |
+| salary_employment | 62.5% |
+| freelance_contractor | 18.8% |
+| business_owner | 6.2% |
+| government_pension | 6.2% |
+| passive_investment | 6.2% |
 | equity_compensation | 0.0% |
 | illicit_grey | 0.0% |
 | inheritance_trust | 0.0% |
@@ -95,6 +96,11 @@ _No data for this bracket._
 
 
 ### lower_middle bracket
+> "Kasi pre-TRAIN law, for 18k salary in my first job, I took home around 10-12k pay."
+
+— [r_philippines](https://www.reddit.com/r/Philippines/comments/1rvb8iq/is_it_possible_to_abolish_train_law/)
+*Profession: entry_level_office_worker | Summary: Manila first-job employee earning 18k PHP salary monthly, taking home ~10-12k after taxes/deductions.*
+
 > "makakatanggap ang isang Salary Grade 1 na empleyado ng dagdag na P573 kada buwan, mula P14,061 hanggang P14,634."
 
 — [r_philippines](https://www.reddit.com/r/Philippines/comments/1q1ufg8/taassahod_sa_mga_govt_employees_ayon_sa_executive/)
@@ -104,11 +110,6 @@ _No data for this bracket._
 
 — [r_philippines](https://www.reddit.com/r/Philippines/comments/1slb54h/high_quality_education_buildings_gusto_pero_sahod/)
 *Profession: teacher_or_engineer | Summary: Philippine commentary citing teachers and engineers earning only PHP 15-18k/month for skilled licensed work.*
-
-> "It’s in the field of Space, I get to practice my IT skills... it pays above the normal starting rate for a fresh grad employee... I also accept part time works from friends"
-
-— [reddit_import](https://reddit.com/r/digitalnomad/comments/gqixqa/my_almost_digital_nomad_life/)
-*Profession: aerospace_it_specialist | Summary: 21-year-old fresh aerospace/IT graduate works a project-based 9-5 in space-related IT paid above the normal fresh-grad starting rate, with side part-time gigs.*
 
 
 ### middle bracket

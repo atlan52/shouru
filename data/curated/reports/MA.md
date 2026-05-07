@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 1
-- **Records with USD/yr amount:** 2
-- **Average reported income (USD/yr):** $3,851- **Low-confidence records (<0.5):** 0
+- **Total samples:** 2
+- **Records with USD/yr amount:** 3
+- **Average reported income (USD/yr):** $8,139- **Low-confidence records (<0.5):** 0
 
 ## Bracket distribution
 
@@ -13,7 +13,7 @@
 | bottom | 0 |
 | lower_middle | 1 |
 | middle | 0 |
-| upper_middle | 0 |
+| upper_middle | 1 |
 | top | 0 |
 
 ## Bracket thresholds (USD/yr lower bound)
@@ -44,7 +44,9 @@ _No data for this bracket._
 
 ### upper_middle
 
-_No data for this bracket._
+| # | Profession | Records |
+| ---: | --- | ---: |
+| 1 | maintenance_process_manager | 1 |
 
 ### top
 
@@ -85,7 +87,11 @@ _No excerpts for this bracket._
 _No excerpts for this bracket._
 
 ### upper_middle bracket
-_No excerpts for this bracket._
+> "I am a maintenance/process manager with 14 years of experience. I have a BTS degree in electromechanics and a professional master's degree in industrial management. My current salary is 14,000 dirhams."
+
+— [r_morocco](https://www.reddit.com/r/Morocco/comments/1ldkxx1/my_salary_as_manager/)
+*Profession: maintenance_process_manager | Summary: Moroccan maintenance/process manager with 14 years of experience earning 14,000 MAD/month.*
+
 
 ### top bracket
 _No excerpts for this bracket._

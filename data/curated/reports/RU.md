@@ -2,18 +2,18 @@
 
 ## Overview
 
-- **Total samples:** 35
-- **Records with USD/yr amount:** 38
-- **Average reported income (USD/yr):** $15,771- **Low-confidence records (<0.5):** 1
+- **Total samples:** 52
+- **Records with USD/yr amount:** 55
+- **Average reported income (USD/yr):** $14,561- **Low-confidence records (<0.5):** 1
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 1 |
-| lower_middle | 15 |
-| middle | 6 |
-| upper_middle | 8 |
+| lower_middle | 20 |
+| middle | 15 |
+| upper_middle | 11 |
 | top | 5 |
 
 ## Bracket thresholds (USD/yr lower bound)
@@ -38,40 +38,46 @@
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | retail_cashier | 3 |
-| 2 | graphic_designer | 2 |
-| 3 | accountant | 1 |
-| 4 | english_language_teacher | 1 |
-| 5 | jewelry_sales_consultant | 1 |
-| 6 | math_teacher | 1 |
-| 7 | microfinance_startup_partner | 1 |
-| 8 | primary_school_teacher | 1 |
-| 9 | problem_assets_specialist_bank | 1 |
-| 10 | school_teacher | 1 |
+| 1 | accountant | 4 |
+| 2 | retail_cashier | 3 |
+| 3 | graphic_designer | 2 |
+| 4 | bank_guarantee_sales_manager | 1 |
+| 5 | english_language_teacher | 1 |
+| 6 | jewelry_sales_consultant | 1 |
+| 7 | math_teacher | 1 |
+| 8 | microfinance_startup_partner | 1 |
+| 9 | ooo_employee | 1 |
+| 10 | primary_school_teacher | 1 |
 
 ### middle
 
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | 1c_programmer | 1 |
-| 2 | frontend_web_developer | 1 |
-| 3 | junior_billing_analyst | 1 |
-| 4 | junior_vba_programmer | 1 |
-| 5 | lead_programmer | 1 |
-| 6 | retail_sales_assistant | 1 |
+| 2 | 3d_interior_visualizer | 1 |
+| 3 | building_inspection_engineer | 1 |
+| 4 | computer_science_teacher | 1 |
+| 5 | design_engineer | 1 |
+| 6 | educator_organizer | 1 |
+| 7 | electrical_engineer | 1 |
+| 8 | engineer | 1 |
+| 9 | frontend_web_developer | 1 |
+| 10 | junior_billing_analyst | 1 |
 
 ### upper_middle
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | cnc_programmer_technologist | 1 |
-| 2 | construction_pto_engineer | 1 |
-| 3 | design_engineer | 1 |
-| 4 | interface_designer | 1 |
-| 5 | interior_designer | 1 |
-| 6 | military_contract_soldier | 1 |
-| 7 | physics_teacher | 1 |
-| 8 | urologist | 1 |
+| 1 | construction_pto_engineer | 2 |
+| 2 | backend_developer | 1 |
+| 3 | cnc_programmer_technologist | 1 |
+| 4 | design_engineer | 1 |
+| 5 | interface_designer | 1 |
+| 6 | interior_designer | 1 |
+| 7 | investment_analyst | 1 |
+| 8 | military_contract_soldier | 1 |
+| 9 | physics_teacher | 1 |
+| 10 | urologist | 1 |
 
 ### top
 
@@ -88,12 +94,12 @@
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 82.2% |
-| freelance_contractor | 8.9% |
-| business_owner | 2.2% |
-| equity_compensation | 2.2% |
-| illicit_grey | 2.2% |
-| passive_investment | 2.2% |
+| salary_employment | 85.7% |
+| freelance_contractor | 6.3% |
+| illicit_grey | 3.2% |
+| business_owner | 1.6% |
+| equity_compensation | 1.6% |
+| passive_investment | 1.6% |
 | government_pension | 0.0% |
 | inheritance_trust | 0.0% |
 | multiple_streams | 0.0% |
@@ -112,6 +118,11 @@
 
 
 ### lower_middle bracket
+> "70 000 ₽ за месяц на руки | Екатеринбург , Геологическая, улица Горького, 65 | Завод «ГЕНМОТОРС». В штат компании приглашаем бухгалтера на первичную документацию."
+
+— [hh_ru](https://hh.ru/vacancy/132311132)
+*Profession: accountant | Summary: Accountant job posting in Yekaterinburg, Russia at 70,000 RUB/month net for primary documentation work at industrial generator manufacturer.*
+
 > "от 50 000 до 80 000 ₽ за месяц на руки | Томск , улица Энтузиастов, 41 | ... школа иностранных языков Green Hills, обучаем детей, подростков и взрослых английскому языку."
 
 — [hh_ru](https://hh.ru/vacancy/132140016)
@@ -122,13 +133,13 @@
 — [hh_ru](https://hh.ru/vacancy/132788037)
 *Profession: retail_cashier | Summary: Bristol convenience store cashier vacancy in Murom, Russia, paying 54,700-60,100 RUB/month before tax.*
 
-> "от 50 000 ₽ за месяц на руки | Екатеринбург , Кировский район, микрорайон Пионерский, Июльская улица, 32 | Учитель математики ."
-
-— [hh_ru](https://hh.ru/vacancy/132769162)
-*Profession: math_teacher | Summary: Math teacher position in Yekaterinburg, Russia at gymnasium #35, paying from 50,000 RUB/month net.*
-
 
 ### middle bracket
+> "50 000 ₽ за месяц на руки | Архангельск | организация внешкольных и внеклассных воспитательных мероприятий со всеми участниками учебно-воспитательного процесса. высшее или среднее профессиональное образование"
+
+— [hh_ru](https://hh.ru/vacancy/132800099)
+*Profession: educator_organizer | Summary: Educator-organizer position at a public school in Arkhangelsk paying 50,000 RUB/month net.*
+
 > "от 75 000 до 90 000 ₽ за месяц до вычета налогов | Ярославль , Тутаевское шоссе, 2В | HOTZ — производитель автоэмалей"
 
 — [hh_ru](https://hh.ru/vacancy/130936856)
@@ -139,27 +150,22 @@
 — [reddit_import](https://reddit.com/r/antiwork/comments/eu183r/my_soul_crushing_experience_how_i_became_antiwork/ffjzgpd/)
 *Profession: frontend_web_developer | Summary: Frontend developer in Russia reports earning about $6000/year as a fullstack developer with extensive overtime.*
 
-> "3 года подряд работаю в компании на полном рабочем дне. Заработная плата после вычета налогов 65 000 рублей. Ведущий программист."
-
-— [banki_ru_forum](https://www.banki.ru/forum/?PAGE_NAME=read&FID=43&TID=229645)
-*Profession: lead_programmer | Summary: 21-year-old lead programmer in Russia earning 65,000 RUB/month after taxes, considering an auto loan.*
-
 
 ### upper_middle bracket
+> "189 656 ₽ за месяц до вычета налогов | Москва , Октябрьская | РБЕ - Российская многопрофильная компания. Позиция: Инвестиционный аналитик. Опыт работы не менее 2х лет в аналогичной должности."
+
+— [hh_ru](https://hh.ru/vacancy/132790122)
+*Profession: investment_analyst | Summary: Investment analyst job at RBE Group in Moscow paying 189,656 RUB/month gross.*
+
 > "от 120 000 до 150 000 ₽ за месяц на руки | Комсомольск-на-Амуре | Обязанности: Документационное сопровождение строительных объектов"
 
 — [hh_ru](https://hh.ru/vacancy/132813871)
 *Profession: construction_pto_engineer | Summary: Construction production-technical engineer vacancy in Komsomolsk-na-Amure, Russia, 120,000-150,000 RUB/month net.*
 
-> "от 300 000 ₽ за месяц на руки | Москва ... ЗАРПЛАТА от 300000 рублей - полный рабочий день"
+> "от 100 000 до 130 000 ₽ за месяц на руки | Москва"
 
-— [hh_ru](https://hh.ru/vacancy/132310421)
-*Profession: urologist | Summary: Moscow medical center job posting for urologist offering from 300,000 RUB/month net salary.*
-
-> "My current salary is $2,800/month (after tax), hopefully going to receive a raise up to $3370. I have a part-time job as a mentor which makes me 270$ more."
-
-— [reddit_import](https://reddit.com/r/financialindependence/comments/ogxezz/a_short_story_of_a_fire_journey_from_eastern/)
-*Profession: interface_designer | Summary: Moldovan interface designer working in Moscow earns $2,800/month after tax (rising to $3,370) plus $270/month from part-time mentoring.*
+— [hh_ru](https://hh.ru/vacancy/131963551)
+*Profession: backend_developer | Summary: Moscow B2B EdTech company hiring a PHP/Laravel backend developer at 100,000-130,000 RUB/month net.*
 
 
 ### top bracket

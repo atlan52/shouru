@@ -2,19 +2,19 @@
 
 ## Overview
 
-- **Total samples:** 152
-- **Records with USD/yr amount:** 122
-- **Average reported income (USD/yr):** $372,786- **Low-confidence records (<0.5):** 8
+- **Total samples:** 171
+- **Records with USD/yr amount:** 141
+- **Average reported income (USD/yr):** $335,283- **Low-confidence records (<0.5):** 8
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 17 |
-| lower_middle | 18 |
-| middle | 35 |
-| upper_middle | 46 |
-| top | 36 |
+| lower_middle | 19 |
+| middle | 42 |
+| upper_middle | 51 |
+| top | 42 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -78,49 +78,49 @@
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | software_developer | 4 |
-| 2 | office_professional | 2 |
-| 3 | office_worker | 2 |
-| 4 | product_designer | 2 |
-| 5 | unspecified_office_worker | 2 |
-| 6 | bank_trading_desk_head | 1 |
-| 7 | cloud_engineer | 1 |
-| 8 | corporate_grad_scheme_employee | 1 |
-| 9 | corporate_lawyer | 1 |
-| 10 | corporate_professional | 1 |
+| 2 | unspecified_office_worker | 3 |
+| 3 | dual_income_household | 2 |
+| 4 | office_professional | 2 |
+| 5 | office_worker | 2 |
+| 6 | product_designer | 2 |
+| 7 | salaried_professional | 2 |
+| 8 | bank_trading_desk_head | 1 |
+| 9 | cloud_engineer | 1 |
+| 10 | corporate_grad_scheme_employee | 1 |
 
 ### top
 
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | software_engineer | 3 |
-| 2 | amazon_dropshipper | 1 |
-| 3 | business_owner_executive | 1 |
-| 4 | charity_ceo | 1 |
-| 5 | chartered_accountant | 1 |
-| 6 | contractor_inside_ir35 | 1 |
-| 7 | corporate_professional | 1 |
-| 8 | deepmind_research_scientist | 1 |
-| 9 | digital_agency_owner | 1 |
-| 10 | dual_income_professional_couple | 1 |
+| 2 | finance_professional | 2 |
+| 3 | high_earner_employee | 2 |
+| 4 | amazon_dropshipper | 1 |
+| 5 | business_owner_executive | 1 |
+| 6 | charity_ceo | 1 |
+| 7 | chartered_accountant | 1 |
+| 8 | contractor_inside_ir35 | 1 |
+| 9 | corporate_professional | 1 |
+| 10 | deepmind_research_scientist | 1 |
 
 
 ## Earning mechanism share
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 44.0% |
-| business_owner | 17.3% |
-| freelance_contractor | 11.7% |
-| passive_investment | 8.6% |
-| equity_compensation | 3.8% |
-| multiple_streams | 3.8% |
-| royalties_creator | 3.4% |
-| government_pension | 2.6% |
-| real_estate_rental | 1.9% |
-| inheritance_trust | 1.1% |
-| illicit_grey | 0.8% |
-| unknown | 0.8% |
-| platform_gig | 0.4% |
+| salary_employment | 46.1% |
+| business_owner | 15.9% |
+| freelance_contractor | 10.8% |
+| passive_investment | 8.8% |
+| equity_compensation | 4.1% |
+| multiple_streams | 3.7% |
+| royalties_creator | 3.1% |
+| government_pension | 2.7% |
+| real_estate_rental | 1.7% |
+| inheritance_trust | 1.4% |
+| illicit_grey | 0.7% |
+| unknown | 0.7% |
+| platform_gig | 0.3% |
 
 ## Narrative excerpts
 
@@ -193,6 +193,11 @@
 
 
 ### top bracket
+> "Work in IT sales where I'm a Senior Account Director. Last year earned 110k, this year I'm set to earn 150k. Been doing it 10 years now"
+
+— [r_ukjobs](https://www.reddit.com/r/UKJobs/comments/1mq8esw/going_from_earning_150k_to_30k/)
+*Profession: it_sales_account_director | Summary: 33-year-old UK Senior Account Director in IT sales earning GBP 150k/year (commission-based) considering switch to paramedic career.*
+
 > "Age: 29. My job: Software Engineer in a US tech company. Salary (roughly projecting over the next 12 months): £400k. ISA: £215k. Pension: £285k. Outside tax wrappers: £400k"
 
 — [r_fireuk](https://www.reddit.com/r/FIREUK/comments/1l5j2k5/hit_a_milestone_this_week_900k_net_worth/)
@@ -202,11 +207,6 @@
 
 — [r_ukpersonalfinance](https://www.reddit.com/r/UKPersonalFinance/comments/1o6nkib/making_more_money_than_i_thought_i_ever_would_as/)
 *Profession: youtuber | Summary: UK YouTuber operating through a limited company, paying themselves £12,750 salary plus ~£85k in dividends per year and maxing SIPP/ISA.*
-
-> "2021 comp  £140k base  £9k sign on bonus  £17.5k annual bonus $40k RSU's  - 25% vest each year"
-
-— [hackernews](https://news.ycombinator.com/item?id=28463923)
-*Profession: senior_software_architect | Summary: A London-based senior software architect at a US-HQ consultancy earned £140k base, £9k sign-on, £17.5k bonus and $40k RSUs in 2021.*
 
 
 

@@ -2,15 +2,15 @@
 
 ## Overview
 
-- **Total samples:** 5
-- **Records with USD/yr amount:** 5
-- **Average reported income (USD/yr):** $12,175- **Low-confidence records (<0.5):** 1
+- **Total samples:** 6
+- **Records with USD/yr amount:** 6
+- **Average reported income (USD/yr):** $10,150- **Low-confidence records (<0.5):** 1
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
-| bottom | 1 |
+| bottom | 2 |
 | lower_middle | 2 |
 | middle | 1 |
 | upper_middle | 0 |
@@ -32,7 +32,8 @@
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | unspecified_worker_minimum_wage | 1 |
+| 1 | qa_engineer | 1 |
+| 2 | unspecified_worker_minimum_wage | 1 |
 
 ### lower_middle
 
@@ -62,12 +63,12 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 58.3% |
-| business_owner | 8.3% |
-| freelance_contractor | 8.3% |
-| illicit_grey | 8.3% |
-| passive_investment | 8.3% |
-| real_estate_rental | 8.3% |
+| salary_employment | 61.5% |
+| business_owner | 7.7% |
+| freelance_contractor | 7.7% |
+| illicit_grey | 7.7% |
+| passive_investment | 7.7% |
+| real_estate_rental | 7.7% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
 | inheritance_trust | 0.0% |
@@ -79,6 +80,11 @@ _No data for this bracket._
 ## Narrative excerpts
 
 ### bottom bracket
+> "$ 2.000,00 (Mensual) contrato de grupo o por equipo Trabajo nocturno Para nuestro equipo de desarrollo, estamos buscando un especialista QA."
+
+— [computrabajo_ar](https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-qa-kq-engineer-82695880-en-3-de-febrero-F4B2178F69D7F96661373E686DCF3405#lc=ListOffers-Score4-8)
+*Profession: qa_engineer | Summary: Argentina QA engineer job listing offering ARS 2,000/month for testing web portals and mobile apps.*
+
 > "En el trabajo empezaron a tratarme mal, solo porque el jefe quería meter a su hijo en mi puesto, así que intentó de todo para hacerme renunciar, pero no lo logró, aunque si me terminó bajando el sueldo al mínimo legal."
 
 — [r_argentina](https://www.reddit.com/r/argentina/comments/1mlc49c/un_simple_desahogo/)

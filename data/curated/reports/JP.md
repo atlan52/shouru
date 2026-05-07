@@ -2,19 +2,19 @@
 
 ## Overview
 
-- **Total samples:** 28
-- **Records with USD/yr amount:** 24
-- **Average reported income (USD/yr):** $63,096- **Low-confidence records (<0.5):** 2
+- **Total samples:** 31
+- **Records with USD/yr amount:** 27
+- **Average reported income (USD/yr):** $88,760- **Low-confidence records (<0.5):** 4
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 5 |
-| lower_middle | 7 |
+| lower_middle | 8 |
 | middle | 2 |
-| upper_middle | 9 |
-| top | 5 |
+| upper_middle | 10 |
+| top | 6 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -42,13 +42,14 @@
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | delivery_gig_worker | 1 |
-| 2 | general_employee | 1 |
-| 3 | low_spec_office_worker | 1 |
-| 4 | salaried_employee | 1 |
-| 5 | salaried_worker_livestream_fan | 1 |
-| 6 | small_company_employee | 1 |
-| 7 | video_stock_seller_infopreneur | 1 |
+| 1 | company_employee_with_side_hustle | 1 |
+| 2 | delivery_gig_worker | 1 |
+| 3 | general_employee | 1 |
+| 4 | low_spec_office_worker | 1 |
+| 5 | salaried_employee | 1 |
+| 6 | salaried_worker_livestream_fan | 1 |
+| 7 | small_company_employee | 1 |
+| 8 | video_stock_seller_infopreneur | 1 |
 
 ### middle
 
@@ -68,35 +69,37 @@
 | 5 | defense_it_contractor | 1 |
 | 6 | early_retired_former_accountant | 1 |
 | 7 | early_retiree_former_accountant | 1 |
-| 8 | software_engineer | 1 |
-| 9 | tourism_industry_worker | 1 |
+| 8 | professional_pachislot_player | 1 |
+| 9 | software_engineer | 1 |
+| 10 | tourism_industry_worker | 1 |
 
 ### top
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | anime_director | 1 |
-| 2 | career_coach_paid_note_author | 1 |
-| 3 | food_truck_operator | 1 |
-| 4 | it_self_employed | 1 |
-| 5 | self_employed_with_investment_income | 1 |
+| 1 | adult_video_creator_couple | 1 |
+| 2 | anime_director | 1 |
+| 3 | career_coach_paid_note_author | 1 |
+| 4 | food_truck_operator | 1 |
+| 5 | it_self_employed | 1 |
+| 6 | self_employed_with_investment_income | 1 |
 
 
 ## Earning mechanism share
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 46.8% |
-| freelance_contractor | 14.9% |
-| business_owner | 10.6% |
-| multiple_streams | 8.5% |
-| passive_investment | 6.4% |
-| royalties_creator | 6.4% |
-| platform_gig | 4.3% |
-| inheritance_trust | 2.1% |
+| salary_employment | 44.4% |
+| freelance_contractor | 16.7% |
+| business_owner | 9.3% |
+| royalties_creator | 9.3% |
+| multiple_streams | 7.4% |
+| passive_investment | 5.6% |
+| platform_gig | 3.7% |
+| illicit_grey | 1.9% |
+| inheritance_trust | 1.9% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
-| illicit_grey | 0.0% |
 | real_estate_rental | 0.0% |
 | unknown | 0.0% |
 
@@ -130,10 +133,10 @@
 — [hatena](https://gyakutorajiro.com/entry/elite-vs-jakushadansei)
 *Profession: delivery_gig_worker | Summary: Japanese freelance/sole-proprietor delivery gig worker (ex-Uber Eats) earning under JPY 3M/year, contrasted with a salaried friend on ~JPY 10M.*
 
-> "おれは怒ってる。総支給４０万でも 社会保険料、厚生年金、住民税で手取り29万円。10万以上引かれるんだけどマジで日本の税金あたまおかしい。"
+> "総収入：306,000円 副業収入：50,000円 残業が急増したことで副業を気力をなくす"
 
-— [hatena](https://posfie.com/@kalofollow/p/MZZ5S95)
-*Profession: salaried_employee | Summary: Japanese salaried worker earning ¥400k/month gross (~¥4.8M/year), complaining about ¥290k take-home after social insurance and taxes.*
+— [hatena](https://chichiro51.hatenablog.com/entry/2021/09/25/154911)
+*Profession: company_employee_with_side_hustle | Summary: 33-year-old Japanese salaried employee with 306,000 JPY/month main salary plus 50,000 JPY/month side income, recovering from 4.7M JPY stock losses.*
 
 
 ### middle bracket
@@ -171,15 +174,15 @@
 — [hatena](https://anond.hatelabo.jp/20240207133413)
 *Profession: self_employed_with_investment_income | Summary: 30-year-old self-employed Japanese man reporting ¥12M/year business income plus ¥20M/year passive (unearned) income, recounting a marriage-agency consultation.*
 
+> "母親には「彼氏とビジネスやってる」と説明　月収1000万超、20代のカップルが"アダルト動画配信"を始めたわけ"
+
+— [hatena](https://bunshun.jp/articles/-/50228)
+*Profession: adult_video_creator_couple | Summary: Japanese 20s couple ('えむゆみカップル') earning over ¥10 million/month posting amateur adult videos on Pornhub.*
+
 > "俺30歳大卒二留　IT系自営(秋起業予定) 相手専卒　23歳　個人Vtuber...俺は手取り1000万弱あるが秋から起業し"
 
 — [hatena](https://anond.hatelabo.jp/20230718211203)
 *Profession: it_self_employed | Summary: 30-year-old Japanese IT freelancer with ~¥1000万 take-home, planning to launch a startup in autumn; girlfriend is an individual VTuber earning under ¥2M/year.*
-
-> "年収1500万円に到達する市場価値の高い人材になるための方法。20代後半の頃には年収400万〜600万程度の会社に就職している方々が普通に沢山いたのです。"
-
-— [hatena](https://note.com/career_talks/n/n173cdfdf77ec)
-*Profession: career_coach_paid_note_author | Summary: Japanese career-advice note.com author describing how to reach 15M JPY/year, formerly in HR/recruitment industry.*
 
 
 

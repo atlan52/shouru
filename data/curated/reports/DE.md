@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 26
-- **Records with USD/yr amount:** 16
-- **Average reported income (USD/yr):** $148,243- **Low-confidence records (<0.5):** 4
+- **Total samples:** 30
+- **Records with USD/yr amount:** 20
+- **Average reported income (USD/yr):** $133,489- **Low-confidence records (<0.5):** 4
 
 ## Bracket distribution
 
@@ -12,8 +12,8 @@
 | --- | ---: |
 | bottom | 1 |
 | lower_middle | 1 |
-| middle | 6 |
-| upper_middle | 13 |
+| middle | 8 |
+| upper_middle | 15 |
 | top | 5 |
 
 ## Bracket thresholds (USD/yr lower bound)
@@ -44,27 +44,29 @@
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | entry_level_it_worker | 1 |
-| 2 | geologist | 1 |
-| 3 | international_marketing_manager_medical | 1 |
-| 4 | perl_cpan_module_maintainer | 1 |
-| 5 | production_worker_porsche | 1 |
-| 6 | wordpress_consultant | 1 |
+| 1 | business_informatics_specialist | 1 |
+| 2 | entry_level_it_worker | 1 |
+| 3 | geologist | 1 |
+| 4 | international_marketing_manager_medical | 1 |
+| 5 | perl_cpan_module_maintainer | 1 |
+| 6 | production_worker_porsche | 1 |
+| 7 | real_estate_agent | 1 |
+| 8 | wordpress_consultant | 1 |
 
 ### upper_middle
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | software_developer | 2 |
-| 2 | enterprise_java_developer | 1 |
-| 3 | freelance_software_engineer | 1 |
-| 4 | industrial_cybersecurity_consultant | 1 |
-| 5 | investment_bank_quant | 1 |
-| 6 | key_account_manager | 1 |
-| 7 | management_consultant | 1 |
-| 8 | office_worker | 1 |
-| 9 | product_manager | 1 |
-| 10 | saas_developer_entrepreneur | 1 |
+| 1 | engineer_at_volkswagen | 2 |
+| 2 | software_developer | 2 |
+| 3 | enterprise_java_developer | 1 |
+| 4 | freelance_software_engineer | 1 |
+| 5 | industrial_cybersecurity_consultant | 1 |
+| 6 | investment_bank_quant | 1 |
+| 7 | key_account_manager | 1 |
+| 8 | management_consultant | 1 |
+| 9 | office_worker | 1 |
+| 10 | product_manager | 1 |
 
 ### top
 
@@ -81,13 +83,13 @@
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 45.1% |
-| business_owner | 21.6% |
-| freelance_contractor | 13.7% |
-| royalties_creator | 9.8% |
-| multiple_streams | 3.9% |
-| passive_investment | 3.9% |
-| real_estate_rental | 2.0% |
+| salary_employment | 49.1% |
+| business_owner | 20.0% |
+| freelance_contractor | 12.7% |
+| royalties_creator | 9.1% |
+| multiple_streams | 3.6% |
+| passive_investment | 3.6% |
+| real_estate_rental | 1.8% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
 | illicit_grey | 0.0% |
@@ -139,10 +141,10 @@
 — [reddit_import](https://reddit.com/r/financialindependence/comments/1b5fduk/i_finally_hit_50k_net_worth_at_33/)
 *Profession: office_worker | Summary: A 33-year-old in Germany earning 78k euros/year (4k after-tax monthly) reports negative net worth and aggressive debt repayment while looking for a job paying 85k.*
 
-> "Jobprofil Infos Zugang Studium, kaufmännische Ausbildung mit Berufserfahrung Dauer 3-5 Jahre (abhängig von Ausbildung und Erfahrung) Ø Gehalt 5.125 Euro Jobs Industrie, IT, Finanzdienstleistungen, Pharma, Einzelhandel"
+> "Ingenieur:in Ø 86.100 € brutto/Jahr 144 Gehaltsangaben Technische:r Sachbearbeiter:in Ø 73.500 € brutto/Jahr 84 Gehaltsangaben Systemanalytiker:in Ø 80.200 € brutto/Jahr 70 Gehaltsangaben"
 
-— [karrierebibel](https://karrierebibel.de/key-account-manager/)
-*Profession: key_account_manager | Summary: German career-guide article reporting Key Account Manager average salary of 5,125 EUR/month.*
+— [kununu_alt](https://www.kununu.com/de/volkswagen/gehalt)
+*Profession: engineer_at_volkswagen | Summary: Kununu aggregate salary report for Volkswagen AG: engineers average 86,100 EUR/year gross, with software developers, project managers, mechatronics, and other roles listed.*
 
 
 ### top bracket

@@ -2,19 +2,19 @@
 
 ## Overview
 
-- **Total samples:** 136
-- **Records with USD/yr amount:** 105
-- **Average reported income (USD/yr):** $159,233- **Low-confidence records (<0.5):** 10
+- **Total samples:** 148
+- **Records with USD/yr amount:** 117
+- **Average reported income (USD/yr):** $150,500- **Low-confidence records (<0.5):** 10
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 8 |
-| lower_middle | 17 |
-| middle | 35 |
-| upper_middle | 44 |
-| top | 32 |
+| lower_middle | 18 |
+| middle | 37 |
+| upper_middle | 51 |
+| top | 34 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -76,15 +76,15 @@
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | chartered_professional_accountant | 2 |
-| 2 | accountant_cpa | 1 |
-| 3 | airbnb_property_manager | 1 |
-| 4 | chartered_accountant | 1 |
-| 5 | corporate_tax_accountant | 1 |
-| 6 | couple_combined_income_montreal | 1 |
-| 7 | db_pension_employee_with_rental | 1 |
-| 8 | early_retiree_investor | 1 |
-| 9 | electrician_apprentice_journeyman | 1 |
-| 10 | engineer_nonprofit | 1 |
+| 2 | salaried_employee | 2 |
+| 3 | salaried_professional | 2 |
+| 4 | accountant_cpa | 1 |
+| 5 | airbnb_property_manager | 1 |
+| 6 | chartered_accountant | 1 |
+| 7 | corporate_tax_accountant | 1 |
+| 8 | couple_combined_income_montreal | 1 |
+| 9 | db_pension_employee_with_rental | 1 |
+| 10 | early_retiree_investor | 1 |
 
 ### top
 
@@ -106,17 +106,17 @@
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 48.4% |
-| business_owner | 11.3% |
-| passive_investment | 8.6% |
-| freelance_contractor | 8.1% |
-| multiple_streams | 7.7% |
-| real_estate_rental | 5.4% |
-| equity_compensation | 3.2% |
-| government_pension | 3.2% |
-| platform_gig | 1.8% |
-| royalties_creator | 1.4% |
-| illicit_grey | 0.9% |
+| salary_employment | 50.4% |
+| business_owner | 10.6% |
+| passive_investment | 8.1% |
+| freelance_contractor | 7.6% |
+| multiple_streams | 7.2% |
+| real_estate_rental | 5.5% |
+| government_pension | 3.8% |
+| equity_compensation | 3.0% |
+| platform_gig | 1.7% |
+| royalties_creator | 1.3% |
+| illicit_grey | 0.8% |
 | inheritance_trust | 0.0% |
 | unknown | 0.0% |
 

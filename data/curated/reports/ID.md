@@ -2,7 +2,7 @@
 
 ## Overview
 
-- **Total samples:** 5
+- **Total samples:** 6
 - **Records with USD/yr amount:** 4
 - **Average reported income (USD/yr):** $120,846- **Low-confidence records (<0.5):** 0
 
@@ -11,7 +11,7 @@
 | Bracket | Records |
 | --- | ---: |
 | bottom | 0 |
-| lower_middle | 1 |
+| lower_middle | 2 |
 | middle | 1 |
 | upper_middle | 2 |
 | top | 1 |
@@ -36,7 +36,8 @@ _No data for this bracket._
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | dive_instructor | 1 |
+| 1 | bank_back_office_staff | 1 |
+| 2 | dive_instructor | 1 |
 
 ### middle
 
@@ -62,12 +63,12 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| business_owner | 28.6% |
-| freelance_contractor | 14.3% |
-| multiple_streams | 14.3% |
-| passive_investment | 14.3% |
-| platform_gig | 14.3% |
-| salary_employment | 14.3% |
+| business_owner | 25.0% |
+| salary_employment | 25.0% |
+| freelance_contractor | 12.5% |
+| multiple_streams | 12.5% |
+| passive_investment | 12.5% |
+| platform_gig | 12.5% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
 | illicit_grey | 0.0% |
@@ -86,6 +87,11 @@ _No excerpts for this bracket._
 
 — [reddit_import](https://reddit.com/r/financialindependence/comments/y76g2f/two_year_fire_update_breakdown_of_my_budget/)
 *Profession: dive_instructor | Summary: A FIRE retiree from US working as a dive instructor at an Indonesian resort earns about $900/month, which he donates to local staff.*
+
+> "Saya sekarang kerja di bank besar, bagian back office urus data dan mainan Microsoft Office... Gaji juga ga nyampe 2 digit jadi belum bisa coping kalau gue bisa pensiun dini atau semacamnya."
+
+— [r_indonesia](https://www.reddit.com/r/indonesia/comments/1ofl3y3/pekerjaan_yang_work_life_balance_nya_lebih_baik/)
+*Profession: bank_back_office_staff | Summary: Jakarta-area bank back-office worker on single-digit-million IDR/month salary working long hours and weekend overtime.*
 
 
 ### middle bracket

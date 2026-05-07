@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 24
-- **Records with USD/yr amount:** 26
-- **Average reported income (USD/yr):** $4,967,959- **Low-confidence records (<0.5):** 9
+- **Total samples:** 32
+- **Records with USD/yr amount:** 33
+- **Average reported income (USD/yr):** $3,929,977- **Low-confidence records (<0.5):** 10
 
 ## Bracket distribution
 
@@ -12,9 +12,9 @@
 | --- | ---: |
 | bottom | 0 |
 | lower_middle | 4 |
-| middle | 1 |
-| upper_middle | 3 |
-| top | 16 |
+| middle | 2 |
+| upper_middle | 7 |
+| top | 19 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -45,7 +45,8 @@ _No data for this bracket._
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | medical_escort_companion | 1 |
+| 1 | ai_monetization_content_creator | 1 |
+| 2 | medical_escort_companion | 1 |
 
 ### upper_middle
 
@@ -53,7 +54,11 @@ _No data for this bracket._
 | ---: | --- | ---: |
 | 1 | bbq_restaurant_owner | 1 |
 | 2 | content_creator | 1 |
-| 3 | overseas_worker | 1 |
+| 3 | gaming_content_creator | 1 |
+| 4 | online_game_gold_farmer_and_content_creator | 1 |
+| 5 | overseas_worker | 1 |
+| 6 | street_food_vendor | 1 |
+| 7 | vlogger | 1 |
 
 ### top
 
@@ -75,13 +80,13 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 35.0% |
-| business_owner | 17.5% |
-| royalties_creator | 15.0% |
-| freelance_contractor | 12.5% |
-| platform_gig | 12.5% |
-| multiple_streams | 5.0% |
-| equity_compensation | 2.5% |
+| salary_employment | 27.5% |
+| royalties_creator | 21.6% |
+| business_owner | 17.6% |
+| freelance_contractor | 13.7% |
+| platform_gig | 11.8% |
+| multiple_streams | 5.9% |
+| equity_compensation | 2.0% |
 | government_pension | 0.0% |
 | illicit_grey | 0.0% |
 | inheritance_trust | 0.0% |
@@ -117,8 +122,18 @@ _No excerpts for this bracket._
 — [rss_dantri_kinhdoanh](https://dantri.com.vn/kinh-doanh/247-trieu-nguoi-trung-quoc-bo-bat-com-sat-dieu-gi-dang-xay-ra-20260428144113603.htm)
 *Profession: medical_escort_companion | Summary: 25-year-old nursing graduate in Guangzhou working as a platform-based medical escort earning 6,000-8,000 CNY/month guiding patients through hospital procedures.*
 
+> "如何用AI每月赚1w5？这个变现逻辑免费分享给你"
+
+— [bilibili](https://www.bilibili.com/video/BV1PpoxBXErg)
+*Profession: ai_monetization_content_creator | Summary: Chinese Bilibili creator who claims to earn 15k CNY/month via AI-based monetization tactics and shares the playbook.*
+
 
 ### upper_middle bracket
+> "我和老公梦幻加自媒体月入2万多，在湖州农村够花吗？#梦幻西游#梦幻西游电脑版#梦幻西游创梦计划"
+
+— [bilibili](https://www.bilibili.com/video/BV1YEDKBwEFZ)
+*Profession: online_game_gold_farmer_and_content_creator | Summary: Couple in rural Huzhou, China earning 20k+ CNY/month combined from Fantasy Westward Journey gold farming plus self-media content.*
+
 > "老粉干牛B烧烤 勇哥大赞牛B 从摆摊到开店 现在俩口子月入2万 还有优化空间吗？"
 
 — [bilibili](https://www.bilibili.com/video/BV1UXRFBEENm)
@@ -128,11 +143,6 @@ _No excerpts for this bracket._
 
 — [reddit_import](https://reddit.com/r/leanfire/comments/aiyd7g/plans_for_fire_to_china_as_a_chinese_national/)
 *Profession: overseas_worker | Summary: A 22-year-old Chinese national working overseas earns $24k/yr (saving 60%) and plans to FIRE in China on ~$400/month after saving $120k.*
-
-> "月入30000以后我终于明白自己以前为什么这么穷了"
-
-— [bilibili](https://www.bilibili.com/video/BV1m7dhBqEnm)
-*Profession: content_creator | Summary: Chinese Bilibili content creator (handle 赛博AI印钞姬) discussing reaching a 30,000 CNY/month income level.*
 
 
 ### top bracket

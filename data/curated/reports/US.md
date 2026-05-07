@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 2050
-- **Records with USD/yr amount:** 1530
-- **Average reported income (USD/yr):** $1,448,727- **Low-confidence records (<0.5):** 141
+- **Total samples:** 2061
+- **Records with USD/yr amount:** 1540
+- **Average reported income (USD/yr):** $1,440,468- **Low-confidence records (<0.5):** 142
 
 ## Bracket distribution
 
@@ -12,9 +12,9 @@
 | --- | ---: |
 | bottom | 177 |
 | lower_middle | 260 |
-| middle | 373 |
-| upper_middle | 602 |
-| top | 638 |
+| middle | 374 |
+| upper_middle | 609 |
+| top | 641 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -77,10 +77,10 @@
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | software_engineer | 34 |
+| 1 | software_engineer | 36 |
 | 2 | software_developer | 16 |
 | 3 | corporate_professional | 7 |
-| 4 | senior_software_engineer | 6 |
+| 4 | senior_software_engineer | 7 |
 | 5 | electrical_engineer | 5 |
 | 6 | engineer | 5 |
 | 7 | overemployed_remote_worker | 5 |
@@ -92,7 +92,7 @@
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | software_engineer | 39 |
+| 1 | software_engineer | 40 |
 | 2 | senior_software_engineer | 20 |
 | 3 | physician | 11 |
 | 4 | ceo | 8 |
@@ -111,13 +111,13 @@
 | salary_employment | 48.5% |
 | business_owner | 13.9% |
 | equity_compensation | 7.7% |
-| multiple_streams | 7.5% |
+| multiple_streams | 7.4% |
 | passive_investment | 5.9% |
 | freelance_contractor | 5.8% |
 | real_estate_rental | 3.3% |
 | royalties_creator | 2.2% |
+| government_pension | 1.9% |
 | platform_gig | 1.8% |
-| government_pension | 1.8% |
 | inheritance_trust | 0.9% |
 | illicit_grey | 0.4% |
 | unknown | 0.3% |

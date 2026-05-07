@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 9
-- **Records with USD/yr amount:** 9
-- **Average reported income (USD/yr):** $117,023- **Low-confidence records (<0.5):** 1
+- **Total samples:** 10
+- **Records with USD/yr amount:** 10
+- **Average reported income (USD/yr):** $108,587- **Low-confidence records (<0.5):** 1
 
 ## Bracket distribution
 
@@ -13,7 +13,7 @@
 | bottom | 0 |
 | lower_middle | 3 |
 | middle | 1 |
-| upper_middle | 1 |
+| upper_middle | 2 |
 | top | 4 |
 
 ## Bracket thresholds (USD/yr lower bound)
@@ -50,7 +50,8 @@ _No data for this bracket._
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | office_worker | 1 |
+| 1 | experienced_professional | 1 |
+| 2 | office_worker | 1 |
 
 ### top
 
@@ -66,9 +67,9 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 81.8% |
-| business_owner | 9.1% |
-| multiple_streams | 9.1% |
+| salary_employment | 83.3% |
+| business_owner | 8.3% |
+| multiple_streams | 8.3% |
 | equity_compensation | 0.0% |
 | freelance_contractor | 0.0% |
 | government_pension | 0.0% |
@@ -110,6 +111,11 @@ _No excerpts for this bracket._
 
 
 ### upper_middle bracket
+> "Companies looking for this much experience for mere 10k salary 💶😎"
+
+— [r_dubai](https://www.reddit.com/r/dubai/comments/1pvhjxh/companies_looking_for_this_much_experience_for/)
+*Profession: experienced_professional | Summary: Dubai poster complaining that companies offer only AED 10K/month salaries despite demanding extensive experience.*
+
 > "My salary is AED 15k, and I'm looking for the best UAE bank to open a salary account, mainly for the welcome bonus."
 
 — [r_dubai](https://www.reddit.com/r/dubai/comments/1rmdtik/best_uae_bank_for_15k_salary_welcome_bonus/)

@@ -57,8 +57,8 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 66.7% |
-| passive_investment | 33.3% |
+| salary_employment | 75.0% |
+| passive_investment | 25.0% |
 | business_owner | 0.0% |
 | equity_compensation | 0.0% |
 | freelance_contractor | 0.0% |

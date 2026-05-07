@@ -2,16 +2,16 @@
 
 ## Overview
 
-- **Total samples:** 4
-- **Records with USD/yr amount:** 4
-- **Average reported income (USD/yr):** $8,796- **Low-confidence records (<0.5):** 0
+- **Total samples:** 5
+- **Records with USD/yr amount:** 5
+- **Average reported income (USD/yr):** $8,254- **Low-confidence records (<0.5):** 0
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 0 |
-| lower_middle | 2 |
+| lower_middle | 3 |
 | middle | 0 |
 | upper_middle | 2 |
 | top | 0 |
@@ -36,8 +36,9 @@ _No data for this bracket._
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | data_analyst_jobseeker | 1 |
-| 2 | digital_marketer | 1 |
+| 1 | corporate_employee | 1 |
+| 2 | data_analyst_jobseeker | 1 |
+| 3 | digital_marketer | 1 |
 
 ### middle
 
@@ -59,8 +60,8 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 80.0% |
-| illicit_grey | 20.0% |
+| salary_employment | 83.3% |
+| illicit_grey | 16.7% |
 | business_owner | 0.0% |
 | equity_compensation | 0.0% |
 | freelance_contractor | 0.0% |
@@ -79,6 +80,11 @@ _No data for this bracket._
 _No excerpts for this bracket._
 
 ### lower_middle bracket
+> "Now, even with a Master's, I can expect something like 60k/month from a corporate job, maybe 100k-150k if i get multiple promotions within 5-10 years."
+
+— [r_bangladesh](https://www.reddit.com/r/bangladesh/comments/1swb4ui/can_you_buy_a_piece_of_land_by_saving_your_salary/)
+*Profession: corporate_employee | Summary: Bangladeshi master's-degree holder describing typical corporate salary expectation of ~60k BDT/month, lamenting unaffordable urban land.*
+
 > "I'm looking to bring on an experienced Digital Marketer (Remote | 30,000 BDT/month, but salary is negotiable based on experience)."
 
 — [r_bangladesh](https://www.reddit.com/r/bangladesh/comments/1oyfsrt/looking_for_digital_marketer/)

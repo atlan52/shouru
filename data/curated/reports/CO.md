@@ -2,16 +2,16 @@
 
 ## Overview
 
-- **Total samples:** 12
-- **Records with USD/yr amount:** 15
-- **Average reported income (USD/yr):** $12,545- **Low-confidence records (<0.5):** 1
+- **Total samples:** 13
+- **Records with USD/yr amount:** 16
+- **Average reported income (USD/yr):** $12,095- **Low-confidence records (<0.5):** 1
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 0 |
-| lower_middle | 3 |
+| lower_middle | 4 |
 | middle | 3 |
 | upper_middle | 5 |
 | top | 1 |
@@ -38,7 +38,8 @@ _No data for this bracket._
 | ---: | --- | ---: |
 | 1 | backend_developer | 1 |
 | 2 | call_center_sales_agent | 1 |
-| 3 | forklift_operator | 1 |
+| 3 | environmental_management_supervisor | 1 |
+| 4 | forklift_operator | 1 |
 
 ### middle
 
@@ -69,12 +70,12 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 83.3% |
-| freelance_contractor | 16.7% |
+| salary_employment | 76.2% |
+| freelance_contractor | 19.0% |
+| illicit_grey | 4.8% |
 | business_owner | 0.0% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
-| illicit_grey | 0.0% |
 | inheritance_trust | 0.0% |
 | multiple_streams | 0.0% |
 | passive_investment | 0.0% |
