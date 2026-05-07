@@ -2,17 +2,17 @@
 
 ## Overview
 
-- **Total samples:** 26
-- **Records with USD/yr amount:** 22
-- **Average reported income (USD/yr):** $66,711- **Low-confidence records (<0.5):** 1
+- **Total samples:** 28
+- **Records with USD/yr amount:** 24
+- **Average reported income (USD/yr):** $63,096- **Low-confidence records (<0.5):** 2
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
-| bottom | 4 |
+| bottom | 5 |
 | lower_middle | 7 |
-| middle | 1 |
+| middle | 2 |
 | upper_middle | 9 |
 | top | 5 |
 
@@ -34,8 +34,9 @@
 | ---: | --- | ---: |
 | 1 | hikikomori_former_factory_worker | 1 |
 | 2 | housewife_side_hustler | 1 |
-| 3 | mercari_side_seller | 1 |
-| 4 | web_engineer_side_contractor | 1 |
+| 3 | indie_app_developer | 1 |
+| 4 | mercari_side_seller | 1 |
+| 5 | web_engineer_side_contractor | 1 |
 
 ### lower_middle
 
@@ -53,7 +54,8 @@
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | software_architect | 1 |
+| 1 | data_analyst | 1 |
+| 2 | software_architect | 1 |
 
 ### upper_middle
 
@@ -84,14 +86,14 @@
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 48.8% |
-| freelance_contractor | 12.2% |
-| business_owner | 9.8% |
-| multiple_streams | 9.8% |
-| passive_investment | 7.3% |
-| platform_gig | 4.9% |
-| royalties_creator | 4.9% |
-| inheritance_trust | 2.4% |
+| salary_employment | 46.8% |
+| freelance_contractor | 14.9% |
+| business_owner | 10.6% |
+| multiple_streams | 8.5% |
+| passive_investment | 6.4% |
+| royalties_creator | 6.4% |
+| platform_gig | 4.3% |
+| inheritance_trust | 2.1% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
 | illicit_grey | 0.0% |
@@ -135,6 +137,11 @@
 
 
 ### middle bracket
+> "アパレルで死ぬほどがんばって年収400万だった人がSQLとExcelと基本情報技術者試験で年収600万になった話"
+
+— [hatena](https://togetter.com/li/1832000)
+*Profession: data_analyst | Summary: Former apparel-industry worker in Japan went from ¥4M/year to ¥6M/year by learning SQL, Excel and getting the FE certification, transitioning into IT.*
+
 > "年収340 → 新卒 年収400 → 2年目(転職サイトゴロゴロ 年収500 → 普通のエンジニア 年収800 → アーキテクト、テックリード 年収1000 → PM、一部スタートアップエンジニア"
 
 — [hatena](https://note.com/shinoyu_note/n/nce2cfb4a13e9)

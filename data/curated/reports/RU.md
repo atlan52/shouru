@@ -2,18 +2,18 @@
 
 ## Overview
 
-- **Total samples:** 32
-- **Records with USD/yr amount:** 35
-- **Average reported income (USD/yr):** $15,951- **Low-confidence records (<0.5):** 1
+- **Total samples:** 35
+- **Records with USD/yr amount:** 38
+- **Average reported income (USD/yr):** $15,771- **Low-confidence records (<0.5):** 1
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 1 |
-| lower_middle | 13 |
+| lower_middle | 15 |
 | middle | 6 |
-| upper_middle | 7 |
+| upper_middle | 8 |
 | top | 5 |
 
 ## Bracket thresholds (USD/yr lower bound)
@@ -41,13 +41,13 @@
 | 1 | retail_cashier | 3 |
 | 2 | graphic_designer | 2 |
 | 3 | accountant | 1 |
-| 4 | jewelry_sales_consultant | 1 |
-| 5 | microfinance_startup_partner | 1 |
-| 6 | primary_school_teacher | 1 |
-| 7 | problem_assets_specialist_bank | 1 |
-| 8 | school_teacher | 1 |
-| 9 | state_company_employee | 1 |
-| 10 | unspecified_employee | 1 |
+| 4 | english_language_teacher | 1 |
+| 5 | jewelry_sales_consultant | 1 |
+| 6 | math_teacher | 1 |
+| 7 | microfinance_startup_partner | 1 |
+| 8 | primary_school_teacher | 1 |
+| 9 | problem_assets_specialist_bank | 1 |
+| 10 | school_teacher | 1 |
 
 ### middle
 
@@ -70,7 +70,8 @@
 | 4 | interface_designer | 1 |
 | 5 | interior_designer | 1 |
 | 6 | military_contract_soldier | 1 |
-| 7 | urologist | 1 |
+| 7 | physics_teacher | 1 |
+| 8 | urologist | 1 |
 
 ### top
 
@@ -87,12 +88,12 @@
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 81.0% |
-| freelance_contractor | 9.5% |
-| business_owner | 2.4% |
-| equity_compensation | 2.4% |
-| illicit_grey | 2.4% |
-| passive_investment | 2.4% |
+| salary_employment | 82.2% |
+| freelance_contractor | 8.9% |
+| business_owner | 2.2% |
+| equity_compensation | 2.2% |
+| illicit_grey | 2.2% |
+| passive_investment | 2.2% |
 | government_pension | 0.0% |
 | inheritance_trust | 0.0% |
 | multiple_streams | 0.0% |
@@ -111,20 +112,20 @@
 
 
 ### lower_middle bracket
+> "от 50 000 до 80 000 ₽ за месяц на руки | Томск , улица Энтузиастов, 41 | ... школа иностранных языков Green Hills, обучаем детей, подростков и взрослых английскому языку."
+
+— [hh_ru](https://hh.ru/vacancy/132140016)
+*Profession: english_language_teacher | Summary: English-language teacher job posting in Tomsk, Russia at Green Hills school offering 50,000-80,000 RUB/month net.*
+
 > "от 54 700 до 60 100 ₽ за месяц до вычета налогов | Муром , Московская улица, 32 | «Бристоль» — крупная сеть магазинов у дома"
 
 — [hh_ru](https://hh.ru/vacancy/132788037)
 *Profession: retail_cashier | Summary: Bristol convenience store cashier vacancy in Murom, Russia, paying 54,700-60,100 RUB/month before tax.*
 
-> "Графический дизайнер от 60 000 до 80 000 ₽ за месяц на руки | Ярославль | Дизайн-студия Qbiri со специализацией digital-маркетинг ищет в свою команду графического дизайнера"
+> "от 50 000 ₽ за месяц на руки | Екатеринбург , Кировский район, микрорайон Пионерский, Июльская улица, 32 | Учитель математики ."
 
-— [hh_ru](https://hh.ru/vacancy/132629170)
-*Profession: graphic_designer | Summary: Yaroslavl design studio job ad for a graphic designer at 60-80k RUB/month net (remote).*
-
-> "от 50 000 до 100 000 ₽ за месяц до вычета налогов | Долгопрудный , Лётная улица, 7 | В АНОО "Физтех-лицей" им. П.Л. Капицы требуется офицер запаса на должность учителя Основ безопасности и защиты Родины (ОБЗР)"
-
-— [hh_ru](https://hh.ru/vacancy/132249307)
-*Profession: school_teacher | Summary: Job listing for an OBZR (basics of safety and defense of motherland) teacher at Phystech-Lyceum in Dolgoprudny offering 50,000-100,000 RUB/month.*
+— [hh_ru](https://hh.ru/vacancy/132769162)
+*Profession: math_teacher | Summary: Math teacher position in Yekaterinburg, Russia at gymnasium #35, paying from 50,000 RUB/month net.*
 
 
 ### middle bracket

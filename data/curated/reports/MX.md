@@ -2,17 +2,17 @@
 
 ## Overview
 
-- **Total samples:** 12
-- **Records with USD/yr amount:** 9
-- **Average reported income (USD/yr):** $14,919- **Low-confidence records (<0.5):** 2
+- **Total samples:** 14
+- **Records with USD/yr amount:** 11
+- **Average reported income (USD/yr):** $15,435- **Low-confidence records (<0.5):** 2
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 0 |
-| lower_middle | 4 |
-| middle | 4 |
+| lower_middle | 5 |
+| middle | 5 |
 | upper_middle | 3 |
 | top | 1 |
 
@@ -37,9 +37,10 @@ _No data for this bracket._
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | accounting_analyst | 1 |
-| 2 | graphic_designer | 1 |
-| 3 | physicist_job_seeker | 1 |
-| 4 | warehouse_worker | 1 |
+| 2 | general_practitioner | 1 |
+| 3 | graphic_designer | 1 |
+| 4 | physicist_job_seeker | 1 |
+| 5 | warehouse_worker | 1 |
 
 ### middle
 
@@ -47,8 +48,9 @@ _No data for this bracket._
 | ---: | --- | ---: |
 | 1 | aesthetic_physician | 1 |
 | 2 | affiliate_marketer | 1 |
-| 3 | junior_accountant | 1 |
-| 4 | telecommunications_engineer | 1 |
+| 3 | backend_software_engineer | 1 |
+| 4 | junior_accountant | 1 |
+| 5 | telecommunications_engineer | 1 |
 
 ### upper_middle
 
@@ -69,10 +71,10 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 68.8% |
-| freelance_contractor | 18.8% |
-| business_owner | 6.2% |
-| royalties_creator | 6.2% |
+| salary_employment | 72.2% |
+| freelance_contractor | 16.7% |
+| business_owner | 5.6% |
+| royalties_creator | 5.6% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
 | illicit_grey | 0.0% |
@@ -99,10 +101,10 @@ _No excerpts for this bracket._
 — [computrabajo_mx](https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-contable-en-el-marques-554E844C3B1A68FA61373E686DCF3405#lc=ListOffers-Score4-8)
 *Profession: accounting_analyst | Summary: Job posting in Querétaro, Mexico for an accounting analyst at Certeza Tributaria offering 15,000 MXN/month under an indefinite full-time contract.*
 
-> "diseñador grafico / industrial - Auxiliar Producción experiencia en Sublimación FLYBANNERS MX - Guadalajara, Jalisco ... $ 16,000.00 (Mensual) + Comisiones Contrato por temporada"
+> "Medico general Cobertura Domingo - Benito Juarez CDMX ... $ 14,000.00 (Mensual) Contrato por tiempo indeterminado Tiempo Completo ... Médico de Consultorio Adyacente a Farmacia- Benito Juárez ... Sueldo neto mensual: $ 1200 POR DIA"
 
-— [computrabajo_mx](https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-disenador-grafico-industrial-auxiliar-produccion-experiencia-en-sublimacion-en-guadalajara-4FFC386E4EC9AE4961373E686DCF3405#lc=ListOffers-Score4-4)
-*Profession: graphic_designer | Summary: Job ad in Guadalajara, Mexico for a graphic/industrial designer with sublimation experience at 16,000 MXN/month plus commissions.*
+— [computrabajo_mx](https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-medico-general-cobertura-domingo-benito-juarez-cdmx-en-benito-juarez-CEC921BFFCF9029B61373E686DCF3405#lc=ListOffers-Score4-7)
+*Profession: general_practitioner | Summary: Job ad in Benito Juárez CDMX for a Sunday-coverage general practitioner doctor at a pharmacy-adjacent clinic paying MXN 14,000/month.*
 
 
 ### middle bracket

@@ -2,16 +2,16 @@
 
 ## Overview
 
-- **Total samples:** 135
-- **Records with USD/yr amount:** 104
-- **Average reported income (USD/yr):** $160,527- **Low-confidence records (<0.5):** 10
+- **Total samples:** 136
+- **Records with USD/yr amount:** 105
+- **Average reported income (USD/yr):** $159,233- **Low-confidence records (<0.5):** 10
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 8 |
-| lower_middle | 16 |
+| lower_middle | 17 |
 | middle | 35 |
 | upper_middle | 44 |
 | top | 32 |
@@ -106,14 +106,14 @@
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 48.6% |
-| business_owner | 11.4% |
+| salary_employment | 48.4% |
+| business_owner | 11.3% |
 | passive_investment | 8.6% |
-| freelance_contractor | 8.2% |
+| freelance_contractor | 8.1% |
 | multiple_streams | 7.7% |
-| real_estate_rental | 5.5% |
+| real_estate_rental | 5.4% |
 | equity_compensation | 3.2% |
-| government_pension | 2.7% |
+| government_pension | 3.2% |
 | platform_gig | 1.8% |
 | royalties_creator | 1.4% |
 | illicit_grey | 0.9% |

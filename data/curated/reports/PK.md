@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 2
-- **Records with USD/yr amount:** 1
-- **Average reported income (USD/yr):** $655- **Low-confidence records (<0.5):** 0
+- **Total samples:** 3
+- **Records with USD/yr amount:** 2
+- **Average reported income (USD/yr):** $5,713- **Low-confidence records (<0.5):** 0
 
 ## Bracket distribution
 
@@ -12,7 +12,7 @@
 | --- | ---: |
 | bottom | 2 |
 | lower_middle | 0 |
-| middle | 0 |
+| middle | 1 |
 | upper_middle | 0 |
 | top | 0 |
 
@@ -41,7 +41,9 @@ _No data for this bracket._
 
 ### middle
 
-_No data for this bracket._
+| # | Profession | Records |
+| ---: | --- | ---: |
+| 1 | retired_elderly_remittance_recipient | 1 |
 
 ### upper_middle
 
@@ -56,17 +58,17 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| government_pension | 50.0% |
-| illicit_grey | 50.0% |
+| government_pension | 25.0% |
+| illicit_grey | 25.0% |
+| inheritance_trust | 25.0% |
+| royalties_creator | 25.0% |
 | business_owner | 0.0% |
 | equity_compensation | 0.0% |
 | freelance_contractor | 0.0% |
-| inheritance_trust | 0.0% |
 | multiple_streams | 0.0% |
 | passive_investment | 0.0% |
 | platform_gig | 0.0% |
 | real_estate_rental | 0.0% |
-| royalties_creator | 0.0% |
 | salary_employment | 0.0% |
 | unknown | 0.0% |
 
@@ -88,7 +90,11 @@ _No data for this bracket._
 _No excerpts for this bracket._
 
 ### middle bracket
-_No excerpts for this bracket._
+> "My elderly parents, both over 70, live in Pakistan in their own home. Every month, I send them 2.5 lakh rupees for their expenses. Since they own their house, there's no rent. Their monthly electricity bill is around 20–25 thousand, and the house help costs about 30 thousand per month."
+
+— [r_pakistan](https://www.reddit.com/r/pakistan/comments/1nyjgk8/25_lakh_a_month_wheres_it_going/)
+*Profession: retired_elderly_remittance_recipient | Summary: Elderly Pakistani couple over 70 living in their own home, supported by 2.5 lakh PKR/month (~30 lakh/year) in remittances from their adult child abroad.*
+
 
 ### upper_middle bracket
 _No excerpts for this bracket._

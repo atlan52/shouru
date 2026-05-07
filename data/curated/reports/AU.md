@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 67
-- **Records with USD/yr amount:** 57
-- **Average reported income (USD/yr):** $139,962- **Low-confidence records (<0.5):** 6
+- **Total samples:** 72
+- **Records with USD/yr amount:** 62
+- **Average reported income (USD/yr):** $138,416- **Low-confidence records (<0.5):** 6
 
 ## Bracket distribution
 
@@ -12,9 +12,9 @@
 | --- | ---: |
 | bottom | 4 |
 | lower_middle | 9 |
-| middle | 15 |
-| upper_middle | 21 |
-| top | 18 |
+| middle | 17 |
+| upper_middle | 22 |
+| top | 20 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -79,7 +79,7 @@
 | 7 | female_employee_median | 1 |
 | 8 | freelance_web_developer | 1 |
 | 9 | government_employee_couple | 1 |
-| 10 | male_employee_median | 1 |
+| 10 | government_psychologist_senior_manager | 1 |
 
 ### top
 
@@ -88,28 +88,28 @@
 | 1 | analytics_project_manager | 1 |
 | 2 | digital_marketing_agency_founder | 1 |
 | 3 | dual_income_couple | 1 |
-| 4 | ecommerce_brand_founder | 1 |
-| 5 | facebook_ads_consultant | 1 |
-| 6 | high_income_professional | 1 |
-| 7 | hospitality_business_owner | 1 |
-| 8 | instagram_influencer_marketer | 1 |
-| 9 | locum_psychiatry_registrar | 1 |
-| 10 | marketing_consultant | 1 |
+| 4 | dual_income_household | 1 |
+| 5 | ecommerce_brand_founder | 1 |
+| 6 | facebook_ads_consultant | 1 |
+| 7 | high_income_professional | 1 |
+| 8 | hospitality_business_owner | 1 |
+| 9 | instagram_influencer_marketer | 1 |
+| 10 | locum_psychiatry_registrar | 1 |
 
 
 ## Earning mechanism share
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 42.0% |
-| business_owner | 23.2% |
-| freelance_contractor | 8.9% |
-| multiple_streams | 8.0% |
-| passive_investment | 5.4% |
-| royalties_creator | 4.5% |
-| platform_gig | 3.6% |
-| government_pension | 2.7% |
-| real_estate_rental | 1.8% |
+| salary_employment | 43.7% |
+| business_owner | 22.7% |
+| freelance_contractor | 8.4% |
+| multiple_streams | 7.6% |
+| passive_investment | 5.9% |
+| royalties_creator | 4.2% |
+| platform_gig | 3.4% |
+| government_pension | 2.5% |
+| real_estate_rental | 1.7% |
 | equity_compensation | 0.0% |
 | illicit_grey | 0.0% |
 | inheritance_trust | 0.0% |
@@ -157,15 +157,15 @@
 — [reddit_import](https://reddit.com/r/antiwork/comments/qfzxbp/wages_how_much_do_you_make/hi3losm/)
 *Profession: liquor_store_attendant | Summary: A liquor store attendant in Australia with 2 years experience earns $26/hr weekdays, $32/hr Saturdays, and $36/hr Sundays.*
 
-> "HHI currently is 105k, which includes PPL & FTB A. When I return to work later in the year, I am contracted to work weekends only, my employment only brings in about 26k. I also have a small business... Partners salary is 68k currently, annual bonus at end FY could be up to 10k."
+> "I’m 28M living in Sydney. Working as a paralegal earning ~$75K/year. My partner earns ~$30K/year working part-time while finishing uni."
 
-— [r_ausfinance](https://www.reddit.com/r/AusFinance/comments/1soks6b/feeling_doomed/)
-*Profession: weekend_worker_and_wedding_side_business | Summary: Australian couple (30/34) with two kids on combined HHI A$105k including PPL & FTB A; she works weekends (~A$26k) plus seasonal wedding side business; partner earns A$68k + up to A$10k bonus.*
+— [r_ausfinance](https://www.reddit.com/r/AusFinance/comments/1l30s87/worried_about_future_28m_sydney_feeling_very/)
+*Profession: paralegal | Summary: 28-year-old paralegal in Sydney earning ~A$75k/year, partner earning A$30k/year part-time while finishing university.*
 
-> "We run a carpet and upholstery cleaning company called Carpet Tech (www.carpet-tech.com.au) in Sydney, Australia. We are mostly in the domestic market but lately have been expanding into the commercial market more and more."
+> "Currently 31M, as a pre-delivery technician - after starting in the warehouse... my salary is below the median for Melbourne."
 
-— [reddit_import](https://reddit.com/r/Entrepreneur/comments/2vrblq/about_to_gross_over_100k_in_our_first_year_of/)
-*Profession: carpet_cleaning_business_owner | Summary: A Sydney-based founder runs a carpet and upholstery cleaning company grossing over 100k AUD in its first year.*
+— [r_ausfinance](https://www.reddit.com/r/AusFinance/comments/1t19gvq/am_i_doing_ok_for_65k_a_year/)
+*Profession: pre_delivery_technician | Summary: 31-year-old Melbourne pre-delivery technician (formerly warehouse) earning AUD 65k/year, below the local median.*
 
 
 ### upper_middle bracket
@@ -186,6 +186,11 @@
 
 
 ### top bracket
+> "medical specialist, permanent public hospital salary (with employer salary sacrifice) and private practice income. Annual income over $400k"
+
+— [r_ausfinance](https://www.reddit.com/r/AusFinance/comments/1mg3i6k/novated_ev_lease_for_high_income/)
+*Profession: medical_specialist | Summary: Australian medical specialist with public hospital salary plus private practice income, total over A$400k/year.*
+
 > "In 2025, I grossed $400K (yes, past tense), of which 2/3rds was earned via my company structure because I have lucked into a lot of contract work. ... J1 $140K J2 $150K J3 $280K"
 
 — [reddit_import](https://reddit.com/r/overemployed/comments/1plcykr/my_oe_2025_year_in_review/)
@@ -195,11 +200,6 @@
 
 — [reddit_import](https://reddit.com/r/financialindependence/comments/rvhoh3/journey_share_post/)
 *Profession: analytics_project_manager | Summary: 31-year-old Indian expat in Sydney earns AUD $170k base plus ~$50k variable as an analytics project manager at an adtech firm.*
-
-> "Salary of $140k a year Super at $130k and have been maxxing concessional payments for 2 years."
-
-— [r_ausfinance](https://www.reddit.com/r/AusFinance/comments/1ptax9s/exhausted_50yo_seeking_fi_etfs_offset_or_ip2/)
-*Profession: salaried_professional_landlord | Summary: 50-year-old Australian single mother earning A$140k salary plus rental income from an investment property; PPOR equity withdrawn for IP.*
 
 
 

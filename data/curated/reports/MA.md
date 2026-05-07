@@ -2,16 +2,16 @@
 
 ## Overview
 
-- **Total samples:** 0
-- **Records with USD/yr amount:** 1
-- **Average reported income (USD/yr):** $4,119- **Low-confidence records (<0.5):** 0
+- **Total samples:** 1
+- **Records with USD/yr amount:** 2
+- **Average reported income (USD/yr):** $3,851- **Low-confidence records (<0.5):** 0
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 0 |
-| lower_middle | 0 |
+| lower_middle | 1 |
 | middle | 0 |
 | upper_middle | 0 |
 | top | 0 |
@@ -34,7 +34,9 @@ _No data for this bracket._
 
 ### lower_middle
 
-_No data for this bracket._
+| # | Profession | Records |
+| ---: | --- | ---: |
+| 1 | office_administrator | 1 |
 
 ### middle
 
@@ -73,7 +75,11 @@ _No data for this bracket._
 _No excerpts for this bracket._
 
 ### lower_middle bracket
-_No excerpts for this bracket._
+> "I work from 8 am to 7 pm, 6 days a week.  The salary is 3000 dirhams."
+
+— [r_morocco](https://www.reddit.com/r/Morocco/comments/1q1v2em/need_your_advice/)
+*Profession: office_administrator | Summary: 25-year-old Moroccan office administrator handling invoices, customer calls, web/social media, working 8am-7pm 6 days/week for 3000 dirhams/month.*
+
 
 ### middle bracket
 _No excerpts for this bracket._

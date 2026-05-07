@@ -13,21 +13,21 @@ Cross-country charts:
 
 | Country | Code | Samples | Report |
 | --- | --- | ---: | --- |
-| United States | US | 2271 | [US.md](US.md) |
-| China | CN | 28 | [CN.md](CN.md) |
-| Japan | JP | 31 | [JP.md](JP.md) |
-| South Korea | KR | 2 | [KR.md](KR.md) |
-| India | IN | 18 | [IN.md](IN.md) |
+| United States | US | 2273 | [US.md](US.md) |
+| China | CN | 32 | [CN.md](CN.md) |
+| Japan | JP | 35 | [JP.md](JP.md) |
+| South Korea | KR | 3 | [KR.md](KR.md) |
+| India | IN | 20 | [IN.md](IN.md) |
 | Germany | DE | 38 | [DE.md](DE.md) |
-| United Kingdom | GB | 177 | [GB.md](GB.md) |
+| United Kingdom | GB | 185 | [GB.md](GB.md) |
 | France | FR | 14 | [FR.md](FR.md) |
-| Brazil | BR | 22 | [BR.md](BR.md) |
-| Russia | RU | 36 | [RU.md](RU.md) |
-| Mexico | MX | 15 | [MX.md](MX.md) |
+| Brazil | BR | 23 | [BR.md](BR.md) |
+| Russia | RU | 39 | [RU.md](RU.md) |
+| Mexico | MX | 17 | [MX.md](MX.md) |
 | Spain | ES | 5 | [ES.md](ES.md) |
 | Italy | IT | 8 | [IT.md](IT.md) |
-| Canada | CA | 151 | [CA.md](CA.md) |
-| Australia | AU | 81 | [AU.md](AU.md) |
+| Canada | CA | 152 | [CA.md](CA.md) |
+| Australia | AU | 86 | [AU.md](AU.md) |
 | Netherlands | NL | 10 | [NL.md](NL.md) |
 | Switzerland | CH | 5 | [CH.md](CH.md) |
 | Singapore | SG | 8 | [SG.md](SG.md) |
@@ -43,13 +43,13 @@ Cross-country charts:
 | South Africa | ZA | 5 | [ZA.md](ZA.md) |
 | Nigeria | NG | 1 | [NG.md](NG.md) |
 | Argentina | AR | 9 | [AR.md](AR.md) |
-| Colombia | CO | 16 | [CO.md](CO.md) |
+| Colombia | CO | 17 | [CO.md](CO.md) |
 | Chile | CL | 12 | [CL.md](CL.md) |
 | Israel | IL | 1 | [IL.md](IL.md) |
 | Poland | PL | 4 | [PL.md](PL.md) |
 | Sweden | SE | 10 | [SE.md](SE.md) |
 | Norway | NO | 3 | [NO.md](NO.md) |
-| Morocco | MA | 1 | [MA.md](MA.md) |
-| Pakistan | PK | 2 | [PK.md](PK.md) |
+| Morocco | MA | 2 | [MA.md](MA.md) |
+| Pakistan | PK | 4 | [PK.md](PK.md) |
 | Bangladesh | BD | 5 | [BD.md](BD.md) |
 | Ukraine | UA | 3 | [UA.md](UA.md) |

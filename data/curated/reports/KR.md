@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 1
-- **Records with USD/yr amount:** 1
-- **Average reported income (USD/yr):** $73,200- **Low-confidence records (<0.5):** 0
+- **Total samples:** 2
+- **Records with USD/yr amount:** 2
+- **Average reported income (USD/yr):** $109,800- **Low-confidence records (<0.5):** 1
 
 ## Bracket distribution
 
@@ -14,7 +14,7 @@
 | lower_middle | 0 |
 | middle | 1 |
 | upper_middle | 0 |
-| top | 0 |
+| top | 1 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -48,15 +48,17 @@ _No data for this bracket._
 
 ### top
 
-_No data for this bracket._
+| # | Profession | Records |
+| ---: | --- | ---: |
+| 1 | unknown_high_earner | 1 |
 
 
 ## Earning mechanism share
 
 | Mechanism | Share |
 | --- | ---: |
-| passive_investment | 50.0% |
-| salary_employment | 50.0% |
+| salary_employment | 66.7% |
+| passive_investment | 33.3% |
 | business_owner | 0.0% |
 | equity_compensation | 0.0% |
 | freelance_contractor | 0.0% |
@@ -88,7 +90,11 @@ _No excerpts for this bracket._
 _No excerpts for this bracket._
 
 ### top bracket
-_No excerpts for this bracket._
+> "두쫀쿠 연봉 2억은댈듯 ㄹㅇ"
+
+— [dcinside](https://gall.dcinside.com/board/view/?id=foreversingle&no=5391)
+*Profession: unknown_high_earner | Summary: Korean dcinside post speculating someone (nicknamed 두쫀쿠) earns roughly 200 million KRW/year salary.*
+
 
 
 ---

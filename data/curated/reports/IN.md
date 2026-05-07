@@ -2,18 +2,18 @@
 
 ## Overview
 
-- **Total samples:** 13
-- **Records with USD/yr amount:** 11
-- **Average reported income (USD/yr):** $54,377- **Low-confidence records (<0.5):** 1
+- **Total samples:** 15
+- **Records with USD/yr amount:** 13
+- **Average reported income (USD/yr):** $47,057- **Low-confidence records (<0.5):** 1
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 0 |
-| lower_middle | 0 |
+| lower_middle | 1 |
 | middle | 2 |
-| upper_middle | 5 |
+| upper_middle | 6 |
 | top | 6 |
 
 ## Bracket thresholds (USD/yr lower bound)
@@ -34,7 +34,9 @@ _No data for this bracket._
 
 ### lower_middle
 
-_No data for this bracket._
+| # | Profession | Records |
+| ---: | --- | ---: |
+| 1 | delivery_boy | 1 |
 
 ### middle
 
@@ -47,11 +49,12 @@ _No data for this bracket._
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | fashion_brand_founder | 1 |
-| 2 | freelance_python_developer | 1 |
-| 3 | it_engineer | 1 |
-| 4 | ruby_developer_contractor | 1 |
-| 5 | young_breadwinner_office_worker | 1 |
+| 1 | driver_cum_owner | 1 |
+| 2 | fashion_brand_founder | 1 |
+| 3 | freelance_python_developer | 1 |
+| 4 | it_engineer | 1 |
+| 5 | ruby_developer_contractor | 1 |
+| 6 | young_breadwinner_office_worker | 1 |
 
 ### top
 
@@ -68,17 +71,17 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 33.3% |
-| freelance_contractor | 29.2% |
-| business_owner | 16.7% |
-| passive_investment | 8.3% |
-| royalties_creator | 8.3% |
-| multiple_streams | 4.2% |
+| salary_employment | 29.6% |
+| freelance_contractor | 25.9% |
+| business_owner | 18.5% |
+| passive_investment | 7.4% |
+| platform_gig | 7.4% |
+| royalties_creator | 7.4% |
+| multiple_streams | 3.7% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
 | illicit_grey | 0.0% |
 | inheritance_trust | 0.0% |
-| platform_gig | 0.0% |
 | real_estate_rental | 0.0% |
 | unknown | 0.0% |
 
@@ -88,7 +91,11 @@ _No data for this bracket._
 _No excerpts for this bracket._
 
 ### lower_middle bracket
-_No excerpts for this bracket._
+> "Urgent Hiring for delivery Boy 900 per day"
+
+— [quikr](https://www.quikr.com/jobs/urgent-hiring-for-delivery-boy-900-per-day-bangalore/p/375032670)
+*Profession: delivery_boy | Summary: Bangalore delivery-boy job listing offering 900 INR per day.*
+
 
 ### middle bracket
 > "In late 2020 he started working on some open source projects in image recognition and some related math libraries. From that work he got contract work. Its nothing huge, but its enough to pay his expenses in India and build some savings."

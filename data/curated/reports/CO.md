@@ -3,8 +3,8 @@
 ## Overview
 
 - **Total samples:** 12
-- **Records with USD/yr amount:** 14
-- **Average reported income (USD/yr):** $12,571- **Low-confidence records (<0.5):** 1
+- **Records with USD/yr amount:** 15
+- **Average reported income (USD/yr):** $12,545- **Low-confidence records (<0.5):** 1
 
 ## Bracket distribution
 
@@ -69,8 +69,8 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 82.4% |
-| freelance_contractor | 17.6% |
+| salary_employment | 83.3% |
+| freelance_contractor | 16.7% |
 | business_owner | 0.0% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |

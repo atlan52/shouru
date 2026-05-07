@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 21
-- **Records with USD/yr amount:** 23
-- **Average reported income (USD/yr):** $5,595,321- **Low-confidence records (<0.5):** 8
+- **Total samples:** 24
+- **Records with USD/yr amount:** 26
+- **Average reported income (USD/yr):** $4,967,959- **Low-confidence records (<0.5):** 9
 
 ## Bracket distribution
 
@@ -14,7 +14,7 @@
 | lower_middle | 4 |
 | middle | 1 |
 | upper_middle | 3 |
-| top | 13 |
+| top | 16 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -59,29 +59,29 @@ _No data for this bracket._
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | big_tech_employee | 1 |
-| 2 | chinese_tech_giant_employee | 1 |
-| 3 | corporate_office_worker | 1 |
-| 4 | ecommerce_seller | 1 |
-| 5 | esports_streamer | 1 |
-| 6 | financial_risk_analyst | 1 |
-| 7 | gaming_ai_content_creator | 1 |
-| 8 | huawei_engineer | 1 |
-| 9 | ielts_teacher | 1 |
-| 10 | mobile_game_gold_farmer | 1 |
+| 1 | unspecified_high_earner | 2 |
+| 2 | big_tech_employee | 1 |
+| 3 | chinese_tech_giant_employee | 1 |
+| 4 | corporate_office_worker | 1 |
+| 5 | ecommerce_seller | 1 |
+| 6 | esports_streamer | 1 |
+| 7 | financial_risk_analyst | 1 |
+| 8 | gaming_ai_content_creator | 1 |
+| 9 | huawei_engineer | 1 |
+| 10 | ielts_teacher | 1 |
 
 
 ## Earning mechanism share
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 36.1% |
-| business_owner | 16.7% |
-| royalties_creator | 16.7% |
-| platform_gig | 13.9% |
-| freelance_contractor | 11.1% |
-| equity_compensation | 2.8% |
-| multiple_streams | 2.8% |
+| salary_employment | 35.0% |
+| business_owner | 17.5% |
+| royalties_creator | 15.0% |
+| freelance_contractor | 12.5% |
+| platform_gig | 12.5% |
+| multiple_streams | 5.0% |
+| equity_compensation | 2.5% |
 | government_pension | 0.0% |
 | illicit_grey | 0.0% |
 | inheritance_trust | 0.0% |

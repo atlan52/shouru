@@ -2,19 +2,19 @@
 
 ## Overview
 
-- **Total samples:** 144
-- **Records with USD/yr amount:** 114
-- **Average reported income (USD/yr):** $394,095- **Low-confidence records (<0.5):** 8
+- **Total samples:** 152
+- **Records with USD/yr amount:** 122
+- **Average reported income (USD/yr):** $372,786- **Low-confidence records (<0.5):** 8
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
-| bottom | 16 |
-| lower_middle | 17 |
-| middle | 32 |
-| upper_middle | 44 |
-| top | 35 |
+| bottom | 17 |
+| lower_middle | 18 |
+| middle | 35 |
+| upper_middle | 46 |
+| top | 36 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -40,8 +40,8 @@
 | 6 | hourly_worker_uk | 1 |
 | 7 | law_firm_assistant | 1 |
 | 8 | private_music_teacher | 1 |
-| 9 | restaurant_worker | 1 |
-| 10 | salaried_employee_minimum_wage | 1 |
+| 9 | remote_worker_turkish_company | 1 |
+| 10 | restaurant_worker | 1 |
 
 ### lower_middle
 
@@ -78,15 +78,15 @@
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | software_developer | 4 |
-| 2 | office_worker | 2 |
-| 3 | product_designer | 2 |
-| 4 | unspecified_office_worker | 2 |
-| 5 | bank_trading_desk_head | 1 |
-| 6 | cloud_engineer | 1 |
-| 7 | corporate_grad_scheme_employee | 1 |
-| 8 | corporate_lawyer | 1 |
-| 9 | cybersecurity_analyst | 1 |
-| 10 | detention_custody_officer | 1 |
+| 2 | office_professional | 2 |
+| 3 | office_worker | 2 |
+| 4 | product_designer | 2 |
+| 5 | unspecified_office_worker | 2 |
+| 6 | bank_trading_desk_head | 1 |
+| 7 | cloud_engineer | 1 |
+| 8 | corporate_grad_scheme_employee | 1 |
+| 9 | corporate_lawyer | 1 |
+| 10 | corporate_professional | 1 |
 
 ### top
 
@@ -97,30 +97,30 @@
 | 3 | business_owner_executive | 1 |
 | 4 | charity_ceo | 1 |
 | 5 | chartered_accountant | 1 |
-| 6 | corporate_professional | 1 |
-| 7 | deepmind_research_scientist | 1 |
-| 8 | digital_agency_owner | 1 |
-| 9 | dual_income_professional_couple | 1 |
-| 10 | ecommerce_brand_owner | 1 |
+| 6 | contractor_inside_ir35 | 1 |
+| 7 | corporate_professional | 1 |
+| 8 | deepmind_research_scientist | 1 |
+| 9 | digital_agency_owner | 1 |
+| 10 | dual_income_professional_couple | 1 |
 
 
 ## Earning mechanism share
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 43.0% |
-| business_owner | 18.0% |
+| salary_employment | 44.0% |
+| business_owner | 17.3% |
 | freelance_contractor | 11.7% |
 | passive_investment | 8.6% |
-| equity_compensation | 3.9% |
-| multiple_streams | 3.9% |
-| royalties_creator | 3.5% |
-| government_pension | 2.7% |
-| real_estate_rental | 2.0% |
-| inheritance_trust | 1.2% |
+| equity_compensation | 3.8% |
+| multiple_streams | 3.8% |
+| royalties_creator | 3.4% |
+| government_pension | 2.6% |
+| real_estate_rental | 1.9% |
+| inheritance_trust | 1.1% |
 | illicit_grey | 0.8% |
 | unknown | 0.8% |
-| platform_gig | 0.0% |
+| platform_gig | 0.4% |
 
 ## Narrative excerpts
 
@@ -130,15 +130,15 @@
 — [hackernews](https://news.ycombinator.com/item?id=42223461)
 *Profession: university_lecturer | Summary: A part-time stipendiary lectureship at Oxford's Christ Church pays £15,244 to £16,983 per year.*
 
+> "my annual salary is just above £12,570 (approximately £12,960)... I started a small trade on eBay just five months ago and earned more than £1,000."
+
+— [r_ukpersonalfinance](https://www.reddit.com/r/UKPersonalFinance/comments/1ows1uf/panic_3_years_of_undeclared_turkish_salary_as_a/)
+*Profession: remote_worker_turkish_company | Summary: UK resident working remotely for a Turkish company earning ~£12,960/year in TRY, plus small eBay trading income.*
+
 > "the highest I've ever earned per annum is £16k. When I see the UK average is supposed to be around £30k, I have to wonder if the top earners are skewing the figures."
 
 — [reddit_import](https://reddit.com/r/antiwork/comments/132tkfw/looking_for_the_same_jobs_in_my_40s_as_i_was_in/)
 *Profession: private_music_teacher | Summary: 42-year-old in the UK working as a self-employed private music teacher and Amazon self-publisher, with peak annual income around £16k.*
-
-> "The next day he said that £8/hour is too much for me considering how new I am to the job... £8ish/hr was the national minimum wage at the time of this event"
-
-— [reddit_import](https://reddit.com/r/antiwork/comments/rr7t0l/boomer_colleague_accidentally_opened_my_payslip/)
-*Profession: workshop_worker | Summary: 23-year-old UK worker earns roughly the national minimum wage of about £8/hour at a workshop job and complains it barely covers basic bills.*
 
 
 ### lower_middle bracket
@@ -147,15 +147,15 @@
 — [hackernews](https://news.ycombinator.com/item?id=25595958)
 *Profession: ml_data_engineer | Summary: An ML/data engineer at a UK (non-London) pre-seed startup earns about £22k/year and was offered 0.1% in EMI options, which they feel is a lowball.*
 
+> "Now I'm a Senior 3D Artist after being in a 3D role for 5 years... now on £30,000 after a surprise pitch at my company when Unions got involved and allowed most of us to get a 10% increase."
+
+— [r_ukjobs](https://www.reddit.com/r/UKJobs/comments/1lbfh7t/i_just_found_out_what_the_minimum_wage_is/)
+*Profession: senior_3d_artist | Summary: UK Senior 3D Artist earning £30k/year after 9 years of work and a 10% union-driven raise, started at £15k minimum-wage admin role.*
+
 > "In the early 2000s I was a postgraduate student at a university and was offered a part-time teaching assistant position for about £6000 a year"
 
 — [reddit_import](https://reddit.com/r/antiwork/comments/qtlrti/how_i_never_turned_up_for_work_for_18_months_got/)
 *Profession: university_teaching_assistant | Summary: UK postgrad part-time university teaching assistant got salary raised from £6,000 to £18,000/year via union pay review.*
-
-> "I'm 25, earning a salary of £22,000 as an apprentice. I started investing in cryptocurrency when I was at university, before moving into stocks and shares."
-
-— [r_fireuk](https://www.reddit.com/r/FIREUK/comments/1moorlr/25_years_old_22k_salary_advice/)
-*Profession: apprentice | Summary: 25-year-old UK apprentice earning £22,000/year salary while building investment portfolio.*
 
 
 ### middle bracket

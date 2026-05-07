@@ -2,16 +2,16 @@
 
 ## Overview
 
-- **Total samples:** 16
-- **Records with USD/yr amount:** 13
-- **Average reported income (USD/yr):** $136,786- **Low-confidence records (<0.5):** 2
+- **Total samples:** 17
+- **Records with USD/yr amount:** 14
+- **Average reported income (USD/yr):** $127,257- **Low-confidence records (<0.5):** 2
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 2 |
-| lower_middle | 1 |
+| lower_middle | 2 |
 | middle | 2 |
 | upper_middle | 4 |
 | top | 7 |
@@ -39,7 +39,8 @@
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | retail_temp_worker | 1 |
+| 1 | minimum_wage_worker | 1 |
+| 2 | retail_temp_worker | 1 |
 
 ### middle
 
@@ -74,14 +75,14 @@
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 46.7% |
-| freelance_contractor | 13.3% |
-| passive_investment | 13.3% |
-| business_owner | 10.0% |
-| multiple_streams | 6.7% |
-| equity_compensation | 3.3% |
-| inheritance_trust | 3.3% |
-| royalties_creator | 3.3% |
+| salary_employment | 48.4% |
+| freelance_contractor | 12.9% |
+| passive_investment | 12.9% |
+| business_owner | 9.7% |
+| multiple_streams | 6.5% |
+| equity_compensation | 3.2% |
+| inheritance_trust | 3.2% |
+| royalties_creator | 3.2% |
 | government_pension | 0.0% |
 | illicit_grey | 0.0% |
 | platform_gig | 0.0% |
@@ -103,6 +104,11 @@
 
 
 ### lower_middle bracket
+> "Eu juntei 17 mil em menos de um ano de carteira assinada. Ganhando um salário mínimo... E penso que isso é bem pouco e que tem muita gente que ganha isso em um mês enquanto eu me sacrifiquei muito pra juntar"
+
+— [r_investimentos](https://www.reddit.com/r/investimentos/comments/1t1msmh/eu_juntei_17mil_reais/)
+*Profession: minimum_wage_worker | Summary: Brazilian formal-employment worker earning minimum wage who saved R$17k in less than a year.*
+
 > "Salário de R$ 2.000 não atrai trabalhador temporário e varejo vive escassez de mão de obra"
 
 — [r_brasil](https://www.reddit.com/r/brasil/comments/1piebci/salário_de_r_2000_não_atrai_trabalhador/)
