@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 16
-- **Records with USD/yr amount:** 14
-- **Average reported income (USD/yr):** $112,153- **Low-confidence records (<0.5):** 1
+- **Total samples:** 18
+- **Records with USD/yr amount:** 16
+- **Average reported income (USD/yr):** $100,305- **Low-confidence records (<0.5):** 1
 
 ## Bracket distribution
 
@@ -12,7 +12,7 @@
 | --- | ---: |
 | bottom | 0 |
 | lower_middle | 1 |
-| middle | 2 |
+| middle | 4 |
 | upper_middle | 6 |
 | top | 7 |
 
@@ -44,6 +44,8 @@ _No data for this bracket._
 | ---: | --- | ---: |
 | 1 | remote_image_recognition_engineer | 1 |
 | 2 | ruby_on_rails_developer | 1 |
+| 3 | salaried_professional | 1 |
+| 4 | software_engineer | 1 |
 
 ### upper_middle
 
@@ -72,13 +74,13 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 25.8% |
-| freelance_contractor | 22.6% |
-| business_owner | 19.4% |
-| passive_investment | 9.7% |
-| royalties_creator | 9.7% |
-| multiple_streams | 6.5% |
-| platform_gig | 6.5% |
+| salary_employment | 30.3% |
+| freelance_contractor | 21.2% |
+| business_owner | 18.2% |
+| passive_investment | 9.1% |
+| royalties_creator | 9.1% |
+| multiple_streams | 6.1% |
+| platform_gig | 6.1% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
 | illicit_grey | 0.0% |
@@ -99,15 +101,20 @@ _No excerpts for this bracket._
 
 
 ### middle bracket
+> "I'm a 25-year-old earning ₹75,000 per month, with total savings of about ₹13 lakh in the bank."
+
+— [r_indianstreetbets](https://www.reddit.com/r/IndianStreetBets/comments/1nxvtch/financial_101_needed_for_a_25_year_old_guy_thanks/)
+*Profession: salaried_professional | Summary: 25-year-old Indian salaried professional earning ₹75,000/month seeking investment guidance for ₹10 lakh lump sum.*
+
+> "I have made only one switch which made my salary go from ~10 LPA to ~20LPA at 5yoe. 8yoe and still an SDE2, earning less than 30LPA"
+
+— [r_experienceddevs](https://www.reddit.com/r/ExperiencedDevs/comments/1t2r3na/8yoe_and_still_an_sde2_earning_less_than_30lpa/)
+*Profession: software_engineer | Summary: Bangalore-based C++ software engineer with 8 years experience earning ~20 LPA after a job switch from 10 LPA.*
+
 > "In late 2020 he started working on some open source projects in image recognition and some related math libraries. From that work he got contract work. Its nothing huge, but its enough to pay his expenses in India and build some savings."
 
 — [hackernews](https://news.ycombinator.com/item?id=34054508)
 *Profession: remote_image_recognition_engineer | Summary: An Indian mechanical engineer with health issues now does remote contract image recognition work for a US team from India.*
-
-> "I am a Ruby on Rails developer from Bangalore, India. Currently working for a startup in Bangalore as a full time employee. ... In India one can easily live on $500/month"
-
-— [hackernews](https://news.ycombinator.com/item?id=8246255)
-*Profession: ruby_on_rails_developer | Summary: A Ruby on Rails developer in Bangalore working full-time at a startup wants to generate $500/month in passive income within 12-18 months.*
 
 
 ### upper_middle bracket

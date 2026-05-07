@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 7
-- **Records with USD/yr amount:** 4
-- **Average reported income (USD/yr):** $85,995- **Low-confidence records (<0.5):** 0
+- **Total samples:** 8
+- **Records with USD/yr amount:** 5
+- **Average reported income (USD/yr):** $80,796- **Low-confidence records (<0.5):** 0
 
 ## Bracket distribution
 
@@ -13,7 +13,7 @@
 | bottom | 0 |
 | lower_middle | 3 |
 | middle | 1 |
-| upper_middle | 1 |
+| upper_middle | 2 |
 | top | 2 |
 
 ## Bracket thresholds (USD/yr lower bound)
@@ -50,7 +50,8 @@ _No data for this bracket._
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | overemployed_software_engineer | 1 |
+| 1 | air_traffic_controller | 1 |
+| 2 | overemployed_software_engineer | 1 |
 
 ### top
 
@@ -64,11 +65,11 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 45.5% |
-| business_owner | 18.2% |
-| multiple_streams | 18.2% |
-| freelance_contractor | 9.1% |
-| illicit_grey | 9.1% |
+| salary_employment | 50.0% |
+| business_owner | 16.7% |
+| multiple_streams | 16.7% |
+| freelance_contractor | 8.3% |
+| illicit_grey | 8.3% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
 | inheritance_trust | 0.0% |
@@ -108,6 +109,11 @@ _No excerpts for this bracket._
 
 
 ### upper_middle bracket
+> "Do 20 tys. zł bez studiów. PAŻP ruszyło z nową rekrutacją i kusi konkretną kasą na start można wyciągnąć nawet 20 tys. zł brutto."
+
+— [wykop](https://wykop.pl/link/7921317/do-20-tys-zl-bez-studiow-pazp-szuka-kandydatow-na-kontrolerow-ruchu-lotniczego)
+*Profession: air_traffic_controller | Summary: Polish air traffic controller recruitment article, PAŻP offering up to 20,000 PLN gross/month, no university degree required.*
+
 > "after my first double paycheck that I realize how awesome making over 12 times median earnings in my country feels."
 
 — [reddit_import](https://reddit.com/r/overemployed/comments/virw7w/my_oe_journey/)

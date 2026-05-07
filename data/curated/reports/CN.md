@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 36
-- **Records with USD/yr amount:** 36
-- **Average reported income (USD/yr):** $3,603,883- **Low-confidence records (<0.5):** 10
+- **Total samples:** 39
+- **Records with USD/yr amount:** 39
+- **Average reported income (USD/yr):** $3,330,074- **Low-confidence records (<0.5):** 10
 
 ## Bracket distribution
 
@@ -12,8 +12,8 @@
 | --- | ---: |
 | bottom | 0 |
 | lower_middle | 5 |
-| middle | 5 |
-| upper_middle | 7 |
+| middle | 7 |
+| upper_middle | 8 |
 | top | 19 |
 
 ## Bracket thresholds (USD/yr lower bound)
@@ -48,21 +48,24 @@ _No data for this bracket._
 | ---: | --- | ---: |
 | 1 | ai_monetization_content_creator | 1 |
 | 2 | content_creator | 1 |
-| 3 | illustrator_freelancer | 1 |
-| 4 | medical_escort_companion | 1 |
-| 5 | rpa_automation_developer | 1 |
+| 3 | english_teacher | 1 |
+| 4 | illustrator_freelancer | 1 |
+| 5 | medical_escort_companion | 1 |
+| 6 | rideshare_driver | 1 |
+| 7 | rpa_automation_developer | 1 |
 
 ### upper_middle
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | bbq_restaurant_owner | 1 |
-| 2 | content_creator | 1 |
-| 3 | gaming_content_creator | 1 |
-| 4 | online_game_gold_farmer_and_content_creator | 1 |
-| 5 | overseas_worker | 1 |
-| 6 | street_food_vendor | 1 |
-| 7 | vlogger | 1 |
+| 1 | ai_ecommerce_content_creator | 1 |
+| 2 | bbq_restaurant_owner | 1 |
+| 3 | content_creator | 1 |
+| 4 | gaming_content_creator | 1 |
+| 5 | online_game_gold_farmer_and_content_creator | 1 |
+| 6 | overseas_worker | 1 |
+| 7 | street_food_vendor | 1 |
+| 8 | vlogger | 1 |
 
 ### top
 
@@ -85,13 +88,13 @@ _No data for this bracket._
 | Mechanism | Share |
 | --- | ---: |
 | salary_employment | 24.6% |
-| royalties_creator | 22.8% |
-| business_owner | 15.8% |
-| freelance_contractor | 15.8% |
-| platform_gig | 12.3% |
-| multiple_streams | 5.3% |
-| equity_compensation | 1.8% |
-| illicit_grey | 1.8% |
+| royalties_creator | 23.0% |
+| business_owner | 14.8% |
+| freelance_contractor | 14.8% |
+| platform_gig | 14.8% |
+| multiple_streams | 4.9% |
+| equity_compensation | 1.6% |
+| illicit_grey | 1.6% |
 | government_pension | 0.0% |
 | inheritance_trust | 0.0% |
 | passive_investment | 0.0% |
@@ -121,6 +124,11 @@ _No excerpts for this bracket._
 
 
 ### middle bracket
+> "I'm making 19 000 RMB (around R46.4k per month) after tax, with an additional 2000 RMB (R4884) housing allowance. For a total of around R51k per month."
+
+— [r_personalfinanceza](https://www.reddit.com/r/PersonalFinanceZA/comments/1odo257/managing_a_foreign_salary_while_abroad_building/)
+*Profession: english_teacher | Summary: South African teaching English in China earning 19,000 CNY/month after tax plus 2,000 CNY housing allowance.*
+
 > "Mỗi tháng, thông qua một nền tảng số kết nối dịch vụ, cô thu về khoảng 6.000-8.000 nhân dân tệ (tương đương 875-1.167 USD)."
 
 — [rss_dantri_kinhdoanh](https://dantri.com.vn/kinh-doanh/247-trieu-nguoi-trung-quoc-bo-bat-com-sat-dieu-gi-dang-xay-ra-20260428144113603.htm)
@@ -130,11 +138,6 @@ _No excerpts for this bracket._
 
 — [bilibili](https://www.bilibili.com/video/BV1pUqzBCEkc)
 *Profession: illustrator_freelancer | Summary: Chinese freelance illustrator earning 10,000+ CNY/month through commissioned artwork, noting their income exceeds local teachers' salaries of under 3,000 CNY/month.*
-
-> "利用影刀RPA副业月入过万系列之水族APP批量关注功能开发"
-
-— [bilibili](https://www.bilibili.com/video/BV1Vj421D78k)
-*Profession: rpa_automation_developer | Summary: Chinese developer using RPA automation tools as a side hustle earning over 10,000 CNY/month.*
 
 
 ### upper_middle bracket
@@ -148,10 +151,10 @@ _No excerpts for this bracket._
 — [bilibili](https://www.bilibili.com/video/BV1UXRFBEENm)
 *Profession: bbq_restaurant_owner | Summary: Chinese couple running a BBQ restaurant (transitioned from street stall) earning ~20k CNY/month combined.*
 
-> "* Age: 22 * Savings: 30000 USD * Income: 24000 USD * Savings%: 60%"
+> "失业后没找工作，用AI批量生成商品测评短视频，投放到海外精准流量池 3个月做到月入5W"
 
-— [reddit_import](https://reddit.com/r/leanfire/comments/aiyd7g/plans_for_fire_to_china_as_a_chinese_national/)
-*Profession: overseas_worker | Summary: A 22-year-old Chinese national working overseas earns $24k/yr (saving 60%) and plans to FIRE in China on ~$400/month after saving $120k.*
+— [bilibili](https://www.bilibili.com/video/BV13KoxBeEKy)
+*Profession: ai_ecommerce_content_creator | Summary: Chinese creator who became unemployed and used AI to batch-produce product review short videos for overseas platforms, growing to 50k CNY/month in 3 months.*
 
 
 ### top bracket

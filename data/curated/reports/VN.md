@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 4
-- **Records with USD/yr amount:** 4
-- **Average reported income (USD/yr):** $16,425- **Low-confidence records (<0.5):** 0
+- **Total samples:** 5
+- **Records with USD/yr amount:** 5
+- **Average reported income (USD/yr):** $17,169- **Low-confidence records (<0.5):** 0
 
 ## Bracket distribution
 
@@ -12,7 +12,7 @@
 | --- | ---: |
 | bottom | 1 |
 | lower_middle | 0 |
-| middle | 2 |
+| middle | 3 |
 | upper_middle | 1 |
 | top | 0 |
 
@@ -42,8 +42,9 @@ _No data for this bracket._
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | it_professional | 1 |
-| 2 | service_engineer | 1 |
+| 1 | civil_engineer | 1 |
+| 2 | it_professional | 1 |
+| 3 | service_engineer | 1 |
 
 ### upper_middle
 
@@ -60,12 +61,12 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 30.0% |
-| business_owner | 20.0% |
-| freelance_contractor | 20.0% |
-| equity_compensation | 10.0% |
-| platform_gig | 10.0% |
-| royalties_creator | 10.0% |
+| salary_employment | 36.4% |
+| business_owner | 18.2% |
+| freelance_contractor | 18.2% |
+| equity_compensation | 9.1% |
+| platform_gig | 9.1% |
+| royalties_creator | 9.1% |
 | government_pension | 0.0% |
 | illicit_grey | 0.0% |
 | inheritance_trust | 0.0% |
@@ -91,6 +92,11 @@ _No excerpts for this bracket._
 
 — [vietnamworks](https://www.vietnamworks.com/ky-su-dich-vu-service-engineer-luong-400-800-usd-2045963-jv?utm_campaign_navi=2045963&utm_source_navi=specialOffers&utm_medium_navi=specialOffers)
 *Profession: service_engineer | Summary: Vietnam service engineer job listing offering USD 400-800/month salary.*
+
+> "đội ngũ kỹ sư có thu nhập từ 30 - 55 triệu đồng/tháng (tùy vị trí); công nhân có thu nhập 22 - 29 triệu đồng/tháng"
+
+— [rss_vietnamnet_kinhdoanh](https://vietnamnet.vn/tong-thau-duong-sat-cao-toc-ha-tang-cua-vingroup-tuyen-dung-25-000-nhan-su-2497303.html)
+*Profession: civil_engineer | Summary: Vietnamese construction engineers at SGC earning 30-55 million VND/month on major infrastructure projects.*
 
 > "$2500 a month let’s me live very well but I add another $500 or so for my travel out of country every 6-8 weeks for leisure... I’m in IT by trade"
 

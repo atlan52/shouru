@@ -2,16 +2,16 @@
 
 ## Overview
 
-- **Total samples:** 21
-- **Records with USD/yr amount:** 18
-- **Average reported income (USD/yr):** $15,755- **Low-confidence records (<0.5):** 2
+- **Total samples:** 22
+- **Records with USD/yr amount:** 19
+- **Average reported income (USD/yr):** $15,445- **Low-confidence records (<0.5):** 2
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 2 |
-| lower_middle | 6 |
+| lower_middle | 7 |
 | middle | 6 |
 | upper_middle | 6 |
 | top | 1 |
@@ -40,11 +40,12 @@
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | accounting_analyst | 1 |
-| 2 | general_practitioner | 1 |
-| 3 | graphic_designer | 1 |
-| 4 | physicist_job_seeker | 1 |
-| 5 | sales_engineer | 1 |
-| 6 | warehouse_worker | 1 |
+| 2 | bilingual_interpreter | 1 |
+| 3 | general_practitioner | 1 |
+| 4 | graphic_designer | 1 |
+| 5 | physicist_job_seeker | 1 |
+| 6 | sales_engineer | 1 |
+| 7 | warehouse_worker | 1 |
 
 ### middle
 
@@ -79,10 +80,10 @@
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 76.9% |
-| freelance_contractor | 15.4% |
-| business_owner | 3.8% |
-| royalties_creator | 3.8% |
+| salary_employment | 77.8% |
+| freelance_contractor | 14.8% |
+| business_owner | 3.7% |
+| royalties_creator | 3.7% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
 | illicit_grey | 0.0% |
@@ -108,6 +109,11 @@
 
 
 ### lower_middle bracket
+> "encontré un puesto de intérprete bilingüe donde pagan 15 al mes. También soy ingeniero en sistemas titulado con C1 en inglés"
+
+— [r_mexico](https://www.reddit.com/r/mexico/comments/1s59i0f/se_puede_vivir_bien_con_15k_en_cdmx/)
+*Profession: bilingual_interpreter | Summary: Systems engineer in Mexico City working as bilingual interpreter for MXN 15,000/month, asking if it's enough to live on in CDMX.*
+
 > "Yo por ejemplo supuestamente ganó "$10,000" pero con los descuentos de impuestos, fondo de ahorro, seguro, comedor, estoy cobrando $1900 por semana, en otros que he visto no pagan más de $8,000 al mes."
 
 — [r_mexico](https://www.reddit.com/r/mexico/comments/1l9a036/soy_yo_o_en_veracruz_los_sueldos_están_mal_pagados/)
@@ -117,11 +123,6 @@
 
 — [computrabajo_mx](https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-contable-en-el-marques-554E844C3B1A68FA61373E686DCF3405#lc=ListOffers-Score4-8)
 *Profession: accounting_analyst | Summary: Job posting in Querétaro, Mexico for an accounting analyst at Certeza Tributaria offering 15,000 MXN/month under an indefinite full-time contract.*
-
-> "$ 17,000.00 (Mensual) + Comisiones Contrato por tiempo indeterminado Tiempo Completo Identificación y análisis de potenciales clientes dentro del sector industrial."
-
-— [computrabajo_mx](https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingeniero-comercial-ingeniero-en-ventas-en-leon-14776C94F6ADC20C61373E686DCF3405#lc=ListOffers-Score4-0)
-*Profession: sales_engineer | Summary: Job ad for a commercial/sales engineer in León, Mexico offering MXN 17,000/month plus commissions.*
 
 
 ### middle bracket

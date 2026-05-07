@@ -2,17 +2,17 @@
 
 ## Overview
 
-- **Total samples:** 17
-- **Records with USD/yr amount:** 19
-- **Average reported income (USD/yr):** $11,982- **Low-confidence records (<0.5):** 1
+- **Total samples:** 21
+- **Records with USD/yr amount:** 23
+- **Average reported income (USD/yr):** $11,972- **Low-confidence records (<0.5):** 1
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 0 |
-| lower_middle | 8 |
-| middle | 3 |
+| lower_middle | 11 |
+| middle | 4 |
 | upper_middle | 5 |
 | top | 1 |
 
@@ -38,19 +38,23 @@ _No data for this bracket._
 | ---: | --- | ---: |
 | 1 | employee | 2 |
 | 2 | backend_developer | 1 |
-| 3 | call_center_sales_agent | 1 |
-| 4 | environmental_management_supervisor | 1 |
-| 5 | forklift_operator | 1 |
-| 6 | shift_worker | 1 |
-| 7 | teacher | 1 |
+| 3 | budget_engineer | 1 |
+| 4 | call_center_sales_agent | 1 |
+| 5 | environmental_management_supervisor | 1 |
+| 6 | forklift_operator | 1 |
+| 7 | industrial_designer | 1 |
+| 8 | sales_representative | 1 |
+| 9 | shift_worker | 1 |
+| 10 | teacher | 1 |
 
 ### middle
 
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | account_executive | 1 |
-| 2 | semi_senior_programmer | 1 |
-| 3 | senior_industrial_designer | 1 |
+| 2 | medical_auditor | 1 |
+| 3 | semi_senior_programmer | 1 |
+| 4 | senior_industrial_designer | 1 |
 
 ### upper_middle
 
@@ -73,9 +77,9 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 80.0% |
-| freelance_contractor | 16.0% |
-| illicit_grey | 4.0% |
+| salary_employment | 82.8% |
+| freelance_contractor | 13.8% |
+| illicit_grey | 3.4% |
 | business_owner | 0.0% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
@@ -115,15 +119,15 @@ _No excerpts for this bracket._
 — [computrabajo_co](https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-disenador-industrial-senior-en-cali-6706649CA21445DB61373E686DCF3405#lc=ListOffers-Score4-12)
 *Profession: senior_industrial_designer | Summary: Senior industrial designer job in Cali, Colombia paying COP 2,800,000/month plus COP 250,000 transport allowance.*
 
+> "Auditor(a) Médico(a) III Nivel académico: Postgrado (Médico(a) especialista en auditoría en salud) Experiencia: 2 años Salario: $7.000.000 + prestaciones de ley"
+
+— [elempleo](https://www.elempleo.com/co/ofertas-trabajo/auditor-medico-1886706625)
+*Profession: medical_auditor | Summary: Medical auditor position in Colombia (Caldas/La Dorada) offering 7 million COP/month plus benefits.*
+
 > "TRABAJO REMOTO CON EXCELENTES INGRESOS... Ingresos mensuales por cumplimiento... salario: 2500001-3000000 COP MONTH"
 
 — [elempleo](https://www.elempleo.com/co/ofertas-trabajo/ejecutivo-de-cuenta-trabajo-remoto-homeoffice-1886706631)
 *Profession: account_executive | Summary: Remote account executive job in Colombia paying 2,500,001-3,000,000 COP/month for B2B sales in education sector.*
-
-> "Oferta salarial: Básico: $ 3.700.000 + Prestaciones de ley Horario: Trabado Home Office"
-
-— [computrabajo_co](https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-programador-semi-senior-urgente-bogota-en-bogota-dc-0EC2162D7D91F37D61373E686DCF3405#lc=ListOffers-Score4-0)
-*Profession: semi_senior_programmer | Summary: Bogotá full-stack PHP/Vue programmer job offering 3,700,000 COP/month basic salary plus statutory benefits.*
 
 
 ### upper_middle bracket

@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 70
-- **Records with USD/yr amount:** 73
-- **Average reported income (USD/yr):** $14,350- **Low-confidence records (<0.5):** 1
+- **Total samples:** 72
+- **Records with USD/yr amount:** 75
+- **Average reported income (USD/yr):** $14,488- **Low-confidence records (<0.5):** 1
 
 ## Bracket distribution
 
@@ -12,7 +12,7 @@
 | --- | ---: |
 | bottom | 1 |
 | lower_middle | 30 |
-| middle | 20 |
+| middle | 22 |
 | upper_middle | 13 |
 | top | 6 |
 
@@ -53,16 +53,16 @@
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | 1c_programmer | 1 |
-| 2 | 3d_interior_visualizer | 1 |
-| 3 | building_inspection_engineer | 1 |
-| 4 | cnc_programmer_technologist | 1 |
-| 5 | computer_science_teacher | 1 |
-| 6 | design_engineer | 1 |
-| 7 | educator_organizer | 1 |
-| 8 | electrical_engineer | 1 |
-| 9 | endocrinologist | 1 |
-| 10 | engineer | 1 |
+| 1 | 1c_developer | 1 |
+| 2 | 1c_programmer | 1 |
+| 3 | 3d_interior_visualizer | 1 |
+| 4 | building_inspection_engineer | 1 |
+| 5 | cnc_programmer_technologist | 1 |
+| 6 | computer_science_teacher | 1 |
+| 7 | design_engineer | 1 |
+| 8 | educator_organizer | 1 |
+| 9 | electrical_engineer | 1 |
+| 10 | endocrinologist | 1 |
 
 ### upper_middle
 
@@ -95,8 +95,8 @@
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 86.6% |
-| freelance_contractor | 6.1% |
+| salary_employment | 86.9% |
+| freelance_contractor | 6.0% |
 | business_owner | 2.4% |
 | illicit_grey | 2.4% |
 | equity_compensation | 1.2% |

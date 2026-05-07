@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 102
-- **Records with USD/yr amount:** 91
-- **Average reported income (USD/yr):** $113,661- **Low-confidence records (<0.5):** 7
+- **Total samples:** 106
+- **Records with USD/yr amount:** 95
+- **Average reported income (USD/yr):** $114,114- **Low-confidence records (<0.5):** 7
 
 ## Bracket distribution
 
@@ -12,9 +12,9 @@
 | --- | ---: |
 | bottom | 5 |
 | lower_middle | 14 |
-| middle | 28 |
-| upper_middle | 32 |
-| top | 23 |
+| middle | 29 |
+| upper_middle | 33 |
+| top | 25 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -75,44 +75,44 @@
 | 1 | salaried_employee | 3 |
 | 2 | salaried_professional | 3 |
 | 3 | dual_income_household | 2 |
-| 4 | cafe_manager | 1 |
-| 5 | child_safeguarding_consultant | 1 |
-| 6 | corporate_lawyer | 1 |
-| 7 | digital_marketing_agency_owner | 1 |
-| 8 | emergency_services_worker | 1 |
-| 9 | entry_level_office_worker | 1 |
-| 10 | female_employee_median | 1 |
+| 4 | medical_registrar | 2 |
+| 5 | cafe_manager | 1 |
+| 6 | child_safeguarding_consultant | 1 |
+| 7 | corporate_lawyer | 1 |
+| 8 | digital_marketing_agency_owner | 1 |
+| 9 | emergency_services_worker | 1 |
+| 10 | entry_level_office_worker | 1 |
 
 ### top
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | analytics_project_manager | 1 |
-| 2 | digital_marketing_agency_founder | 1 |
-| 3 | dual_income_couple | 1 |
-| 4 | dual_income_household | 1 |
-| 5 | ecommerce_brand_founder | 1 |
-| 6 | employment_lawyer | 1 |
-| 7 | facebook_ads_consultant | 1 |
-| 8 | high_income_professional | 1 |
-| 9 | hospitality_business_owner | 1 |
-| 10 | instagram_influencer_marketer | 1 |
+| 1 | ai_consultant_sole_trader | 1 |
+| 2 | analytics_project_manager | 1 |
+| 3 | digital_marketing_agency_founder | 1 |
+| 4 | dual_income_couple | 1 |
+| 5 | dual_income_household | 1 |
+| 6 | ecommerce_brand_founder | 1 |
+| 7 | employment_lawyer | 1 |
+| 8 | facebook_ads_consultant | 1 |
+| 9 | high_income_earner | 1 |
+| 10 | high_income_professional | 1 |
 
 
 ## Earning mechanism share
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 51.9% |
-| business_owner | 18.6% |
-| freelance_contractor | 7.1% |
-| multiple_streams | 5.8% |
-| passive_investment | 5.1% |
-| royalties_creator | 3.2% |
-| government_pension | 2.6% |
-| platform_gig | 2.6% |
+| salary_employment | 52.2% |
+| business_owner | 18.0% |
+| freelance_contractor | 8.1% |
+| multiple_streams | 5.6% |
+| passive_investment | 5.0% |
+| royalties_creator | 3.1% |
+| government_pension | 2.5% |
+| platform_gig | 2.5% |
 | real_estate_rental | 1.9% |
-| inheritance_trust | 1.3% |
+| inheritance_trust | 1.2% |
 | equity_compensation | 0.0% |
 | illicit_grey | 0.0% |
 | unknown | 0.0% |

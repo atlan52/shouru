@@ -62,14 +62,14 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 33.3% |
-| government_pension | 16.7% |
-| illicit_grey | 16.7% |
-| inheritance_trust | 16.7% |
-| royalties_creator | 16.7% |
+| salary_employment | 28.6% |
+| freelance_contractor | 14.3% |
+| government_pension | 14.3% |
+| illicit_grey | 14.3% |
+| inheritance_trust | 14.3% |
+| royalties_creator | 14.3% |
 | business_owner | 0.0% |
 | equity_compensation | 0.0% |
-| freelance_contractor | 0.0% |
 | multiple_streams | 0.0% |
 | passive_investment | 0.0% |
 | platform_gig | 0.0% |

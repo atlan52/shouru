@@ -2,16 +2,16 @@
 
 ## Overview
 
-- **Total samples:** 6
-- **Records with USD/yr amount:** 6
-- **Average reported income (USD/yr):** $7,047- **Low-confidence records (<0.5):** 0
+- **Total samples:** 7
+- **Records with USD/yr amount:** 7
+- **Average reported income (USD/yr):** $6,620- **Low-confidence records (<0.5):** 0
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 0 |
-| lower_middle | 4 |
+| lower_middle | 5 |
 | middle | 0 |
 | upper_middle | 2 |
 | top | 0 |
@@ -40,6 +40,7 @@ _No data for this bracket._
 | 2 | data_analyst_jobseeker | 1 |
 | 3 | digital_marketer | 1 |
 | 4 | student_tutor_rideshare_driver | 1 |
+| 5 | student_worker | 1 |
 
 ### middle
 
@@ -61,10 +62,10 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 66.7% |
-| illicit_grey | 11.1% |
-| multiple_streams | 11.1% |
-| platform_gig | 11.1% |
+| salary_employment | 70.0% |
+| illicit_grey | 10.0% |
+| multiple_streams | 10.0% |
+| platform_gig | 10.0% |
 | business_owner | 0.0% |
 | equity_compensation | 0.0% |
 | freelance_contractor | 0.0% |
@@ -86,15 +87,15 @@ _No excerpts for this bracket._
 — [r_bangladesh](https://www.reddit.com/r/bangladesh/comments/1t209ai/what_do_i_do/)
 *Profession: student_tutor_rideshare_driver | Summary: 22-year-old Bangladeshi private university student earning ~10k BDT/month from tutoring and bike ride-sharing, seeking to grow income online.*
 
+> "i earn 40k month as a student how do I make at least 1 lakh now so i can feed my sister and mom"
+
+— [r_bangladesh](https://www.reddit.com/r/bangladesh/comments/1rmocpg/i_have_a_dead_beat_father_and_i_earn_40k_month_as/)
+*Profession: student_worker | Summary: Bangladeshi student earning 40k BDT/month supporting ill mother and sister, seeking ways to increase income.*
+
 > "Now, even with a Master's, I can expect something like 60k/month from a corporate job, maybe 100k-150k if i get multiple promotions within 5-10 years."
 
 — [r_bangladesh](https://www.reddit.com/r/bangladesh/comments/1swb4ui/can_you_buy_a_piece_of_land_by_saving_your_salary/)
 *Profession: corporate_employee | Summary: Bangladeshi master's-degree holder describing typical corporate salary expectation of ~60k BDT/month, lamenting unaffordable urban land.*
-
-> "I'm looking to bring on an experienced Digital Marketer (Remote | 30,000 BDT/month, but salary is negotiable based on experience)."
-
-— [r_bangladesh](https://www.reddit.com/r/bangladesh/comments/1oyfsrt/looking_for_digital_marketer/)
-*Profession: digital_marketer | Summary: Remote digital marketer role in Bangladesh advertised at 30,000 BDT/month with B2B lead-generation responsibilities.*
 
 
 ### middle bracket

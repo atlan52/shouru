@@ -2,19 +2,19 @@
 
 ## Overview
 
-- **Total samples:** 16
-- **Records with USD/yr amount:** 16
-- **Average reported income (USD/yr):** $90,528- **Low-confidence records (<0.5):** 1
+- **Total samples:** 18
+- **Records with USD/yr amount:** 18
+- **Average reported income (USD/yr):** $93,716- **Low-confidence records (<0.5):** 1
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 0 |
-| lower_middle | 4 |
+| lower_middle | 5 |
 | middle | 4 |
 | upper_middle | 4 |
-| top | 4 |
+| top | 5 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -37,9 +37,10 @@ _No data for this bracket._
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | asian_expat_worker | 1 |
-| 2 | hotel_management_trainee | 1 |
-| 3 | junior_accountant | 1 |
-| 4 | social_media_marketing_specialist | 1 |
+| 2 | employed_worker | 1 |
+| 3 | hotel_management_trainee | 1 |
+| 4 | junior_accountant | 1 |
+| 5 | social_media_marketing_specialist | 1 |
 
 ### middle
 
@@ -65,16 +66,17 @@ _No data for this bracket._
 | 1 | corporate_low_management | 1 |
 | 2 | difc_finance_professional | 1 |
 | 3 | digital_product_entrepreneur | 1 |
-| 4 | unspecified_uae_professional | 1 |
+| 4 | finance_professional | 1 |
+| 5 | unspecified_uae_professional | 1 |
 
 
 ## Earning mechanism share
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 88.9% |
-| business_owner | 5.6% |
-| multiple_streams | 5.6% |
+| salary_employment | 90.0% |
+| business_owner | 5.0% |
+| multiple_streams | 5.0% |
 | equity_compensation | 0.0% |
 | freelance_contractor | 0.0% |
 | government_pension | 0.0% |
@@ -143,6 +145,11 @@ _No excerpts for this bracket._
 
 
 ### top bracket
+> "I am now being offered the role... ~65K AED per month base, with no extra ordinary provisions other than health insurance for myself and the family."
+
+— [r_uae](https://www.reddit.com/r/UAE/comments/1qgdx04/received_a_job_offer_in_uae_do_the_numbers_stack/)
+*Profession: finance_professional | Summary: Finance professional considering UAE job offer of ~65K AED/month base salary with no housing or education allowances.*
+
 > "My total monthly salary is 45k+ aed, but my basic is around 21k aed. I'm getting completely conflicting answers about Golden Visa eligibility, even from Aamer centers."
 
 — [r_dubai](https://www.reddit.com/r/dubai/comments/1ps0j2y/golden_visa_eligibility_is_30k_based_on_basic_or/)
@@ -152,11 +159,6 @@ _No excerpts for this bracket._
 
 — [r_dubai](https://www.reddit.com/r/dubai/comments/1n58qa7/where_to_live_in_dubai_thats_commutable_to_difc/)
 *Profession: difc_finance_professional | Summary: Couple working near DIFC Dubai with combined ~50k AED/month income looking for a 2BHK apartment.*
-
-> "only four weeks later, we had a total revenue of €45,000, without setting up a classical ad funnel or whatever I used to know. The profit margin was 87%, and due to the awesome tax situation in the UAE, this left us with around €39,000 net profit."
-
-— [reddit_import](https://reddit.com/r/Entrepreneur/comments/12n0b3w/the_power_of_network/)
-*Profession: digital_product_entrepreneur | Summary: A young entrepreneur, now based in Dubai, generated €45k revenue (€39k net) in four weeks selling high-ticket digital products and earns 30% commissions of €1k–5k per sale.*
 
 
 

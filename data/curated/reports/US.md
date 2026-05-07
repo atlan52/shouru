@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 2070
-- **Records with USD/yr amount:** 1547
-- **Average reported income (USD/yr):** $1,434,566- **Low-confidence records (<0.5):** 142
+- **Total samples:** 2074
+- **Records with USD/yr amount:** 1551
+- **Average reported income (USD/yr):** $1,431,170- **Low-confidence records (<0.5):** 142
 
 ## Bracket distribution
 
@@ -12,9 +12,9 @@
 | --- | ---: |
 | bottom | 177 |
 | lower_middle | 260 |
-| middle | 381 |
-| upper_middle | 609 |
-| top | 643 |
+| middle | 382 |
+| upper_middle | 611 |
+| top | 644 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -77,7 +77,7 @@
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | software_engineer | 36 |
+| 1 | software_engineer | 37 |
 | 2 | software_developer | 16 |
 | 3 | corporate_professional | 7 |
 | 4 | senior_software_engineer | 7 |
@@ -109,10 +109,10 @@
 | Mechanism | Share |
 | --- | ---: |
 | salary_employment | 48.6% |
-| business_owner | 13.9% |
+| business_owner | 13.8% |
 | equity_compensation | 7.7% |
 | multiple_streams | 7.4% |
-| passive_investment | 5.9% |
+| passive_investment | 6.0% |
 | freelance_contractor | 5.8% |
 | real_estate_rental | 3.3% |
 | royalties_creator | 2.2% |

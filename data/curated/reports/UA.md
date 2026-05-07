@@ -2,16 +2,16 @@
 
 ## Overview
 
-- **Total samples:** 7
-- **Records with USD/yr amount:** 7
-- **Average reported income (USD/yr):** $11,409- **Low-confidence records (<0.5):** 0
+- **Total samples:** 8
+- **Records with USD/yr amount:** 8
+- **Average reported income (USD/yr):** $11,300- **Low-confidence records (<0.5):** 0
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 0 |
-| lower_middle | 2 |
+| lower_middle | 3 |
 | middle | 3 |
 | upper_middle | 2 |
 | top | 0 |
@@ -36,8 +36,9 @@ _No data for this bracket._
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | electronics_sales_consultant | 1 |
-| 2 | kindergarten_teacher | 1 |
+| 1 | cnc_lathe_operator | 1 |
+| 2 | electronics_sales_consultant | 1 |
+| 3 | kindergarten_teacher | 1 |
 
 ### middle
 
@@ -92,6 +93,11 @@ _No excerpts for this bracket._
 
 — [workua](https://www.work.ua/jobs/6018171/)
 *Profession: electronics_sales_consultant | Summary: Ukrainian electronics sales consultant at Techno Case earning average 28,000 UAH/month (up to 40,000 UAH max) in Poltava.*
+
+> "Токар ЧПК 33 000 – 39 000 грн Стальканат, ПрАТ Металургійна промисловість, металообробка"
+
+— [workua](https://www.work.ua/jobs/5580365/)
+*Profession: cnc_lathe_operator | Summary: CNC lathe operator job posting in Odessa, Ukraine offering 33,000–39,000 UAH/month.*
 
 
 ### middle bracket

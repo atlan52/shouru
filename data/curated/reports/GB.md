@@ -2,19 +2,19 @@
 
 ## Overview
 
-- **Total samples:** 206
-- **Records with USD/yr amount:** 174
-- **Average reported income (USD/yr):** $292,447- **Low-confidence records (<0.5):** 8
+- **Total samples:** 216
+- **Records with USD/yr amount:** 183
+- **Average reported income (USD/yr):** $282,717- **Low-confidence records (<0.5):** 8
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
-| bottom | 18 |
-| lower_middle | 24 |
-| middle | 47 |
-| upper_middle | 64 |
-| top | 53 |
+| bottom | 19 |
+| lower_middle | 27 |
+| middle | 51 |
+| upper_middle | 65 |
+| top | 54 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -33,15 +33,15 @@
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | canteen_cook_operator | 1 |
-| 2 | freelance_social_media_manager | 1 |
-| 3 | freelance_web_developer | 1 |
-| 4 | frontend_developer_intern | 1 |
-| 5 | healthcare_worker | 1 |
-| 6 | hourly_worker_uk | 1 |
-| 7 | law_firm_assistant | 1 |
-| 8 | marketing_executive | 1 |
-| 9 | private_music_teacher | 1 |
-| 10 | remote_worker_turkish_company | 1 |
+| 2 | delivery_driver | 1 |
+| 3 | freelance_social_media_manager | 1 |
+| 4 | freelance_web_developer | 1 |
+| 5 | frontend_developer_intern | 1 |
+| 6 | healthcare_worker | 1 |
+| 7 | hourly_worker_uk | 1 |
+| 8 | law_firm_assistant | 1 |
+| 9 | marketing_executive | 1 |
+| 10 | private_music_teacher | 1 |
 
 ### lower_middle
 
@@ -54,24 +54,24 @@
 | 5 | council_systems_engineer_apprentice | 1 |
 | 6 | degree_holder_professional_uk | 1 |
 | 7 | digital_marketing_manager | 1 |
-| 8 | frugal_worker_with_rental_property | 1 |
-| 9 | graduate_scheme_employee | 1 |
-| 10 | marketing_graduate | 1 |
+| 8 | factory_worker | 1 |
+| 9 | frugal_worker_with_rental_property | 1 |
+| 10 | graduate_scheme_employee | 1 |
 
 ### middle
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | nhs_employee | 2 |
-| 2 | amazon_dropshipper | 1 |
-| 3 | apprentice | 1 |
-| 4 | case_handler | 1 |
-| 5 | charity_sector_worker | 1 |
-| 6 | data_engineer | 1 |
-| 7 | desktop_support_analyst | 1 |
-| 8 | digital_analyst_graduate | 1 |
-| 9 | digital_marketing_specialist | 1 |
-| 10 | disability_retired_professional | 1 |
+| 1 | full_time_employee_median | 2 |
+| 2 | nhs_employee | 2 |
+| 3 | office_worker | 2 |
+| 4 | amazon_dropshipper | 1 |
+| 5 | apprentice | 1 |
+| 6 | case_handler | 1 |
+| 7 | charity_sector_worker | 1 |
+| 8 | data_engineer | 1 |
+| 9 | desktop_support_analyst | 1 |
+| 10 | digital_analyst_graduate | 1 |
 
 ### upper_middle
 
@@ -99,28 +99,28 @@
 | 5 | high_earner_professional | 2 |
 | 6 | high_income_professional | 2 |
 | 7 | amazon_dropshipper | 1 |
-| 8 | business_owner_executive | 1 |
-| 9 | charity_ceo | 1 |
-| 10 | chartered_accountant | 1 |
+| 8 | banking_it_professional | 1 |
+| 9 | business_owner_executive | 1 |
+| 10 | charity_ceo | 1 |
 
 
 ## Earning mechanism share
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 48.6% |
-| business_owner | 13.7% |
-| freelance_contractor | 9.4% |
-| passive_investment | 9.1% |
-| multiple_streams | 4.6% |
-| equity_compensation | 4.3% |
-| real_estate_rental | 2.9% |
-| royalties_creator | 2.6% |
-| government_pension | 2.3% |
+| salary_employment | 49.4% |
+| business_owner | 13.3% |
+| passive_investment | 9.4% |
+| freelance_contractor | 9.1% |
+| multiple_streams | 4.4% |
+| equity_compensation | 4.1% |
+| real_estate_rental | 2.8% |
+| royalties_creator | 2.5% |
+| government_pension | 2.2% |
 | inheritance_trust | 1.1% |
 | illicit_grey | 0.6% |
+| platform_gig | 0.6% |
 | unknown | 0.6% |
-| platform_gig | 0.3% |
 
 ## Narrative excerpts
 
@@ -147,32 +147,32 @@
 — [hackernews](https://news.ycombinator.com/item?id=25595958)
 *Profession: ml_data_engineer | Summary: An ML/data engineer at a UK (non-London) pre-seed startup earns about £22k/year and was offered 0.1% in EMI options, which they feel is a lowball.*
 
+> "I work in CRM marketing. The marketing executive was taken off of managing the brand on email and it was given to me (Marketing Assistant). I'm on £27,000 in UK"
+
+— [r_ukjobs](https://www.reddit.com/r/UKJobs/comments/1syxmd0/promotion_without_a_pay_rise/)
+*Profession: marketing_assistant | Summary: UK marketing assistant earning £27,000/year being promoted to Marketing Executive without a pay rise until April 2027.*
+
 > "Now I'm a Senior 3D Artist after being in a 3D role for 5 years... now on £30,000 after a surprise pitch at my company when Unions got involved and allowed most of us to get a 10% increase."
 
 — [r_ukjobs](https://www.reddit.com/r/UKJobs/comments/1lbfh7t/i_just_found_out_what_the_minimum_wage_is/)
 *Profession: senior_3d_artist | Summary: UK Senior 3D Artist earning £30k/year after 9 years of work and a 10% union-driven raise, started at £15k minimum-wage admin role.*
 
-> "In the early 2000s I was a postgraduate student at a university and was offered a part-time teaching assistant position for about £6000 a year"
-
-— [reddit_import](https://reddit.com/r/antiwork/comments/qtlrti/how_i_never_turned_up_for_work_for_18_months_got/)
-*Profession: university_teaching_assistant | Summary: UK postgrad part-time university teaching assistant got salary raised from £6,000 to £18,000/year via union pay review.*
-
 
 ### middle bracket
+> "Annual median earnings for full-time employees is now estimated to be £35,004, up from the previous estimate of £34,963."
+
+— [govstats_GB_ONS](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/bulletins/annualsurveyofhoursandearnings/2024)
+*Profession: full_time_employee_median | Summary: UK ONS 2024 official statistics: median annual earnings for full-time employees in Great Britain is £35,004.*
+
+> "Median gross annual earnings for full-time employees were £37,430 in April 2024, compared with £35,004 in April 2023, an increase of 6.9%."
+
+— [govstats_GB_ONS](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/bulletins/annualsurveyofhoursandearnings/2024)
+*Profession: full_time_employee | Summary: UK median full-time employee earned £37,430 gross annually in April 2024 per ONS official statistics.*
+
 > "Median gross annual earnings for full-time employees who had been in their job for at least a year were £37,430 in April 2024, compared with £35,004 in April 2023 (an increase of 6.9%)."
 
 — [govstats_GB_ONS](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/bulletins/annualsurveyofhoursandearnings/2024)
 *Profession: full_time_employee_median | Summary: UK ONS official statistic: median gross annual earnings for full-time employees in April 2024 was £37,430.*
-
-> "I am employed by the NHS receiving a salary of 37k on average."
-
-— [r_ukpersonalfinance](https://www.reddit.com/r/UKPersonalFinance/comments/1qiwjl4/need_advice_on_sorting_out_my_financial_life/)
-*Profession: nhs_employee | Summary: 29-year-old NHS employee in the UK earning £37k/year, seeking advice on managing debt and saving for a house.*
-
-> "My salary currently sits at 29k a year, which isn't terrible by any stretch, but it has only ever risen by around 2% (I started on 25k)."
-
-— [r_ukjobs](https://www.reddit.com/r/UKJobs/comments/1mcns3j/i_got_offered_a_new_job_today_with_an_11k/)
-*Profession: case_handler | Summary: UK case-handler on £29k/year (started at £25k) leaving after ~10 years for a management role with £11k pay rise.*
 
 
 ### upper_middle bracket

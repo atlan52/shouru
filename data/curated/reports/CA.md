@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 165
-- **Records with USD/yr amount:** 132
-- **Average reported income (USD/yr):** $142,419- **Low-confidence records (<0.5):** 10
+- **Total samples:** 167
+- **Records with USD/yr amount:** 134
+- **Average reported income (USD/yr):** $141,219- **Low-confidence records (<0.5):** 10
 
 ## Bracket distribution
 
@@ -12,8 +12,8 @@
 | --- | ---: |
 | bottom | 8 |
 | lower_middle | 20 |
-| middle | 41 |
-| upper_middle | 60 |
+| middle | 42 |
+| upper_middle | 61 |
 | top | 36 |
 
 ## Bracket thresholds (USD/yr lower bound)
@@ -61,15 +61,15 @@
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | early_career_professional | 2 |
-| 2 | business_analyst | 1 |
-| 3 | canadian_household | 1 |
-| 4 | construction_worker | 1 |
-| 5 | early_career_professional_with_tutoring_side_hustle | 1 |
-| 6 | freelance_copywriter | 1 |
-| 7 | freelance_web_developer | 1 |
-| 8 | frontend_web_developer | 1 |
-| 9 | icu_nurse | 1 |
-| 10 | it_professional | 1 |
+| 2 | software_developer | 2 |
+| 3 | business_analyst | 1 |
+| 4 | canadian_household | 1 |
+| 5 | construction_worker | 1 |
+| 6 | early_career_professional_with_tutoring_side_hustle | 1 |
+| 7 | freelance_copywriter | 1 |
+| 8 | freelance_web_developer | 1 |
+| 9 | frontend_web_developer | 1 |
+| 10 | icu_nurse | 1 |
 
 ### upper_middle
 
@@ -77,14 +77,14 @@
 | ---: | --- | ---: |
 | 1 | salaried_professional | 4 |
 | 2 | chartered_professional_accountant | 2 |
-| 3 | salaried_employee | 2 |
-| 4 | accountant_cpa | 1 |
-| 5 | airbnb_property_manager | 1 |
-| 6 | chartered_accountant | 1 |
-| 7 | corporate_employee | 1 |
-| 8 | corporate_tax_accountant | 1 |
-| 9 | couple_combined_income_montreal | 1 |
-| 10 | db_pension_employee_with_rental | 1 |
+| 3 | professional | 2 |
+| 4 | salaried_employee | 2 |
+| 5 | accountant_cpa | 1 |
+| 6 | airbnb_property_manager | 1 |
+| 7 | chartered_accountant | 1 |
+| 8 | corporate_employee | 1 |
+| 9 | corporate_tax_accountant | 1 |
+| 10 | couple_combined_income_montreal | 1 |
 
 ### top
 
@@ -106,17 +106,17 @@
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 50.6% |
-| business_owner | 9.8% |
+| salary_employment | 50.9% |
+| business_owner | 9.7% |
 | passive_investment | 7.9% |
 | freelance_contractor | 7.5% |
-| multiple_streams | 7.2% |
-| real_estate_rental | 5.7% |
+| multiple_streams | 7.1% |
+| real_estate_rental | 5.6% |
 | government_pension | 4.5% |
 | equity_compensation | 2.6% |
 | platform_gig | 1.9% |
 | royalties_creator | 1.1% |
-| illicit_grey | 0.8% |
+| illicit_grey | 0.7% |
 | inheritance_trust | 0.4% |
 | unknown | 0.0% |
 

@@ -2,19 +2,19 @@
 
 ## Overview
 
-- **Total samples:** 39
-- **Records with USD/yr amount:** 34
-- **Average reported income (USD/yr):** $78,659- **Low-confidence records (<0.5):** 5
+- **Total samples:** 45
+- **Records with USD/yr amount:** 40
+- **Average reported income (USD/yr):** $74,049- **Low-confidence records (<0.5):** 5
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
-| bottom | 6 |
+| bottom | 7 |
 | lower_middle | 11 |
-| middle | 4 |
-| upper_middle | 11 |
-| top | 7 |
+| middle | 5 |
+| upper_middle | 13 |
+| top | 9 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -32,12 +32,13 @@
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | hikikomori_former_factory_worker | 1 |
-| 2 | housewife_side_hustler | 1 |
-| 3 | indie_app_developer | 1 |
-| 4 | mercari_side_seller | 1 |
-| 5 | note_content_creator | 1 |
-| 6 | web_engineer_side_contractor | 1 |
+| 1 | education_worker | 1 |
+| 2 | hikikomori_former_factory_worker | 1 |
+| 3 | housewife_side_hustler | 1 |
+| 4 | indie_app_developer | 1 |
+| 5 | mercari_side_seller | 1 |
+| 6 | note_content_creator | 1 |
+| 7 | web_engineer_side_contractor | 1 |
 
 ### lower_middle
 
@@ -59,24 +60,25 @@
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | data_analyst | 1 |
-| 2 | licensed_architect_site_supervisor | 1 |
-| 3 | office_manager_middle_management | 1 |
-| 4 | software_architect | 1 |
+| 2 | it_freelancer | 1 |
+| 3 | licensed_architect_site_supervisor | 1 |
+| 4 | office_manager_middle_management | 1 |
+| 5 | software_architect | 1 |
 
 ### upper_middle
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | company_employee | 1 |
-| 2 | corporate_accountant | 1 |
-| 3 | corporate_employee | 1 |
-| 4 | data_analyst_developer_overemployed | 1 |
-| 5 | defense_it_contractor | 1 |
-| 6 | early_retired_former_accountant | 1 |
-| 7 | early_retiree_former_accountant | 1 |
-| 8 | professional_pachislot_player | 1 |
-| 9 | property_heir | 1 |
-| 10 | software_engineer | 1 |
+| 1 | company_employee | 2 |
+| 2 | ai_video_content_creator | 1 |
+| 3 | corporate_accountant | 1 |
+| 4 | corporate_employee | 1 |
+| 5 | data_analyst_developer_overemployed | 1 |
+| 6 | defense_it_contractor | 1 |
+| 7 | early_retired_former_accountant | 1 |
+| 8 | early_retiree_former_accountant | 1 |
+| 9 | professional_pachislot_player | 1 |
+| 10 | property_heir | 1 |
 
 ### top
 
@@ -86,26 +88,28 @@
 | 2 | anime_director | 1 |
 | 3 | career_coach_paid_note_author | 1 |
 | 4 | food_truck_operator | 1 |
-| 5 | it_self_employed | 1 |
-| 6 | sap_consultant | 1 |
-| 7 | self_employed_with_investment_income | 1 |
+| 5 | it_freelancer | 1 |
+| 6 | it_self_employed | 1 |
+| 7 | sap_consultant | 1 |
+| 8 | self_employed_with_investment_income | 1 |
+| 9 | software_engineer | 1 |
 
 
 ## Earning mechanism share
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 43.3% |
-| freelance_contractor | 16.4% |
-| royalties_creator | 9.0% |
-| business_owner | 7.5% |
-| multiple_streams | 6.0% |
-| passive_investment | 4.5% |
-| platform_gig | 4.5% |
-| illicit_grey | 3.0% |
-| inheritance_trust | 3.0% |
-| government_pension | 1.5% |
-| real_estate_rental | 1.5% |
+| salary_employment | 42.1% |
+| freelance_contractor | 19.7% |
+| royalties_creator | 9.2% |
+| business_owner | 7.9% |
+| multiple_streams | 5.3% |
+| passive_investment | 3.9% |
+| platform_gig | 3.9% |
+| illicit_grey | 2.6% |
+| inheritance_trust | 2.6% |
+| government_pension | 1.3% |
+| real_estate_rental | 1.3% |
 | equity_compensation | 0.0% |
 | unknown | 0.0% |
 
@@ -122,10 +126,10 @@
 — [hatena](https://www.tue.tokyo/entry/2022/01/05/%E3%80%90%E3%83%A1%E3%83%AB%E3%82%AB%E3%83%AA%E3%80%912021%E5%B9%B4%E3%81%AE%E5%A3%B2%E4%B8%8A%E9%87%91%E3%82%92%E5%85%AC%E9%96%8B%E3%81%97%E3%81%BE%E3%81%99)
 *Profession: mercari_side_seller | Summary: Japanese hobbyist seller disclosing 2021 Mercari side income of about ¥6,862 net profit on ¥11,329 sales for the year.*
 
-> "【20部突破🌼】12日でフォロワー0→500人｜手取り10万円の主婦が本当にやったこと全部"
+> "神奈川県在住のAさん（年収200万円／27歳／教育関係者）「趣味につぎ込むことは間違いないね。特に楽器類にお金をかけたい！」"
 
-— [note_jp](https://note.com/gggot777/n/n082a2b8fbe74)
-*Profession: housewife_side_hustler | Summary: Japanese housewife with take-home ¥100k/month starting a side hustle on X, selling a 100-yen note about growing followers from 0 to 500 in 12 days.*
+— [hatena](https://www.rakumachi.jp/news/column/128971)
+*Profession: education_worker | Summary: 27-year-old education worker in Kanagawa with annual income of JPY 2,000,000, discussing how they would spend a hypothetical 100 million yen.*
 
 
 ### lower_middle bracket
@@ -180,6 +184,11 @@
 
 
 ### top bracket
+> "32歳男性東京都在住 ・年収1000万円 ITフリーランス"
+
+— [hatena](https://anond.hatelabo.jp/20220613133321)
+*Profession: it_freelancer | Summary: 32-year-old Tokyo-based IT freelancer earning 10 million JPY/year, sharing marriage hunting costs.*
+
 > "手取り20万の30代公務員が、底辺SESの地獄から年収1000万のSAPコンサルへ這い上がった"
 
 — [note_jp](https://note.com/engikonsarutarou/n/nb4081b46c202)
@@ -189,11 +198,6 @@
 
 — [hatena](https://anond.hatelabo.jp/20240207133413)
 *Profession: self_employed_with_investment_income | Summary: 30-year-old self-employed Japanese man reporting ¥12M/year business income plus ¥20M/year passive (unearned) income, recounting a marriage-agency consultation.*
-
-> "母親には「彼氏とビジネスやってる」と説明　月収1000万超、20代のカップルが"アダルト動画配信"を始めたわけ"
-
-— [hatena](https://bunshun.jp/articles/-/50228)
-*Profession: adult_video_creator_couple | Summary: Japanese 20s couple ('えむゆみカップル') earning over ¥10 million/month posting amateur adult videos on Pornhub.*
 
 
 
