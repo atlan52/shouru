@@ -2,17 +2,17 @@
 
 ## Overview
 
-- **Total samples:** 14
-- **Records with USD/yr amount:** 15
-- **Average reported income (USD/yr):** $97,949- **Low-confidence records (<0.5):** 0
+- **Total samples:** 16
+- **Records with USD/yr amount:** 18
+- **Average reported income (USD/yr):** $82,895- **Low-confidence records (<0.5):** 0
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 0 |
-| lower_middle | 2 |
-| middle | 6 |
+| lower_middle | 3 |
+| middle | 7 |
 | upper_middle | 3 |
 | top | 3 |
 
@@ -36,8 +36,9 @@ _No data for this bracket._
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | underemployed_worker | 1 |
-| 2 | unspecified_employee | 1 |
+| 1 | part_time_worker_student | 1 |
+| 2 | underemployed_worker | 1 |
+| 3 | unspecified_employee | 1 |
 
 ### middle
 
@@ -46,9 +47,10 @@ _No data for this bracket._
 | 1 | luxury_beauty_promoter | 1 |
 | 2 | market_research_analyst | 1 |
 | 3 | medical_sales_representative | 1 |
-| 4 | restaurant_cashier_worker | 1 |
-| 5 | retail_sales_associate | 1 |
-| 6 | retired_traveler | 1 |
+| 4 | recent_graduate | 1 |
+| 5 | restaurant_cashier_worker | 1 |
+| 6 | retail_sales_associate | 1 |
+| 7 | retired_traveler | 1 |
 
 ### upper_middle
 
@@ -71,13 +73,13 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 72.2% |
-| business_owner | 11.1% |
-| government_pension | 5.6% |
-| passive_investment | 5.6% |
-| royalties_creator | 5.6% |
+| salary_employment | 71.4% |
+| business_owner | 9.5% |
+| freelance_contractor | 4.8% |
+| government_pension | 4.8% |
+| passive_investment | 4.8% |
+| royalties_creator | 4.8% |
 | equity_compensation | 0.0% |
-| freelance_contractor | 0.0% |
 | illicit_grey | 0.0% |
 | inheritance_trust | 0.0% |
 | multiple_streams | 0.0% |
@@ -91,6 +93,11 @@ _No data for this bracket._
 _No excerpts for this bracket._
 
 ### lower_middle bracket
+> "llevo 5 años trabajando part-time y aún estoy estudiando... Desde que comencé a recibir mi propio sueldo ($380.000) siento que no me alcanza para ahorrar"
+
+— [r_chile](https://www.reddit.com/r/chile/comments/1rav7sp/busco_consejos_para_lograr_independizarme_y_así/)
+*Profession: part_time_worker_student | Summary: 27-year-old Chilean student working part-time earning $380,000 CLP/month, struggling to save.*
+
 > "mi pareja trabaja y gana cerca de 1 millón (aprox porque si falta un día son 50 mil menos), no tenemos hijos, ni auto, ni deudas de ningún tipo"
 
 — [r_chile](https://www.reddit.com/r/chile/comments/1qtlv2z/como_compran_en_el_super/)

@@ -2,16 +2,16 @@
 
 ## Overview
 
-- **Total samples:** 2
-- **Records with USD/yr amount:** 2
-- **Average reported income (USD/yr):** $109,800- **Low-confidence records (<0.5):** 1
+- **Total samples:** 3
+- **Records with USD/yr amount:** 3
+- **Average reported income (USD/yr):** $84,912- **Low-confidence records (<0.5):** 1
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 0 |
-| lower_middle | 0 |
+| lower_middle | 1 |
 | middle | 1 |
 | upper_middle | 0 |
 | top | 1 |
@@ -34,7 +34,9 @@ _No data for this bracket._
 
 ### lower_middle
 
-_No data for this bracket._
+| # | Profession | Records |
+| ---: | --- | ---: |
+| 1 | content_creator | 1 |
 
 ### middle
 
@@ -57,8 +59,9 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 75.0% |
-| passive_investment | 25.0% |
+| salary_employment | 60.0% |
+| passive_investment | 20.0% |
+| royalties_creator | 20.0% |
 | business_owner | 0.0% |
 | equity_compensation | 0.0% |
 | freelance_contractor | 0.0% |
@@ -68,7 +71,6 @@ _No data for this bracket._
 | multiple_streams | 0.0% |
 | platform_gig | 0.0% |
 | real_estate_rental | 0.0% |
-| royalties_creator | 0.0% |
 | unknown | 0.0% |
 
 ## Narrative excerpts
@@ -77,7 +79,11 @@ _No data for this bracket._
 _No excerpts for this bracket._
 
 ### lower_middle bracket
-_No excerpts for this bracket._
+> "我在韩国月入400万韩币，为啥来了中国就成了金爱吃..."
+
+— [bilibili](https://www.bilibili.com/video/BV18o4y1f7vP)
+*Profession: content_creator | Summary: Korean female content creator earning 4 million KRW/month in Korea, noting her income status changed when she came to China.*
+
 
 ### middle bracket
 > "종잣돈이 없어서 마이너스 통장 열고 2000만원으로 시작했죠. (경매로 낙찰받은 세 채를 매도한 뒤) 모든 수익을 합치니 연봉 1억원을 넘어섰어요."

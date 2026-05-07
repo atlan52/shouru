@@ -2,18 +2,18 @@
 
 ## Overview
 
-- **Total samples:** 3
-- **Records with USD/yr amount:** 2
-- **Average reported income (USD/yr):** $5,713- **Low-confidence records (<0.5):** 0
+- **Total samples:** 5
+- **Records with USD/yr amount:** 4
+- **Average reported income (USD/yr):** $12,118- **Low-confidence records (<0.5):** 0
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 2 |
-| lower_middle | 0 |
+| lower_middle | 1 |
 | middle | 1 |
-| upper_middle | 0 |
+| upper_middle | 1 |
 | top | 0 |
 
 ## Bracket thresholds (USD/yr lower bound)
@@ -37,7 +37,9 @@
 
 ### lower_middle
 
-_No data for this bracket._
+| # | Profession | Records |
+| ---: | --- | ---: |
+| 1 | office_worker | 1 |
 
 ### middle
 
@@ -47,7 +49,9 @@ _No data for this bracket._
 
 ### upper_middle
 
-_No data for this bracket._
+| # | Profession | Records |
+| ---: | --- | ---: |
+| 1 | salaried_professional | 1 |
 
 ### top
 
@@ -58,10 +62,11 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| government_pension | 25.0% |
-| illicit_grey | 25.0% |
-| inheritance_trust | 25.0% |
-| royalties_creator | 25.0% |
+| salary_employment | 33.3% |
+| government_pension | 16.7% |
+| illicit_grey | 16.7% |
+| inheritance_trust | 16.7% |
+| royalties_creator | 16.7% |
 | business_owner | 0.0% |
 | equity_compensation | 0.0% |
 | freelance_contractor | 0.0% |
@@ -69,7 +74,6 @@ _No data for this bracket._
 | passive_investment | 0.0% |
 | platform_gig | 0.0% |
 | real_estate_rental | 0.0% |
-| salary_employment | 0.0% |
 | unknown | 0.0% |
 
 ## Narrative excerpts
@@ -87,7 +91,11 @@ _No data for this bracket._
 
 
 ### lower_middle bracket
-_No excerpts for this bracket._
+> "getting a 60k salary in this dead economy is already the hardest thing ever but even if someone miraculously earns that much how is a human supposed to stay alive"
+
+— [r_pakistan](https://www.reddit.com/r/pakistan/comments/1sarih4/petrol_just_crossed_450_honestly_my_will_to_live/)
+*Profession: office_worker | Summary: Pakistani office worker earning around PKR 60,000/month, struggling with fuel costs consuming most of their income.*
+
 
 ### middle bracket
 > "My elderly parents, both over 70, live in Pakistan in their own home. Every month, I send them 2.5 lakh rupees for their expenses. Since they own their house, there's no rent. Their monthly electricity bill is around 20–25 thousand, and the house help costs about 30 thousand per month."
@@ -97,7 +105,11 @@ _No excerpts for this bracket._
 
 
 ### upper_middle bracket
-_No excerpts for this bracket._
+> "even though Alhumdulillah I am making 800k plus (married with a newborn), savings are minimal after expenses but we do live 'large'."
+
+— [r_pakistan](https://www.reddit.com/r/pakistan/comments/1ok3l0z/household_income_and_budget/)
+*Profession: salaried_professional | Summary: Pakistani professional earning 800k+ PKR/month (married with newborn) managing household budget amid inflation.*
+
 
 ### top bracket
 _No excerpts for this bracket._

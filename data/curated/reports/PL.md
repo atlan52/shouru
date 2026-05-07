@@ -2,16 +2,16 @@
 
 ## Overview
 
-- **Total samples:** 4
-- **Records with USD/yr amount:** 2
-- **Average reported income (USD/yr):** $159,840- **Low-confidence records (<0.5):** 0
+- **Total samples:** 7
+- **Records with USD/yr amount:** 4
+- **Average reported income (USD/yr):** $85,995- **Low-confidence records (<0.5):** 0
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 0 |
-| lower_middle | 0 |
+| lower_middle | 3 |
 | middle | 1 |
 | upper_middle | 1 |
 | top | 2 |
@@ -34,7 +34,11 @@ _No data for this bracket._
 
 ### lower_middle
 
-_No data for this bracket._
+| # | Profession | Records |
+| ---: | --- | ---: |
+| 1 | average_worker | 1 |
+| 2 | student_worker | 1 |
+| 3 | unspecified_worker | 1 |
 
 ### middle
 
@@ -60,13 +64,13 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| business_owner | 33.3% |
-| multiple_streams | 33.3% |
-| freelance_contractor | 16.7% |
-| salary_employment | 16.7% |
+| salary_employment | 45.5% |
+| business_owner | 18.2% |
+| multiple_streams | 18.2% |
+| freelance_contractor | 9.1% |
+| illicit_grey | 9.1% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
-| illicit_grey | 0.0% |
 | inheritance_trust | 0.0% |
 | passive_investment | 0.0% |
 | platform_gig | 0.0% |
@@ -80,7 +84,21 @@ _No data for this bracket._
 _No excerpts for this bracket._
 
 ### lower_middle bracket
-_No excerpts for this bracket._
+> "Studenci w Polsce zarabiają średnio 4,1 zł netto miesięcznie, jednak za satysfakcjonujący poziom wynagrodzenia uznaliby 9,9 zł na rękę"
+
+— [forsal](https://forsal.pl/praca/wynagrodzenia/artykuly/11242365,ile-zarabia-student-w-polsce-roznica-z-oczekiwaniami-jest-ogromna.html)
+*Profession: student_worker | Summary: Polish article reporting average student earnings of 4,100 PLN net/month in 2025-2026, with salary expectations of 9,900 PLN net.*
+
+> "Żeby być uznawanym w Polsce za klasę średnią wystarczy zarabiać ok. 4 tys. zł na rękę. To niewiele więcej niż płaca minimalna."
+
+— [wykop](https://wykop.pl/link/7917425/kryzys-normalsow-polskie-bogactwo-kredyt-leasing-i-scam)
+*Profession: average_worker | Summary: Polish commentary noting that earning ~4000 PLN net/month is considered middle class in Poland, barely above minimum wage.*
+
+> "myślę, że w tym przypadku mogę rozsądnie rzuć na start to 16kPLN brutto na UOP i nie będzie to przesadzone? Nie jestem zorientowany bo wynajmuję pokój, żyję jak szczur i zarabiam znacznie mniej"
+
+— [wykop](https://wykop.pl/wpis/85507591/zaraz-powrot-do-wscibskiej-rodziny-na-swieta-wiec-)
+*Profession: unspecified_worker | Summary: Polish worker earning less than an estimated 16,000 PLN gross/month, renting a room and unable to afford house construction.*
+
 
 ### middle bracket
 > "My story: mobile app(s), quite a bit of traction (over 1M downloads), pretty solid plans for rapid and rather inexpensive growth. Enough revenue to support my family, but at least a few months away from that growth."

@@ -2,18 +2,18 @@
 
 ## Overview
 
-- **Total samples:** 15
-- **Records with USD/yr amount:** 12
-- **Average reported income (USD/yr):** $16,670- **Low-confidence records (<0.5):** 2
+- **Total samples:** 21
+- **Records with USD/yr amount:** 18
+- **Average reported income (USD/yr):** $15,755- **Low-confidence records (<0.5):** 2
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
-| bottom | 0 |
-| lower_middle | 5 |
-| middle | 5 |
-| upper_middle | 4 |
+| bottom | 2 |
+| lower_middle | 6 |
+| middle | 6 |
+| upper_middle | 6 |
 | top | 1 |
 
 ## Bracket thresholds (USD/yr lower bound)
@@ -30,7 +30,10 @@
 
 ### bottom
 
-_No data for this bracket._
+| # | Profession | Records |
+| ---: | --- | ---: |
+| 1 | laborer | 1 |
+| 2 | minimum_wage_worker | 1 |
 
 ### lower_middle
 
@@ -40,7 +43,8 @@ _No data for this bracket._
 | 2 | general_practitioner | 1 |
 | 3 | graphic_designer | 1 |
 | 4 | physicist_job_seeker | 1 |
-| 5 | warehouse_worker | 1 |
+| 5 | sales_engineer | 1 |
+| 6 | warehouse_worker | 1 |
 
 ### middle
 
@@ -49,17 +53,20 @@ _No data for this bracket._
 | 1 | aesthetic_physician | 1 |
 | 2 | affiliate_marketer | 1 |
 | 3 | backend_software_engineer | 1 |
-| 4 | junior_accountant | 1 |
-| 5 | telecommunications_engineer | 1 |
+| 4 | food_engineer | 1 |
+| 5 | junior_accountant | 1 |
+| 6 | telecommunications_engineer | 1 |
 
 ### upper_middle
 
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | boutique_hotel_owner | 1 |
-| 2 | remote_tech_worker | 1 |
-| 3 | software_developer | 1 |
-| 4 | uk_remote_contractor | 1 |
+| 2 | fullstack_senior_engineer | 1 |
+| 3 | remote_tech_worker | 1 |
+| 4 | remote_worker | 1 |
+| 5 | software_developer | 1 |
+| 6 | uk_remote_contractor | 1 |
 
 ### top
 
@@ -72,10 +79,10 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 70.0% |
-| freelance_contractor | 20.0% |
-| business_owner | 5.0% |
-| royalties_creator | 5.0% |
+| salary_employment | 76.9% |
+| freelance_contractor | 15.4% |
+| business_owner | 3.8% |
+| royalties_creator | 3.8% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
 | illicit_grey | 0.0% |
@@ -89,7 +96,16 @@ _No data for this bracket._
 ## Narrative excerpts
 
 ### bottom bracket
-_No excerpts for this bracket._
+> "De 278.80 paso a 315.04 pesos eso es un aumento total de 36.24 pesos un 13% dando 9582.47 mensuales."
+
+— [r_mexico](https://www.reddit.com/r/mexico/comments/1pfbnz7/aumento_al_salario_del_13_una_burla_o_un_logro/)
+*Profession: minimum_wage_worker | Summary: Mexican worker commenting on minimum wage increase from 278.80 to 315.04 pesos/day (13%), noting the monthly equivalent of ~9,582 pesos.*
+
+> "Me quieren este pagar por 12 horas realizadas de trabajo sin descanso alguno alrededor de 1900 a la semana"
+
+— [r_mexico](https://www.reddit.com/r/mexico/comments/1qj9tjg/una_duda_de_salarios/)
+*Profession: laborer | Summary: Young Mexican worker putting in 12-hour days with no days off for MXN 1,900/week, questioning whether this is fair pay.*
+
 
 ### lower_middle bracket
 > "Yo por ejemplo supuestamente ganó "$10,000" pero con los descuentos de impuestos, fondo de ahorro, seguro, comedor, estoy cobrando $1900 por semana, en otros que he visto no pagan más de $8,000 al mes."
@@ -102,10 +118,10 @@ _No excerpts for this bracket._
 — [computrabajo_mx](https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-contable-en-el-marques-554E844C3B1A68FA61373E686DCF3405#lc=ListOffers-Score4-8)
 *Profession: accounting_analyst | Summary: Job posting in Querétaro, Mexico for an accounting analyst at Certeza Tributaria offering 15,000 MXN/month under an indefinite full-time contract.*
 
-> "Medico general Cobertura Domingo - Benito Juarez CDMX ... $ 14,000.00 (Mensual) Contrato por tiempo indeterminado Tiempo Completo ... Médico de Consultorio Adyacente a Farmacia- Benito Juárez ... Sueldo neto mensual: $ 1200 POR DIA"
+> "$ 17,000.00 (Mensual) + Comisiones Contrato por tiempo indeterminado Tiempo Completo Identificación y análisis de potenciales clientes dentro del sector industrial."
 
-— [computrabajo_mx](https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-medico-general-cobertura-domingo-benito-juarez-cdmx-en-benito-juarez-CEC921BFFCF9029B61373E686DCF3405#lc=ListOffers-Score4-7)
-*Profession: general_practitioner | Summary: Job ad in Benito Juárez CDMX for a Sunday-coverage general practitioner doctor at a pharmacy-adjacent clinic paying MXN 14,000/month.*
+— [computrabajo_mx](https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingeniero-comercial-ingeniero-en-ventas-en-leon-14776C94F6ADC20C61373E686DCF3405#lc=ListOffers-Score4-0)
+*Profession: sales_engineer | Summary: Job ad for a commercial/sales engineer in León, Mexico offering MXN 17,000/month plus commissions.*
 
 
 ### middle bracket
@@ -114,18 +130,23 @@ _No excerpts for this bracket._
 — [computrabajo_mx](https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-contador-administrador-jr-en-merida-1513E072E2A186EC61373E686DCF3405#lc=ListOffers-Score4-1)
 *Profession: junior_accountant | Summary: Mérida, Mexico job posting for junior accountant/administrator at MAB Textil with salary of MXN $14,000/month.*
 
+> "$ 25,000.00 (Mensual) Contrato por tiempo indeterminado Tiempo Completo... Ofrecemos: $25,000 libres al mes. Prestaciones de Ley"
+
+— [computrabajo_mx](https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingeniero-de-alimentos-en-guadalajara-0878F979E443528861373E686DCF3405#lc=ListOffers-Score4-6)
+*Profession: food_engineer | Summary: Food engineer position in Guadalajara, Mexico offering MXN 25,000 net/month supervising production at a juice and concentrate manufacturer.*
+
 > "me ofrecían 13k a lo mucho... me encontré un trabajo que ofrecían 22k al mes y enfocado a lo que estudie"
 
 — [r_mexico](https://www.reddit.com/r/mexico/comments/1oncd8b/casi_soy_reclutado_por_la_maña/)
 *Profession: telecommunications_engineer | Summary: Mexican fresh-grad telecom engineer reporting offers around 13k MXN/month with a 22k MXN/month remote offer that turned out to be a cartel forced-recruitment scam.*
 
-> "$ 15,000.00 (Mensual) + Comisiones Contrato por tiempo indeterminado Tiempo Completo Buscamos Médico estético con experiencia ... sueldo $15,000 + comisiones"
-
-— [computrabajo_mx](https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-medicoa-medicina-regenerativa-y-antienvejecimiento-en-solidaridad-C8B9128BDA520EFE61373E686DCF3405#lc=ListOffers-Score4-1)
-*Profession: aesthetic_physician | Summary: Aesthetic medicine physician role in Solidaridad, Quintana Roo, MX paying MXN 15,000/month plus commissions.*
-
 
 ### upper_middle bracket
+> "actualmente gano por los MXN$50K al mes.  Soy tech lead de 5 devs que tienen título de dev senior"
+
+— [r_mexico](https://www.reddit.com/r/mexico/comments/1rm7sq8/salario_para_fullstack_sr/)
+*Profession: fullstack_senior_engineer | Summary: Senior fullstack developer and tech lead in Mexico earning MXN$50,000/month, managing 5 senior developers.*
+
 > "Tengo 26 años. Soy programador, y mi sueldo ahora mismo es de 46k brutos mensuales. ... Este año he estado haciendo eso con otro trabajo remoto de medio tiempo, y pagan en dolares"
 
 — [r_mexico](https://www.reddit.com/r/mexico/comments/1s1w17t/comprar_casa_ahora_o_jugarmela/)
@@ -135,11 +156,6 @@ _No excerpts for this bracket._
 
 — [reddit_import](https://reddit.com/r/Entrepreneur/comments/4t6tig/only_4_of_smallbiz_make_1_millionyr_my_marketings/d5f2pk7/)
 *Profession: boutique_hotel_owner | Summary: Owners of a 4-room boutique hotel in Puerto Escondido, Mexico, charge in USD and rely on US/Canada/Europe guests rather than Mexican clientele.*
-
-> "I'm still reliant on contract work back home (UK)...I just live here 'cause it's cheaper and literally a cost of London room gets me a whole flat in a good borough at already premium rates"
-
-— [reddit_import](https://reddit.com/r/digitalnomad/comments/184gewx/how_the_hell_do_you_guys_make_money_as_digital/kavpr8s/)
-*Profession: uk_remote_contractor | Summary: A UK remote contractor lives in Mexico City while working on UK contracts and conceals their location from clients.*
 
 
 ### top bracket

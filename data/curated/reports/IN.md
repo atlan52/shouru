@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 15
-- **Records with USD/yr amount:** 13
-- **Average reported income (USD/yr):** $47,057- **Low-confidence records (<0.5):** 1
+- **Total samples:** 16
+- **Records with USD/yr amount:** 14
+- **Average reported income (USD/yr):** $112,153- **Low-confidence records (<0.5):** 1
 
 ## Bracket distribution
 
@@ -14,7 +14,7 @@
 | lower_middle | 1 |
 | middle | 2 |
 | upper_middle | 6 |
-| top | 6 |
+| top | 7 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -62,22 +62,23 @@ _No data for this bracket._
 | ---: | --- | ---: |
 | 1 | software_developer | 2 |
 | 2 | adsense_blogger_directory_site_owner | 1 |
-| 3 | indie_saas_developer | 1 |
-| 4 | middle_class_indian_tech_worker | 1 |
-| 5 | saas_founder | 1 |
+| 3 | finance_course_creator | 1 |
+| 4 | indie_saas_developer | 1 |
+| 5 | middle_class_indian_tech_worker | 1 |
+| 6 | saas_founder | 1 |
 
 
 ## Earning mechanism share
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 29.6% |
-| freelance_contractor | 25.9% |
-| business_owner | 18.5% |
-| passive_investment | 7.4% |
-| platform_gig | 7.4% |
-| royalties_creator | 7.4% |
-| multiple_streams | 3.7% |
+| salary_employment | 25.8% |
+| freelance_contractor | 22.6% |
+| business_owner | 19.4% |
+| passive_investment | 9.7% |
+| royalties_creator | 9.7% |
+| multiple_streams | 6.5% |
+| platform_gig | 6.5% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
 | illicit_grey | 0.0% |
@@ -132,15 +133,15 @@ _No excerpts for this bracket._
 — [reddit_import](https://reddit.com/r/Entrepreneur/comments/gdtfz3/how_i_made_103k_passive_income_in_2_years_with/)
 *Profession: adsense_blogger_directory_site_owner | Summary: India-based blogger from Chennai earned $103K over 2 years from Google AdSense across 20+ city directory websites, averaging over $5,000/month in revenue.*
 
+> "His MF portfolio, asset allocation, salary, rent, everything... 7.3 CR in mutual funds, 16% CAGR over 8 years... They're already managing 2000 crores across 1300 clients"
+
+— [r_indianstreetbets](https://www.reddit.com/r/IndianStreetBets/comments/1sn6kep/the_guy_who_made_80_crores_selling_finance/)
+*Profession: finance_course_creator | Summary: Sharan Hegde, Indian finance influencer and 1% Club founder, built 80-crore revenue business selling finance courses, now pivoting to SEBI-registered wealth management.*
+
 > "I am a Software Developer in a US based company, which has a Pvt. Ltd. counterpart and my salary is in INR (roughly 1 Cr+, of which 70% is base)."
 
 — [r_indianstreetbets](https://www.reddit.com/r/IndianStreetBets/comments/1px5i7i/started_with_a_salary_of_325l_and_now_at_5cr_in/)
 *Profession: software_developer | Summary: Indian software developer at a US-based company earning ~1 Cr+ INR/year salary, with 5Cr+ net worth across index funds, stocks, FDs, and silver.*
-
-> "维卡什（Vikash），一位来自印度的独立开发者。他打造了一款名为 Bulk Mockup 的 Photoshop 插件，月收入稳定在 1.2万至1.3万美元。"
-
-— [bilibili](https://www.bilibili.com/video/BV16oDABBESQ)
-*Profession: indie_saas_developer | Summary: Indian indie developer Vikash runs Bulk Mockup, a Photoshop plugin SaaS earning USD 12-13k/month.*
 
 
 

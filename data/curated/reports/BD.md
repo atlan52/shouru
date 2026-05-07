@@ -2,16 +2,16 @@
 
 ## Overview
 
-- **Total samples:** 5
-- **Records with USD/yr amount:** 5
-- **Average reported income (USD/yr):** $8,254- **Low-confidence records (<0.5):** 0
+- **Total samples:** 6
+- **Records with USD/yr amount:** 6
+- **Average reported income (USD/yr):** $7,047- **Low-confidence records (<0.5):** 0
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 0 |
-| lower_middle | 3 |
+| lower_middle | 4 |
 | middle | 0 |
 | upper_middle | 2 |
 | top | 0 |
@@ -39,6 +39,7 @@ _No data for this bracket._
 | 1 | corporate_employee | 1 |
 | 2 | data_analyst_jobseeker | 1 |
 | 3 | digital_marketer | 1 |
+| 4 | student_tutor_rideshare_driver | 1 |
 
 ### middle
 
@@ -60,16 +61,16 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 83.3% |
-| illicit_grey | 16.7% |
+| salary_employment | 66.7% |
+| illicit_grey | 11.1% |
+| multiple_streams | 11.1% |
+| platform_gig | 11.1% |
 | business_owner | 0.0% |
 | equity_compensation | 0.0% |
 | freelance_contractor | 0.0% |
 | government_pension | 0.0% |
 | inheritance_trust | 0.0% |
-| multiple_streams | 0.0% |
 | passive_investment | 0.0% |
-| platform_gig | 0.0% |
 | real_estate_rental | 0.0% |
 | royalties_creator | 0.0% |
 | unknown | 0.0% |
@@ -80,6 +81,11 @@ _No data for this bracket._
 _No excerpts for this bracket._
 
 ### lower_middle bracket
+> "I have a tuition which pays me 3500 a month and sometimes I do ride sharing with my bike and that gives me 5000/month. I get some from mom & dad too. Overall I generate about 10k a month."
+
+— [r_bangladesh](https://www.reddit.com/r/bangladesh/comments/1t209ai/what_do_i_do/)
+*Profession: student_tutor_rideshare_driver | Summary: 22-year-old Bangladeshi private university student earning ~10k BDT/month from tutoring and bike ride-sharing, seeking to grow income online.*
+
 > "Now, even with a Master's, I can expect something like 60k/month from a corporate job, maybe 100k-150k if i get multiple promotions within 5-10 years."
 
 — [r_bangladesh](https://www.reddit.com/r/bangladesh/comments/1swb4ui/can_you_buy_a_piece_of_land_by_saving_your_salary/)
@@ -89,11 +95,6 @@ _No excerpts for this bracket._
 
 — [r_bangladesh](https://www.reddit.com/r/bangladesh/comments/1oyfsrt/looking_for_digital_marketer/)
 *Profession: digital_marketer | Summary: Remote digital marketer role in Bangladesh advertised at 30,000 BDT/month with B2B lead-generation responsibilities.*
-
-> "The offers I received were very low, around 20k, which makes it nearly impossible to live in those job locations, let alone help my family."
-
-— [r_bangladesh](https://www.reddit.com/r/bangladesh/comments/1nfopbu/urgent_help/)
-*Profession: data_analyst_jobseeker | Summary: Unemployed Bangladeshi entry-level data/research worker reporting available offers around 20k BDT/month, currently doing part-time writing.*
 
 
 ### middle bracket

@@ -2,18 +2,18 @@
 
 ## Overview
 
-- **Total samples:** 10
-- **Records with USD/yr amount:** 10
-- **Average reported income (USD/yr):** $108,587- **Low-confidence records (<0.5):** 1
+- **Total samples:** 16
+- **Records with USD/yr amount:** 16
+- **Average reported income (USD/yr):** $90,528- **Low-confidence records (<0.5):** 1
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 0 |
-| lower_middle | 3 |
-| middle | 1 |
-| upper_middle | 2 |
+| lower_middle | 4 |
+| middle | 4 |
+| upper_middle | 4 |
 | top | 4 |
 
 ## Bracket thresholds (USD/yr lower bound)
@@ -37,21 +37,26 @@ _No data for this bracket._
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | asian_expat_worker | 1 |
-| 2 | junior_accountant | 1 |
-| 3 | social_media_marketing_specialist | 1 |
+| 2 | hotel_management_trainee | 1 |
+| 3 | junior_accountant | 1 |
+| 4 | social_media_marketing_specialist | 1 |
 
 ### middle
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | ecommerce_executive | 1 |
+| 1 | office_worker | 2 |
+| 2 | ecommerce_executive | 1 |
+| 3 | teacher | 1 |
 
 ### upper_middle
 
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | experienced_professional | 1 |
-| 2 | office_worker | 1 |
+| 2 | management_consultant | 1 |
+| 3 | office_worker | 1 |
+| 4 | senior_project_manager | 1 |
 
 ### top
 
@@ -67,9 +72,9 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 83.3% |
-| business_owner | 8.3% |
-| multiple_streams | 8.3% |
+| salary_employment | 88.9% |
+| business_owner | 5.6% |
+| multiple_streams | 5.6% |
 | equity_compensation | 0.0% |
 | freelance_contractor | 0.0% |
 | government_pension | 0.0% |
@@ -92,15 +97,15 @@ _No excerpts for this bracket._
 — [r_uae](https://www.reddit.com/r/UAE/comments/1qn7pm4/feeling_stuck_at_5k_salary_in_dubai/)
 *Profession: social_media_marketing_specialist | Summary: 28-year-old expat in Dubai working in retail social media marketing for 5k AED/month, hoping to reach 10k AED/month.*
 
+> "I will be working 48h per week with a monthly salary of 4000 AED. when i did the interview, she asked me what were my salarial expectations. To which i answered, since i don't know AED, that i was going to be paid roughly 2700 EUR in France"
+
+— [r_dubai](https://www.reddit.com/r/dubai/comments/1mms3hv/salary_negotiation/)
+*Profession: hotel_management_trainee | Summary: French worker accepted a manager-in-training position at a Dubai 5-star hotel for 4,000 AED/month (48k AED/year), disappointed after expecting equivalent of ~2,700 EUR/month.*
+
 > "i want to ask how can i get high income from accounting job here in dubai i am still junior i have 2 years experience in Egypt and now in uae a year so total 3 years ... my salary is 3k aed now"
 
 — [r_uae](https://www.reddit.com/r/UAE/comments/1n1u4jh/how_to_get_high_income/)
 *Profession: junior_accountant | Summary: Egyptian junior accountant in Dubai earning AED 3k/month with 3 YOE seeking higher pay.*
-
-> "I recently started working and need to open a bank account as an Asian expat earning 4000 aed"
-
-— [r_uae](https://www.reddit.com/r/UAE/comments/1ldzbbe/opening_a_bank_account/)
-*Profession: asian_expat_worker | Summary: Asian expat in Abu Dhabi earning AED 4,000/month from a salaried job, below banks' AED 5k minimum.*
 
 
 ### middle bracket
@@ -109,17 +114,32 @@ _No excerpts for this bracket._
 — [r_uae](https://www.reddit.com/r/UAE/comments/1rpfjjg/how_can_i_increase_my_income_in_uae_with/)
 *Profession: ecommerce_executive | Summary: Sharjah-based e-commerce executive earning 5,000 AED/month managing Amazon/Noon Seller Central, WooCommerce, and digital marketplace operations.*
 
+> "Salary AED 23,000 (AED 12,000 basic on MOHRE). Last salary received was September 2025. I depend fully on my salary for rent and school fees."
+
+— [r_uae](https://www.reddit.com/r/UAE/comments/1pory2b/update_mohre_ruled_in_my_favour_employer_now/)
+*Profession: office_worker | Summary: UAE-based employee earning AED 23,000/month who filed a labor complaint after employer withheld salary.*
+
+> "I have six years teaching experience and have been offered a salary of 12000 AED, staff accommodation (I have to pay for bills), private healthcare, flights and visa."
+
+— [r_dubai](https://www.reddit.com/r/dubai/comments/1rlr1mk/how_do_i_negotiate_a_better_salary/)
+*Profession: teacher | Summary: Teacher with 6 years experience offered 12,000 AED/month in Dubai with accommodation and benefits.*
+
 
 ### upper_middle bracket
+> "I earn around AED 30K/month as a Senior Project Manager, have savings, no loans, and I also own a property here (currently valued ~990K, no mortgage)."
+
+— [r_dubai](https://www.reddit.com/r/dubai/comments/1rydr20/golden_visa_as_currently_feeling_stuck_even_with/)
+*Profession: senior_project_manager | Summary: Senior Project Manager in Dubai earning AED 30K/month, also owns a property valued ~990K AED.*
+
+> "I have had a salary of 31k (total including base + housing etc) since December 2024"
+
+— [r_dubai](https://www.reddit.com/r/dubai/comments/1muflzl/golden_visa_for_30k_salaried_individuals_queries/)
+*Profession: management_consultant | Summary: Big 4 consultant in Dubai earning AED 31k/month total package, applying for Golden Visa under the management category.*
+
 > "Companies looking for this much experience for mere 10k salary 💶😎"
 
 — [r_dubai](https://www.reddit.com/r/dubai/comments/1pvhjxh/companies_looking_for_this_much_experience_for/)
 *Profession: experienced_professional | Summary: Dubai poster complaining that companies offer only AED 10K/month salaries despite demanding extensive experience.*
-
-> "My salary is AED 15k, and I'm looking for the best UAE bank to open a salary account, mainly for the welcome bonus."
-
-— [r_dubai](https://www.reddit.com/r/dubai/comments/1rmdtik/best_uae_bank_for_15k_salary_welcome_bonus/)
-*Profession: office_worker | Summary: UAE resident with AED 15k/month salary looking for a UAE bank with welcome bonus and credit card perks.*
 
 
 ### top bracket

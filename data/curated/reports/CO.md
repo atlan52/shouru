@@ -2,16 +2,16 @@
 
 ## Overview
 
-- **Total samples:** 13
-- **Records with USD/yr amount:** 16
-- **Average reported income (USD/yr):** $12,095- **Low-confidence records (<0.5):** 1
+- **Total samples:** 17
+- **Records with USD/yr amount:** 19
+- **Average reported income (USD/yr):** $11,982- **Low-confidence records (<0.5):** 1
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 0 |
-| lower_middle | 4 |
+| lower_middle | 8 |
 | middle | 3 |
 | upper_middle | 5 |
 | top | 1 |
@@ -36,10 +36,13 @@ _No data for this bracket._
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | backend_developer | 1 |
-| 2 | call_center_sales_agent | 1 |
-| 3 | environmental_management_supervisor | 1 |
-| 4 | forklift_operator | 1 |
+| 1 | employee | 2 |
+| 2 | backend_developer | 1 |
+| 3 | call_center_sales_agent | 1 |
+| 4 | environmental_management_supervisor | 1 |
+| 5 | forklift_operator | 1 |
+| 6 | shift_worker | 1 |
+| 7 | teacher | 1 |
 
 ### middle
 
@@ -70,9 +73,9 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 76.2% |
-| freelance_contractor | 19.0% |
-| illicit_grey | 4.8% |
+| salary_employment | 80.0% |
+| freelance_contractor | 16.0% |
+| illicit_grey | 4.0% |
 | business_owner | 0.0% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
@@ -90,6 +93,11 @@ _No data for this bracket._
 _No excerpts for this bracket._
 
 ### lower_middle bracket
+> "soy docente: 6 millones"
+
+— [r_colombia](https://www.reddit.com/r/Colombia/comments/1nbx2nn/sueldo_y_profesion/)
+*Profession: teacher | Summary: Colombian teacher earning 6 million COP per month, opening a salary thread to compare with peers.*
+
 > "Salario: $1.872.000 + Auxilio de Transporte $249.095 + Bonificación por cumplimiento de metas. + Recargos. Ubicación: Bogotá"
 
 — [elempleo](https://www.elempleo.com/co/ofertas-trabajo/montacarguista-sin-curso-vigente-bogota-162629675117-1886706680)
@@ -99,11 +107,6 @@ _No excerpts for this bracket._
 
 — [computrabajo_co](https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-agente-comercial- call centerlunes a sabado ingresas-contratado-gana-bonificaciones-y-comisiones-proceso-virtual-en-bogota-dc-6BC61F48B78CAF0261373E686DCF3405#lc=ListOffers-Score4-2)
 *Profession: call_center_sales_agent | Summary: Bogotá Concentrix call-center sales-agent posting: COP 1,750,905/month base (~21M/year) plus up to COP 350k monthly bonus and uncapped sales commissions, indefinite contract.*
-
-> "Me dijo que 2'300 los 2 primeros meses y de ahi 2'500. Acepté... el contrato es por prestacion de servicios y la seguridad si te la tienes que pagar tu"
-
-— [r_colombia](https://www.reddit.com/r/Colombia/comments/1m2kr09/una_hpta_startup_de_medellin/)
-*Profession: backend_developer | Summary: Medellin backend developer hired by startup at 2.3M COP/month (rising to 2.5M) under prestación de servicios contract paying own social security.*
 
 
 ### middle bracket

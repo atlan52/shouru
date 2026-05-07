@@ -2,16 +2,16 @@
 
 ## Overview
 
-- **Total samples:** 5
-- **Records with USD/yr amount:** 5
-- **Average reported income (USD/yr):** $12,927- **Low-confidence records (<0.5):** 0
+- **Total samples:** 7
+- **Records with USD/yr amount:** 7
+- **Average reported income (USD/yr):** $11,409- **Low-confidence records (<0.5):** 0
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 0 |
-| lower_middle | 0 |
+| lower_middle | 2 |
 | middle | 3 |
 | upper_middle | 2 |
 | top | 0 |
@@ -34,7 +34,10 @@ _No data for this bracket._
 
 ### lower_middle
 
-_No data for this bracket._
+| # | Profession | Records |
+| ---: | --- | ---: |
+| 1 | electronics_sales_consultant | 1 |
+| 2 | kindergarten_teacher | 1 |
 
 ### middle
 
@@ -80,7 +83,16 @@ _No data for this bracket._
 _No excerpts for this bracket._
 
 ### lower_middle bracket
-_No excerpts for this bracket._
+> "Вихователь у приватний дитячий садок 23 000 – 25 000 грн Вища за середню Львів"
+
+— [workua](https://www.work.ua/jobs/5324500/)
+*Profession: kindergarten_teacher | Summary: Private kindergarten teacher position in Lviv, Ukraine offering 23,000-25,000 UAH/month with free housing provided.*
+
+> "Середня зарплата за минулий місяць склала 28000грн , а максимальні заробітні плати перевищили 40 000 грн"
+
+— [workua](https://www.work.ua/jobs/6018171/)
+*Profession: electronics_sales_consultant | Summary: Ukrainian electronics sales consultant at Techno Case earning average 28,000 UAH/month (up to 40,000 UAH max) in Poltava.*
+
 
 ### middle bracket
 > "Вантажник 30 000 грн Вища за середню Агропродукт Харчова промисловість ; 10–50 співробітників Суми, Лебединська вулиця, 19."

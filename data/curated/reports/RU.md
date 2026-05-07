@@ -2,19 +2,19 @@
 
 ## Overview
 
-- **Total samples:** 52
-- **Records with USD/yr amount:** 55
-- **Average reported income (USD/yr):** $14,561- **Low-confidence records (<0.5):** 1
+- **Total samples:** 70
+- **Records with USD/yr amount:** 73
+- **Average reported income (USD/yr):** $14,350- **Low-confidence records (<0.5):** 1
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 1 |
-| lower_middle | 20 |
-| middle | 15 |
-| upper_middle | 11 |
-| top | 5 |
+| lower_middle | 30 |
+| middle | 20 |
+| upper_middle | 13 |
+| top | 6 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -39,15 +39,15 @@
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | accountant | 4 |
-| 2 | retail_cashier | 3 |
-| 3 | graphic_designer | 2 |
-| 4 | bank_guarantee_sales_manager | 1 |
-| 5 | english_language_teacher | 1 |
-| 6 | jewelry_sales_consultant | 1 |
-| 7 | math_teacher | 1 |
-| 8 | microfinance_startup_partner | 1 |
-| 9 | ooo_employee | 1 |
-| 10 | primary_school_teacher | 1 |
+| 2 | graphic_designer | 4 |
+| 3 | retail_cashier | 3 |
+| 4 | primary_school_teacher | 2 |
+| 5 | bank_guarantee_sales_manager | 1 |
+| 6 | cashier_salesperson | 1 |
+| 7 | civil_engineer_pto | 1 |
+| 8 | elementary_school_teacher | 1 |
+| 9 | english_language_teacher | 1 |
+| 10 | executive_assistant | 1 |
 
 ### middle
 
@@ -56,50 +56,51 @@
 | 1 | 1c_programmer | 1 |
 | 2 | 3d_interior_visualizer | 1 |
 | 3 | building_inspection_engineer | 1 |
-| 4 | computer_science_teacher | 1 |
-| 5 | design_engineer | 1 |
-| 6 | educator_organizer | 1 |
-| 7 | electrical_engineer | 1 |
-| 8 | engineer | 1 |
-| 9 | frontend_web_developer | 1 |
-| 10 | junior_billing_analyst | 1 |
+| 4 | cnc_programmer_technologist | 1 |
+| 5 | computer_science_teacher | 1 |
+| 6 | design_engineer | 1 |
+| 7 | educator_organizer | 1 |
+| 8 | electrical_engineer | 1 |
+| 9 | endocrinologist | 1 |
+| 10 | engineer | 1 |
 
 ### upper_middle
 
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | construction_pto_engineer | 2 |
-| 2 | backend_developer | 1 |
-| 3 | cnc_programmer_technologist | 1 |
-| 4 | design_engineer | 1 |
-| 5 | interface_designer | 1 |
-| 6 | interior_designer | 1 |
+| 2 | interior_designer | 2 |
+| 3 | backend_developer | 1 |
+| 4 | cnc_programmer_technologist | 1 |
+| 5 | design_engineer | 1 |
+| 6 | interface_designer | 1 |
 | 7 | investment_analyst | 1 |
 | 8 | military_contract_soldier | 1 |
-| 9 | physics_teacher | 1 |
-| 10 | urologist | 1 |
+| 9 | neurologist | 1 |
+| 10 | physics_teacher | 1 |
 
 ### top
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | dentist | 1 |
-| 2 | first_line_dev_manager | 1 |
-| 3 | interface_designer | 1 |
-| 4 | oncologist | 1 |
-| 5 | ultrasound_diagnostician_doctor | 1 |
+| 1 | business_analyst | 1 |
+| 2 | dentist | 1 |
+| 3 | first_line_dev_manager | 1 |
+| 4 | interface_designer | 1 |
+| 5 | oncologist | 1 |
+| 6 | ultrasound_diagnostician_doctor | 1 |
 
 
 ## Earning mechanism share
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 85.7% |
-| freelance_contractor | 6.3% |
-| illicit_grey | 3.2% |
-| business_owner | 1.6% |
-| equity_compensation | 1.6% |
-| passive_investment | 1.6% |
+| salary_employment | 86.6% |
+| freelance_contractor | 6.1% |
+| business_owner | 2.4% |
+| illicit_grey | 2.4% |
+| equity_compensation | 1.2% |
+| passive_investment | 1.2% |
 | government_pension | 0.0% |
 | inheritance_trust | 0.0% |
 | multiple_streams | 0.0% |
@@ -118,6 +119,11 @@
 
 
 ### lower_middle bracket
+> "от 60 000 ₽ за месяц на руки | Долгопрудный | официальная фиксированная ЗП от 60 000р. + ежемесячные бонус. Пед. стаж, пед. отпуск."
+
+— [hh_ru](https://hh.ru/vacancy/131960783)
+*Profession: elementary_school_teacher | Summary: Elementary school teacher job in Dolgoprudny, Russia offering 60,000 RUB/month net plus monthly bonuses.*
+
 > "70 000 ₽ за месяц на руки | Екатеринбург , Геологическая, улица Горького, 65 | Завод «ГЕНМОТОРС». В штат компании приглашаем бухгалтера на первичную документацию."
 
 — [hh_ru](https://hh.ru/vacancy/132311132)
@@ -128,13 +134,13 @@
 — [hh_ru](https://hh.ru/vacancy/132140016)
 *Profession: english_language_teacher | Summary: English-language teacher job posting in Tomsk, Russia at Green Hills school offering 50,000-80,000 RUB/month net.*
 
-> "от 54 700 до 60 100 ₽ за месяц до вычета налогов | Муром , Московская улица, 32 | «Бристоль» — крупная сеть магазинов у дома"
-
-— [hh_ru](https://hh.ru/vacancy/132788037)
-*Profession: retail_cashier | Summary: Bristol convenience store cashier vacancy in Murom, Russia, paying 54,700-60,100 RUB/month before tax.*
-
 
 ### middle bracket
+> "от 90 000 ₽ за месяц на руки | Екатеринбург , Машиностроителей , Артинская улица, 17 | АО «Уралтурбо»"
+
+— [hh_ru](https://hh.ru/vacancy/130732026)
+*Profession: cnc_programmer_technologist | Summary: CNC programmer-technologist vacancy at Uralturbo (Gazprom subsidiary) in Yekaterinburg offering 90,000 RUB/month net.*
+
 > "50 000 ₽ за месяц на руки | Архангельск | организация внешкольных и внеклассных воспитательных мероприятий со всеми участниками учебно-воспитательного процесса. высшее или среднее профессиональное образование"
 
 — [hh_ru](https://hh.ru/vacancy/132800099)
@@ -144,11 +150,6 @@
 
 — [hh_ru](https://hh.ru/vacancy/130936856)
 *Profession: retail_sales_assistant | Summary: HOTZ auto-paint shop in Yaroslavl hiring a sales consultant at 75,000–90,000 RUB/month gross plus bonuses.*
-
-> "I'm from Russia, so I was getting about 6000$ a year working as a fullstack developer and doing lots of extra hours. It was my first job, I'm now getting a bit more, but it's nowhere near 50k/year."
-
-— [reddit_import](https://reddit.com/r/antiwork/comments/eu183r/my_soul_crushing_experience_how_i_became_antiwork/ffjzgpd/)
-*Profession: frontend_web_developer | Summary: Frontend developer in Russia reports earning about $6000/year as a fullstack developer with extensive overtime.*
 
 
 ### upper_middle bracket
@@ -162,10 +163,10 @@
 — [hh_ru](https://hh.ru/vacancy/132813871)
 *Profession: construction_pto_engineer | Summary: Construction production-technical engineer vacancy in Komsomolsk-na-Amure, Russia, 120,000-150,000 RUB/month net.*
 
-> "от 100 000 до 130 000 ₽ за месяц на руки | Москва"
+> "от 150 000 ₽ за месяц на руки | Люберцы"
 
-— [hh_ru](https://hh.ru/vacancy/131963551)
-*Profession: backend_developer | Summary: Moscow B2B EdTech company hiring a PHP/Laravel backend developer at 100,000-130,000 RUB/month net.*
+— [hh_ru](https://hh.ru/vacancy/132808726)
+*Profession: neurologist | Summary: Neurologist job listing in Lyubertsy (Moscow region) offering 150,000 RUB/month net salary.*
 
 
 ### top bracket
@@ -179,10 +180,10 @@
 — [hh_ru](https://hh.ru/vacancy/131912611)
 *Profession: ultrasound_diagnostician_doctor | Summary: Moscow private clinic ultrasound diagnostics doctor job offering 234,000-244,000 RUB/month gross plus bonuses.*
 
-> "от 200 000 до 300 000 ₽ за месяц до вычета налогов | Химки , улица Кудрявцева, 1 | Мы ищем опытного стоматолога-терапевта,ортопеда"
+> "От 200 000 руб. net и выше.. ДМС. Соблюдается ТК. Офис – центр."
 
-— [hh_ru](https://hh.ru/vacancy/132129763)
-*Profession: dentist | Summary: Dentist position in Khimki, Russia offering 200-300k RUB/month gross at a private dental clinic.*
+— [banki_ru_forum](https://www.banki.ru/forum/?PAGE_NAME=read&FID=24&TID=335152)
+*Profession: business_analyst | Summary: Senior business/systems analyst job listing in Moscow offering 200,000+ RUB net/month at an investment company.*
 
 
 

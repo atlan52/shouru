@@ -2,16 +2,16 @@
 
 ## Overview
 
-- **Total samples:** 6
-- **Records with USD/yr amount:** 3
-- **Average reported income (USD/yr):** $61,150- **Low-confidence records (<0.5):** 1
+- **Total samples:** 7
+- **Records with USD/yr amount:** 4
+- **Average reported income (USD/yr):** $50,851- **Low-confidence records (<0.5):** 1
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 0 |
-| lower_middle | 0 |
+| lower_middle | 1 |
 | middle | 3 |
 | upper_middle | 1 |
 | top | 2 |
@@ -34,7 +34,9 @@ _No data for this bracket._
 
 ### lower_middle
 
-_No data for this bracket._
+| # | Profession | Records |
+| ---: | --- | ---: |
+| 1 | food_service_worker | 1 |
 
 ### middle
 
@@ -62,12 +64,12 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 30.8% |
-| business_owner | 23.1% |
-| freelance_contractor | 15.4% |
-| passive_investment | 15.4% |
-| multiple_streams | 7.7% |
-| real_estate_rental | 7.7% |
+| salary_employment | 35.7% |
+| business_owner | 21.4% |
+| freelance_contractor | 14.3% |
+| passive_investment | 14.3% |
+| multiple_streams | 7.1% |
+| real_estate_rental | 7.1% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
 | illicit_grey | 0.0% |
@@ -82,7 +84,11 @@ _No data for this bracket._
 _No excerpts for this bracket._
 
 ### lower_middle bracket
-_No excerpts for this bracket._
+> "Food service PWM base salary to rise to S$2,220 from Jul 1"
+
+— [r_singapore](https://www.reddit.com/r/singapore/comments/1rvbd7s/food_service_pwm_base_salary_to_rise_to_s2220/)
+*Profession: food_service_worker | Summary: Singapore food service workers under Progressive Wage Model to receive base salary of S$2,220/month from July 1.*
+
 
 ### middle bracket
 > "For 1.5 years I was earning less than 20k SGD, and even now I'm earning just under 50k a year. I'm quite frugal, so I might be able to hit 100k early next year."

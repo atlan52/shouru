@@ -2,17 +2,17 @@
 
 ## Overview
 
-- **Total samples:** 7
-- **Records with USD/yr amount:** 7
-- **Average reported income (USD/yr):** $66,211- **Low-confidence records (<0.5):** 0
+- **Total samples:** 10
+- **Records with USD/yr amount:** 10
+- **Average reported income (USD/yr):** $50,083- **Low-confidence records (<0.5):** 0
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 0 |
-| lower_middle | 1 |
-| middle | 0 |
+| lower_middle | 2 |
+| middle | 2 |
 | upper_middle | 4 |
 | top | 2 |
 
@@ -37,10 +37,14 @@ _No data for this bracket._
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | early_career_employee | 1 |
+| 2 | salaried_worker | 1 |
 
 ### middle
 
-_No data for this bracket._
+| # | Profession | Records |
+| ---: | --- | ---: |
+| 1 | charcoal_manufacturer | 1 |
+| 2 | office_worker | 1 |
 
 ### upper_middle
 
@@ -63,11 +67,11 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 60.0% |
-| passive_investment | 20.0% |
-| freelance_contractor | 10.0% |
-| real_estate_rental | 10.0% |
-| business_owner | 0.0% |
+| salary_employment | 61.5% |
+| passive_investment | 15.4% |
+| business_owner | 7.7% |
+| freelance_contractor | 7.7% |
+| real_estate_rental | 7.7% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
 | illicit_grey | 0.0% |
@@ -83,6 +87,11 @@ _No data for this bracket._
 _No excerpts for this bracket._
 
 ### lower_middle bracket
+> "I make R13 300 a month and I feel like I have a lot of month left at the end of my money. I pay for my food, deductions car payment (that is at R3400 now due to interest)"
+
+— [r_personalfinanceza](https://www.reddit.com/r/PersonalFinanceZA/comments/1p900wp/am_i_making_enough_money/)
+*Profession: salaried_worker | Summary: South African worker earning R13,300/month (R159,600/year) asking if their income is sufficient to cover expenses.*
+
 > "I currently earn R16 000 a month and I am investing roughly R12 000 of that each and every month. ... R7 000 into my Alan Gray balanced fund R3 833ish into my TFSA (10x total world ETF) R1 000 into QQQM in my USD account"
 
 — [r_personalfinanceza](https://www.reddit.com/r/PersonalFinanceZA/comments/1suen0p/all_of_my_investments_at_21_years_old/)
@@ -90,7 +99,16 @@ _No excerpts for this bracket._
 
 
 ### middle bracket
-_No excerpts for this bracket._
+> "Income: R26k p.m. (Take-home). Rent: R5,500 (living 5 mins from work). Other Expenses: R7,000 (Food, Electricity, WiFi, savings…)."
+
+— [r_personalfinanceza](https://www.reddit.com/r/PersonalFinanceZA/comments/1q9ubuc/buying_a_suzuki_baleno_at_26_r26k_salary_gross/)
+*Profession: office_worker | Summary: 26-year-old South African earning R26k/month take-home in a hybrid role, seeking car purchase advice.*
+
+> "First 6 months: ~R70,000 profit 	•	Following 6 months: ~R140,000 profit"
+
+— [r_personalfinanceza](https://www.reddit.com/r/PersonalFinanceZA/comments/1m7rj5b/starting_a_charcoal_business_need_advice_on/)
+*Profession: charcoal_manufacturer | Summary: South African entrepreneur co-founding a charcoal manufacturing Pty Ltd, projecting ~R210k profit in first year split across two 50/50 partners.*
+
 
 ### upper_middle bracket
 > "R90k post-tax income (about an 80/20 split between me/my wife) - R36k spent ... - R54k saved - 60% savings rate"

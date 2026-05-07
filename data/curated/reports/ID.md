@@ -2,16 +2,16 @@
 
 ## Overview
 
-- **Total samples:** 6
-- **Records with USD/yr amount:** 4
-- **Average reported income (USD/yr):** $120,846- **Low-confidence records (<0.5):** 0
+- **Total samples:** 7
+- **Records with USD/yr amount:** 5
+- **Average reported income (USD/yr):** $97,587- **Low-confidence records (<0.5):** 0
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 0 |
-| lower_middle | 2 |
+| lower_middle | 3 |
 | middle | 1 |
 | upper_middle | 2 |
 | top | 1 |
@@ -37,7 +37,8 @@ _No data for this bracket._
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | bank_back_office_staff | 1 |
-| 2 | dive_instructor | 1 |
+| 2 | content_writer_quora | 1 |
+| 3 | dive_instructor | 1 |
 
 ### middle
 
@@ -63,18 +64,18 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| business_owner | 25.0% |
-| salary_employment | 25.0% |
-| freelance_contractor | 12.5% |
-| multiple_streams | 12.5% |
-| passive_investment | 12.5% |
-| platform_gig | 12.5% |
+| business_owner | 22.2% |
+| salary_employment | 22.2% |
+| freelance_contractor | 11.1% |
+| multiple_streams | 11.1% |
+| passive_investment | 11.1% |
+| platform_gig | 11.1% |
+| royalties_creator | 11.1% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
 | illicit_grey | 0.0% |
 | inheritance_trust | 0.0% |
 | real_estate_rental | 0.0% |
-| royalties_creator | 0.0% |
 | unknown | 0.0% |
 
 ## Narrative excerpts
@@ -83,6 +84,11 @@ _No data for this bracket._
 _No excerpts for this bracket._
 
 ### lower_middle bracket
+> "gw dpt partner Quora di 3 bahasa, pendapatan dari kisaran puluhan juta turun ke 6 jtan. Semenjak turun terus smpai cma ratusan ribu gw milih stop."
+
+— [r_indonesia](https://www.reddit.com/r/indonesia/comments/1s6wqzg/quora_partner_dari_indo/)
+*Profession: content_writer_quora | Summary: Indonesian Quora Partner who earned tens of millions IDR early in the program, saw income drop to ~6 million IDR/month, then just hundreds of thousands before quitting.*
+
 > "I knew the owners of the resort and told them to just give my salary (not much about $900 a month) to the local staff."
 
 — [reddit_import](https://reddit.com/r/financialindependence/comments/y76g2f/two_year_fire_update_breakdown_of_my_budget/)

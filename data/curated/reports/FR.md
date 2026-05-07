@@ -2,18 +2,18 @@
 
 ## Overview
 
-- **Total samples:** 12
-- **Records with USD/yr amount:** 11
-- **Average reported income (USD/yr):** $241,214- **Low-confidence records (<0.5):** 1
+- **Total samples:** 14
+- **Records with USD/yr amount:** 13
+- **Average reported income (USD/yr):** $211,096- **Low-confidence records (<0.5):** 1
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 1 |
-| lower_middle | 2 |
+| lower_middle | 3 |
 | middle | 1 |
-| upper_middle | 4 |
+| upper_middle | 5 |
 | top | 4 |
 
 ## Bracket thresholds (USD/yr lower bound)
@@ -38,8 +38,9 @@
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | tax_office_consultant | 1 |
-| 2 | unemployment_recipient_considering_furniture_salesperson | 1 |
+| 1 | aviation_maintenance_technician | 1 |
+| 2 | tax_office_consultant | 1 |
+| 3 | unemployment_recipient_considering_furniture_salesperson | 1 |
 
 ### middle
 
@@ -51,10 +52,11 @@
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | it_company_owner | 1 |
-| 2 | site_reliability_engineer | 1 |
-| 3 | software_engineer | 1 |
-| 4 | unspecified_professional | 1 |
+| 1 | french_professional | 1 |
+| 2 | it_company_owner | 1 |
+| 3 | site_reliability_engineer | 1 |
+| 4 | software_engineer | 1 |
+| 5 | unspecified_professional | 1 |
 
 ### top
 
@@ -70,14 +72,14 @@
 
 | Mechanism | Share |
 | --- | ---: |
-| business_owner | 28.6% |
-| salary_employment | 28.6% |
-| freelance_contractor | 19.0% |
-| equity_compensation | 4.8% |
-| government_pension | 4.8% |
-| passive_investment | 4.8% |
-| platform_gig | 4.8% |
-| royalties_creator | 4.8% |
+| salary_employment | 32.0% |
+| business_owner | 24.0% |
+| freelance_contractor | 20.0% |
+| government_pension | 8.0% |
+| equity_compensation | 4.0% |
+| passive_investment | 4.0% |
+| platform_gig | 4.0% |
+| royalties_creator | 4.0% |
 | illicit_grey | 0.0% |
 | inheritance_trust | 0.0% |
 | multiple_streams | 0.0% |
@@ -98,6 +100,11 @@
 
 — [reddit_import](https://reddit.com/r/personalfinance/comments/46eod0/my_boss_wants_to_make_me_a_partner_but_what_are/)
 *Profession: tax_office_consultant | Summary: A worker at a private US/FR tax office in France is registered as a self-employed consultant billing the boss at €14/hour.*
+
+> "Je suis actuellement à 2 000 € net, je suis prêt à perdre 150 €, mais plus me gênerait. J'ai posé la question à 3-4 personnes qui m'ont dit gagner entre 1 800 et 2 400 € net."
+
+— [r_france](https://www.reddit.com/r/france/comments/1lo32eo/technicien_aéronautique/)
+*Profession: aviation_maintenance_technician | Summary: French aviation maintenance technician currently earning €2000/month net, considering career switch from office work, expecting €1800-2400/month in new role.*
 
 > "Je suis au chômage 1220 net me reste 321 jours... Le travail en question vendeur meuble chez but... Salaire SMIC + 1,8% de com sur le CA"
 
@@ -123,10 +130,10 @@
 — [reddit_import](https://reddit.com/r/Entrepreneur/comments/1g5lbdq/almost_failed_my_company_but_reddit_is_saving_it/)
 *Profession: it_company_owner | Summary: Owner of a Paris-based IT company that hires Brazilian and Senegalese developers, billing standard market rate of €600/day per developer.*
 
-> "Le salaire de base annuel proposé est de 70 000 euros, soit le même salaire que celui que je gagne dans mon pays"
+> "every single interaction I had with a woman around my age revolves around my salary (Around 5000€ per month, or a bit below 9M nairas)"
 
-— [r_france](https://www.reddit.com/r/france/comments/1m4tbix/budget_mensuel/)
-*Profession: unspecified_professional | Summary: Person considering relocating to southern France with a 70,000 EUR/year base salary offer.*
+— [r_nigeria](https://www.reddit.com/r/Nigeria/comments/1qcx291/visiting_nigeria_as_a_french_citizen/)
+*Profession: french_professional | Summary: 28-year-old French-Nigerian visiting Nigeria, earns ~€5000/month salary in France, noting Nigerian women were very focused on his income.*
 
 
 ### top bracket

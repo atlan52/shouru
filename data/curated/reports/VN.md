@@ -60,12 +60,12 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| business_owner | 22.2% |
-| freelance_contractor | 22.2% |
-| salary_employment | 22.2% |
-| equity_compensation | 11.1% |
-| platform_gig | 11.1% |
-| royalties_creator | 11.1% |
+| salary_employment | 30.0% |
+| business_owner | 20.0% |
+| freelance_contractor | 20.0% |
+| equity_compensation | 10.0% |
+| platform_gig | 10.0% |
+| royalties_creator | 10.0% |
 | government_pension | 0.0% |
 | illicit_grey | 0.0% |
 | inheritance_trust | 0.0% |

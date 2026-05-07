@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 2061
-- **Records with USD/yr amount:** 1540
-- **Average reported income (USD/yr):** $1,440,468- **Low-confidence records (<0.5):** 142
+- **Total samples:** 2070
+- **Records with USD/yr amount:** 1547
+- **Average reported income (USD/yr):** $1,434,566- **Low-confidence records (<0.5):** 142
 
 ## Bracket distribution
 
@@ -12,9 +12,9 @@
 | --- | ---: |
 | bottom | 177 |
 | lower_middle | 260 |
-| middle | 374 |
+| middle | 381 |
 | upper_middle | 609 |
-| top | 641 |
+| top | 643 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -62,8 +62,8 @@
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | software_engineer | 12 |
-| 2 | registered_nurse | 8 |
+| 1 | software_engineer | 14 |
+| 2 | registered_nurse | 9 |
 | 3 | office_professional | 5 |
 | 4 | office_worker | 5 |
 | 5 | public_school_teacher | 4 |
@@ -92,13 +92,13 @@
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | software_engineer | 40 |
+| 1 | software_engineer | 41 |
 | 2 | senior_software_engineer | 20 |
 | 3 | physician | 11 |
 | 4 | ceo | 8 |
-| 5 | faang_software_engineer | 7 |
-| 6 | saas_founder | 7 |
-| 7 | corporate_professional | 6 |
+| 5 | corporate_professional | 7 |
+| 6 | faang_software_engineer | 7 |
+| 7 | saas_founder | 7 |
 | 8 | software_developer | 6 |
 | 9 | early_retiree_investor | 5 |
 | 10 | startup_founder | 5 |
@@ -108,7 +108,7 @@
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 48.5% |
+| salary_employment | 48.6% |
 | business_owner | 13.9% |
 | equity_compensation | 7.7% |
 | multiple_streams | 7.4% |

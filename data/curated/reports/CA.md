@@ -2,19 +2,19 @@
 
 ## Overview
 
-- **Total samples:** 148
-- **Records with USD/yr amount:** 117
-- **Average reported income (USD/yr):** $150,500- **Low-confidence records (<0.5):** 10
+- **Total samples:** 165
+- **Records with USD/yr amount:** 132
+- **Average reported income (USD/yr):** $142,419- **Low-confidence records (<0.5):** 10
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 8 |
-| lower_middle | 18 |
-| middle | 37 |
-| upper_middle | 51 |
-| top | 34 |
+| lower_middle | 20 |
+| middle | 41 |
+| upper_middle | 60 |
+| top | 36 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -52,9 +52,9 @@
 | 5 | early_retiree_options_trader | 1 |
 | 6 | electrical_apprentice | 1 |
 | 7 | engineer | 1 |
-| 8 | janitor | 1 |
-| 9 | low_income_worker | 1 |
-| 10 | ontario_commuter_worker | 1 |
+| 8 | entry_level_worker | 1 |
+| 9 | janitor | 1 |
+| 10 | low_income_worker | 1 |
 
 ### middle
 
@@ -62,62 +62,62 @@
 | ---: | --- | ---: |
 | 1 | early_career_professional | 2 |
 | 2 | business_analyst | 1 |
-| 3 | construction_worker | 1 |
-| 4 | early_career_professional_with_tutoring_side_hustle | 1 |
-| 5 | freelance_copywriter | 1 |
-| 6 | freelance_web_developer | 1 |
-| 7 | frontend_web_developer | 1 |
-| 8 | it_professional | 1 |
-| 9 | junior_media_company_employee | 1 |
-| 10 | junior_software_developer | 1 |
+| 3 | canadian_household | 1 |
+| 4 | construction_worker | 1 |
+| 5 | early_career_professional_with_tutoring_side_hustle | 1 |
+| 6 | freelance_copywriter | 1 |
+| 7 | freelance_web_developer | 1 |
+| 8 | frontend_web_developer | 1 |
+| 9 | icu_nurse | 1 |
+| 10 | it_professional | 1 |
 
 ### upper_middle
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | chartered_professional_accountant | 2 |
-| 2 | salaried_employee | 2 |
-| 3 | salaried_professional | 2 |
+| 1 | salaried_professional | 4 |
+| 2 | chartered_professional_accountant | 2 |
+| 3 | salaried_employee | 2 |
 | 4 | accountant_cpa | 1 |
 | 5 | airbnb_property_manager | 1 |
 | 6 | chartered_accountant | 1 |
-| 7 | corporate_tax_accountant | 1 |
-| 8 | couple_combined_income_montreal | 1 |
-| 9 | db_pension_employee_with_rental | 1 |
-| 10 | early_retiree_investor | 1 |
+| 7 | corporate_employee | 1 |
+| 8 | corporate_tax_accountant | 1 |
+| 9 | couple_combined_income_montreal | 1 |
+| 10 | db_pension_employee_with_rental | 1 |
 
 ### top
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | ecommerce_founder | 2 |
-| 2 | engineer | 2 |
-| 3 | software_engineer | 2 |
-| 4 | accountant_real_estate_investor | 1 |
-| 5 | axe_throwing_venue_owner | 1 |
-| 6 | bartender_entrepreneur | 1 |
-| 7 | business_psychology_economics_professional | 1 |
-| 8 | ceo_public_company | 1 |
-| 9 | clothing_brand_founder | 1 |
-| 10 | computer_scientist_writer | 1 |
+| 1 | dual_income_household | 2 |
+| 2 | ecommerce_founder | 2 |
+| 3 | engineer | 2 |
+| 4 | software_engineer | 2 |
+| 5 | accountant_real_estate_investor | 1 |
+| 6 | axe_throwing_venue_owner | 1 |
+| 7 | bartender_entrepreneur | 1 |
+| 8 | business_psychology_economics_professional | 1 |
+| 9 | ceo_public_company | 1 |
+| 10 | clothing_brand_founder | 1 |
 
 
 ## Earning mechanism share
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 50.4% |
-| business_owner | 10.6% |
-| passive_investment | 8.1% |
-| freelance_contractor | 7.6% |
+| salary_employment | 50.6% |
+| business_owner | 9.8% |
+| passive_investment | 7.9% |
+| freelance_contractor | 7.5% |
 | multiple_streams | 7.2% |
-| real_estate_rental | 5.5% |
-| government_pension | 3.8% |
-| equity_compensation | 3.0% |
-| platform_gig | 1.7% |
-| royalties_creator | 1.3% |
+| real_estate_rental | 5.7% |
+| government_pension | 4.5% |
+| equity_compensation | 2.6% |
+| platform_gig | 1.9% |
+| royalties_creator | 1.1% |
 | illicit_grey | 0.8% |
-| inheritance_trust | 0.0% |
+| inheritance_trust | 0.4% |
 | unknown | 0.0% |
 
 ## Narrative excerpts
@@ -162,18 +162,23 @@
 — [reddit_import](https://reddit.com/r/financialindependence/comments/ikxoph/in_search_of_fi_canadian_edition_50_months_of/)
 *Profession: marketing_professional | Summary: A 29-year-old Canadian marketing professional in Toronto progressed from CAD 40k starting salary to CAD 75k after promotion to a mid-senior role.*
 
-> "I landed a job as an interpreter. I am still at that same role, same company almost 2 years on... My expected income is somewhere between $42 000 and $57 000 per year while working--and my expenses are about $10 000 per year"
+> "I have five years of experience, so I am Level 3 RN (bedside nurse) and I make a base pay of $47.82/HR. With differentials (FT, ICU, usually Nights and Weekends) my pay is actually a little over $60/HR... I make about $6600 a month post taxes"
 
-— [reddit_import](https://reddit.com/r/financialindependence/comments/e5c4k5/canada_i_am_on_the_path_to_fire_because_i_have_no/)
-*Profession: sign_language_interpreter | Summary: A disabled Canadian interpreter earns CAD $42K-$57K/year and saves 70% of post-tax income to pursue FIRE.*
+— [r_nursing](https://www.reddit.com/r/nursing/comments/1rh94ke/my_experience_of_working_in_british_columbia/)
+*Profession: icu_nurse | Summary: American ICU RN working in British Columbia, Canada earning ~CAD $6,600/month post-tax (~$47.82/hr base, ~$60/hr with differentials).*
 
-> "We're a couple (33 and 35) in Vancouver and gross around 90K combined, net last year was about 77K. I'm a receptionist and he's a freelance editor"
+> "The median after-tax income of Canadian families and unattached individuals was $70,500 in 2022, a decrease from $73,000 in 2021 ( -3 .4%), adjusted for inflation."
 
-— [reddit_import](https://reddit.com/r/financialindependence/comments/vzdlgs/your_salary_and_the_lifestyle_that_goes_with_it/ig7vok4/)
-*Profession: receptionist | Summary: A Vancouver couple (33 and 35) - she's a receptionist, he's a freelance editor - gross around CAD 90K combined with $650K invested, ~65% savings rate.*
+— [govstats_CA_StatCan](https://www150.statcan.gc.ca/n1/daily-quotidien/240426/dq240426a-eng.htm)
+*Profession: canadian_household | Summary: Statistics Canada reports median after-tax income of Canadian families and unattached individuals was CAD 70,500 in 2022, down from CAD 73,000 in 2021 adjusted for inflation.*
 
 
 ### upper_middle bracket
+> "The annual salary is 92k, and goes up every year to a max of 118k after 8 years. I have 5.5 weeks of PTO per year and unlimited paid sick days. It also has a defined benefit pension plan."
+
+— [r_personalfinancecanada](https://www.reddit.com/r/PersonalFinanceCanada/comments/1scfiga/is_it_worth_it_financially_to_go_to_grad_school/)
+*Profession: registered_nurse | Summary: 24-year-old Canadian registered nurse in Toronto earning $92k CAD/year with defined benefit pension, considering NP school.*
+
 > "I'm a 28F CPA living in Toronto, Canada... Then I got bored and moved to my current job, where I made 95k the first year and now 100k with very generous 20-30% bonuses... I made $33,000 last year from this."
 
 — [reddit_import](https://reddit.com/r/financialindependence/comments/gbh9u0/one_accountants_journey_to_fire_400k_at_28/)
@@ -183,11 +188,6 @@
 
 — [reddit_import](https://reddit.com/r/leanfire/comments/13b9o4l/accountability_post_29m_canada_550k_nw_fire/)
 *Profession: web_developer | Summary: A 29-year-old Vancouver-based software engineer/web developer earns CAD 135,000/yr after several promotions.*
-
-> "Then I moved to a more interesting job that I thought I would love for 80k and started paying rent again. Now I'm still paying rent, but making 95k somewhere else... I made $20,600 last year from this."
-
-— [reddit_import](https://reddit.com/r/financialindependence/comments/bjflij/one_accountants_journey_to_fire_300k_at_27/)
-*Profession: chartered_professional_accountant | Summary: A 27-year-old CPA in Toronto earns CAD $95k from her main job plus CAD $20.6k from a CPA-related side hustle.*
 
 
 ### top bracket

@@ -2,19 +2,19 @@
 
 ## Overview
 
-- **Total samples:** 31
-- **Records with USD/yr amount:** 27
-- **Average reported income (USD/yr):** $88,760- **Low-confidence records (<0.5):** 4
+- **Total samples:** 39
+- **Records with USD/yr amount:** 34
+- **Average reported income (USD/yr):** $78,659- **Low-confidence records (<0.5):** 5
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
-| bottom | 5 |
-| lower_middle | 8 |
-| middle | 2 |
-| upper_middle | 10 |
-| top | 6 |
+| bottom | 6 |
+| lower_middle | 11 |
+| middle | 4 |
+| upper_middle | 11 |
+| top | 7 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -36,7 +36,8 @@
 | 2 | housewife_side_hustler | 1 |
 | 3 | indie_app_developer | 1 |
 | 4 | mercari_side_seller | 1 |
-| 5 | web_engineer_side_contractor | 1 |
+| 5 | note_content_creator | 1 |
+| 6 | web_engineer_side_contractor | 1 |
 
 ### lower_middle
 
@@ -46,17 +47,21 @@
 | 2 | delivery_gig_worker | 1 |
 | 3 | general_employee | 1 |
 | 4 | low_spec_office_worker | 1 |
-| 5 | salaried_employee | 1 |
-| 6 | salaried_worker_livestream_fan | 1 |
-| 7 | small_company_employee | 1 |
-| 8 | video_stock_seller_infopreneur | 1 |
+| 5 | office_worker | 1 |
+| 6 | retiree_pensioner | 1 |
+| 7 | salaried_employee | 1 |
+| 8 | salaried_worker_livestream_fan | 1 |
+| 9 | sex_worker | 1 |
+| 10 | small_company_employee | 1 |
 
 ### middle
 
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | data_analyst | 1 |
-| 2 | software_architect | 1 |
+| 2 | licensed_architect_site_supervisor | 1 |
+| 3 | office_manager_middle_management | 1 |
+| 4 | software_architect | 1 |
 
 ### upper_middle
 
@@ -70,8 +75,8 @@
 | 6 | early_retired_former_accountant | 1 |
 | 7 | early_retiree_former_accountant | 1 |
 | 8 | professional_pachislot_player | 1 |
-| 9 | software_engineer | 1 |
-| 10 | tourism_industry_worker | 1 |
+| 9 | property_heir | 1 |
+| 10 | software_engineer | 1 |
 
 ### top
 
@@ -82,30 +87,36 @@
 | 3 | career_coach_paid_note_author | 1 |
 | 4 | food_truck_operator | 1 |
 | 5 | it_self_employed | 1 |
-| 6 | self_employed_with_investment_income | 1 |
+| 6 | sap_consultant | 1 |
+| 7 | self_employed_with_investment_income | 1 |
 
 
 ## Earning mechanism share
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 44.4% |
-| freelance_contractor | 16.7% |
-| business_owner | 9.3% |
-| royalties_creator | 9.3% |
-| multiple_streams | 7.4% |
-| passive_investment | 5.6% |
-| platform_gig | 3.7% |
-| illicit_grey | 1.9% |
-| inheritance_trust | 1.9% |
+| salary_employment | 43.3% |
+| freelance_contractor | 16.4% |
+| royalties_creator | 9.0% |
+| business_owner | 7.5% |
+| multiple_streams | 6.0% |
+| passive_investment | 4.5% |
+| platform_gig | 4.5% |
+| illicit_grey | 3.0% |
+| inheritance_trust | 3.0% |
+| government_pension | 1.5% |
+| real_estate_rental | 1.5% |
 | equity_compensation | 0.0% |
-| government_pension | 0.0% |
-| real_estate_rental | 0.0% |
 | unknown | 0.0% |
 
 ## Narrative excerpts
 
 ### bottom bracket
+> "2025年1月からnoteで本格的発信し始めてから、合計で50万円の売り上げを達成しました。1〜4月を足したら、508,640円になります。"
+
+— [hatena](https://note.com/ai_freak/n/n303efe78bbdd)
+*Profession: note_content_creator | Summary: Japanese AI-focused note.com creator who earned JPY 508,640 in 4 months (Jan-Apr) as a side income stream.*
+
 > "2021年分も公開しますよ！ … 売上げ　　11,329円 利益　　　  6,862円 ※利益 = 売上げ − (送料+手数料) 1か月ではなく、1年間でですよ…(//∇//) トータル7件でしたので、2か月に1件売れてるペースですね。"
 
 — [hatena](https://www.tue.tokyo/entry/2022/01/05/%E3%80%90%E3%83%A1%E3%83%AB%E3%82%AB%E3%83%AA%E3%80%912021%E5%B9%B4%E3%81%AE%E5%A3%B2%E4%B8%8A%E9%87%91%E3%82%92%E5%85%AC%E9%96%8B%E3%81%97%E3%81%BE%E3%81%99)
@@ -116,13 +127,13 @@
 — [note_jp](https://note.com/gggot777/n/n082a2b8fbe74)
 *Profession: housewife_side_hustler | Summary: Japanese housewife with take-home ¥100k/month starting a side hustle on X, selling a 100-yen note about growing followers from 0 to 500 in 12 days.*
 
-> "業務委託契約の場合、中堅以上のスキルが有れば時間単価5000円以上の好条件で契約することができる。ちょっと副業をするだけで毎月10万円以上の副収入が得られる訳だ。"
-
-— [hatena](https://fuyu.hatenablog.com/entry/2022/04/28/213838)
-*Profession: web_engineer_side_contractor | Summary: Japanese full-time Web engineer doing contract side-work earning over ¥100k/month extra (~¥1.2M/year on top of main job) at ¥5000+/hour rates.*
-
 
 ### lower_middle bracket
+> "手取りは残業時間を超えた月だけ20万をちょっと超えるが、私は一刻も早く家に帰りたいので普段はそこまでいかない。"
+
+— [note_jp](https://note.com/deft_rat9295/n/nd146464ec3d9)
+*Profession: office_worker | Summary: 25-year-old Japanese office worker earning ~¥200k/month take-home (手取り), formerly a multi-job part-timer.*
+
 > "年収400万円程度、26歳で彼女いない歴＝年齢、専門卒、身長170cm未満、友達2人だけ、顔はブサメン寄り、体重78kg、片親で母親が高齢"
 
 — [hatena](https://anond.hatelabo.jp/20250211201949)
@@ -133,22 +144,22 @@
 — [hatena](https://gyakutorajiro.com/entry/elite-vs-jakushadansei)
 *Profession: delivery_gig_worker | Summary: Japanese freelance/sole-proprietor delivery gig worker (ex-Uber Eats) earning under JPY 3M/year, contrasted with a salaried friend on ~JPY 10M.*
 
-> "総収入：306,000円 副業収入：50,000円 残業が急増したことで副業を気力をなくす"
-
-— [hatena](https://chichiro51.hatenablog.com/entry/2021/09/25/154911)
-*Profession: company_employee_with_side_hustle | Summary: 33-year-old Japanese salaried employee with 306,000 JPY/month main salary plus 50,000 JPY/month side income, recovering from 4.7M JPY stock losses.*
-
 
 ### middle bracket
+> "既婚、子どもあり、持ち家（マンション）年収600万円程 仕事は事務職中間管理職で上からも下からも左右からも虐げられストレスで鬱になる日々"
+
+— [hatena](https://anond.hatelabo.jp/20240827141027)
+*Profession: office_manager_middle_management | Summary: Japanese married man in his 40s working as an office middle manager earning ~6 million JPY/year, stressed from work and family duties, questioning life purpose.*
+
+> "月収　36万円 × 12ヶ月 = 432万円 賞与　70万円 × 2回 = 140万円 年収　約570万円 一級建築士取得によって 年収は約60万円ほど上がりました。"
+
+— [note_jp](https://note.com/brisk_heron9045/n/n0c094486ba57)
+*Profession: licensed_architect_site_supervisor | Summary: Japanese licensed architect and 12-year site supervisor at a regional construction firm earning ~5.7M JPY/year after obtaining 1st-class architect certification.*
+
 > "アパレルで死ぬほどがんばって年収400万だった人がSQLとExcelと基本情報技術者試験で年収600万になった話"
 
 — [hatena](https://togetter.com/li/1832000)
 *Profession: data_analyst | Summary: Former apparel-industry worker in Japan went from ¥4M/year to ¥6M/year by learning SQL, Excel and getting the FE certification, transitioning into IT.*
-
-> "年収340 → 新卒 年収400 → 2年目(転職サイトゴロゴロ 年収500 → 普通のエンジニア 年収800 → アーキテクト、テックリード 年収1000 → PM、一部スタートアップエンジニア"
-
-— [hatena](https://note.com/shinoyu_note/n/nce2cfb4a13e9)
-*Profession: software_architect | Summary: Japanese IT engineer commenting that ¥8M/year corresponds to architect/tech-lead level in typical web development, with reference salary tiers from new-grad ¥3.4M up to PM ¥10M.*
 
 
 ### upper_middle bracket
@@ -169,6 +180,11 @@
 
 
 ### top bracket
+> "手取り20万の30代公務員が、底辺SESの地獄から年収1000万のSAPコンサルへ這い上がった"
+
+— [note_jp](https://note.com/engikonsarutarou/n/nb4081b46c202)
+*Profession: sap_consultant | Summary: 30s Japanese former civil servant who climbed from SES subcontracting hell (手取り20万) to 年収1000万 as an SAP consultant.*
+
 > "30歳自営業で年収1200万、不労所得が2000万くらいの弱者男性だけど、30歳を期に婚活することにした"
 
 — [hatena](https://anond.hatelabo.jp/20240207133413)
@@ -178,11 +194,6 @@
 
 — [hatena](https://bunshun.jp/articles/-/50228)
 *Profession: adult_video_creator_couple | Summary: Japanese 20s couple ('えむゆみカップル') earning over ¥10 million/month posting amateur adult videos on Pornhub.*
-
-> "俺30歳大卒二留　IT系自営(秋起業予定) 相手専卒　23歳　個人Vtuber...俺は手取り1000万弱あるが秋から起業し"
-
-— [hatena](https://anond.hatelabo.jp/20230718211203)
-*Profession: it_self_employed | Summary: 30-year-old Japanese IT freelancer with ~¥1000万 take-home, planning to launch a startup in autumn; girlfriend is an individual VTuber earning under ¥2M/year.*
 
 
 

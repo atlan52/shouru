@@ -2,18 +2,18 @@
 
 ## Overview
 
-- **Total samples:** 30
-- **Records with USD/yr amount:** 20
-- **Average reported income (USD/yr):** $133,489- **Low-confidence records (<0.5):** 4
+- **Total samples:** 36
+- **Records with USD/yr amount:** 26
+- **Average reported income (USD/yr):** $119,326- **Low-confidence records (<0.5):** 4
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 1 |
-| lower_middle | 1 |
-| middle | 8 |
-| upper_middle | 15 |
+| lower_middle | 3 |
+| middle | 9 |
+| upper_middle | 18 |
 | top | 5 |
 
 ## Bracket thresholds (USD/yr lower bound)
@@ -38,7 +38,9 @@
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | online_language_course_creator | 1 |
+| 1 | event_manager | 1 |
+| 2 | online_language_course_creator | 1 |
+| 3 | train_driver | 1 |
 
 ### middle
 
@@ -47,11 +49,12 @@
 | 1 | business_informatics_specialist | 1 |
 | 2 | entry_level_it_worker | 1 |
 | 3 | geologist | 1 |
-| 4 | international_marketing_manager_medical | 1 |
-| 5 | perl_cpan_module_maintainer | 1 |
-| 6 | production_worker_porsche | 1 |
-| 7 | real_estate_agent | 1 |
-| 8 | wordpress_consultant | 1 |
+| 4 | insurance_clerk | 1 |
+| 5 | international_marketing_manager_medical | 1 |
+| 6 | perl_cpan_module_maintainer | 1 |
+| 7 | production_worker_porsche | 1 |
+| 8 | real_estate_agent | 1 |
+| 9 | wordpress_consultant | 1 |
 
 ### upper_middle
 
@@ -59,14 +62,14 @@
 | ---: | --- | ---: |
 | 1 | engineer_at_volkswagen | 2 |
 | 2 | software_developer | 2 |
-| 3 | enterprise_java_developer | 1 |
-| 4 | freelance_software_engineer | 1 |
-| 5 | industrial_cybersecurity_consultant | 1 |
-| 6 | investment_bank_quant | 1 |
-| 7 | key_account_manager | 1 |
-| 8 | management_consultant | 1 |
-| 9 | office_worker | 1 |
-| 10 | product_manager | 1 |
+| 3 | automotive_engineer | 1 |
+| 4 | development_engineer | 1 |
+| 5 | electrical_engineer | 1 |
+| 6 | enterprise_java_developer | 1 |
+| 7 | freelance_software_engineer | 1 |
+| 8 | industrial_cybersecurity_consultant | 1 |
+| 9 | investment_bank_quant | 1 |
+| 10 | key_account_manager | 1 |
 
 ### top
 
@@ -83,13 +86,13 @@
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 49.1% |
-| business_owner | 20.0% |
-| freelance_contractor | 12.7% |
-| royalties_creator | 9.1% |
-| multiple_streams | 3.6% |
-| passive_investment | 3.6% |
-| real_estate_rental | 1.8% |
+| salary_employment | 54.1% |
+| business_owner | 18.0% |
+| freelance_contractor | 11.5% |
+| royalties_creator | 8.2% |
+| multiple_streams | 3.3% |
+| passive_investment | 3.3% |
+| real_estate_rental | 1.6% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
 | illicit_grey | 0.0% |
@@ -111,6 +114,16 @@
 
 — [reddit_import](https://reddit.com/r/Entrepreneur/comments/nxgniq/the_exact_steps_i_followed_to_make_1500_of/)
 *Profession: online_language_course_creator | Summary: A 29-year-old Hungarian quit her job and now earns ~$1,500/month selling Hungarian language courses to a 4,000-subscriber email list.*
+
+> "Gehalt 3.508 Euro Jobs Deutsche Bahn, private Bahnunternehmen, GÃ¼terverkehr, S-Bahn, Fernverkehr, Werksbahnen"
+
+— [karrierebibel](https://karrierebibel.de/lokfuehrer/)
+*Profession: train_driver | Summary: German train driver (Lokführer) earning approximately EUR 3,508/month according to a career information website.*
+
+> "Gehalt 3.290 Euro"
+
+— [karrierebibel](https://karrierebibel.de/eventmanager/)
+*Profession: event_manager | Summary: German event manager with average salary of 3,290 EUR/month according to karrierebibel career guide.*
 
 
 ### middle bracket
@@ -141,10 +154,10 @@
 — [reddit_import](https://reddit.com/r/financialindependence/comments/1b5fduk/i_finally_hit_50k_net_worth_at_33/)
 *Profession: office_worker | Summary: A 33-year-old in Germany earning 78k euros/year (4k after-tax monthly) reports negative net worth and aggressive debt repayment while looking for a job paying 85k.*
 
-> "Ingenieur:in Ø 86.100 € brutto/Jahr 144 Gehaltsangaben Technische:r Sachbearbeiter:in Ø 73.500 € brutto/Jahr 84 Gehaltsangaben Systemanalytiker:in Ø 80.200 € brutto/Jahr 70 Gehaltsangaben"
+> "Bruttogehalt (Median) bei 40 Wochenstunden: 50% der Datensätze liegen über diesem Wert und 50% darunter. 65.153 € (Unteres Quartil) und 80.984 € (Oberes Quartil)"
 
-— [kununu_alt](https://www.kununu.com/de/volkswagen/gehalt)
-*Profession: engineer_at_volkswagen | Summary: Kununu aggregate salary report for Volkswagen AG: engineers average 86,100 EUR/year gross, with software developers, project managers, mechatronics, and other roles listed.*
+— [gehalt_de_alt](https://www.gehalt.de/beruf/elektroingenieur)
+*Profession: electrical_engineer | Summary: German electrical engineer earning a median gross salary of €72,639/year (with quartile range €65k–€81k) based on aggregate salary data.*
 
 
 ### top bracket

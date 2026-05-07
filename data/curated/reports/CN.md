@@ -2,17 +2,17 @@
 
 ## Overview
 
-- **Total samples:** 32
-- **Records with USD/yr amount:** 33
-- **Average reported income (USD/yr):** $3,929,977- **Low-confidence records (<0.5):** 10
+- **Total samples:** 36
+- **Records with USD/yr amount:** 36
+- **Average reported income (USD/yr):** $3,603,883- **Low-confidence records (<0.5):** 10
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 0 |
-| lower_middle | 4 |
-| middle | 2 |
+| lower_middle | 5 |
+| middle | 5 |
 | upper_middle | 7 |
 | top | 19 |
 
@@ -38,15 +38,19 @@ _No data for this bracket._
 | ---: | --- | ---: |
 | 1 | douyin_effects_side_hustle_creator | 1 |
 | 2 | hospital_doctor | 1 |
-| 3 | programmer_side_hustle | 1 |
-| 4 | side_hustle_vlogger | 1 |
+| 3 | mobile_app_farmer | 1 |
+| 4 | programmer_side_hustle | 1 |
+| 5 | side_hustle_vlogger | 1 |
 
 ### middle
 
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | ai_monetization_content_creator | 1 |
-| 2 | medical_escort_companion | 1 |
+| 2 | content_creator | 1 |
+| 3 | illustrator_freelancer | 1 |
+| 4 | medical_escort_companion | 1 |
+| 5 | rpa_automation_developer | 1 |
 
 ### upper_middle
 
@@ -80,15 +84,15 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 27.5% |
-| royalties_creator | 21.6% |
-| business_owner | 17.6% |
-| freelance_contractor | 13.7% |
-| platform_gig | 11.8% |
-| multiple_streams | 5.9% |
-| equity_compensation | 2.0% |
+| salary_employment | 24.6% |
+| royalties_creator | 22.8% |
+| business_owner | 15.8% |
+| freelance_contractor | 15.8% |
+| platform_gig | 12.3% |
+| multiple_streams | 5.3% |
+| equity_compensation | 1.8% |
+| illicit_grey | 1.8% |
 | government_pension | 0.0% |
-| illicit_grey | 0.0% |
 | inheritance_trust | 0.0% |
 | passive_investment | 0.0% |
 | real_estate_rental | 0.0% |
@@ -105,15 +109,15 @@ _No excerpts for this bracket._
 — [bilibili](https://www.bilibili.com/video/BV1Wi4y1P7fr)
 *Profession: hospital_doctor | Summary: Changsha Grade-3A hospital doctor revealed monthly salary of just 5,500 CNY, showing pay slip after netizen skepticism.*
 
+> "单号达到30＋，登录挂机APP之后，不用你管，自动化的去做任务刷视频刷广告玩玩小游戏领金币，批量复制一个月搞个几K还是可以的"
+
+— [bilibili](https://www.bilibili.com/video/BV1vM411f7vx)
+*Profession: mobile_app_farmer | Summary: Chinese content creator promoting automated phone farming scheme (UC Browser task automation) claiming to earn a few thousand CNY/month per batch.*
+
 > "操作简单，新手小白可轻松上手，门槛低。做的人少，需求量大，项目长久可做。一部手机，一台电脑，有抖音实名号就可以 0成本操作，收益稳定，单号月收益在1500左右"
 
 — [bilibili](https://www.bilibili.com/video/BV1Jk4y197DQ)
 *Profession: douyin_effects_side_hustle_creator | Summary: Chinese side-hustle promoter claiming Douyin special effects creator earns ~1500 CNY/month per account.*
-
-> "5个搞钱的副业，每月收入翻倍，一天稳定200-300左右"
-
-— [bilibili](https://www.bilibili.com/video/BV1ND9dBNETJ)
-*Profession: side_hustle_vlogger | Summary: Chinese vlogger promotes 5 side-hustle methods claimed to bring CNY 200-300/day in additional income.*
 
 
 ### middle bracket
@@ -122,10 +126,15 @@ _No excerpts for this bracket._
 — [rss_dantri_kinhdoanh](https://dantri.com.vn/kinh-doanh/247-trieu-nguoi-trung-quoc-bo-bat-com-sat-dieu-gi-dang-xay-ra-20260428144113603.htm)
 *Profession: medical_escort_companion | Summary: 25-year-old nursing graduate in Guangzhou working as a platform-based medical escort earning 6,000-8,000 CNY/month guiding patients through hospital procedures.*
 
-> "如何用AI每月赚1w5？这个变现逻辑免费分享给你"
+> "绘画相较于一般工作，在运营起来之后收入的确并不算低…对于经济水平较低（平均月薪三四千）的小城市，这种收入已经很高了。营收也远超普通教师和公务员的基础工资。"
 
-— [bilibili](https://www.bilibili.com/video/BV1PpoxBXErg)
-*Profession: ai_monetization_content_creator | Summary: Chinese Bilibili creator who claims to earn 15k CNY/month via AI-based monetization tactics and shares the playbook.*
+— [bilibili](https://www.bilibili.com/video/BV1pUqzBCEkc)
+*Profession: illustrator_freelancer | Summary: Chinese freelance illustrator earning 10,000+ CNY/month through commissioned artwork, noting their income exceeds local teachers' salaries of under 3,000 CNY/month.*
+
+> "利用影刀RPA副业月入过万系列之水族APP批量关注功能开发"
+
+— [bilibili](https://www.bilibili.com/video/BV1Vj421D78k)
+*Profession: rpa_automation_developer | Summary: Chinese developer using RPA automation tools as a side hustle earning over 10,000 CNY/month.*
 
 
 ### upper_middle bracket

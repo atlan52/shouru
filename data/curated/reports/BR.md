@@ -2,19 +2,19 @@
 
 ## Overview
 
-- **Total samples:** 20
-- **Records with USD/yr amount:** 17
-- **Average reported income (USD/yr):** $111,229- **Low-confidence records (<0.5):** 2
+- **Total samples:** 24
+- **Records with USD/yr amount:** 20
+- **Average reported income (USD/yr):** $108,238- **Low-confidence records (<0.5):** 2
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 2 |
-| lower_middle | 3 |
+| lower_middle | 4 |
 | middle | 2 |
-| upper_middle | 5 |
-| top | 8 |
+| upper_middle | 7 |
+| top | 9 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -39,9 +39,10 @@
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | fixed_income_investor | 1 |
-| 2 | minimum_wage_worker | 1 |
-| 3 | retail_temp_worker | 1 |
+| 1 | employee | 1 |
+| 2 | fixed_income_investor | 1 |
+| 3 | minimum_wage_worker | 1 |
+| 4 | retail_temp_worker | 1 |
 
 ### middle
 
@@ -56,9 +57,11 @@
 | ---: | --- | ---: |
 | 1 | clt_employee | 1 |
 | 2 | corporate_employee | 1 |
-| 3 | freelance_software_developer | 1 |
-| 4 | investor_portfolio_aporter | 1 |
-| 5 | office_employee | 1 |
+| 3 | financial_market_professional | 1 |
+| 4 | freelance_software_developer | 1 |
+| 5 | investor_portfolio_aporter | 1 |
+| 6 | office_employee | 1 |
+| 7 | software_engineer | 1 |
 
 ### top
 
@@ -70,22 +73,23 @@
 | 4 | investor_with_day_job | 1 |
 | 5 | lawsuit_winner_brazil | 1 |
 | 6 | overemployed_software_worker | 1 |
-| 7 | software_company_founder | 1 |
-| 8 | software_engineer | 1 |
+| 7 | passive_investor | 1 |
+| 8 | software_company_founder | 1 |
+| 9 | software_engineer | 1 |
 
 
 ## Earning mechanism share
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 47.1% |
-| passive_investment | 17.6% |
-| freelance_contractor | 11.8% |
-| business_owner | 8.8% |
-| multiple_streams | 5.9% |
-| equity_compensation | 2.9% |
-| inheritance_trust | 2.9% |
-| royalties_creator | 2.9% |
+| salary_employment | 46.2% |
+| passive_investment | 20.5% |
+| freelance_contractor | 12.8% |
+| business_owner | 7.7% |
+| multiple_streams | 5.1% |
+| equity_compensation | 2.6% |
+| inheritance_trust | 2.6% |
+| royalties_creator | 2.6% |
 | government_pension | 0.0% |
 | illicit_grey | 0.0% |
 | platform_gig | 0.0% |
@@ -107,6 +111,11 @@
 
 
 ### lower_middle bracket
+> "Eu ganho R$4200,00 livres, pois tenho vale alimentação e vale transporte. Gostaria de fazer uma poupança para poder morar sozinha futuramente."
+
+— [r_investimentos](https://www.reddit.com/r/investimentos/comments/1oq8jzd/qual_a_melhor_forma_de_fazer_meu_dinheiro_render/)
+*Profession: employee | Summary: 31-year-old Brazilian employee earning R$4,200/month net (with meal and transport vouchers) seeking investment advice to buy a property.*
+
 > "Eu juntei 17 mil em menos de um ano de carteira assinada. Ganhando um salário mínimo... E penso que isso é bem pouco e que tem muita gente que ganha isso em um mês enquanto eu me sacrifiquei muito pra juntar"
 
 — [r_investimentos](https://www.reddit.com/r/investimentos/comments/1t1msmh/eu_juntei_17mil_reais/)
@@ -116,11 +125,6 @@
 
 — [r_brasil](https://www.reddit.com/r/brasil/comments/1piebci/salário_de_r_2000_não_atrai_trabalhador/)
 *Profession: retail_temp_worker | Summary: News headline: Brazilian retail sector struggles to attract temporary workers at R$2,000/month wages.*
-
-> "Desde de os aumentos da SELIC eu comecei a investir parte considerável do meu patrimônio em renda fixa e o mês de julho foi a primeira vez que consegui mais que um salário mínimo em rendimentos."
-
-— [r_investimentos](https://www.reddit.com/r/investimentos/comments/1mi7lri/primeiro_mês_que_consegui_mais_que_um_salário/)
-*Profession: fixed_income_investor | Summary: Brazilian retail investor in fixed-income who first earned more than one minimum wage (~R$1.5k) in monthly investment yields after SELIC hikes.*
 
 
 ### middle bracket
@@ -136,6 +140,11 @@
 
 
 ### upper_middle bracket
+> "Eu tenho 23 anos, acabei de me formar na faculdade e arrumei um emprego ganhando 9,500 por mês no regime PJ escala 5x2."
+
+— [r_investimentos](https://www.reddit.com/r/investimentos/comments/1rre1lz/como_começar_a_investir_23_anos_salário_9500_por/)
+*Profession: software_engineer | Summary: 23-year-old Brazilian recent graduate earning BRL 9,500/month on a PJ (contractor) arrangement, seeking investment advice.*
+
 > "a total income of R$35,153.77 (after social security, income tax, health insurance, company pension fund and transport were deducted) in 2020 to a total income of R$61,135.43 (after the deductions mentioned above) in 2021."
 
 — [reddit_import](https://reddit.com/r/financialindependence/comments/tpd90n/update_fire_journey_29f_in_brazil/)
@@ -146,13 +155,13 @@
 — [r_investimentos](https://www.reddit.com/r/investimentos/comments/1se8qds/irpf_2026dúvida_sempre_restitui_agora_terei_que/)
 *Profession: clt_employee | Summary: Brazilian CLT salaried worker earning ~R$11k/month asking why he owes income tax this year despite no salary change.*
 
-> "Moro com meus pais, mas entrei em um emprego onde ganho 12 mil líquido por mês"
-
-— [r_investimentos](https://www.reddit.com/r/investimentos/comments/1s7ccvl/como_organizar_me_salário/)
-*Profession: office_employee | Summary: Brazilian young professional living with parents earning R$12k net/month at a new job, asking how to budget.*
-
 
 ### top bracket
+> "Esse trimestre eu alcancei uma meta de 20k USD por mês de renda passiva (109k R$). Quando eu iniciei essa jornada a 12 anos atras eu achava que ia demorar mais de duas décadas para alcançar"
+
+— [r_investimentos](https://www.reddit.com/r/investimentos/comments/1nyb0b3/conquista_renda_passiva_100k_m%C3%AAs/)
+*Profession: passive_investor | Summary: Brazilian investor achieved R$109k/month (~20k USD/month) in passive income after 12 years of investing, largely boosted by COVID-era opportunities and S&P exposure.*
+
 > "I have just won about US$100,000 in a law suit... My savings account is currently sitting at ~89k. Hopefully I'll end this year with 100k."
 
 — [reddit_import](https://reddit.com/r/personalfinance/comments/3jd8ri/update_i_have_just_won_about_us100000_in_a_law/)
@@ -162,11 +171,6 @@
 
 — [r_investimentos](https://www.reddit.com/r/investimentos/comments/1pe2k9d/cheguei_em_200k/)
 *Profession: international_freelance_service_provider | Summary: 27-year-old Brazilian providing services abroad in foreign currency (USD/EUR/GBP), currently earning ~25k BRL/month from a major client, hit 200k BRL in investments.*
-
-> "Um juiz federal, por exemplo, recebe salário bruto de cerca de R$35.462,23, somado a auxílio-moradia, conforme dados de julho de 2025. O valor pode chegar a R$40 mil com gratificações. Já os juízes estaduais recebem valor inferior, mas ainda expressivo: algo em torno de R$30 mil."
-
-— [r_brasil](https://www.reddit.com/r/brasil/comments/1rewjet/juiz_não_tem_carro_desembargador_não_tem_nada_mal/)
-*Profession: federal_judge | Summary: Brazilian federal judges earn ~R$35,462/month gross plus housing allowance, up to ~R$40k with bonuses; state judges ~R$30-33k/month.*
 
 
 

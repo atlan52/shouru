@@ -2,17 +2,17 @@
 
 ## Overview
 
-- **Total samples:** 6
-- **Records with USD/yr amount:** 6
-- **Average reported income (USD/yr):** $10,150- **Low-confidence records (<0.5):** 1
+- **Total samples:** 8
+- **Records with USD/yr amount:** 8
+- **Average reported income (USD/yr):** $12,264- **Low-confidence records (<0.5):** 1
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
-| bottom | 2 |
+| bottom | 3 |
 | lower_middle | 2 |
-| middle | 1 |
+| middle | 2 |
 | upper_middle | 0 |
 | top | 1 |
 
@@ -33,7 +33,8 @@
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | qa_engineer | 1 |
-| 2 | unspecified_worker_minimum_wage | 1 |
+| 2 | restaurant_worker | 1 |
+| 3 | unspecified_worker_minimum_wage | 1 |
 
 ### lower_middle
 
@@ -47,6 +48,7 @@
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | remote_interpreter | 1 |
+| 2 | veterinarian_farm_manager | 1 |
 
 ### upper_middle
 
@@ -63,12 +65,12 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 61.5% |
-| business_owner | 7.7% |
-| freelance_contractor | 7.7% |
-| illicit_grey | 7.7% |
-| passive_investment | 7.7% |
-| real_estate_rental | 7.7% |
+| salary_employment | 62.5% |
+| illicit_grey | 12.5% |
+| business_owner | 6.2% |
+| freelance_contractor | 6.2% |
+| passive_investment | 6.2% |
+| real_estate_rental | 6.2% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
 | inheritance_trust | 0.0% |
@@ -80,6 +82,11 @@ _No data for this bracket._
 ## Narrative excerpts
 
 ### bottom bracket
+> "Estoy en negro. Cobro menos de $100mil pesos a la semana."
+
+— [r_argentina](https://www.reddit.com/r/argentina/comments/1rmgpnz/trabajo_en_un_restaurante_hagan_sus_preguntas/)
+*Profession: restaurant_worker | Summary: Argentine restaurant worker earning less than ARS 100,000/week off the books (en negro), underpaid informal employment.*
+
 > "$ 2.000,00 (Mensual) contrato de grupo o por equipo Trabajo nocturno Para nuestro equipo de desarrollo, estamos buscando un especialista QA."
 
 — [computrabajo_ar](https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-qa-kq-engineer-82695880-en-3-de-febrero-F4B2178F69D7F96661373E686DCF3405#lc=ListOffers-Score4-8)
@@ -108,6 +115,11 @@ _No data for this bracket._
 
 — [r_argentina](https://www.reddit.com/r/argentina/comments/1pttkgv/necesito_ayuda_con_wallets_en_usd/)
 *Profession: remote_interpreter | Summary: Argentine remote interpreter paid via Deel, earning roughly USD 800-1000/month in two biweekly payments.*
+
+> "$ 2.500.000,00 (Mensual) otro tipo de contrato Jornada completa Nos encontramos en la búsqueda de un/a Jefe de Zona para liderar la operación ganadera"
+
+— [computrabajo_ar](https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-veterinario-o-ingeniero-zootecnista-para-trabajar-en-granja-en-la-cocha-C7AF0577E7EDAF9361373E686DCF3405#lc=ListOffers-Score4-6)
+*Profession: veterinarian_farm_manager | Summary: Argentine veterinarian or zootechnics engineer job posting for farm zone manager role in Tucumán at ARS 2,500,000/month.*
 
 
 ### upper_middle bracket

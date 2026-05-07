@@ -2,16 +2,16 @@
 
 ## Overview
 
-- **Total samples:** 2
-- **Records with USD/yr amount:** 3
-- **Average reported income (USD/yr):** $8,139- **Low-confidence records (<0.5):** 0
+- **Total samples:** 3
+- **Records with USD/yr amount:** 4
+- **Average reported income (USD/yr):** $8,194- **Low-confidence records (<0.5):** 0
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 0 |
-| lower_middle | 1 |
+| lower_middle | 2 |
 | middle | 0 |
 | upper_middle | 1 |
 | top | 0 |
@@ -36,7 +36,8 @@ _No data for this bracket._
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | office_administrator | 1 |
+| 1 | engineering_student | 1 |
+| 2 | office_administrator | 1 |
 
 ### middle
 
@@ -81,6 +82,11 @@ _No excerpts for this bracket._
 
 — [r_morocco](https://www.reddit.com/r/Morocco/comments/1q1v2em/need_your_advice/)
 *Profession: office_administrator | Summary: 25-year-old Moroccan office administrator handling invoices, customer calls, web/social media, working 8am-7pm 6 days/week for 3000 dirhams/month.*
+
+> "miserable 7,000 DH/month jobs where it takes 10 years to buy a car and 15 years for an apartment"
+
+— [r_morocco](https://www.reddit.com/r/Morocco/comments/1mltv8t/my_dad_just_gave_away_my_whole_future_to_my_aunt/)
+*Profession: engineering_student | Summary: Moroccan engineering student frustrated that typical local jobs pay 7,000 DH/month, aspiring to study in France for better opportunities.*
 
 
 ### middle bracket

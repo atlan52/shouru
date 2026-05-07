@@ -2,15 +2,15 @@
 
 ## Overview
 
-- **Total samples:** 10
-- **Records with USD/yr amount:** 6
-- **Average reported income (USD/yr):** $3,536- **Low-confidence records (<0.5):** 1
+- **Total samples:** 11
+- **Records with USD/yr amount:** 7
+- **Average reported income (USD/yr):** $3,259- **Low-confidence records (<0.5):** 1
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
-| bottom | 2 |
+| bottom | 3 |
 | lower_middle | 4 |
 | middle | 2 |
 | upper_middle | 2 |
@@ -33,7 +33,8 @@
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | family_household_helpers | 1 |
-| 2 | philippines_virtual_assistant | 1 |
+| 2 | food_service_worker | 1 |
+| 3 | philippines_virtual_assistant | 1 |
 
 ### lower_middle
 
@@ -67,11 +68,11 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 62.5% |
-| freelance_contractor | 18.8% |
-| business_owner | 6.2% |
-| government_pension | 6.2% |
-| passive_investment | 6.2% |
+| salary_employment | 64.7% |
+| freelance_contractor | 17.6% |
+| business_owner | 5.9% |
+| government_pension | 5.9% |
+| passive_investment | 5.9% |
 | equity_compensation | 0.0% |
 | illicit_grey | 0.0% |
 | inheritance_trust | 0.0% |
@@ -84,6 +85,11 @@ _No data for this bracket._
 ## Narrative excerpts
 
 ### bottom bracket
+> "350 lang na sahod na Walang benefits at 10+ hrs na trabaho araw araw"
+
+— [r_philippines](https://www.reddit.com/r/Philippines/comments/1rx0elo/normal_ba_na_bawasan_ang_dayoff_mo_ng_iyong_boss/)
+*Profession: food_service_worker | Summary: 30-year-old male food service worker in Pasig City earning PHP 350/day with no benefits and 10+ hour shifts, planning to quit.*
+
 > "For less than $2/hr and 40hr a week I get an employee who will work diligently and intelligently to accomplish a myriad of tasks for my business."
 
 — [reddit_import](https://reddit.com/r/Entrepreneur/comments/edt40x/how_i_learned_to_scale_my_business_fast/)
