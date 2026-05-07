@@ -21,7 +21,7 @@ rental / royalties / inheritance / pension / illicit / multiple）。
 5. **subagent 抽取必须 terse prompt + chunk_size=20**。60 条/chunk 会
    stream watchdog 600s 超时死。验证过 20 条/chunk 平均 60-80s 跑通。
 
-## 当前数据状态（2026-05-07 早 7:50 时间戳）
+## 当前数据状态（2026-05-07 早 8:10 时间戳）
 
 ### 1. raw 已爬完 ✅
 
@@ -39,28 +39,36 @@ Mobile01, Dcard, discuss.com.hk, 36kr 等。
 ```
 data/extracted/
   ├── chunks_small/         ← 703 chunks × 20 raw records (待抽取)
-  ├── chunk_outputs_small/  ← 73 chunks × 20 records 已抽 (367 IncomeRecord, 1110 skip)
+  ├── chunk_outputs_small/  ← 116 chunks 已抽 (555 IncomeRecord, 1761 skip)
   ├── _native_to_extract.jsonl   ← 14060 raw 合并 + dedupe
-  ├── extracted_native_20260507.jsonl  ← 73 chunks merge 后入库源
+  ├── extracted_native_20260507.jsonl  ← 116 chunks merge 后入库源
   └── SYSTEM_PROMPT.txt     ← 抽取 prompt (subagent 必读)
 ```
 
-**剩余 630 chunks 没抽取**。配额恢复后可继续。
+**进度 116/703 (16.5%)**。剩余 587 chunks 没抽取。配额恢复后可继续。
 
 ### 3. income.db 已入库 ✅
 
 ```
 data/curated/income.db
-  - income_records: 3482 行，80 国
-  - reddit_import 2328 + hackernews 787（早期英语）+ 367 新本地母语 = 3482
-  - 含 USD/年: 2245 行（fx_normalize 之后）
+  - income_records: 3670 行，84 国
+  - reddit_import 2328 + hackernews 787（早期英语）+ 555 新本地母语 = 3670
+  - 含 USD/年: 2435 行（fx_normalize 之后）
   - fx_status 审计字段齐全
 data/curated/income_records.csv  ← 同上的 CSV 导出
 data/curated/figs/                ← 6 类 visualize 图（HTML+PNG）
 data/curated/reports/             ← report.py 渲染 40 国 .md
 ```
 
-### 4. 网站已上 ✅
+### 4. 网站已上线（双部署）✅
+
+**GitHub Pages（已推）**：https://atlan52.github.io/shouru/
+**Local Flask（开发）**：`.venv/bin/python -m website.app` → http://localhost:5050
+
+GitHub repo: https://github.com/atlan52/shouru （public, main 分支 /docs 目录）。
+docs/ 是静态 HTML（3793 个文件）由 `website.build_static` 生成。
+
+
 
 ```
 website/
@@ -183,17 +191,65 @@ print(f'ok={n_ok} skip={n_skip} bad={n_bad} -> {OUT}')
 
 **已完成**：
 1. ✅ 14177 行本地母语 raw 爬虫（79 国 / 27 语 / 166 平台）
-2. ✅ 73/703 chunks LLM 抽取 → 367 新 IncomeRecord 入库
-3. ✅ income.db 3482 行 / 80 国 / 2245 含 USD/年
+2. ✅ 116/703 chunks LLM 抽取 → 555 新 IncomeRecord 入库
+3. ✅ income.db 3670 行 / 84 国 / 2435 含 USD/年
 4. ✅ 6 类可视化图重生
 5. ✅ 40 国 markdown 报告重生
 6. ✅ Flask 网站全 11 路由 200 OK
+7. ✅ 静态站 3793 HTML 上 GitHub Pages（atlan52/shouru, public）
 
 **待办（按优先级）**：
-1. ⏭ 配额恢复后继续抽剩余 630 chunks。每批 20-25 并发。完成后 merge + 重生分析。
-   预期再加 ~3000 IncomeRecord。
+1. ⏭ 配额恢复后继续抽剩余 **587 chunks**（chunk_0116 起）。每批 20-30 并发。
+   按 ~5 extract/chunk 算，预期再加 ~2900 IncomeRecord，最终 ~6500 行 / 90+ 国。
 2. ⏭（可选）补抓更多 raw（如用户要求新地区/语种）。
 3. ⏭（可选）增强网站 — 加 leaflet 地图、profession 自动补全、跨国比较页。
+
+## 一键继续抽取（新窗口直接复用）
+
+```bash
+cd /Users/jan/sen/code/spider/shouru
+
+# 1. 看进度
+done=$(ls data/extracted/chunk_outputs_small/ | wc -l)
+echo "进度: $done / 703"
+next=$(printf "%04d" $done)
+echo "下一批从 chunk_$next 开始"
+
+# 2. 用 Agent 工具 spawn N 个 subagent 并发，每个 prompt 模板：
+#    "FAST. NO narration. ONLY tool calls. Read SYSTEM_PROMPT.txt + chunks_small/chunk_NNNN.jsonl,
+#     write 20 lines IncomeRecord-or-skip JSON to chunk_outputs_small/chunk_NNNN_out.jsonl"
+
+# 3. 跑完后一键合并 + 入库 + 静态化 + 推送：
+.venv/bin/python -c "
+import json, sys
+from pathlib import Path
+from datetime import datetime
+sys.path.insert(0, '.')
+from extract.schema import IncomeRecord
+OUT = Path(f'data/extracted/extracted_native_{datetime.now().strftime(\"%Y%m%d\")}.jsonl')
+n_ok = n_skip = n_bad = 0
+with OUT.open('w', encoding='utf-8') as fout:
+    for f in sorted(Path('data/extracted/chunk_outputs_small').glob('chunk_*_out.jsonl')):
+        for line in f.open(encoding='utf-8'):
+            try: obj = json.loads(line.strip())
+            except: n_bad += 1; continue
+            if obj.get('skip'): n_skip += 1; continue
+            if not obj.get('extracted_at'): obj['extracted_at'] = datetime.utcnow().isoformat()+'Z'
+            try: rec = IncomeRecord.model_validate(obj)
+            except: n_bad += 1; continue
+            fout.write(rec.model_dump_json()+'\n'); n_ok += 1
+print(f'merged {n_ok}/{n_ok+n_skip+n_bad}')
+"
+.venv/bin/python -m analyze.load_sqlite
+.venv/bin/python -m extract.fx_normalize
+.venv/bin/python -m analyze.aggregate
+.venv/bin/python -m analyze.visualize
+.venv/bin/python -m analyze.report
+.venv/bin/python -m website.build_static
+git add docs/ data/curated/income.db data/curated/income_records.csv data/curated/reports/ data/curated/figs/
+git commit -m "更新数据"
+git push
+```
 
 ## 用户工作风格
 
