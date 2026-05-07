@@ -2,15 +2,15 @@
 
 ## Overview
 
-- **Total samples:** 18
-- **Records with USD/yr amount:** 16
-- **Average reported income (USD/yr):** $100,305- **Low-confidence records (<0.5):** 1
+- **Total samples:** 19
+- **Records with USD/yr amount:** 17
+- **Average reported income (USD/yr):** $94,641- **Low-confidence records (<0.5):** 1
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
-| bottom | 0 |
+| bottom | 1 |
 | lower_middle | 1 |
 | middle | 4 |
 | upper_middle | 6 |
@@ -30,7 +30,9 @@
 
 ### bottom
 
-_No data for this bracket._
+| # | Profession | Records |
+| ---: | --- | ---: |
+| 1 | traffic_constable | 1 |
 
 ### lower_middle
 
@@ -74,16 +76,16 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 30.3% |
-| freelance_contractor | 21.2% |
-| business_owner | 18.2% |
-| passive_investment | 9.1% |
-| royalties_creator | 9.1% |
-| multiple_streams | 6.1% |
-| platform_gig | 6.1% |
+| salary_employment | 31.4% |
+| freelance_contractor | 20.0% |
+| business_owner | 17.1% |
+| passive_investment | 8.6% |
+| royalties_creator | 8.6% |
+| multiple_streams | 5.7% |
+| platform_gig | 5.7% |
+| illicit_grey | 2.9% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
-| illicit_grey | 0.0% |
 | inheritance_trust | 0.0% |
 | real_estate_rental | 0.0% |
 | unknown | 0.0% |
@@ -91,7 +93,11 @@ _No data for this bracket._
 ## Narrative excerpts
 
 ### bottom bracket
-_No excerpts for this bracket._
+> "A 'simple' RTO constable in Madhya Pradesh's traffic department had 52 Kg of Gold, 234 Kg of Silver, 50 crore villa in Dubai and 400 crores of assets. All these with a salary of just ₹28,000 per month"
+
+— [r_indianstreetbets](https://www.reddit.com/r/IndianStreetBets/comments/1r1t4bj/power_of_sip/)
+*Profession: traffic_constable | Summary: Indian RTO traffic constable with official salary of INR 28,000/month who allegedly accumulated illicit wealth of 400 crore rupees.*
+
 
 ### lower_middle bracket
 > "Urgent Hiring for delivery Boy 900 per day"

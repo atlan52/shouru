@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 44
-- **Records with USD/yr amount:** 44
-- **Average reported income (USD/yr):** $2,957,432- **Low-confidence records (<0.5):** 10
+- **Total samples:** 46
+- **Records with USD/yr amount:** 46
+- **Average reported income (USD/yr):** $2,832,877- **Low-confidence records (<0.5):** 10
 
 ## Bracket distribution
 
@@ -12,9 +12,9 @@
 | --- | ---: |
 | bottom | 0 |
 | lower_middle | 6 |
-| middle | 9 |
+| middle | 10 |
 | upper_middle | 9 |
-| top | 20 |
+| top | 21 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -47,9 +47,9 @@ _No data for this bracket._
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | rideshare_driver | 2 |
-| 2 | ai_monetization_content_creator | 1 |
-| 3 | content_creator | 1 |
+| 1 | content_creator | 2 |
+| 2 | rideshare_driver | 2 |
+| 3 | ai_monetization_content_creator | 1 |
 | 4 | english_teacher | 1 |
 | 5 | illustrator_freelancer | 1 |
 | 6 | interior_designer | 1 |
@@ -82,22 +82,22 @@ _No data for this bracket._
 | 6 | esports_streamer | 1 |
 | 7 | financial_risk_analyst | 1 |
 | 8 | gaming_ai_content_creator | 1 |
-| 9 | huawei_engineer | 1 |
-| 10 | ielts_teacher | 1 |
+| 9 | gym_owner | 1 |
+| 10 | huawei_engineer | 1 |
 
 
 ## Earning mechanism share
 
 | Mechanism | Share |
 | --- | ---: |
-| royalties_creator | 22.4% |
-| salary_employment | 22.4% |
-| business_owner | 17.9% |
-| freelance_contractor | 14.9% |
-| platform_gig | 14.9% |
-| multiple_streams | 4.5% |
-| equity_compensation | 1.5% |
-| illicit_grey | 1.5% |
+| royalties_creator | 23.2% |
+| salary_employment | 21.7% |
+| business_owner | 18.8% |
+| freelance_contractor | 14.5% |
+| platform_gig | 14.5% |
+| multiple_streams | 4.3% |
+| equity_compensation | 1.4% |
+| illicit_grey | 1.4% |
 | government_pension | 0.0% |
 | inheritance_trust | 0.0% |
 | passive_investment | 0.0% |

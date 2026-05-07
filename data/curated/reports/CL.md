@@ -2,16 +2,16 @@
 
 ## Overview
 
-- **Total samples:** 17
-- **Records with USD/yr amount:** 19
-- **Average reported income (USD/yr):** $79,276- **Low-confidence records (<0.5):** 0
+- **Total samples:** 18
+- **Records with USD/yr amount:** 20
+- **Average reported income (USD/yr):** $75,568- **Low-confidence records (<0.5):** 0
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 0 |
-| lower_middle | 3 |
+| lower_middle | 4 |
 | middle | 7 |
 | upper_middle | 4 |
 | top | 3 |
@@ -37,8 +37,9 @@ _No data for this bracket._
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | part_time_worker_student | 1 |
-| 2 | underemployed_worker | 1 |
-| 3 | unspecified_employee | 1 |
+| 2 | property_owner | 1 |
+| 3 | underemployed_worker | 1 |
+| 4 | unspecified_employee | 1 |
 
 ### middle
 
@@ -74,18 +75,18 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 72.7% |
-| business_owner | 9.1% |
-| freelance_contractor | 4.5% |
-| government_pension | 4.5% |
-| passive_investment | 4.5% |
-| royalties_creator | 4.5% |
+| salary_employment | 69.6% |
+| business_owner | 8.7% |
+| freelance_contractor | 4.3% |
+| government_pension | 4.3% |
+| passive_investment | 4.3% |
+| real_estate_rental | 4.3% |
+| royalties_creator | 4.3% |
 | equity_compensation | 0.0% |
 | illicit_grey | 0.0% |
 | inheritance_trust | 0.0% |
 | multiple_streams | 0.0% |
 | platform_gig | 0.0% |
-| real_estate_rental | 0.0% |
 | unknown | 0.0% |
 
 ## Narrative excerpts

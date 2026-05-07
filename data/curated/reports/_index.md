@@ -13,22 +13,22 @@ Cross-country charts:
 
 | Country | Code | Samples | Report |
 | --- | --- | ---: | --- |
-| United States | US | 2300 | [US.md](US.md) |
-| China | CN | 52 | [CN.md](CN.md) |
-| Japan | JP | 64 | [JP.md](JP.md) |
+| United States | US | 2302 | [US.md](US.md) |
+| China | CN | 54 | [CN.md](CN.md) |
+| Japan | JP | 73 | [JP.md](JP.md) |
 | South Korea | KR | 5 | [KR.md](KR.md) |
-| India | IN | 23 | [IN.md](IN.md) |
+| India | IN | 24 | [IN.md](IN.md) |
 | Germany | DE | 49 | [DE.md](DE.md) |
-| United Kingdom | GB | 258 | [GB.md](GB.md) |
+| United Kingdom | GB | 270 | [GB.md](GB.md) |
 | France | FR | 18 | [FR.md](FR.md) |
-| Brazil | BR | 32 | [BR.md](BR.md) |
-| Russia | RU | 80 | [RU.md](RU.md) |
-| Mexico | MX | 26 | [MX.md](MX.md) |
+| Brazil | BR | 36 | [BR.md](BR.md) |
+| Russia | RU | 83 | [RU.md](RU.md) |
+| Mexico | MX | 27 | [MX.md](MX.md) |
 | Spain | ES | 5 | [ES.md](ES.md) |
-| Italy | IT | 8 | [IT.md](IT.md) |
-| Canada | CA | 190 | [CA.md](CA.md) |
-| Australia | AU | 126 | [AU.md](AU.md) |
-| Netherlands | NL | 10 | [NL.md](NL.md) |
+| Italy | IT | 9 | [IT.md](IT.md) |
+| Canada | CA | 200 | [CA.md](CA.md) |
+| Australia | AU | 128 | [AU.md](AU.md) |
+| Netherlands | NL | 11 | [NL.md](NL.md) |
 | Switzerland | CH | 5 | [CH.md](CH.md) |
 | Singapore | SG | 9 | [SG.md](SG.md) |
 | Malaysia | MY | 6 | [MY.md](MY.md) |
@@ -42,14 +42,14 @@ Cross-country charts:
 | Egypt | EG | 1 | [EG.md](EG.md) |
 | South Africa | ZA | 11 | [ZA.md](ZA.md) |
 | Nigeria | NG | 2 | [NG.md](NG.md) |
-| Argentina | AR | 12 | [AR.md](AR.md) |
+| Argentina | AR | 13 | [AR.md](AR.md) |
 | Colombia | CO | 27 | [CO.md](CO.md) |
-| Chile | CL | 20 | [CL.md](CL.md) |
+| Chile | CL | 21 | [CL.md](CL.md) |
 | Israel | IL | 1 | [IL.md](IL.md) |
 | Poland | PL | 10 | [PL.md](PL.md) |
 | Sweden | SE | 10 | [SE.md](SE.md) |
 | Norway | NO | 3 | [NO.md](NO.md) |
 | Morocco | MA | 4 | [MA.md](MA.md) |
-| Pakistan | PK | 7 | [PK.md](PK.md) |
+| Pakistan | PK | 8 | [PK.md](PK.md) |
 | Bangladesh | BD | 8 | [BD.md](BD.md) |
 | Ukraine | UA | 8 | [UA.md](UA.md) |

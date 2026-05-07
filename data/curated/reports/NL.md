@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 8
-- **Records with USD/yr amount:** 5
-- **Average reported income (USD/yr):** $61,639- **Low-confidence records (<0.5):** 0
+- **Total samples:** 9
+- **Records with USD/yr amount:** 6
+- **Average reported income (USD/yr):** $63,591- **Low-confidence records (<0.5):** 0
 
 ## Bracket distribution
 
@@ -12,7 +12,7 @@
 | --- | ---: |
 | bottom | 1 |
 | lower_middle | 0 |
-| middle | 2 |
+| middle | 3 |
 | upper_middle | 5 |
 | top | 0 |
 
@@ -44,6 +44,7 @@ _No data for this bracket._
 | ---: | --- | ---: |
 | 1 | business_continuity_management_consultant_disabled | 1 |
 | 2 | early_retiree | 1 |
+| 3 | traveling_professional | 1 |
 
 ### upper_middle
 
@@ -64,15 +65,15 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 35.7% |
-| business_owner | 14.3% |
-| equity_compensation | 7.1% |
-| freelance_contractor | 7.1% |
-| government_pension | 7.1% |
-| multiple_streams | 7.1% |
-| passive_investment | 7.1% |
-| real_estate_rental | 7.1% |
-| royalties_creator | 7.1% |
+| salary_employment | 40.0% |
+| business_owner | 13.3% |
+| equity_compensation | 6.7% |
+| freelance_contractor | 6.7% |
+| government_pension | 6.7% |
+| multiple_streams | 6.7% |
+| passive_investment | 6.7% |
+| real_estate_rental | 6.7% |
+| royalties_creator | 6.7% |
 | illicit_grey | 0.0% |
 | inheritance_trust | 0.0% |
 | platform_gig | 0.0% |
@@ -91,6 +92,11 @@ _No data for this bracket._
 _No excerpts for this bracket._
 
 ### middle bracket
+> "Currently we make €5649 (R117k) and €3378 (R70k) which is above average for the Netherlands and our age group. My current role requires me to travel quite a bit and we are compensated for such travel, so most months I earn well above my base salary, with the most having been €13000 (R269k) after tax in a single month."
+
+— [r_personalfinanceza](https://www.reddit.com/r/PersonalFinanceZA/comments/1lt2ton/should_i_move_back_to_za_given_my_financial/)
+*Profession: traveling_professional | Summary: South African expat working in Netherlands earning EUR 5649/month base salary (partner EUR 3378/month), weighing return to South Africa vs staying for higher savings.*
+
 > "I live in the Netherlands ... €550k => 5% SWR = €2300/month. That is 2,5x minimum wage."
 
 — [reddit_import](https://reddit.com/r/financialindependence/comments/j0owcs/26_years_50_fire_small_income_country/g6u5pjr/)

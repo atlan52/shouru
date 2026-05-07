@@ -2,18 +2,18 @@
 
 ## Overview
 
-- **Total samples:** 25
-- **Records with USD/yr amount:** 21
-- **Average reported income (USD/yr):** $103,455- **Low-confidence records (<0.5):** 2
+- **Total samples:** 29
+- **Records with USD/yr amount:** 24
+- **Average reported income (USD/yr):** $93,140- **Low-confidence records (<0.5):** 2
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 2 |
-| lower_middle | 5 |
-| middle | 2 |
-| upper_middle | 7 |
+| lower_middle | 7 |
+| middle | 3 |
+| upper_middle | 8 |
 | top | 9 |
 
 ## Bracket thresholds (USD/yr lower bound)
@@ -43,14 +43,17 @@
 | 2 | fixed_income_investor | 1 |
 | 3 | minimum_wage_worker | 1 |
 | 4 | retail_temp_worker | 1 |
-| 5 | salaried_worker_investor | 1 |
+| 5 | salaried_worker | 1 |
+| 6 | salaried_worker_investor | 1 |
+| 7 | salaried_worker_with_side_jobs | 1 |
 
 ### middle
 
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | junior_software_developer_career_changer | 1 |
-| 2 | unspecified_salaried_worker | 1 |
+| 2 | unspecified_employee | 1 |
+| 3 | unspecified_salaried_worker | 1 |
 
 ### upper_middle
 
@@ -62,7 +65,8 @@
 | 4 | freelance_software_developer | 1 |
 | 5 | investor_portfolio_aporter | 1 |
 | 6 | office_employee | 1 |
-| 7 | software_engineer | 1 |
+| 7 | phone_reseller_and_landlord | 1 |
+| 8 | software_engineer | 1 |
 
 ### top
 
@@ -83,18 +87,18 @@
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 46.3% |
-| passive_investment | 22.0% |
-| freelance_contractor | 12.2% |
-| business_owner | 7.3% |
-| multiple_streams | 4.9% |
-| equity_compensation | 2.4% |
-| inheritance_trust | 2.4% |
-| royalties_creator | 2.4% |
+| salary_employment | 45.8% |
+| passive_investment | 18.8% |
+| freelance_contractor | 12.5% |
+| business_owner | 8.3% |
+| multiple_streams | 4.2% |
+| equity_compensation | 2.1% |
+| illicit_grey | 2.1% |
+| inheritance_trust | 2.1% |
+| real_estate_rental | 2.1% |
+| royalties_creator | 2.1% |
 | government_pension | 0.0% |
-| illicit_grey | 0.0% |
 | platform_gig | 0.0% |
-| real_estate_rental | 0.0% |
 | unknown | 0.0% |
 
 ## Narrative excerpts
@@ -122,13 +126,18 @@
 — [r_investimentos](https://www.reddit.com/r/investimentos/comments/1rjpbp3/consegui_juntar_essa_quantia_ganhando_pouco_mais/)
 *Profession: salaried_worker_investor | Summary: Brazilian worker earning ~R$3,500/month net salary who has diligently saved and invested since 2019, accumulating R$180k in investments.*
 
-> "Eu juntei 17 mil em menos de um ano de carteira assinada. Ganhando um salário mínimo... E penso que isso é bem pouco e que tem muita gente que ganha isso em um mês enquanto eu me sacrifiquei muito pra juntar"
+> "Devo uns 200k (imóvel, carro) com salário de 10k/mês."
 
-— [r_investimentos](https://www.reddit.com/r/investimentos/comments/1t1msmh/eu_juntei_17mil_reais/)
-*Profession: minimum_wage_worker | Summary: Brazilian formal-employment worker earning minimum wage who saved R$17k in less than a year.*
+— [r_investimentos](https://www.reddit.com/r/investimentos/comments/1sf3jon/qual_é_o_corte_da_relação_dívidasalário_de_uma/)
+*Profession: salaried_worker | Summary: Brazilian worker earning BRL 10,000/month asking about debt-to-income ratio given 200k in debts (property and car).*
 
 
 ### middle bracket
+> "Tenho uma renda até legal de 4 salários mínimos, porém não tive a oportunidade de sair de casa ainda"
+
+— [r_brasil](https://www.reddit.com/r/brasil/comments/1ozx7eo/vocês_já_sofreram_preconceito_pelo_lugar_onde/)
+*Profession: unspecified_employee | Summary: Brazilian worker earning 4 minimum wages (approximately BRL 4,800/month) living in a peripheral neighborhood, experiencing social discrimination.*
+
 > "atualmente tô com 20 anos e consegui um aumento de limite no bradesco pra 20k no cartão Visa platinum juntamente com minha conta virando Prime"
 
 — [r_investimentos](https://www.reddit.com/r/investimentos/comments/1q7hz2y/20mil_de_limite_e_45k_de_salário/)

@@ -2,19 +2,19 @@
 
 ## Overview
 
-- **Total samples:** 173
-- **Records with USD/yr amount:** 139
-- **Average reported income (USD/yr):** $139,370- **Low-confidence records (<0.5):** 10
+- **Total samples:** 180
+- **Records with USD/yr amount:** 146
+- **Average reported income (USD/yr):** $137,636- **Low-confidence records (<0.5):** 10
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 8 |
-| lower_middle | 20 |
-| middle | 46 |
-| upper_middle | 62 |
-| top | 37 |
+| lower_middle | 22 |
+| middle | 48 |
+| upper_middle | 63 |
+| top | 39 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -45,14 +45,14 @@
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | call_center_agent | 1 |
-| 2 | canadian_fire_planner | 1 |
-| 3 | candle_business_owner | 1 |
-| 4 | coop_student | 1 |
-| 5 | early_retiree_options_trader | 1 |
-| 6 | electrical_apprentice | 1 |
-| 7 | engineer | 1 |
-| 8 | entry_level_worker | 1 |
+| 1 | entry_level_worker | 2 |
+| 2 | call_center_agent | 1 |
+| 3 | canadian_fire_planner | 1 |
+| 4 | candle_business_owner | 1 |
+| 5 | coop_student | 1 |
+| 6 | early_retiree_options_trader | 1 |
+| 7 | electrical_apprentice | 1 |
+| 8 | engineer | 1 |
 | 9 | janitor | 1 |
 | 10 | low_income_worker | 1 |
 
@@ -107,17 +107,17 @@
 | Mechanism | Share |
 | --- | ---: |
 | salary_employment | 51.4% |
-| business_owner | 9.4% |
-| passive_investment | 8.0% |
-| freelance_contractor | 7.2% |
-| multiple_streams | 6.9% |
-| real_estate_rental | 5.4% |
-| government_pension | 5.1% |
-| equity_compensation | 2.5% |
-| platform_gig | 1.8% |
-| royalties_creator | 1.1% |
+| business_owner | 9.0% |
+| freelance_contractor | 8.0% |
+| passive_investment | 7.6% |
+| multiple_streams | 6.6% |
+| real_estate_rental | 5.6% |
+| government_pension | 4.9% |
+| equity_compensation | 3.1% |
+| platform_gig | 1.7% |
+| royalties_creator | 1.0% |
 | illicit_grey | 0.7% |
-| inheritance_trust | 0.4% |
+| inheritance_trust | 0.3% |
 | unknown | 0.0% |
 
 ## Narrative excerpts
@@ -140,6 +140,11 @@
 
 
 ### lower_middle bracket
+> "I am trying to figure this out... 3. found a part-time job for 6 months, earned $16k 4. found a full time job in Oct which I'm now employed at, earned $6k for it in 2025"
+
+— [r_personalfinancecanada](https://www.reddit.com/r/PersonalFinanceCanada/comments/1r7csyz/owing_taxes_to_the_cra_despite_earning_aroun_25k/)
+*Profession: part_time_employee | Summary: Canadian worker with ~$25k annual income from multiple part-time and full-time jobs plus EI, filing taxes and confused about owing CRA.*
+
 > "I am starting my first coop soon earning around $780 per week. I have $10k saved up in a TFSA, no CC debt and I hope to go to law school starting in fall of 2027."
 
 — [r_personalfinancecanada](https://www.reddit.com/r/PersonalFinanceCanada/comments/1svrt5l/general_guidance_on_savings/)
@@ -149,11 +154,6 @@
 
 — [reddit_import](https://reddit.com/r/personalfinance/comments/2rq1z7/hey_i_turned_18_a_month_ago_and_ive_just_been/cnie8bj/)
 *Profession: call_center_agent | Summary: A 17-year-old in small-town Canada took a bilingual call-center job paying $11/hour at roughly 35.5 hours/week and lived in a $305/month apartment.*
-
-> "I'm 21 years old, I don't have very much debt, and I make about $2000/mth take home... (I'm in Canada btw)"
-
-— [reddit_import](https://reddit.com/r/personalfinance/comments/6imwbb/im_21_years_old_i_dont_have_very_much_debt_and_i/)
-*Profession: young_worker | Summary: 21-year-old in Canada brings home roughly CAD 2,000/month and is living paycheck to paycheck.*
 
 
 ### middle bracket

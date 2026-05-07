@@ -2,18 +2,18 @@
 
 ## Overview
 
-- **Total samples:** 50
-- **Records with USD/yr amount:** 44
-- **Average reported income (USD/yr):** $68,934- **Low-confidence records (<0.5):** 5
+- **Total samples:** 58
+- **Records with USD/yr amount:** 51
+- **Average reported income (USD/yr):** $61,865- **Low-confidence records (<0.5):** 5
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
-| bottom | 10 |
-| lower_middle | 13 |
+| bottom | 13 |
+| lower_middle | 17 |
 | middle | 5 |
-| upper_middle | 13 |
+| upper_middle | 14 |
 | top | 9 |
 
 ## Bracket thresholds (USD/yr lower bound)
@@ -33,15 +33,15 @@
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | amateur_illustrator_fanbox_creator | 1 |
-| 2 | education_worker | 1 |
-| 3 | freelancer | 1 |
-| 4 | hikikomori_former_factory_worker | 1 |
-| 5 | housewife_side_hustler | 1 |
-| 6 | indie_app_developer | 1 |
-| 7 | mercari_side_seller | 1 |
-| 8 | note_content_creator | 1 |
-| 9 | small_restaurant_owner | 1 |
-| 10 | web_engineer_side_contractor | 1 |
+| 2 | anime_animator | 1 |
+| 3 | education_worker | 1 |
+| 4 | freelancer | 1 |
+| 5 | hikikomori_former_factory_worker | 1 |
+| 6 | housewife_side_hustler | 1 |
+| 7 | indie_app_developer | 1 |
+| 8 | mercari_side_seller | 1 |
+| 9 | non_regular_worker | 1 |
+| 10 | note_content_creator | 1 |
 
 ### lower_middle
 
@@ -49,14 +49,14 @@
 | ---: | --- | ---: |
 | 1 | company_employee_with_side_hustle | 1 |
 | 2 | delivery_gig_worker | 1 |
-| 3 | general_employee | 1 |
-| 4 | low_spec_office_worker | 1 |
-| 5 | office_worker | 1 |
-| 6 | office_worker_part_time_return | 1 |
-| 7 | retiree_pensioner | 1 |
-| 8 | salaried_employee | 1 |
-| 9 | salaried_worker_livestream_fan | 1 |
-| 10 | sex_worker | 1 |
+| 3 | essential_worker | 1 |
+| 4 | full_time_employee | 1 |
+| 5 | general_employee | 1 |
+| 6 | local_government_employee | 1 |
+| 7 | low_spec_office_worker | 1 |
+| 8 | office_worker | 1 |
+| 9 | office_worker_part_time_return | 1 |
+| 10 | retiree_pensioner | 1 |
 
 ### middle
 
@@ -102,23 +102,28 @@
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 40.2% |
-| freelance_contractor | 19.5% |
-| royalties_creator | 9.8% |
-| business_owner | 8.5% |
-| multiple_streams | 4.9% |
-| passive_investment | 3.7% |
-| platform_gig | 3.7% |
-| government_pension | 2.4% |
-| illicit_grey | 2.4% |
-| inheritance_trust | 2.4% |
-| real_estate_rental | 2.4% |
+| salary_employment | 45.1% |
+| freelance_contractor | 17.6% |
+| royalties_creator | 9.9% |
+| business_owner | 7.7% |
+| multiple_streams | 4.4% |
+| passive_investment | 3.3% |
+| platform_gig | 3.3% |
+| government_pension | 2.2% |
+| illicit_grey | 2.2% |
+| inheritance_trust | 2.2% |
+| real_estate_rental | 2.2% |
 | equity_compensation | 0.0% |
 | unknown | 0.0% |
 
 ## Narrative excerpts
 
 ### bottom bracket
+> "日本动画师晒一年的年薪：72.9万日元（约3.1万元）"
+
+— [bilibili](https://www.bilibili.com/video/BV1HidWBGEAc)
+*Profession: anime_animator | Summary: Japanese anime animator earning 729,000 JPY per year (approx. 31,000 CNY), showcased on Chinese Bilibili as an example of poor animator wages.*
+
 > "年収200万じゃ暮らせない」と話題になっているけど、普通に暮らせる。なぜならこのくらいの年収だと経費で利益を圧縮すれば非課税にできるから。"
 
 — [hatena](https://anond.hatelabo.jp/20220621135447)
@@ -129,27 +134,22 @@
 — [hatena](https://anond.hatelabo.jp/20230729212910)
 *Profession: amateur_illustrator_fanbox_creator | Summary: Amateur hobby illustrator in Japan earned 650,000 JPY in 3.5 months on pixivFANBOX, on track for 300k JPY/month.*
 
-> "2025年1月からnoteで本格的発信し始めてから、合計で50万円の売り上げを達成しました。1〜4月を足したら、508,640円になります。"
-
-— [hatena](https://note.com/ai_freak/n/n303efe78bbdd)
-*Profession: note_content_creator | Summary: Japanese AI-focused note.com creator who earned JPY 508,640 in 4 months (Jan-Apr) as a side income stream.*
-
 
 ### lower_middle bracket
+> "年収 330万円の男がお送り しま した"
+
+— [anond](https://anond.hatelabo.jp/20260506073150)
+*Profession: unspecified_employee | Summary: 40-year-old Japanese man with annual income of 3.3 million JPY sharing his top 3 expensive purchases.*
+
+> "手取りはいつまで経っても20万の底辺からピタリと動かない。俺は10年間、この地獄に耐え続けた。そして36歳の時、この巨大な泥舟から完全に降りた。"
+
+— [note_jp](https://note.com/fit_takin6044/n/n90013739646f)
+*Profession: local_government_employee | Summary: Japanese 30s male local government worker earning ¥200,000/month take-home pay (~¥2.4M/year), later quit for IT career.*
+
 > "フルタイムの給与 ・額面：30万円台前半 ・手取り：25万円前後 時短復帰後の給与 時短での給与 ・額面：30万円前後 ・手取り：25万円前後"
 
 — [note_jp](https://note.com/yuka_k_mom/n/n3f6ef50752cb)
 *Profession: office_worker_part_time_return | Summary: Japanese working mother returned from maternity leave on reduced hours (5h/day), earning approx JPY 250k/month take-home, similar to pre-leave amount due to reduced tax deductions.*
-
-> "手取りは残業時間を超えた月だけ20万をちょっと超えるが、私は一刻も早く家に帰りたいので普段はそこまでいかない。"
-
-— [note_jp](https://note.com/deft_rat9295/n/nd146464ec3d9)
-*Profession: office_worker | Summary: 25-year-old Japanese office worker earning ~¥200k/month take-home (手取り), formerly a multi-job part-timer.*
-
-> "年収400万円程度、26歳で彼女いない歴＝年齢、専門卒、身長170cm未満、友達2人だけ、顔はブサメン寄り、体重78kg、片親で母親が高齢"
-
-— [hatena](https://anond.hatelabo.jp/20250211201949)
-*Profession: low_spec_office_worker | Summary: 26-year-old Japanese man, vocational school graduate, ~¥4M/year salary, lamenting being ignored on dating apps.*
 
 
 ### middle bracket
@@ -170,6 +170,11 @@
 
 
 ### upper_middle bracket
+> "額面638万円 上記金額には交通費を含んでおります。交通費を除くと約610万円となります。手取年収508万円"
+
+— [note_jp](https://note.com/eisuzu/n/ne970a6e512ef)
+*Profession: sales_representative | Summary: 27-year-old Japanese manufacturer sales rep at a Tokyo Prime-listed company earning 6.38M JPY gross annually including overtime, with plans to add investment/side income.*
+
 > "経理20年・4回転職で年収375万→1,100万超まで積み上げた僕が、各転職タイミングと年収の上がり幅をすべて公開します。"
 
 — [note_jp](https://note.com/catel_strategy/n/n8ac7746b15ea)
@@ -179,11 +184,6 @@
 
 — [hatena](https://tech.toyokumo.co.jp/entry/make-software-engineers-earn-ten-million-yen)
 *Profession: software_engineer | Summary: Toyokumo CTO reports the company achieved its goal of producing software engineers earning over 10 million yen/year through salary increases.*
-
-> "In March of 2022, a company which I’d worked for 3 times previously was awarded the contract I support and it was the worst! $30k pay cut off the top, no paid vacation, no holidays and no co-payment of medical insurance."
-
-— [reddit_import](https://reddit.com/r/financialindependence/comments/10jsepr/2_week_notice_submitted_i_guess_ive_fireed_in/)
-*Profession: defense_it_contractor | Summary: American defense IT contractor in Japan FIRE'd at 40 with $1.3M, having taken a $30k pay cut yet still earning a six-figure income.*
 
 
 ### top bracket

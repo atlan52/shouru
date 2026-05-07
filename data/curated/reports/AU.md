@@ -2,17 +2,17 @@
 
 ## Overview
 
-- **Total samples:** 109
-- **Records with USD/yr amount:** 98
-- **Average reported income (USD/yr):** $112,881- **Low-confidence records (<0.5):** 7
+- **Total samples:** 111
+- **Records with USD/yr amount:** 100
+- **Average reported income (USD/yr):** $111,517- **Low-confidence records (<0.5):** 7
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 5 |
-| lower_middle | 15 |
-| middle | 30 |
+| lower_middle | 16 |
+| middle | 31 |
 | upper_middle | 33 |
 | top | 26 |
 
@@ -62,11 +62,11 @@
 | 3 | banking_professional | 1 |
 | 4 | car_salesperson | 1 |
 | 5 | carpet_cleaning_business_owner | 1 |
-| 6 | crypto_trader | 1 |
-| 7 | data_science_consultant | 1 |
-| 8 | early_career_professional | 1 |
-| 9 | employee_male_median | 1 |
-| 10 | entry_level_professional | 1 |
+| 6 | construction_worker | 1 |
+| 7 | crypto_trader | 1 |
+| 8 | data_science_consultant | 1 |
+| 9 | early_career_professional | 1 |
+| 10 | employee_male_median | 1 |
 
 ### upper_middle
 
@@ -103,15 +103,15 @@
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 52.7% |
-| business_owner | 17.6% |
-| freelance_contractor | 7.9% |
-| multiple_streams | 5.5% |
+| salary_employment | 53.0% |
+| business_owner | 17.3% |
+| freelance_contractor | 7.7% |
+| multiple_streams | 5.4% |
 | passive_investment | 4.8% |
+| real_estate_rental | 3.0% |
 | royalties_creator | 3.0% |
 | government_pension | 2.4% |
 | platform_gig | 2.4% |
-| real_estate_rental | 2.4% |
 | inheritance_trust | 1.2% |
 | equity_compensation | 0.0% |
 | illicit_grey | 0.0% |

@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 5
-- **Records with USD/yr amount:** 4
-- **Average reported income (USD/yr):** $12,118- **Low-confidence records (<0.5):** 0
+- **Total samples:** 6
+- **Records with USD/yr amount:** 5
+- **Average reported income (USD/yr):** $14,864- **Low-confidence records (<0.5):** 0
 
 ## Bracket distribution
 
@@ -14,7 +14,7 @@
 | lower_middle | 1 |
 | middle | 1 |
 | upper_middle | 1 |
-| top | 0 |
+| top | 1 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -55,19 +55,21 @@
 
 ### top
 
-_No data for this bracket._
+| # | Profession | Records |
+| ---: | --- | ---: |
+| 1 | it_developer | 1 |
 
 
 ## Earning mechanism share
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 28.6% |
-| freelance_contractor | 14.3% |
-| government_pension | 14.3% |
-| illicit_grey | 14.3% |
-| inheritance_trust | 14.3% |
-| royalties_creator | 14.3% |
+| salary_employment | 37.5% |
+| freelance_contractor | 12.5% |
+| government_pension | 12.5% |
+| illicit_grey | 12.5% |
+| inheritance_trust | 12.5% |
+| royalties_creator | 12.5% |
 | business_owner | 0.0% |
 | equity_compensation | 0.0% |
 | multiple_streams | 0.0% |
@@ -112,7 +114,11 @@ _No data for this bracket._
 
 
 ### top bracket
-_No excerpts for this bracket._
+> "If You're currently earning around 6 lakh PKR/month in field of IT as dev/qa and have a stable life — house, car, savings, and all basic amenities"
+
+— [r_pakistan](https://www.reddit.com/r/pakistan/comments/1sly3yv/what_would_you_do_in_this_situation/)
+*Profession: it_developer | Summary: Pakistani IT developer/QA earning 6 lakh PKR/month (~7.2M PKR/year) with stable life considering relocation to Spain.*
+
 
 
 ---

@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 7
-- **Records with USD/yr amount:** 5
-- **Average reported income (USD/yr):** $42,021- **Low-confidence records (<0.5):** 0
+- **Total samples:** 8
+- **Records with USD/yr amount:** 6
+- **Average reported income (USD/yr):** $41,509- **Low-confidence records (<0.5):** 0
 
 ## Bracket distribution
 
@@ -12,7 +12,7 @@
 | --- | ---: |
 | bottom | 1 |
 | lower_middle | 0 |
-| middle | 3 |
+| middle | 4 |
 | upper_middle | 1 |
 | top | 2 |
 
@@ -43,8 +43,9 @@ _No data for this bracket._
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | eu_funds_project_manager | 1 |
-| 2 | seasonal_hotel_owner_manager | 1 |
-| 3 | serial_entrepreneur_saas_founder | 1 |
+| 2 | salaried_professional | 1 |
+| 3 | seasonal_hotel_owner_manager | 1 |
+| 4 | serial_entrepreneur_saas_founder | 1 |
 
 ### upper_middle
 
@@ -64,16 +65,16 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 46.2% |
-| business_owner | 15.4% |
-| multiple_streams | 15.4% |
-| freelance_contractor | 7.7% |
-| illicit_grey | 7.7% |
-| real_estate_rental | 7.7% |
+| salary_employment | 43.8% |
+| business_owner | 12.5% |
+| multiple_streams | 12.5% |
+| freelance_contractor | 6.2% |
+| illicit_grey | 6.2% |
+| inheritance_trust | 6.2% |
+| passive_investment | 6.2% |
+| real_estate_rental | 6.2% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
-| inheritance_trust | 0.0% |
-| passive_investment | 0.0% |
 | platform_gig | 0.0% |
 | royalties_creator | 0.0% |
 | unknown | 0.0% |
@@ -91,6 +92,11 @@ _No data for this bracket._
 _No excerpts for this bracket._
 
 ### middle bracket
+> "I've got about 3.5 million € invested (mostly from an inheritance... I'm earning a bit above average at ~3k €/month in a job that's decent for my age and location"
+
+— [r_fire](https://www.reddit.com/r/Fire/comments/1q6ctrr/27m_with_35m_in_italy_am_i_too_young_to_fire/)
+*Profession: salaried_professional | Summary: 27-year-old Italian with €3.5M inheritance earning ~€3k/month salary plus potential €105k/year passive income from 3% withdrawal on investments.*
+
 > "my partner own an apartment in Milan that she rents for 1000€/month (net around 600). We both have project management jobs (EU funds)"
 
 — [reddit_import](https://reddit.com/r/leanfire/comments/1q07p0k/barista_lean_in_italy_help/)
@@ -100,11 +106,6 @@ _No excerpts for this bracket._
 
 — [reddit_import](https://reddit.com/r/smallbusiness/comments/1n5jfcu/how_do_i_address_my_team_about_excessive_overtime/)
 *Profession: seasonal_hotel_owner_manager | Summary: A small seasonal hotel owner-manager in Europe describes managing a 18-employee staff including paid housekeepers earning overtime pay above minimum wage.*
-
-> "In 2015, I had a SaaS pulling in $2K MRR, could've blown it up... In 2017, we dropped a delivery app, 80K users, $60K MRR."
-
-— [reddit_import](https://reddit.com/r/Entrepreneur/comments/1ng0an0/10_fckups_in_15_years_my_startup_survival_guide/)
-*Profession: serial_entrepreneur_saas_founder | Summary: A serial entrepreneur reflects on 15 years building products, mentioning a SaaS at $2K MRR and a delivery app that hit $60K MRR before failing.*
 
 
 ### upper_middle bracket

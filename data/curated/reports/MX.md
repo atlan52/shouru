@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 23
-- **Records with USD/yr amount:** 20
-- **Average reported income (USD/yr):** $15,001- **Low-confidence records (<0.5):** 2
+- **Total samples:** 24
+- **Records with USD/yr amount:** 21
+- **Average reported income (USD/yr):** $25,716- **Low-confidence records (<0.5):** 2
 
 ## Bracket distribution
 
@@ -14,7 +14,7 @@
 | lower_middle | 8 |
 | middle | 6 |
 | upper_middle | 6 |
-| top | 1 |
+| top | 2 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -75,16 +75,17 @@
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | construction_industrial_real_estate_manager | 1 |
+| 2 | fracture_engineer | 1 |
 
 
 ## Earning mechanism share
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 78.6% |
-| freelance_contractor | 14.3% |
-| business_owner | 3.6% |
-| royalties_creator | 3.6% |
+| salary_employment | 79.3% |
+| freelance_contractor | 13.8% |
+| business_owner | 3.4% |
+| royalties_creator | 3.4% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
 | illicit_grey | 0.0% |
@@ -161,6 +162,11 @@
 
 
 ### top bracket
+> "20.000,00 US$ (Mensual) Contrato por tiempo indefinido Tiempo Completo El Ingeniero de Fractura será responsable de diseñar y ejecutar tratamientos de fractura técnicamente eficientes"
+
+— [computrabajo_ec](https://ec.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingeniero-de-fracturas-profesional-industria-petrolera-mexico-en-mexico-842E43188F09E83A61373E686DCF3405#lc=ListOffers-Score4-4)
+*Profession: fracture_engineer | Summary: Fracture engineer in Mexican oil industry earning $20,000 USD/month, permanent full-time contract.*
+
 > "On my last job I used to make about 60k USD a year (fairly good for Mexico Standards), so the goal is to beat that."
 
 — [reddit_import](https://reddit.com/r/Entrepreneur/comments/u7h4kt/i_have_50k_in_the_bank_all_the_time_in_the_world/)

@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 2077
-- **Records with USD/yr amount:** 1553
-- **Average reported income (USD/yr):** $1,429,481- **Low-confidence records (<0.5):** 142
+- **Total samples:** 2079
+- **Records with USD/yr amount:** 1554
+- **Average reported income (USD/yr):** $1,428,620- **Low-confidence records (<0.5):** 142
 
 ## Bracket distribution
 
@@ -13,7 +13,7 @@
 | bottom | 177 |
 | lower_middle | 260 |
 | middle | 383 |
-| upper_middle | 612 |
+| upper_middle | 614 |
 | top | 645 |
 
 ## Bracket thresholds (USD/yr lower bound)
@@ -108,7 +108,7 @@
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 48.6% |
+| salary_employment | 48.7% |
 | business_owner | 13.8% |
 | equity_compensation | 7.7% |
 | multiple_streams | 7.4% |

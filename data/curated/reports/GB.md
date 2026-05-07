@@ -2,18 +2,18 @@
 
 ## Overview
 
-- **Total samples:** 222
-- **Records with USD/yr amount:** 187
-- **Average reported income (USD/yr):** $277,785- **Low-confidence records (<0.5):** 8
+- **Total samples:** 234
+- **Records with USD/yr amount:** 199
+- **Average reported income (USD/yr):** $263,999- **Low-confidence records (<0.5):** 8
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
-| bottom | 19 |
-| lower_middle | 30 |
-| middle | 52 |
-| upper_middle | 66 |
+| bottom | 20 |
+| lower_middle | 35 |
+| middle | 57 |
+| upper_middle | 67 |
 | top | 55 |
 
 ## Bracket thresholds (USD/yr lower bound)
@@ -48,15 +48,15 @@
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | office_worker | 3 |
-| 2 | admin_worker | 1 |
-| 3 | apprentice | 1 |
-| 4 | art_gallery_owner | 1 |
-| 5 | company_director_relative_payroll | 1 |
-| 6 | council_systems_engineer_apprentice | 1 |
-| 7 | degree_holder_professional_uk | 1 |
-| 8 | digital_marketing_manager | 1 |
-| 9 | factory_worker | 1 |
-| 10 | frugal_worker_with_rental_property | 1 |
+| 2 | graduate_scheme_employee | 2 |
+| 3 | admin_worker | 1 |
+| 4 | apprentice | 1 |
+| 5 | art_gallery_owner | 1 |
+| 6 | company_director_relative_payroll | 1 |
+| 7 | council_systems_engineer_apprentice | 1 |
+| 8 | degree_holder_professional_uk | 1 |
+| 9 | digital_marketing_manager | 1 |
+| 10 | entry_level_professional | 1 |
 
 ### middle
 
@@ -65,13 +65,13 @@
 | 1 | full_time_employee_median | 2 |
 | 2 | nhs_employee | 2 |
 | 3 | office_worker | 2 |
-| 4 | amazon_dropshipper | 1 |
-| 5 | apprentice | 1 |
-| 6 | case_handler | 1 |
-| 7 | charity_sector_worker | 1 |
-| 8 | data_engineer | 1 |
-| 9 | desktop_support_analyst | 1 |
-| 10 | digital_analyst_graduate | 1 |
+| 4 | salaried_professional | 2 |
+| 5 | accountant | 1 |
+| 6 | amazon_dropshipper | 1 |
+| 7 | apprentice | 1 |
+| 8 | case_handler | 1 |
+| 9 | charity_sector_worker | 1 |
+| 10 | data_engineer | 1 |
 
 ### upper_middle
 
@@ -108,16 +108,16 @@
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 49.9% |
-| business_owner | 12.9% |
-| passive_investment | 9.4% |
-| freelance_contractor | 9.2% |
-| equity_compensation | 4.3% |
-| multiple_streams | 4.3% |
-| real_estate_rental | 2.7% |
-| royalties_creator | 2.4% |
-| government_pension | 2.2% |
-| inheritance_trust | 1.1% |
+| salary_employment | 50.9% |
+| business_owner | 12.4% |
+| passive_investment | 9.6% |
+| freelance_contractor | 8.8% |
+| equity_compensation | 4.1% |
+| multiple_streams | 4.1% |
+| real_estate_rental | 2.6% |
+| royalties_creator | 2.3% |
+| government_pension | 2.1% |
+| inheritance_trust | 1.6% |
 | illicit_grey | 0.5% |
 | platform_gig | 0.5% |
 | unknown | 0.5% |
@@ -147,15 +147,15 @@
 — [hackernews](https://news.ycombinator.com/item?id=25595958)
 *Profession: ml_data_engineer | Summary: An ML/data engineer at a UK (non-London) pre-seed startup earns about £22k/year and was offered 0.1% in EMI options, which they feel is a lowball.*
 
+> "It's a permanent contract starting at £29.5k. I'm in the same sector, but I will be learning a completely new set of skills"
+
+— [r_ukjobs](https://www.reddit.com/r/UKJobs/comments/1t0o7lx/grad_scheme_at_32/)
+*Profession: graduate_scheme_employee | Summary: 32-year-old UK worker accepting a graduate scheme at £29.5k/year after redundancy from a £42k public sector job.*
+
 > "I work in CRM marketing. The marketing executive was taken off of managing the brand on email and it was given to me (Marketing Assistant). I'm on £27,000 in UK"
 
 — [r_ukjobs](https://www.reddit.com/r/UKJobs/comments/1syxmd0/promotion_without_a_pay_rise/)
 *Profession: marketing_assistant | Summary: UK marketing assistant earning £27,000/year being promoted to Marketing Executive without a pay rise until April 2027.*
-
-> "Now I'm a Senior 3D Artist after being in a 3D role for 5 years... now on £30,000 after a surprise pitch at my company when Unions got involved and allowed most of us to get a 10% increase."
-
-— [r_ukjobs](https://www.reddit.com/r/UKJobs/comments/1lbfh7t/i_just_found_out_what_the_minimum_wage_is/)
-*Profession: senior_3d_artist | Summary: UK Senior 3D Artist earning £30k/year after 9 years of work and a 10% union-driven raise, started at £15k minimum-wage admin role.*
 
 
 ### middle bracket
@@ -169,10 +169,10 @@
 — [govstats_GB_ONS](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/bulletins/annualsurveyofhoursandearnings/2024)
 *Profession: full_time_employee | Summary: UK median full-time employee earned £37,430 gross annually in April 2024 per ONS official statistics.*
 
-> "I'm a 32‑year‑old ACCA accountant, fully qualified since around 2021/22. I've been working in the NHS for nearly four years now, currently on £56k (Band 8a) working as a Finance Business Partner (Yorkshire based)."
+> "I currently earn £48k salary and £2k bonus as an accountant in the private equity space for a fund administrator. This role is fully remote"
 
-— [r_ukjobs](https://www.reddit.com/r/UKJobs/comments/1r3ltfw/for_those_who_moved_from_public_sector_accounting/)
-*Profession: finance_business_partner | Summary: 32-year-old ACCA-qualified accountant working as Finance Business Partner in NHS Yorkshire at £56k/year, seeking to move to private sector for £70k+.*
+— [r_ukjobs](https://www.reddit.com/r/UKJobs/comments/1mp6kmn/should_i_give_up_remote_working_for_a_50_bump_in/)
+*Profession: accountant | Summary: UK accountant in private equity fund administration earning £48k salary plus £2k bonus, fully remote, considering a £70k offer in shipping/logistics requiring full office attendance.*
 
 
 ### upper_middle bracket

@@ -2,18 +2,18 @@
 
 ## Overview
 
-- **Total samples:** 76
-- **Records with USD/yr amount:** 79
-- **Average reported income (USD/yr):** $14,386- **Low-confidence records (<0.5):** 1
+- **Total samples:** 79
+- **Records with USD/yr amount:** 82
+- **Average reported income (USD/yr):** $14,527- **Low-confidence records (<0.5):** 1
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 1 |
-| lower_middle | 32 |
+| lower_middle | 34 |
 | middle | 24 |
-| upper_middle | 13 |
+| upper_middle | 14 |
 | top | 6 |
 
 ## Bracket thresholds (USD/yr lower bound)
@@ -46,8 +46,8 @@
 | 6 | bank_guarantee_sales_manager | 1 |
 | 7 | cashier_salesperson | 1 |
 | 8 | civil_engineer_pto | 1 |
-| 9 | elementary_school_teacher | 1 |
-| 10 | english_language_teacher | 1 |
+| 9 | computer_science_teacher | 1 |
+| 10 | elementary_school_teacher | 1 |
 
 ### middle
 
@@ -73,11 +73,11 @@
 | 3 | backend_developer | 1 |
 | 4 | cnc_programmer_technologist | 1 |
 | 5 | design_engineer | 1 |
-| 6 | interface_designer | 1 |
-| 7 | investment_analyst | 1 |
-| 8 | military_contract_soldier | 1 |
-| 9 | neurologist | 1 |
-| 10 | physics_teacher | 1 |
+| 6 | general_practitioner | 1 |
+| 7 | interface_designer | 1 |
+| 8 | investment_analyst | 1 |
+| 9 | military_contract_soldier | 1 |
+| 10 | neurologist | 1 |
 
 ### top
 
@@ -95,10 +95,10 @@
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 87.5% |
-| freelance_contractor | 5.7% |
-| business_owner | 2.3% |
-| illicit_grey | 2.3% |
+| salary_employment | 87.9% |
+| freelance_contractor | 5.5% |
+| business_owner | 2.2% |
+| illicit_grey | 2.2% |
 | equity_compensation | 1.1% |
 | passive_investment | 1.1% |
 | government_pension | 0.0% |
@@ -163,10 +163,10 @@
 — [hh_ru](https://hh.ru/vacancy/132813871)
 *Profession: construction_pto_engineer | Summary: Construction production-technical engineer vacancy in Komsomolsk-na-Amure, Russia, 120,000-150,000 RUB/month net.*
 
-> "от 150 000 ₽ за месяц на руки | Люберцы"
+> "от 300 000 ₽ за месяц на руки | Салехард"
 
-— [hh_ru](https://hh.ru/vacancy/132808726)
-*Profession: neurologist | Summary: Neurologist job listing in Lyubertsy (Moscow region) offering 150,000 RUB/month net salary.*
+— [hh_ru](https://hh.ru/vacancy/132814396)
+*Profession: general_practitioner | Summary: Russian general practitioner (therapist) job listing in Salekhard offering 300,000 RUB/month net with housing provided.*
 
 
 ### top bracket

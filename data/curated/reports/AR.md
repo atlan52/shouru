@@ -2,7 +2,7 @@
 
 ## Overview
 
-- **Total samples:** 8
+- **Total samples:** 9
 - **Records with USD/yr amount:** 8
 - **Average reported income (USD/yr):** $12,264- **Low-confidence records (<0.5):** 1
 
@@ -10,7 +10,7 @@
 
 | Bracket | Records |
 | --- | ---: |
-| bottom | 3 |
+| bottom | 4 |
 | lower_middle | 2 |
 | middle | 2 |
 | upper_middle | 0 |
@@ -34,7 +34,8 @@
 | ---: | --- | ---: |
 | 1 | qa_engineer | 1 |
 | 2 | restaurant_worker | 1 |
-| 3 | unspecified_worker_minimum_wage | 1 |
+| 3 | tattoo_artist | 1 |
+| 4 | unspecified_worker_minimum_wage | 1 |
 
 ### lower_middle
 
@@ -65,12 +66,12 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 62.5% |
-| illicit_grey | 12.5% |
-| business_owner | 6.2% |
-| freelance_contractor | 6.2% |
-| passive_investment | 6.2% |
-| real_estate_rental | 6.2% |
+| salary_employment | 58.8% |
+| freelance_contractor | 11.8% |
+| illicit_grey | 11.8% |
+| business_owner | 5.9% |
+| passive_investment | 5.9% |
+| real_estate_rental | 5.9% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
 | inheritance_trust | 0.0% |
@@ -87,15 +88,15 @@ _No data for this bracket._
 — [r_argentina](https://www.reddit.com/r/argentina/comments/1rmgpnz/trabajo_en_un_restaurante_hagan_sus_preguntas/)
 *Profession: restaurant_worker | Summary: Argentine restaurant worker earning less than ARS 100,000/week off the books (en negro), underpaid informal employment.*
 
+> "soy novato y estoy queriendo aprender aceptó críticas cobre 15 dólares está bien?"
+
+— [r_argentina](https://www.reddit.com/r/argentina/comments/1r9d5in/mi_primer_tatuaje_en_realismo_soy_novato_y_estoy/)
+*Profession: tattoo_artist | Summary: Novice Argentine tattoo artist charged 15 USD for their first realism tattoo, asking if it was a fair price.*
+
 > "$ 2.000,00 (Mensual) contrato de grupo o por equipo Trabajo nocturno Para nuestro equipo de desarrollo, estamos buscando un especialista QA."
 
 — [computrabajo_ar](https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-qa-kq-engineer-82695880-en-3-de-febrero-F4B2178F69D7F96661373E686DCF3405#lc=ListOffers-Score4-8)
 *Profession: qa_engineer | Summary: Argentina QA engineer job listing offering ARS 2,000/month for testing web portals and mobile apps.*
-
-> "En el trabajo empezaron a tratarme mal, solo porque el jefe quería meter a su hijo en mi puesto, así que intentó de todo para hacerme renunciar, pero no lo logró, aunque si me terminó bajando el sueldo al mínimo legal."
-
-— [r_argentina](https://www.reddit.com/r/argentina/comments/1mlc49c/un_simple_desahogo/)
-*Profession: unspecified_worker_minimum_wage | Summary: Argentine worker in La Matanza whose boss reduced his salary to the legal minimum wage, struggling to pay rent.*
 
 
 ### lower_middle bracket
