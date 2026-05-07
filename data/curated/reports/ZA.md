@@ -2,16 +2,16 @@
 
 ## Overview
 
-- **Total samples:** 10
-- **Records with USD/yr amount:** 10
-- **Average reported income (USD/yr):** $50,083- **Low-confidence records (<0.5):** 0
+- **Total samples:** 11
+- **Records with USD/yr amount:** 11
+- **Average reported income (USD/yr):** $46,295- **Low-confidence records (<0.5):** 0
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 0 |
-| lower_middle | 2 |
+| lower_middle | 3 |
 | middle | 2 |
 | upper_middle | 4 |
 | top | 2 |
@@ -37,7 +37,8 @@ _No data for this bracket._
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | early_career_employee | 1 |
-| 2 | salaried_worker | 1 |
+| 2 | government_employee | 1 |
+| 3 | salaried_worker | 1 |
 
 ### middle
 
@@ -67,11 +68,11 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 61.5% |
-| passive_investment | 15.4% |
-| business_owner | 7.7% |
-| freelance_contractor | 7.7% |
-| real_estate_rental | 7.7% |
+| salary_employment | 64.3% |
+| passive_investment | 14.3% |
+| business_owner | 7.1% |
+| freelance_contractor | 7.1% |
+| real_estate_rental | 7.1% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
 | illicit_grey | 0.0% |
@@ -87,6 +88,11 @@ _No data for this bracket._
 _No excerpts for this bracket._
 
 ### lower_middle bracket
+> "I am a 28 y/o male in CPT working for the state, no kids, net salary of R12.8k, with between 8 and R9000 monthly expenses."
+
+— [r_personalfinanceza](https://www.reddit.com/r/PersonalFinanceZA/comments/1kycp6q/a_lil_insight_would_be_of_tremendous_help/)
+*Profession: government_employee | Summary: 28-year-old male Cape Town government employee earning R12.8k/month net with R340k investment portfolio.*
+
 > "I make R13 300 a month and I feel like I have a lot of month left at the end of my money. I pay for my food, deductions car payment (that is at R3400 now due to interest)"
 
 — [r_personalfinanceza](https://www.reddit.com/r/PersonalFinanceZA/comments/1p900wp/am_i_making_enough_money/)

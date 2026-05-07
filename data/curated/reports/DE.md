@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 36
-- **Records with USD/yr amount:** 26
-- **Average reported income (USD/yr):** $119,326- **Low-confidence records (<0.5):** 4
+- **Total samples:** 37
+- **Records with USD/yr amount:** 27
+- **Average reported income (USD/yr):** $117,836- **Low-confidence records (<0.5):** 4
 
 ## Bracket distribution
 
@@ -12,7 +12,7 @@
 | --- | ---: |
 | bottom | 1 |
 | lower_middle | 3 |
-| middle | 9 |
+| middle | 10 |
 | upper_middle | 18 |
 | top | 5 |
 
@@ -46,15 +46,16 @@
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | business_informatics_specialist | 1 |
-| 2 | entry_level_it_worker | 1 |
-| 3 | geologist | 1 |
-| 4 | insurance_clerk | 1 |
-| 5 | international_marketing_manager_medical | 1 |
-| 6 | perl_cpan_module_maintainer | 1 |
-| 7 | production_worker_porsche | 1 |
-| 8 | real_estate_agent | 1 |
-| 9 | wordpress_consultant | 1 |
+| 1 | banker | 1 |
+| 2 | business_informatics_specialist | 1 |
+| 3 | entry_level_it_worker | 1 |
+| 4 | geologist | 1 |
+| 5 | insurance_clerk | 1 |
+| 6 | international_marketing_manager_medical | 1 |
+| 7 | perl_cpan_module_maintainer | 1 |
+| 8 | production_worker_porsche | 1 |
+| 9 | real_estate_agent | 1 |
+| 10 | wordpress_consultant | 1 |
 
 ### upper_middle
 
@@ -86,12 +87,12 @@
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 54.1% |
-| business_owner | 18.0% |
-| freelance_contractor | 11.5% |
-| royalties_creator | 8.2% |
-| multiple_streams | 3.3% |
-| passive_investment | 3.3% |
+| salary_employment | 54.8% |
+| business_owner | 17.7% |
+| freelance_contractor | 11.3% |
+| royalties_creator | 8.1% |
+| multiple_streams | 3.2% |
+| passive_investment | 3.2% |
 | real_estate_rental | 1.6% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |

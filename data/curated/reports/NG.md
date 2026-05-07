@@ -2,7 +2,7 @@
 
 ## Overview
 
-- **Total samples:** 1
+- **Total samples:** 2
 - **Records with USD/yr amount:** 0
 - **Average reported income (USD/yr):** n/a- **Low-confidence records (<0.5):** 0
 
@@ -14,7 +14,7 @@
 | lower_middle | 0 |
 | middle | 0 |
 | upper_middle | 1 |
-| top | 0 |
+| top | 1 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -48,22 +48,24 @@ _No data for this bracket._
 
 ### top
 
-_No data for this bracket._
+| # | Profession | Records |
+| ---: | --- | ---: |
+| 1 | food_vendor | 1 |
 
 
 ## Earning mechanism share
 
 | Mechanism | Share |
 | --- | ---: |
-| freelance_contractor | 100.0% |
-| business_owner | 0.0% |
+| business_owner | 33.3% |
+| freelance_contractor | 33.3% |
+| platform_gig | 33.3% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
 | illicit_grey | 0.0% |
 | inheritance_trust | 0.0% |
 | multiple_streams | 0.0% |
 | passive_investment | 0.0% |
-| platform_gig | 0.0% |
 | real_estate_rental | 0.0% |
 | royalties_creator | 0.0% |
 | salary_employment | 0.0% |
@@ -88,7 +90,11 @@ _No excerpts for this bracket._
 
 
 ### top bracket
-_No excerpts for this bracket._
+> "UNILAG ChowDeck Vendor Mints Naira ₦1 Billion selling Spaghetti ₦1 Billion = $667,000"
+
+— [r_nigeria](https://www.reddit.com/r/Nigeria/comments/1kqe5x1/thriving_in_the_midst_of_chaos_unilag_chowdeck/)
+*Profession: food_vendor | Summary: UNILAG campus food vendor named Korode earned ₦1 billion selling spaghetti via ChowDeck platform.*
+
 
 
 ---

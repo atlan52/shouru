@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 16
-- **Records with USD/yr amount:** 18
-- **Average reported income (USD/yr):** $82,895- **Low-confidence records (<0.5):** 0
+- **Total samples:** 17
+- **Records with USD/yr amount:** 19
+- **Average reported income (USD/yr):** $79,276- **Low-confidence records (<0.5):** 0
 
 ## Bracket distribution
 
@@ -13,7 +13,7 @@
 | bottom | 0 |
 | lower_middle | 3 |
 | middle | 7 |
-| upper_middle | 3 |
+| upper_middle | 4 |
 | top | 3 |
 
 ## Bracket thresholds (USD/yr lower bound)
@@ -57,8 +57,9 @@ _No data for this bracket._
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | contracts_and_projects_engineer | 1 |
-| 2 | orthopedic_trauma_surgeon | 1 |
-| 3 | professional_employee | 1 |
+| 2 | orthopedic_surgeon | 1 |
+| 3 | orthopedic_trauma_surgeon | 1 |
+| 4 | professional_employee | 1 |
 
 ### top
 
@@ -73,12 +74,12 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 71.4% |
-| business_owner | 9.5% |
-| freelance_contractor | 4.8% |
-| government_pension | 4.8% |
-| passive_investment | 4.8% |
-| royalties_creator | 4.8% |
+| salary_employment | 72.7% |
+| business_owner | 9.1% |
+| freelance_contractor | 4.5% |
+| government_pension | 4.5% |
+| passive_investment | 4.5% |
+| royalties_creator | 4.5% |
 | equity_compensation | 0.0% |
 | illicit_grey | 0.0% |
 | inheritance_trust | 0.0% |
@@ -127,6 +128,11 @@ _No excerpts for this bracket._
 
 
 ### upper_middle bracket
+> "Renta bruta mensual: $1.104.000. Lugar de trabajo: Viña del Mar y Valparaíso. Jornada: Lunes y miércoles de 14:00 a 20:00 hrs (12 horas semanales)."
+
+— [computrabajo_cl](https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-medico-traumatologo-rm-en-vina-del-mar-6CC18989416354EA61373E686DCF3405#lc=ListOffers-Score4-5)
+*Profession: orthopedic_surgeon | Summary: Chilean orthopedic surgeon (traumatologist) position in Viña del Mar/Valparaíso offering CLP 1,104,000/month gross on a fixed-term contract.*
+
 > "Renta bruta mensual: $1.104.000. Requisitos: Formación: Médico Cirujano con especialidad en Traumatología (excluyente)."
 
 — [computrabajo_cl](https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-medico-traumatologo-rm-en-santiago-estacion-central-0F850649206A6C9F61373E686DCF3405#lc=ListOffers-Score4-4)
@@ -136,11 +142,6 @@ _No excerpts for this bracket._
 
 — [computrabajo_cl](https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingenieroa-experto-de-contratos-y-proyectos-infraestructura-division-salvador-en-diego-de-almagro-3C2408A67B0D93AB61373E686DCF3405#lc=ListOffers-Score4-4)
 *Profession: contracts_and_projects_engineer | Summary: Chilean job ad for senior contracts/projects engineer at mining infrastructure project (Codelco Salvador) paying CLP 2,200,000/month on 7x7 shift.*
-
-> "entro a trabajar formalmente (24 años, contrato indefinido y renta de 2.1 mm) el lunes y quiero ordenar mi sueldo, ahorro, tarjetas, etc."
-
-— [r_chile](https://www.reddit.com/r/chile/comments/1rdgruf/ayuda_consejo_sobre_apertura_de_cuentas_corrientes/)
-*Profession: professional_employee | Summary: 24-year-old Chilean entering first formal job with indefinite contract earning 2.1M CLP/month, asking for bank account advice.*
 
 
 ### top bracket

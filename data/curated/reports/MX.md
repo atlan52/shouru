@@ -2,16 +2,16 @@
 
 ## Overview
 
-- **Total samples:** 22
-- **Records with USD/yr amount:** 19
-- **Average reported income (USD/yr):** $15,445- **Low-confidence records (<0.5):** 2
+- **Total samples:** 23
+- **Records with USD/yr amount:** 20
+- **Average reported income (USD/yr):** $15,001- **Low-confidence records (<0.5):** 2
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 2 |
-| lower_middle | 7 |
+| lower_middle | 8 |
 | middle | 6 |
 | upper_middle | 6 |
 | top | 1 |
@@ -45,7 +45,8 @@
 | 4 | graphic_designer | 1 |
 | 5 | physicist_job_seeker | 1 |
 | 6 | sales_engineer | 1 |
-| 7 | warehouse_worker | 1 |
+| 7 | veterinary_telemarketing_specialist | 1 |
+| 8 | warehouse_worker | 1 |
 
 ### middle
 
@@ -80,10 +81,10 @@
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 77.8% |
-| freelance_contractor | 14.8% |
-| business_owner | 3.7% |
-| royalties_creator | 3.7% |
+| salary_employment | 78.6% |
+| freelance_contractor | 14.3% |
+| business_owner | 3.6% |
+| royalties_creator | 3.6% |
 | equity_compensation | 0.0% |
 | government_pension | 0.0% |
 | illicit_grey | 0.0% |
@@ -114,15 +115,15 @@
 — [r_mexico](https://www.reddit.com/r/mexico/comments/1s59i0f/se_puede_vivir_bien_con_15k_en_cdmx/)
 *Profession: bilingual_interpreter | Summary: Systems engineer in Mexico City working as bilingual interpreter for MXN 15,000/month, asking if it's enough to live on in CDMX.*
 
+> "$ 10,000.00 (Mensual) + Comisiones Contrato por tiempo indeterminado Tiempo Completo"
+
+— [computrabajo_mx](https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-especialista-en-telemarketing-veterinaria-medico-veterinario-con-experiencia-en-ventas-en-morelia-59DCA920C39D141C61373E686DCF3405#lc=ListOffers-Score4-3)
+*Profession: veterinary_telemarketing_specialist | Summary: Job posting in Morelia, Mexico for a veterinary telemarketing specialist offering MXN 10,000/month base plus commissions.*
+
 > "Yo por ejemplo supuestamente ganó "$10,000" pero con los descuentos de impuestos, fondo de ahorro, seguro, comedor, estoy cobrando $1900 por semana, en otros que he visto no pagan más de $8,000 al mes."
 
 — [r_mexico](https://www.reddit.com/r/mexico/comments/1l9a036/soy_yo_o_en_veracruz_los_sueldos_están_mal_pagados/)
 *Profession: warehouse_worker | Summary: Veracruz, Mexico warehouse/CEDIS worker earning nominally MXN$10,000/month but taking home ~$1,900/week after deductions (taxes, savings fund, insurance, canteen).*
-
-> "Analista contable CERTEZA TRIBUTARIA - El Marqués, Querétaro ... $ 15,000.00 (Mensual) Contrato por tiempo indeterminado Tiempo Completo Se busca Analista Contable para unirse a nuestro equipo en Certeza Tributaria."
-
-— [computrabajo_mx](https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-contable-en-el-marques-554E844C3B1A68FA61373E686DCF3405#lc=ListOffers-Score4-8)
-*Profession: accounting_analyst | Summary: Job posting in Querétaro, Mexico for an accounting analyst at Certeza Tributaria offering 15,000 MXN/month under an indefinite full-time contract.*
 
 
 ### middle bracket

@@ -2,15 +2,15 @@
 
 ## Overview
 
-- **Total samples:** 8
-- **Records with USD/yr amount:** 5
-- **Average reported income (USD/yr):** $80,796- **Low-confidence records (<0.5):** 0
+- **Total samples:** 9
+- **Records with USD/yr amount:** 6
+- **Average reported income (USD/yr):** $67,474- **Low-confidence records (<0.5):** 0
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
-| bottom | 0 |
+| bottom | 1 |
 | lower_middle | 3 |
 | middle | 1 |
 | upper_middle | 2 |
@@ -30,7 +30,9 @@
 
 ### bottom
 
-_No data for this bracket._
+| # | Profession | Records |
+| ---: | --- | ---: |
+| 1 | retired_firefighter_volunteer | 1 |
 
 ### lower_middle
 
@@ -65,13 +67,13 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 50.0% |
-| business_owner | 16.7% |
-| multiple_streams | 16.7% |
-| freelance_contractor | 8.3% |
-| illicit_grey | 8.3% |
+| salary_employment | 46.2% |
+| business_owner | 15.4% |
+| multiple_streams | 15.4% |
+| freelance_contractor | 7.7% |
+| government_pension | 7.7% |
+| illicit_grey | 7.7% |
 | equity_compensation | 0.0% |
-| government_pension | 0.0% |
 | inheritance_trust | 0.0% |
 | passive_investment | 0.0% |
 | platform_gig | 0.0% |
@@ -82,7 +84,11 @@ _No data for this bracket._
 ## Narrative excerpts
 
 ### bottom bracket
-_No excerpts for this bracket._
+> "Od 1 marca 2026 roku podniesiono wysokość dodatku do emerytury... wynosi on 288 zł miesięcznie... Świadczenie to nie przysługuje jednak wszystkim emerytom – mogą je otrzymać jedynie osoby, które w przeszłości wykonywały dwa wskazane zawody."
+
+— [forsal](https://forsal.pl/finanse/twoje-pieniadze/artykuly/11235573,dodatkowe-288-zl-do-emerytury-seniorzy-dostana-do-15-maja.html)
+*Profession: retired_firefighter_volunteer | Summary: Polish retired volunteer firefighters and mountain rescuers receiving a special supplement of 288 PLN/month (3456 PLN/year) added to their pension from March 2026.*
+
 
 ### lower_middle bracket
 > "Studenci w Polsce zarabiają średnio 4,1 zł netto miesięcznie, jednak za satysfakcjonujący poziom wynagrodzenia uznaliby 9,9 zł na rękę"

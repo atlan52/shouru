@@ -2,17 +2,17 @@
 
 ## Overview
 
-- **Total samples:** 72
-- **Records with USD/yr amount:** 75
-- **Average reported income (USD/yr):** $14,488- **Low-confidence records (<0.5):** 1
+- **Total samples:** 76
+- **Records with USD/yr amount:** 79
+- **Average reported income (USD/yr):** $14,386- **Low-confidence records (<0.5):** 1
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 1 |
-| lower_middle | 30 |
-| middle | 22 |
+| lower_middle | 32 |
+| middle | 24 |
 | upper_middle | 13 |
 | top | 6 |
 
@@ -38,16 +38,16 @@
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | accountant | 4 |
+| 1 | accountant | 5 |
 | 2 | graphic_designer | 4 |
 | 3 | retail_cashier | 3 |
 | 4 | primary_school_teacher | 2 |
-| 5 | bank_guarantee_sales_manager | 1 |
-| 6 | cashier_salesperson | 1 |
-| 7 | civil_engineer_pto | 1 |
-| 8 | elementary_school_teacher | 1 |
-| 9 | english_language_teacher | 1 |
-| 10 | executive_assistant | 1 |
+| 5 | bakery_sales_clerk | 1 |
+| 6 | bank_guarantee_sales_manager | 1 |
+| 7 | cashier_salesperson | 1 |
+| 8 | civil_engineer_pto | 1 |
+| 9 | elementary_school_teacher | 1 |
+| 10 | english_language_teacher | 1 |
 
 ### middle
 
@@ -95,12 +95,12 @@
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 86.9% |
-| freelance_contractor | 6.0% |
-| business_owner | 2.4% |
-| illicit_grey | 2.4% |
-| equity_compensation | 1.2% |
-| passive_investment | 1.2% |
+| salary_employment | 87.5% |
+| freelance_contractor | 5.7% |
+| business_owner | 2.3% |
+| illicit_grey | 2.3% |
+| equity_compensation | 1.1% |
+| passive_investment | 1.1% |
 | government_pension | 0.0% |
 | inheritance_trust | 0.0% |
 | multiple_streams | 0.0% |

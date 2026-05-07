@@ -2,16 +2,16 @@
 
 ## Overview
 
-- **Total samples:** 11
-- **Records with USD/yr amount:** 7
-- **Average reported income (USD/yr):** $3,259- **Low-confidence records (<0.5):** 1
+- **Total samples:** 12
+- **Records with USD/yr amount:** 8
+- **Average reported income (USD/yr):** $3,632- **Low-confidence records (<0.5):** 1
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 3 |
-| lower_middle | 4 |
+| lower_middle | 5 |
 | middle | 2 |
 | upper_middle | 2 |
 | top | 0 |
@@ -43,7 +43,8 @@
 | 1 | aerospace_it_specialist | 1 |
 | 2 | entry_level_office_worker | 1 |
 | 3 | government_employee_salary_grade_1 | 1 |
-| 4 | teacher_or_engineer | 1 |
+| 4 | soldier | 1 |
+| 5 | teacher_or_engineer | 1 |
 
 ### middle
 
@@ -68,11 +69,11 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 64.7% |
-| freelance_contractor | 17.6% |
-| business_owner | 5.9% |
-| government_pension | 5.9% |
-| passive_investment | 5.9% |
+| salary_employment | 66.7% |
+| freelance_contractor | 16.7% |
+| business_owner | 5.6% |
+| government_pension | 5.6% |
+| passive_investment | 5.6% |
 | equity_compensation | 0.0% |
 | illicit_grey | 0.0% |
 | inheritance_trust | 0.0% |
@@ -102,6 +103,11 @@ _No data for this bracket._
 
 
 ### lower_middle bracket
+> "AFP Private|P29,668|Some outpost away from family for weeks on end Teacher I|P30,024|Public Schools Nurse I|P36,619|Public Hospitals"
+
+— [r_philippines](https://www.reddit.com/r/Philippines/comments/1pdv6qu/uniformed_personnel_salary_increase/)
+*Profession: soldier | Summary: Philippine AFP Private earning PHP 29,668/month base pay before the uniformed personnel salary increase.*
+
 > "Kasi pre-TRAIN law, for 18k salary in my first job, I took home around 10-12k pay."
 
 — [r_philippines](https://www.reddit.com/r/Philippines/comments/1rvb8iq/is_it_possible_to_abolish_train_law/)
@@ -111,11 +117,6 @@ _No data for this bracket._
 
 — [r_philippines](https://www.reddit.com/r/Philippines/comments/1q1ufg8/taassahod_sa_mga_govt_employees_ayon_sa_executive/)
 *Profession: government_employee_salary_grade_1 | Summary: Philippines Salary Grade 1 government employee receiving PHP 14,634/month after the EO 64 raise.*
-
-> "mostly sweldo ng mga guro at engineers eh nasa 15-18k lang."
-
-— [r_philippines](https://www.reddit.com/r/Philippines/comments/1slb54h/high_quality_education_buildings_gusto_pero_sahod/)
-*Profession: teacher_or_engineer | Summary: Philippine commentary citing teachers and engineers earning only PHP 15-18k/month for skilled licensed work.*
 
 
 ### middle bracket

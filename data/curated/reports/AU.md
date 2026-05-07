@@ -2,19 +2,19 @@
 
 ## Overview
 
-- **Total samples:** 106
-- **Records with USD/yr amount:** 95
-- **Average reported income (USD/yr):** $114,114- **Low-confidence records (<0.5):** 7
+- **Total samples:** 109
+- **Records with USD/yr amount:** 98
+- **Average reported income (USD/yr):** $112,881- **Low-confidence records (<0.5):** 7
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 5 |
-| lower_middle | 14 |
-| middle | 29 |
+| lower_middle | 15 |
+| middle | 30 |
 | upper_middle | 33 |
-| top | 25 |
+| top | 26 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -46,12 +46,12 @@
 | 2 | casual_part_time_worker_recent_graduate | 1 |
 | 3 | civil_engineer | 1 |
 | 4 | employee_unspecified | 1 |
-| 5 | family_business_employee | 1 |
-| 6 | female_employee | 1 |
-| 7 | full_time_worker_uni_student | 1 |
-| 8 | it_administrator | 1 |
-| 9 | low_income_worker | 1 |
-| 10 | manual_laborer | 1 |
+| 5 | entry_level_graduate | 1 |
+| 6 | family_business_employee | 1 |
+| 7 | female_employee | 1 |
+| 8 | full_time_worker_uni_student | 1 |
+| 9 | it_administrator | 1 |
+| 10 | low_income_worker | 1 |
 
 ### middle
 
@@ -103,15 +103,15 @@
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 52.2% |
-| business_owner | 18.0% |
-| freelance_contractor | 8.1% |
-| multiple_streams | 5.6% |
-| passive_investment | 5.0% |
-| royalties_creator | 3.1% |
-| government_pension | 2.5% |
-| platform_gig | 2.5% |
-| real_estate_rental | 1.9% |
+| salary_employment | 52.7% |
+| business_owner | 17.6% |
+| freelance_contractor | 7.9% |
+| multiple_streams | 5.5% |
+| passive_investment | 4.8% |
+| royalties_creator | 3.0% |
+| government_pension | 2.4% |
+| platform_gig | 2.4% |
+| real_estate_rental | 2.4% |
 | inheritance_trust | 1.2% |
 | equity_compensation | 0.0% |
 | illicit_grey | 0.0% |
@@ -154,6 +154,11 @@
 
 
 ### middle bracket
+> "For men working full-time, the median weekly earnings rose $51 to $1,841 in August 2025, while for women working full-time the median weekly earnings rose $33 to $1,631."
+
+— [govstats_AU_ABS](https://www.abs.gov.au/statistics/labour/earnings-and-working-conditions/employee-earnings/latest-release)
+*Profession: full_time_employee | Summary: Australian Bureau of Statistics reports median weekly earnings for full-time male workers at AUD 1,841/week (approx AUD 95,732/year) as of August 2025.*
+
 > "Liquor store attendant, Australia, 2 yrs experience, $26 hr during the week, $32 hr Saturdays and $36 hr on Sundays"
 
 — [reddit_import](https://reddit.com/r/antiwork/comments/qfzxbp/wages_how_much_do_you_make/hi3losm/)
@@ -163,11 +168,6 @@
 
 — [r_ausfinance](https://www.reddit.com/r/AusFinance/comments/1l30s87/worried_about_future_28m_sydney_feeling_very/)
 *Profession: paralegal | Summary: 28-year-old paralegal in Sydney earning ~A$75k/year, partner earning A$30k/year part-time while finishing university.*
-
-> "I'm 31 single now, living in Adelaide, earning $103k in banking."
-
-— [r_ausfinance](https://www.reddit.com/r/AusFinance/comments/1r6mrek/advise_needed_31_m/)
-*Profession: banking_professional | Summary: 31-year-old male in Adelaide working in banking earning AUD 103k/year, with a house and growing super balance.*
 
 
 ### upper_middle bracket

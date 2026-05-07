@@ -2,19 +2,19 @@
 
 ## Overview
 
-- **Total samples:** 216
-- **Records with USD/yr amount:** 183
-- **Average reported income (USD/yr):** $282,717- **Low-confidence records (<0.5):** 8
+- **Total samples:** 222
+- **Records with USD/yr amount:** 187
+- **Average reported income (USD/yr):** $277,785- **Low-confidence records (<0.5):** 8
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 19 |
-| lower_middle | 27 |
-| middle | 51 |
-| upper_middle | 65 |
-| top | 54 |
+| lower_middle | 30 |
+| middle | 52 |
+| upper_middle | 66 |
+| top | 55 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -47,16 +47,16 @@
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | admin_worker | 1 |
-| 2 | apprentice | 1 |
-| 3 | art_gallery_owner | 1 |
-| 4 | company_director_relative_payroll | 1 |
-| 5 | council_systems_engineer_apprentice | 1 |
-| 6 | degree_holder_professional_uk | 1 |
-| 7 | digital_marketing_manager | 1 |
-| 8 | factory_worker | 1 |
-| 9 | frugal_worker_with_rental_property | 1 |
-| 10 | graduate_scheme_employee | 1 |
+| 1 | office_worker | 3 |
+| 2 | admin_worker | 1 |
+| 3 | apprentice | 1 |
+| 4 | art_gallery_owner | 1 |
+| 5 | company_director_relative_payroll | 1 |
+| 6 | council_systems_engineer_apprentice | 1 |
+| 7 | degree_holder_professional_uk | 1 |
+| 8 | digital_marketing_manager | 1 |
+| 9 | factory_worker | 1 |
+| 10 | frugal_worker_with_rental_property | 1 |
 
 ### middle
 
@@ -93,7 +93,7 @@
 | # | Profession | Records |
 | ---: | --- | ---: |
 | 1 | finance_professional | 5 |
-| 2 | software_engineer | 3 |
+| 2 | software_engineer | 4 |
 | 3 | corporate_professional | 2 |
 | 4 | high_earner_employee | 2 |
 | 5 | high_earner_professional | 2 |
@@ -108,19 +108,19 @@
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 49.4% |
-| business_owner | 13.3% |
+| salary_employment | 49.9% |
+| business_owner | 12.9% |
 | passive_investment | 9.4% |
-| freelance_contractor | 9.1% |
-| multiple_streams | 4.4% |
-| equity_compensation | 4.1% |
-| real_estate_rental | 2.8% |
-| royalties_creator | 2.5% |
+| freelance_contractor | 9.2% |
+| equity_compensation | 4.3% |
+| multiple_streams | 4.3% |
+| real_estate_rental | 2.7% |
+| royalties_creator | 2.4% |
 | government_pension | 2.2% |
 | inheritance_trust | 1.1% |
-| illicit_grey | 0.6% |
-| platform_gig | 0.6% |
-| unknown | 0.6% |
+| illicit_grey | 0.5% |
+| platform_gig | 0.5% |
+| unknown | 0.5% |
 
 ## Narrative excerpts
 
@@ -169,10 +169,10 @@
 — [govstats_GB_ONS](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/bulletins/annualsurveyofhoursandearnings/2024)
 *Profession: full_time_employee | Summary: UK median full-time employee earned £37,430 gross annually in April 2024 per ONS official statistics.*
 
-> "Median gross annual earnings for full-time employees who had been in their job for at least a year were £37,430 in April 2024, compared with £35,004 in April 2023 (an increase of 6.9%)."
+> "I'm a 32‑year‑old ACCA accountant, fully qualified since around 2021/22. I've been working in the NHS for nearly four years now, currently on £56k (Band 8a) working as a Finance Business Partner (Yorkshire based)."
 
-— [govstats_GB_ONS](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/bulletins/annualsurveyofhoursandearnings/2024)
-*Profession: full_time_employee_median | Summary: UK ONS official statistic: median gross annual earnings for full-time employees in April 2024 was £37,430.*
+— [r_ukjobs](https://www.reddit.com/r/UKJobs/comments/1r3ltfw/for_those_who_moved_from_public_sector_accounting/)
+*Profession: finance_business_partner | Summary: 32-year-old ACCA-qualified accountant working as Finance Business Partner in NHS Yorkshire at £56k/year, seeking to move to private sector for £70k+.*
 
 
 ### upper_middle bracket

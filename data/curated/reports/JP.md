@@ -2,16 +2,16 @@
 
 ## Overview
 
-- **Total samples:** 45
-- **Records with USD/yr amount:** 40
-- **Average reported income (USD/yr):** $74,049- **Low-confidence records (<0.5):** 5
+- **Total samples:** 50
+- **Records with USD/yr amount:** 44
+- **Average reported income (USD/yr):** $68,934- **Low-confidence records (<0.5):** 5
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
-| bottom | 7 |
-| lower_middle | 11 |
+| bottom | 10 |
+| lower_middle | 13 |
 | middle | 5 |
 | upper_middle | 13 |
 | top | 9 |
@@ -32,13 +32,16 @@
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | education_worker | 1 |
-| 2 | hikikomori_former_factory_worker | 1 |
-| 3 | housewife_side_hustler | 1 |
-| 4 | indie_app_developer | 1 |
-| 5 | mercari_side_seller | 1 |
-| 6 | note_content_creator | 1 |
-| 7 | web_engineer_side_contractor | 1 |
+| 1 | amateur_illustrator_fanbox_creator | 1 |
+| 2 | education_worker | 1 |
+| 3 | freelancer | 1 |
+| 4 | hikikomori_former_factory_worker | 1 |
+| 5 | housewife_side_hustler | 1 |
+| 6 | indie_app_developer | 1 |
+| 7 | mercari_side_seller | 1 |
+| 8 | note_content_creator | 1 |
+| 9 | small_restaurant_owner | 1 |
+| 10 | web_engineer_side_contractor | 1 |
 
 ### lower_middle
 
@@ -49,11 +52,11 @@
 | 3 | general_employee | 1 |
 | 4 | low_spec_office_worker | 1 |
 | 5 | office_worker | 1 |
-| 6 | retiree_pensioner | 1 |
-| 7 | salaried_employee | 1 |
-| 8 | salaried_worker_livestream_fan | 1 |
-| 9 | sex_worker | 1 |
-| 10 | small_company_employee | 1 |
+| 6 | office_worker_part_time_return | 1 |
+| 7 | retiree_pensioner | 1 |
+| 8 | salaried_employee | 1 |
+| 9 | salaried_worker_livestream_fan | 1 |
+| 10 | sex_worker | 1 |
 
 ### middle
 
@@ -99,40 +102,45 @@
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 42.1% |
-| freelance_contractor | 19.7% |
-| royalties_creator | 9.2% |
-| business_owner | 7.9% |
-| multiple_streams | 5.3% |
-| passive_investment | 3.9% |
-| platform_gig | 3.9% |
-| illicit_grey | 2.6% |
-| inheritance_trust | 2.6% |
-| government_pension | 1.3% |
-| real_estate_rental | 1.3% |
+| salary_employment | 40.2% |
+| freelance_contractor | 19.5% |
+| royalties_creator | 9.8% |
+| business_owner | 8.5% |
+| multiple_streams | 4.9% |
+| passive_investment | 3.7% |
+| platform_gig | 3.7% |
+| government_pension | 2.4% |
+| illicit_grey | 2.4% |
+| inheritance_trust | 2.4% |
+| real_estate_rental | 2.4% |
 | equity_compensation | 0.0% |
 | unknown | 0.0% |
 
 ## Narrative excerpts
 
 ### bottom bracket
+> "年収200万じゃ暮らせない」と話題になっているけど、普通に暮らせる。なぜならこのくらいの年収だと経費で利益を圧縮すれば非課税にできるから。"
+
+— [hatena](https://anond.hatelabo.jp/20220621135447)
+*Profession: freelancer | Summary: Japanese freelancer earning ~2M JPY/year, deliberately keeping income low to avoid taxes and enjoy subsidies while working minimal hours.*
+
+> "当方絵歴3年程度の素人趣味絵描き。「月5000円くらい稼げたらいいな～」とか軽いこと考えながら本当に軽い気持ちでpixivFANBOXを始めたら、何と3ヶ月で約65万円も稼げてしまった。"
+
+— [hatena](https://anond.hatelabo.jp/20230729212910)
+*Profession: amateur_illustrator_fanbox_creator | Summary: Amateur hobby illustrator in Japan earned 650,000 JPY in 3.5 months on pixivFANBOX, on track for 300k JPY/month.*
+
 > "2025年1月からnoteで本格的発信し始めてから、合計で50万円の売り上げを達成しました。1〜4月を足したら、508,640円になります。"
 
 — [hatena](https://note.com/ai_freak/n/n303efe78bbdd)
 *Profession: note_content_creator | Summary: Japanese AI-focused note.com creator who earned JPY 508,640 in 4 months (Jan-Apr) as a side income stream.*
 
-> "2021年分も公開しますよ！ … 売上げ　　11,329円 利益　　　  6,862円 ※利益 = 売上げ − (送料+手数料) 1か月ではなく、1年間でですよ…(//∇//) トータル7件でしたので、2か月に1件売れてるペースですね。"
-
-— [hatena](https://www.tue.tokyo/entry/2022/01/05/%E3%80%90%E3%83%A1%E3%83%AB%E3%82%AB%E3%83%AA%E3%80%912021%E5%B9%B4%E3%81%AE%E5%A3%B2%E4%B8%8A%E9%87%91%E3%82%92%E5%85%AC%E9%96%8B%E3%81%97%E3%81%BE%E3%81%99)
-*Profession: mercari_side_seller | Summary: Japanese hobbyist seller disclosing 2021 Mercari side income of about ¥6,862 net profit on ¥11,329 sales for the year.*
-
-> "神奈川県在住のAさん（年収200万円／27歳／教育関係者）「趣味につぎ込むことは間違いないね。特に楽器類にお金をかけたい！」"
-
-— [hatena](https://www.rakumachi.jp/news/column/128971)
-*Profession: education_worker | Summary: 27-year-old education worker in Kanagawa with annual income of JPY 2,000,000, discussing how they would spend a hypothetical 100 million yen.*
-
 
 ### lower_middle bracket
+> "フルタイムの給与 ・額面：30万円台前半 ・手取り：25万円前後 時短復帰後の給与 時短での給与 ・額面：30万円前後 ・手取り：25万円前後"
+
+— [note_jp](https://note.com/yuka_k_mom/n/n3f6ef50752cb)
+*Profession: office_worker_part_time_return | Summary: Japanese working mother returned from maternity leave on reduced hours (5h/day), earning approx JPY 250k/month take-home, similar to pre-leave amount due to reduced tax deductions.*
+
 > "手取りは残業時間を超えた月だけ20万をちょっと超えるが、私は一刻も早く家に帰りたいので普段はそこまでいかない。"
 
 — [note_jp](https://note.com/deft_rat9295/n/nd146464ec3d9)
@@ -142,11 +150,6 @@
 
 — [hatena](https://anond.hatelabo.jp/20250211201949)
 *Profession: low_spec_office_worker | Summary: 26-year-old Japanese man, vocational school graduate, ~¥4M/year salary, lamenting being ignored on dating apps.*
-
-> "一方、俺は個人事業主、フリーランス。…ウーバーがいまいちなので、現在、別の配達系の仕事がメインとなっている。俺の年収は300万にも満たない。だが友人は1000万前後は貰ってると思われる。"
-
-— [hatena](https://gyakutorajiro.com/entry/elite-vs-jakushadansei)
-*Profession: delivery_gig_worker | Summary: Japanese freelance/sole-proprietor delivery gig worker (ex-Uber Eats) earning under JPY 3M/year, contrasted with a salaried friend on ~JPY 10M.*
 
 
 ### middle bracket

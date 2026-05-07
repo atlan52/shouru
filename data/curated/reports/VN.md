@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 5
-- **Records with USD/yr amount:** 5
-- **Average reported income (USD/yr):** $17,169- **Low-confidence records (<0.5):** 0
+- **Total samples:** 6
+- **Records with USD/yr amount:** 6
+- **Average reported income (USD/yr):** $15,572- **Low-confidence records (<0.5):** 0
 
 ## Bracket distribution
 
@@ -12,7 +12,7 @@
 | --- | ---: |
 | bottom | 1 |
 | lower_middle | 0 |
-| middle | 3 |
+| middle | 4 |
 | upper_middle | 1 |
 | top | 0 |
 
@@ -42,9 +42,10 @@ _No data for this bracket._
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | civil_engineer | 1 |
-| 2 | it_professional | 1 |
-| 3 | service_engineer | 1 |
+| 1 | business_development_executive | 1 |
+| 2 | civil_engineer | 1 |
+| 3 | it_professional | 1 |
+| 4 | service_engineer | 1 |
 
 ### upper_middle
 
@@ -61,12 +62,12 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 36.4% |
-| business_owner | 18.2% |
-| freelance_contractor | 18.2% |
-| equity_compensation | 9.1% |
-| platform_gig | 9.1% |
-| royalties_creator | 9.1% |
+| salary_employment | 46.2% |
+| business_owner | 15.4% |
+| freelance_contractor | 15.4% |
+| equity_compensation | 7.7% |
+| platform_gig | 7.7% |
+| royalties_creator | 7.7% |
 | government_pension | 0.0% |
 | illicit_grey | 0.0% |
 | inheritance_trust | 0.0% |
@@ -98,10 +99,10 @@ _No excerpts for this bracket._
 — [rss_vietnamnet_kinhdoanh](https://vietnamnet.vn/tong-thau-duong-sat-cao-toc-ha-tang-cua-vingroup-tuyen-dung-25-000-nhan-su-2497303.html)
 *Profession: civil_engineer | Summary: Vietnamese construction engineers at SGC earning 30-55 million VND/month on major infrastructure projects.*
 
-> "$2500 a month let’s me live very well but I add another $500 or so for my travel out of country every 6-8 weeks for leisure... I’m in IT by trade"
+> "Business Development Executive (Bất Động Sản/ Tòa Nhà/ Quảng Cáo Từ 12–20Tr/tháng + Hoa Hồng + Thưởng)"
 
-— [reddit_import](https://reddit.com/r/financialindependence/comments/7trwzo/retiring_in_southeast_asia_might_be_a_lot_harder/dtf3v6h/)
-*Profession: it_professional | Summary: An Australian-origin IT professional living in Vietnam describes spending around $2500/month plus travel, working in IT.*
+— [vietnamworks](https://www.vietnamworks.com/business-development-executive-bat-dong-san-toa-nha-quang-cao-tu-12-20tr-thang-hoa-hong-thuong-2036695-jv)
+*Profession: business_development_executive | Summary: Business development executive role in Vietnam's real estate/advertising sector offering 12-20M VND/month plus commission and bonuses.*
 
 
 ### upper_middle bracket

@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total samples:** 167
-- **Records with USD/yr amount:** 134
-- **Average reported income (USD/yr):** $141,219- **Low-confidence records (<0.5):** 10
+- **Total samples:** 173
+- **Records with USD/yr amount:** 139
+- **Average reported income (USD/yr):** $139,370- **Low-confidence records (<0.5):** 10
 
 ## Bracket distribution
 
@@ -12,9 +12,9 @@
 | --- | ---: |
 | bottom | 8 |
 | lower_middle | 20 |
-| middle | 42 |
-| upper_middle | 61 |
-| top | 36 |
+| middle | 46 |
+| upper_middle | 62 |
+| top | 37 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -66,10 +66,10 @@
 | 4 | canadian_household | 1 |
 | 5 | construction_worker | 1 |
 | 6 | early_career_professional_with_tutoring_side_hustle | 1 |
-| 7 | freelance_copywriter | 1 |
-| 8 | freelance_web_developer | 1 |
-| 9 | frontend_web_developer | 1 |
-| 10 | icu_nurse | 1 |
+| 7 | employee_western_canada | 1 |
+| 8 | freelance_copywriter | 1 |
+| 9 | freelance_web_developer | 1 |
+| 10 | frontend_web_developer | 1 |
 
 ### upper_middle
 
@@ -106,15 +106,15 @@
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 50.9% |
-| business_owner | 9.7% |
-| passive_investment | 7.9% |
-| freelance_contractor | 7.5% |
-| multiple_streams | 7.1% |
-| real_estate_rental | 5.6% |
-| government_pension | 4.5% |
-| equity_compensation | 2.6% |
-| platform_gig | 1.9% |
+| salary_employment | 51.4% |
+| business_owner | 9.4% |
+| passive_investment | 8.0% |
+| freelance_contractor | 7.2% |
+| multiple_streams | 6.9% |
+| real_estate_rental | 5.4% |
+| government_pension | 5.1% |
+| equity_compensation | 2.5% |
+| platform_gig | 1.8% |
 | royalties_creator | 1.1% |
 | illicit_grey | 0.7% |
 | inheritance_trust | 0.4% |

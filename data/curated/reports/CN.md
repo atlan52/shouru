@@ -2,19 +2,19 @@
 
 ## Overview
 
-- **Total samples:** 39
-- **Records with USD/yr amount:** 39
-- **Average reported income (USD/yr):** $3,330,074- **Low-confidence records (<0.5):** 10
+- **Total samples:** 44
+- **Records with USD/yr amount:** 44
+- **Average reported income (USD/yr):** $2,957,432- **Low-confidence records (<0.5):** 10
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 0 |
-| lower_middle | 5 |
-| middle | 7 |
-| upper_middle | 8 |
-| top | 19 |
+| lower_middle | 6 |
+| middle | 9 |
+| upper_middle | 9 |
+| top | 20 |
 
 ## Bracket thresholds (USD/yr lower bound)
 
@@ -40,19 +40,21 @@ _No data for this bracket._
 | 2 | hospital_doctor | 1 |
 | 3 | mobile_app_farmer | 1 |
 | 4 | programmer_side_hustle | 1 |
-| 5 | side_hustle_vlogger | 1 |
+| 5 | rural_tourist_area_vendor | 1 |
+| 6 | side_hustle_vlogger | 1 |
 
 ### middle
 
 | # | Profession | Records |
 | ---: | --- | ---: |
-| 1 | ai_monetization_content_creator | 1 |
-| 2 | content_creator | 1 |
-| 3 | english_teacher | 1 |
-| 4 | illustrator_freelancer | 1 |
-| 5 | medical_escort_companion | 1 |
-| 6 | rideshare_driver | 1 |
-| 7 | rpa_automation_developer | 1 |
+| 1 | rideshare_driver | 2 |
+| 2 | ai_monetization_content_creator | 1 |
+| 3 | content_creator | 1 |
+| 4 | english_teacher | 1 |
+| 5 | illustrator_freelancer | 1 |
+| 6 | interior_designer | 1 |
+| 7 | medical_escort_companion | 1 |
+| 8 | rpa_automation_developer | 1 |
 
 ### upper_middle
 
@@ -60,12 +62,13 @@ _No data for this bracket._
 | ---: | --- | ---: |
 | 1 | ai_ecommerce_content_creator | 1 |
 | 2 | bbq_restaurant_owner | 1 |
-| 3 | content_creator | 1 |
-| 4 | gaming_content_creator | 1 |
-| 5 | online_game_gold_farmer_and_content_creator | 1 |
-| 6 | overseas_worker | 1 |
-| 7 | street_food_vendor | 1 |
-| 8 | vlogger | 1 |
+| 3 | book_account_content_creator | 1 |
+| 4 | content_creator | 1 |
+| 5 | gaming_content_creator | 1 |
+| 6 | online_game_gold_farmer_and_content_creator | 1 |
+| 7 | overseas_worker | 1 |
+| 8 | street_food_vendor | 1 |
+| 9 | vlogger | 1 |
 
 ### top
 
@@ -87,14 +90,14 @@ _No data for this bracket._
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 24.6% |
-| royalties_creator | 23.0% |
-| business_owner | 14.8% |
-| freelance_contractor | 14.8% |
-| platform_gig | 14.8% |
-| multiple_streams | 4.9% |
-| equity_compensation | 1.6% |
-| illicit_grey | 1.6% |
+| royalties_creator | 22.4% |
+| salary_employment | 22.4% |
+| business_owner | 17.9% |
+| freelance_contractor | 14.9% |
+| platform_gig | 14.9% |
+| multiple_streams | 4.5% |
+| equity_compensation | 1.5% |
+| illicit_grey | 1.5% |
 | government_pension | 0.0% |
 | inheritance_trust | 0.0% |
 | passive_investment | 0.0% |
@@ -112,15 +115,15 @@ _No excerpts for this bracket._
 — [bilibili](https://www.bilibili.com/video/BV1Wi4y1P7fr)
 *Profession: hospital_doctor | Summary: Changsha Grade-3A hospital doctor revealed monthly salary of just 5,500 CNY, showing pay slip after netizen skepticism.*
 
+> "旺季时村民的摊位单日收入可达500-1000元"
+
+— [rsshub_huxiu_article](https://www.huxiu.com/article/4855786.html)
+*Profession: rural_tourist_area_vendor | Summary: Rural villagers near a tourism scenic area in Guangdong earning 500-1000 CNY/day during peak season by setting up stalls selling goods to tourists.*
+
 > "单号达到30＋，登录挂机APP之后，不用你管，自动化的去做任务刷视频刷广告玩玩小游戏领金币，批量复制一个月搞个几K还是可以的"
 
 — [bilibili](https://www.bilibili.com/video/BV1vM411f7vx)
 *Profession: mobile_app_farmer | Summary: Chinese content creator promoting automated phone farming scheme (UC Browser task automation) claiming to earn a few thousand CNY/month per batch.*
-
-> "操作简单，新手小白可轻松上手，门槛低。做的人少，需求量大，项目长久可做。一部手机，一台电脑，有抖音实名号就可以 0成本操作，收益稳定，单号月收益在1500左右"
-
-— [bilibili](https://www.bilibili.com/video/BV1Jk4y197DQ)
-*Profession: douyin_effects_side_hustle_creator | Summary: Chinese side-hustle promoter claiming Douyin special effects creator earns ~1500 CNY/month per account.*
 
 
 ### middle bracket
@@ -129,18 +132,23 @@ _No excerpts for this bracket._
 — [r_personalfinanceza](https://www.reddit.com/r/PersonalFinanceZA/comments/1odo257/managing_a_foreign_salary_while_abroad_building/)
 *Profession: english_teacher | Summary: South African teaching English in China earning 19,000 CNY/month after tax plus 2,000 CNY housing allowance.*
 
+> "今日利润532元，5月利润532元，每天跑车5小时，月入一万+ 5月4日，又是干中学的一天🔥！记录我的生活🎬，在大家的见证下一同挑战月入过万！"
+
+— [bilibili](https://www.bilibili.com/video/BV1mMRCBMEuz)
+*Profession: rideshare_driver | Summary: Chinese ride-hailing driver working 5 hours daily, targeting monthly income of 10,000+ CNY, recording daily profit of 532 CNY.*
+
 > "Mỗi tháng, thông qua một nền tảng số kết nối dịch vụ, cô thu về khoảng 6.000-8.000 nhân dân tệ (tương đương 875-1.167 USD)."
 
 — [rss_dantri_kinhdoanh](https://dantri.com.vn/kinh-doanh/247-trieu-nguoi-trung-quoc-bo-bat-com-sat-dieu-gi-dang-xay-ra-20260428144113603.htm)
 *Profession: medical_escort_companion | Summary: 25-year-old nursing graduate in Guangzhou working as a platform-based medical escort earning 6,000-8,000 CNY/month guiding patients through hospital procedures.*
 
-> "绘画相较于一般工作，在运营起来之后收入的确并不算低…对于经济水平较低（平均月薪三四千）的小城市，这种收入已经很高了。营收也远超普通教师和公务员的基础工资。"
-
-— [bilibili](https://www.bilibili.com/video/BV1pUqzBCEkc)
-*Profession: illustrator_freelancer | Summary: Chinese freelance illustrator earning 10,000+ CNY/month through commissioned artwork, noting their income exceeds local teachers' salaries of under 3,000 CNY/month.*
-
 
 ### upper_middle bracket
+> "90后小伙书单号卖书月入7w+"
+
+— [bilibili](https://www.bilibili.com/video/BV17P4y1h7dM)
+*Profession: book_account_content_creator | Summary: Post-90s Chinese creator running a book-recommendation account on Bilibili selling books, earning 70k+ CNY/month.*
+
 > "我和老公梦幻加自媒体月入2万多，在湖州农村够花吗？#梦幻西游#梦幻西游电脑版#梦幻西游创梦计划"
 
 — [bilibili](https://www.bilibili.com/video/BV1YEDKBwEFZ)
@@ -150,11 +158,6 @@ _No excerpts for this bracket._
 
 — [bilibili](https://www.bilibili.com/video/BV1UXRFBEENm)
 *Profession: bbq_restaurant_owner | Summary: Chinese couple running a BBQ restaurant (transitioned from street stall) earning ~20k CNY/month combined.*
-
-> "失业后没找工作，用AI批量生成商品测评短视频，投放到海外精准流量池 3个月做到月入5W"
-
-— [bilibili](https://www.bilibili.com/video/BV13KoxBeEKy)
-*Profession: ai_ecommerce_content_creator | Summary: Chinese creator who became unemployed and used AI to batch-produce product review short videos for overseas platforms, growing to 50k CNY/month in 3 months.*
 
 
 ### top bracket

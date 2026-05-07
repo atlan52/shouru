@@ -2,16 +2,16 @@
 
 ## Overview
 
-- **Total samples:** 24
-- **Records with USD/yr amount:** 20
-- **Average reported income (USD/yr):** $108,238- **Low-confidence records (<0.5):** 2
+- **Total samples:** 25
+- **Records with USD/yr amount:** 21
+- **Average reported income (USD/yr):** $103,455- **Low-confidence records (<0.5):** 2
 
 ## Bracket distribution
 
 | Bracket | Records |
 | --- | ---: |
 | bottom | 2 |
-| lower_middle | 4 |
+| lower_middle | 5 |
 | middle | 2 |
 | upper_middle | 7 |
 | top | 9 |
@@ -43,6 +43,7 @@
 | 2 | fixed_income_investor | 1 |
 | 3 | minimum_wage_worker | 1 |
 | 4 | retail_temp_worker | 1 |
+| 5 | salaried_worker_investor | 1 |
 
 ### middle
 
@@ -82,14 +83,14 @@
 
 | Mechanism | Share |
 | --- | ---: |
-| salary_employment | 46.2% |
-| passive_investment | 20.5% |
-| freelance_contractor | 12.8% |
-| business_owner | 7.7% |
-| multiple_streams | 5.1% |
-| equity_compensation | 2.6% |
-| inheritance_trust | 2.6% |
-| royalties_creator | 2.6% |
+| salary_employment | 46.3% |
+| passive_investment | 22.0% |
+| freelance_contractor | 12.2% |
+| business_owner | 7.3% |
+| multiple_streams | 4.9% |
+| equity_compensation | 2.4% |
+| inheritance_trust | 2.4% |
+| royalties_creator | 2.4% |
 | government_pension | 0.0% |
 | illicit_grey | 0.0% |
 | platform_gig | 0.0% |
@@ -116,15 +117,15 @@
 — [r_investimentos](https://www.reddit.com/r/investimentos/comments/1oq8jzd/qual_a_melhor_forma_de_fazer_meu_dinheiro_render/)
 *Profession: employee | Summary: 31-year-old Brazilian employee earning R$4,200/month net (with meal and transport vouchers) seeking investment advice to buy a property.*
 
+> "estou estagnado numa faixa salarial baixa — cerca de 3.500 reais líquidos. Com isso, meus aportes estão ficando cada vez menos relevantes em relação ao patrimônio total."
+
+— [r_investimentos](https://www.reddit.com/r/investimentos/comments/1rjpbp3/consegui_juntar_essa_quantia_ganhando_pouco_mais/)
+*Profession: salaried_worker_investor | Summary: Brazilian worker earning ~R$3,500/month net salary who has diligently saved and invested since 2019, accumulating R$180k in investments.*
+
 > "Eu juntei 17 mil em menos de um ano de carteira assinada. Ganhando um salário mínimo... E penso que isso é bem pouco e que tem muita gente que ganha isso em um mês enquanto eu me sacrifiquei muito pra juntar"
 
 — [r_investimentos](https://www.reddit.com/r/investimentos/comments/1t1msmh/eu_juntei_17mil_reais/)
 *Profession: minimum_wage_worker | Summary: Brazilian formal-employment worker earning minimum wage who saved R$17k in less than a year.*
-
-> "Salário de R$ 2.000 não atrai trabalhador temporário e varejo vive escassez de mão de obra"
-
-— [r_brasil](https://www.reddit.com/r/brasil/comments/1piebci/salário_de_r_2000_não_atrai_trabalhador/)
-*Profession: retail_temp_worker | Summary: News headline: Brazilian retail sector struggles to attract temporary workers at R$2,000/month wages.*
 
 
 ### middle bracket
